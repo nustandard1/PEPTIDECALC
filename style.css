@@ -487,6 +487,31 @@ main { flex: 1; padding-bottom: 96px; }
     padding: 4px 0;
 }
 
+.blend-draw-summary {
+    font-size: 14px;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+.blend-draw-summary strong {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.blend-draw-ml {
+    color: var(--text-muted);
+    font-size: 13px;
+    margin-left: 2px;
+}
+
+.result-grid-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
 /* === INFO ROW (below calculator) === */
 .info-row {
     display: grid;
