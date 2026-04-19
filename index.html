@@ -15,7 +15,7 @@
     <!-- DISCLAIMER BANNER -->
     <div class="disclaimer-banner">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4m0-4h.01"/></svg>
-        All content on this site is for <strong>informational and educational purposes only</strong>. This is not medical advice. We do not advocate for the use of any compound.
+        All content is for <strong>informational and educational purposes only</strong>. Not medical advice. We do not advocate for the use of any compound.
     </div>
 
     <header class="site-header">
@@ -27,6 +27,7 @@
                 <button class="tab-btn active" data-tab="calculator">Calculator</button>
                 <button class="tab-btn" data-tab="blends">Blends</button>
                 <button class="tab-btn" data-tab="stacks">Stacks</button>
+                <button class="tab-btn" data-tab="reference">Reference</button>
                 <button class="tab-btn" data-tab="learn">Learn</button>
             </nav>
         </div>
@@ -45,7 +46,7 @@
 
                 <div class="calc-card">
 
-                    <!-- Step 1: Vial Configuration -->
+                    <!-- Step 1 -->
                     <div class="form-step">
                         <div class="step-header">
                             <span class="step-badge">1</span>
@@ -57,15 +58,13 @@
                             <button class="pill" data-count="3">3 Compounds</button>
                             <button class="pill" data-count="4">4 Compounds</button>
                         </div>
-
-                        <!-- Preset quick-select (shown for 2+ compounds) -->
-                        <div id="preset-group" class="preset-group hidden">
-                            <div class="preset-label">Common blends — click to auto-fill</div>
+                        <div id="preset-group" class="preset-group">
+                            <div class="preset-label">Select your compound</div>
                             <div id="preset-buttons" class="preset-buttons"></div>
                         </div>
                     </div>
 
-                    <!-- Step 2: Peptide Amounts -->
+                    <!-- Step 2 -->
                     <div class="form-step">
                         <div class="step-header">
                             <span class="step-badge">2</span>
@@ -74,7 +73,7 @@
                         <div id="peptide-fields"></div>
                     </div>
 
-                    <!-- Step 3: BAC Water -->
+                    <!-- Step 3 -->
                     <div class="form-step">
                         <div class="step-header">
                             <span class="step-badge">3</span>
@@ -90,7 +89,7 @@
                         </div>
                     </div>
 
-                    <!-- Step 4: Dose / Units -->
+                    <!-- Step 4 -->
                     <div class="form-step">
                         <div class="step-header">
                             <span class="step-badge">4</span>
@@ -118,7 +117,6 @@
 
                 </div>
 
-                <!-- How to read results -->
                 <div class="info-row">
                     <div class="info-tile">
                         <div class="info-tile-label">Units</div>
@@ -134,41 +132,6 @@
                     </div>
                 </div>
 
-                <!-- Dosing reference -->
-                <div class="dose-ref-card">
-                    <div class="dose-ref-header">
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                        Common Dose Ranges — Reference Only
-                    </div>
-                    <p class="dose-ref-note">These are general ranges seen in research literature and community use. They are <em>not</em> recommendations. Individual needs vary. When in doubt, start low.</p>
-                    <div class="dose-ref-grid">
-                        <div class="dose-ref-row">
-                            <span class="dose-ref-name">BPC-157</span>
-                            <span class="dose-ref-range">250–500 mcg/dose · 1–2× daily</span>
-                        </div>
-                        <div class="dose-ref-row">
-                            <span class="dose-ref-name">TB-500</span>
-                            <span class="dose-ref-range">500 mcg–2 mg/dose · loading 2–4 weeks, then maintenance</span>
-                        </div>
-                        <div class="dose-ref-row">
-                            <span class="dose-ref-name">CJC-1295 (no DAC)</span>
-                            <span class="dose-ref-range">100–300 mcg/dose · taken with Ipamorelin</span>
-                        </div>
-                        <div class="dose-ref-row">
-                            <span class="dose-ref-name">Ipamorelin</span>
-                            <span class="dose-ref-range">100–300 mcg/dose · before bed or post-workout</span>
-                        </div>
-                        <div class="dose-ref-row">
-                            <span class="dose-ref-name">GHK-Cu</span>
-                            <span class="dose-ref-range">1–2 mg/dose subcutaneously · topical use varies widely</span>
-                        </div>
-                        <div class="dose-ref-row">
-                            <span class="dose-ref-name">KPV</span>
-                            <span class="dose-ref-range">500 mcg–1 mg/dose · oral or subcutaneous</span>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </section>
 
@@ -178,7 +141,7 @@
 
                 <div class="page-hero">
                     <h1>Blends</h1>
-                    <p>Multi-compound vials where everything is reconstituted together. One draw — multiple peptides. Click any blend to load it into the calculator.</p>
+                    <p>Multi-compound vials where everything is reconstituted together. One draw — multiple peptides at a fixed ratio. Click any blend to load it into the calculator.</p>
                 </div>
 
                 <div class="stack-grid">
@@ -193,12 +156,9 @@
                         </div>
                         <div class="stack-protocol">
                             <div class="protocol-label">Common Range (informational only)</div>
-                            <div class="protocol-text">250–500 mcg BPC-157 equivalent · 500 mcg–2 mg TB-500 equivalent per draw. Typical cycle: 4–6 weeks.</div>
+                            <div class="protocol-text">Because both compounds are equal mg, every draw gives you the same mcg of each. Common draws: 250–500 mcg per compound per dose, 1–2× daily. Typical cycle: 4–6 weeks.</div>
                         </div>
-                        <button class="load-btn"
-                            data-count="2"
-                            data-names="BPC-157,TB-500"
-                            data-amounts="">
+                        <button class="load-btn" data-count="2" data-names="BPC-157,TB-500" data-amounts="">
                             Load in Calculator →
                         </button>
                     </div>
@@ -206,19 +166,16 @@
                     <div class="stack-card">
                         <div class="stack-badge badge-growth">GH Peptides</div>
                         <h2 class="stack-name">CJC-1295 + Ipamorelin</h2>
-                        <p class="stack-desc">A synergistic growth hormone secretagogue blend. CJC-1295 extends the GH release window; Ipamorelin provides a clean, selective GH pulse. Commonly used for body composition, sleep quality, and recovery.</p>
+                        <p class="stack-desc">A synergistic growth hormone secretagogue blend. CJC-1295 extends the GH release window; Ipamorelin provides a clean, selective GH pulse. Used for body composition, sleep quality, and recovery.</p>
                         <div class="stack-compounds">
                             <span class="compound-tag">CJC-1295</span>
                             <span class="compound-tag">Ipamorelin</span>
                         </div>
                         <div class="stack-protocol">
                             <div class="protocol-label">Common Range (informational only)</div>
-                            <div class="protocol-text">100–300 mcg CJC-1295 equivalent · 100–300 mcg Ipamorelin equivalent per draw. Before bed or post-workout. Typical cycle: 8–12 weeks.</div>
+                            <div class="protocol-text">Equal mg of each compound — every draw gives the same mcg of both. Common draws: 100–300 mcg per compound per dose. Before bed or post-workout. Typical cycle: 8–12 weeks.</div>
                         </div>
-                        <button class="load-btn"
-                            data-count="2"
-                            data-names="CJC-1295,Ipamorelin"
-                            data-amounts="">
+                        <button class="load-btn" data-count="2" data-names="CJC-1295,Ipamorelin" data-amounts="">
                             Load in Calculator →
                         </button>
                     </div>
@@ -226,7 +183,7 @@
                     <div class="stack-card">
                         <div class="stack-badge badge-glow">GLOW</div>
                         <h2 class="stack-name">GLOW</h2>
-                        <p class="stack-desc">A premium 3-compound regenerative blend combining systemic tissue repair (BPC-157), anti-inflammatory recovery (TB-500), and collagen-stimulating skin support (GHK-Cu) in a single vial.</p>
+                        <p class="stack-desc">A premium 3-compound regenerative blend. BPC-157 and TB-500 are equal at 10 mg each; GHK-Cu is 50 mg — 5× more concentrated. Every draw delivers all three at a fixed ratio determined by these amounts.</p>
                         <div class="stack-compounds">
                             <span class="compound-tag">BPC-157 — 10 mg</span>
                             <span class="compound-tag">TB-500 — 10 mg</span>
@@ -234,12 +191,9 @@
                         </div>
                         <div class="stack-protocol">
                             <div class="protocol-label">Common Range (informational only)</div>
-                            <div class="protocol-text">500 mcg–1 mg BPC-157 · 500 mcg–2 mg TB-500 · 1–2 mg GHK-Cu equivalent per draw. Typical cycle: 4–8 weeks.</div>
+                            <div class="protocol-text">With 2 mL BAC water: drawing 10 units = 500 mcg BPC-157, 500 mcg TB-500, 2.5 mg GHK-Cu. Load in the calculator to see exact amounts for any draw.</div>
                         </div>
-                        <button class="load-btn"
-                            data-count="3"
-                            data-names="BPC-157,TB-500,GHK-Cu"
-                            data-amounts="10,10,50">
+                        <button class="load-btn" data-count="3" data-names="BPC-157,TB-500,GHK-Cu" data-amounts="10,10,50">
                             Load in Calculator →
                         </button>
                     </div>
@@ -247,7 +201,7 @@
                     <div class="stack-card">
                         <div class="stack-badge badge-klow">KLOW</div>
                         <h2 class="stack-name">KLOW</h2>
-                        <p class="stack-desc">The full GLOW formula plus KPV — a potent anti-inflammatory tripeptide — added for enhanced gut health, systemic inflammation control, and accelerated healing response.</p>
+                        <p class="stack-desc">The full GLOW formula plus KPV at 10 mg — equal to BPC-157 and TB-500. KPV adds potent anti-inflammatory and gut support properties. All four compounds delivered at a fixed ratio with every draw.</p>
                         <div class="stack-compounds">
                             <span class="compound-tag">BPC-157 — 10 mg</span>
                             <span class="compound-tag">TB-500 — 10 mg</span>
@@ -256,12 +210,9 @@
                         </div>
                         <div class="stack-protocol">
                             <div class="protocol-label">Common Range (informational only)</div>
-                            <div class="protocol-text">500 mcg–1 mg BPC-157 · 500 mcg–2 mg TB-500 · 1–2 mg GHK-Cu · 500 mcg–1 mg KPV equivalent per draw. Typical cycle: 4–8 weeks.</div>
+                            <div class="protocol-text">With 2 mL BAC water: drawing 10 units = 500 mcg BPC-157, 500 mcg TB-500, 2.5 mg GHK-Cu, 500 mcg KPV. Load in the calculator for exact amounts.</div>
                         </div>
-                        <button class="load-btn"
-                            data-count="4"
-                            data-names="BPC-157,TB-500,GHK-Cu,KPV"
-                            data-amounts="10,10,50,10">
+                        <button class="load-btn" data-count="4" data-names="BPC-157,TB-500,GHK-Cu,KPV" data-amounts="10,10,50,10">
                             Load in Calculator →
                         </button>
                     </div>
@@ -277,12 +228,12 @@
 
                 <div class="page-hero">
                     <h1>Stacks</h1>
-                    <p>Multi-vial protocols where different peptides from separate vials are used together. Each compound is drawn and injected individually — timing and frequency may vary.</p>
+                    <p>Multi-vial protocols where different peptides from separate vials are used together — each drawn and dosed independently.</p>
                 </div>
 
                 <div class="stack-info-banner">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4m0-4h.01"/></svg>
-                    <span><strong>Stacks vs. Blends:</strong> Blends are multiple peptides in <em>one vial</em>. Stacks are separate vials used together — each calculated and drawn independently. Use the calculator for each vial separately.</span>
+                    <span><strong>Stacks vs. Blends:</strong> Blends are multiple peptides in one vial, dosed together. Stacks are separate vials used together — calculate each one independently in the calculator.</span>
                 </div>
 
                 <div class="stack-grid">
@@ -290,7 +241,7 @@
                     <div class="stack-card">
                         <div class="stack-badge badge-heal">Recovery</div>
                         <h2 class="stack-name">Healing & Recovery</h2>
-                        <p class="stack-desc">BPC-157 and TB-500 are frequently used alongside a GH secretagogue pair for a comprehensive tissue repair and recovery protocol. The GH peptides amplify the regenerative environment while the healing peptides target specific damage.</p>
+                        <p class="stack-desc">BPC-157 and TB-500 from separate vials, paired with a GH secretagogue combination. Each peptide is drawn and injected individually — the healing peptides target repair while the GH peptides amplify recovery signaling.</p>
                         <div class="stack-compounds">
                             <span class="compound-tag">BPC-157</span>
                             <span class="compound-tag">TB-500</span>
@@ -299,14 +250,14 @@
                         </div>
                         <div class="stack-protocol">
                             <div class="protocol-label">General Approach (informational only)</div>
-                            <div class="protocol-text">BPC-157 + TB-500 dosed 1–2× daily. Ipamorelin + CJC-1295 before bed. Each vial calculated separately.</div>
+                            <div class="protocol-text">BPC-157 + TB-500 dosed 1–2× daily. Ipamorelin + CJC-1295 before bed. Each vial calculated separately in the calculator.</div>
                         </div>
                     </div>
 
                     <div class="stack-card">
                         <div class="stack-badge badge-growth">Performance</div>
                         <h2 class="stack-name">Body Composition</h2>
-                        <p class="stack-desc">A GH secretagogue stack paired with supporting compounds for those focused on body composition. Ipamorelin and CJC-1295 are a foundational pairing, sometimes combined with additional compounds depending on individual goals.</p>
+                        <p class="stack-desc">GH secretagogues form the foundation, supporting body composition and recovery. BPC-157 is often added to protect gut integrity and manage inflammation during high-intensity training or caloric restriction.</p>
                         <div class="stack-compounds">
                             <span class="compound-tag">Ipamorelin</span>
                             <span class="compound-tag">CJC-1295</span>
@@ -314,33 +265,351 @@
                         </div>
                         <div class="stack-protocol">
                             <div class="protocol-label">General Approach (informational only)</div>
-                            <div class="protocol-text">GH peptides taken fasted or pre-sleep. BPC-157 for gut integrity and inflammation support during caloric deficits or heavy training.</div>
+                            <div class="protocol-text">GH peptides taken fasted or pre-sleep for clean GH pulse. BPC-157 alongside for gut health and inflammation support.</div>
                         </div>
                     </div>
 
                     <div class="stack-card coming-soon-card">
                         <div class="stack-badge badge-glow">Longevity</div>
                         <h2 class="stack-name">Longevity Stack</h2>
-                        <p class="stack-desc">Full protocol details coming soon. This section is being built out with comprehensive stack information including compounds, timing, cycle length, and context for use.</p>
+                        <p class="stack-desc">Full protocol details coming soon — including compound list, timing, cycle length, and context for use.</p>
                         <div class="stack-compounds">
-                            <span class="compound-tag muted">More compounds coming soon</span>
+                            <span class="compound-tag muted">Details coming soon</span>
                         </div>
                         <div class="stack-protocol">
                             <div class="protocol-label">Status</div>
-                            <div class="protocol-text">Content in progress — check back soon.</div>
+                            <div class="protocol-text">Content in progress.</div>
                         </div>
                     </div>
 
                     <div class="stack-card coming-soon-card">
-                        <div class="stack-badge badge-klow">Skin & Beauty</div>
-                        <h2 class="stack-name">Aesthetic Stack</h2>
-                        <p class="stack-desc">Full protocol details coming soon. This section is being built out with comprehensive stack information including compounds, timing, cycle length, and context for use.</p>
+                        <div class="stack-badge badge-klow">Aesthetic</div>
+                        <h2 class="stack-name">Skin & Beauty Stack</h2>
+                        <p class="stack-desc">Full protocol details coming soon — including compound list, timing, cycle length, and context for use.</p>
                         <div class="stack-compounds">
-                            <span class="compound-tag muted">More compounds coming soon</span>
+                            <span class="compound-tag muted">Details coming soon</span>
                         </div>
                         <div class="stack-protocol">
                             <div class="protocol-label">Status</div>
-                            <div class="protocol-text">Content in progress — check back soon.</div>
+                            <div class="protocol-text">Content in progress.</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== REFERENCE ===== -->
+        <section id="tab-reference" class="tab-pane">
+            <div class="container">
+
+                <div class="page-hero">
+                    <h1>Dosing Reference</h1>
+                    <p>General dose ranges seen in research and community use. For informational purposes only — not recommendations. Always start low and adjust based on individual response.</p>
+                </div>
+
+                <div class="ref-disclaimer">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/><path d="M12 9v4m0 4h.01"/></svg>
+                    Dosing is not standardized for most research peptides. The ranges below reflect what is commonly reported — individual needs, vial sizes, and protocols vary significantly. This is not medical advice.
+                </div>
+
+                <div class="ref-section-title">Healing &amp; Repair</div>
+                <div class="ref-grid">
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">BPC-157</span>
+                            <span class="ref-badge badge-heal">Healing</span>
+                        </div>
+                        <p class="ref-desc">Body Protection Compound. A synthetic peptide derived from a protein found in gastric juice. Researched for soft tissue repair, tendon healing, and gut health.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Dose Range</span>
+                                <span class="ref-detail-val">250–500 mcg/dose · 1–2× daily</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Common Vials</span>
+                                <span class="ref-detail-val">5 mg, 10 mg</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Route</span>
+                                <span class="ref-detail-val">Subcutaneous or intramuscular, near site of injury</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Typical Cycle</span>
+                                <span class="ref-detail-val">4–6 weeks</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">TB-500</span>
+                            <span class="ref-badge badge-heal">Healing</span>
+                        </div>
+                        <p class="ref-desc">Synthetic version of Thymosin Beta-4. Researched for systemic tissue repair, inflammation reduction, flexibility, and cardiovascular support.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Dose Range</span>
+                                <span class="ref-detail-val">500 mcg–2 mg/dose · loading phase then maintenance</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Common Vials</span>
+                                <span class="ref-detail-val">5 mg, 10 mg</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Route</span>
+                                <span class="ref-detail-val">Subcutaneous</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Typical Cycle</span>
+                                <span class="ref-detail-val">Loading: 2–4 weeks. Maintenance: 1–2× per week ongoing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">GHK-Cu</span>
+                            <span class="ref-badge badge-glow">Regeneration</span>
+                        </div>
+                        <p class="ref-desc">Copper peptide naturally present in human plasma. Researched for collagen synthesis, skin regeneration, wound healing, and anti-inflammatory effects.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Dose Range</span>
+                                <span class="ref-detail-val">1–2 mg/dose daily or every other day (sub-Q)</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Common Vials</span>
+                                <span class="ref-detail-val">50 mg (topical use varies widely)</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Route</span>
+                                <span class="ref-detail-val">Subcutaneous or topical</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Notes</span>
+                                <span class="ref-detail-val">Topical dosing is much higher and varies by formulation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">KPV</span>
+                            <span class="ref-badge badge-heal">Anti-Inflammatory</span>
+                        </div>
+                        <p class="ref-desc">A tripeptide (Lys-Pro-Val) derived from alpha-MSH. Researched for anti-inflammatory effects, gut health, and wound healing.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Dose Range</span>
+                                <span class="ref-detail-val">500 mcg–1 mg/dose</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Common Vials</span>
+                                <span class="ref-detail-val">10 mg</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Route</span>
+                                <span class="ref-detail-val">Subcutaneous or oral</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Notes</span>
+                                <span class="ref-detail-val">Oral administration studied for gut-specific effects</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ref-section-title">GH Peptides</div>
+                <div class="ref-grid">
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">Ipamorelin</span>
+                            <span class="ref-badge badge-growth">GH Peptide</span>
+                        </div>
+                        <p class="ref-desc">A selective GHRP (growth hormone releasing peptide). Provides a clean GH pulse without significant cortisol or prolactin elevation. Typically paired with CJC-1295.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Dose Range</span>
+                                <span class="ref-detail-val">100–300 mcg/dose · taken with CJC-1295</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Common Vials</span>
+                                <span class="ref-detail-val">5 mg</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Route</span>
+                                <span class="ref-detail-val">Subcutaneous</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Timing</span>
+                                <span class="ref-detail-val">Before bed or post-workout, fasted preferred</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">CJC-1295 (no DAC)</span>
+                            <span class="ref-badge badge-growth">GH Peptide</span>
+                        </div>
+                        <p class="ref-desc">A GHRH analog with a shorter half-life than DAC version. Extends the GH release window when combined with Ipamorelin, producing a more physiological GH pulse.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Dose Range</span>
+                                <span class="ref-detail-val">100–300 mcg/dose · taken with Ipamorelin</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Common Vials</span>
+                                <span class="ref-detail-val">5 mg</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Route</span>
+                                <span class="ref-detail-val">Subcutaneous</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Cycle</span>
+                                <span class="ref-detail-val">8–12 weeks typical</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">Tesamorelin</span>
+                            <span class="ref-badge badge-growth">GHRH Analog</span>
+                        </div>
+                        <p class="ref-desc">A synthetic GHRH analog approved for visceral fat reduction. Researched for body composition, cognitive function, and GH axis support.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Dose Range</span>
+                                <span class="ref-detail-val">1–2 mg/day</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Common Vials</span>
+                                <span class="ref-detail-val">1 mg, 2 mg</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Route</span>
+                                <span class="ref-detail-val">Subcutaneous, abdominal region</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Notes</span>
+                                <span class="ref-detail-val">Often used as a standalone GHRH without a GHRP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ref-section-title">Metabolic &amp; Longevity</div>
+                <div class="ref-grid">
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">Retatrutide</span>
+                            <span class="ref-badge badge-klow">GLP-3 Triple Agonist</span>
+                        </div>
+                        <p class="ref-desc">A GLP-1/GIP/glucagon triple receptor agonist. Among the most potent metabolic peptides in research — studied for weight loss, glucose regulation, and lipid management.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Dose Range</span>
+                                <span class="ref-detail-val">Start 0.5–2 mg/week · titrate to 2–8 mg/week</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Common Vials</span>
+                                <span class="ref-detail-val">Varies</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Route</span>
+                                <span class="ref-detail-val">Subcutaneous, once weekly</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Notes</span>
+                                <span class="ref-detail-val">Slow titration essential to minimize GI side effects</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">Tirzepatide</span>
+                            <span class="ref-badge badge-klow">GLP-1/GIP Dual Agonist</span>
+                        </div>
+                        <p class="ref-desc">Dual GIP and GLP-1 receptor agonist. Researched extensively for weight management and metabolic health, with significant clinical data behind it.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Dose Range</span>
+                                <span class="ref-detail-val">Start 2.5 mg/week · titrate to 5–15 mg/week</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Common Vials</span>
+                                <span class="ref-detail-val">Varies</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Route</span>
+                                <span class="ref-detail-val">Subcutaneous, once weekly</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Notes</span>
+                                <span class="ref-detail-val">Titrate slowly — 4 weeks minimum at each dose level</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">MOTS-C</span>
+                            <span class="ref-badge badge-glow">Mitochondrial</span>
+                        </div>
+                        <p class="ref-desc">A mitochondria-derived peptide that regulates metabolic homeostasis. Researched for exercise performance, insulin sensitivity, and longevity pathways.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Dose Range</span>
+                                <span class="ref-detail-val">5–10 mg · 2–3× per week</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Common Vials</span>
+                                <span class="ref-detail-val">5 mg, 10 mg</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Route</span>
+                                <span class="ref-detail-val">Subcutaneous or intravenous</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Notes</span>
+                                <span class="ref-detail-val">Some protocols use up to 15 mg/dose</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">NAD+</span>
+                            <span class="ref-badge badge-glow">Coenzyme</span>
+                        </div>
+                        <p class="ref-desc">Nicotinamide adenine dinucleotide — a coenzyme critical to cellular energy production and DNA repair. Widely used in longevity and anti-aging protocols.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Dose Range</span>
+                                <span class="ref-detail-val">100–500 mg subcutaneous or IV</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Common Vials</span>
+                                <span class="ref-detail-val">100 mg, 250 mg, 500 mg</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Route</span>
+                                <span class="ref-detail-val">Subcutaneous or IV infusion</span>
+                            </div>
+                            <div class="ref-detail-row">
+                                <span class="ref-detail-label">Notes</span>
+                                <span class="ref-detail-val">Use 3–5 mL BAC water to reduce injection site discomfort</span>
+                            </div>
                         </div>
                     </div>
 
@@ -381,15 +650,15 @@
                             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 7h6m-6 4h6m-6 4h4"/></svg>
                         </div>
                         <h3>How the Calculator Works</h3>
-                        <p>For a single-compound vial: enter the mg in the vial, BAC water added, and desired dose — get units to draw. For blended vials: enter units you plan to draw and see the exact dose of each compound you'll receive. Because blends are one solution, you can't dose each compound independently.</p>
+                        <p>For a single-compound vial: enter the mg in the vial, BAC water added, and desired dose — get units to draw. For blended vials: enter units you plan to draw and see the exact dose of each compound you'll receive. Because blends are one solution, you can't dose each compound independently — the ratio is fixed by the reconstitution.</p>
                     </div>
 
                     <div class="learn-card">
                         <div class="learn-icon">
                             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 16 4-4 4 4 4-4"/></svg>
                         </div>
-                        <h3>Units vs. mL — What's the Difference?</h3>
-                        <p>A U-100 insulin syringe has 100 units per mL. When the calculator says "draw 20 units," that means 0.20 mL of solution. Most people work in units because the markings on insulin syringes are easier to read with precision. Common syringe sizes: 1 mL (100 units), 0.5 mL (50 units), 0.3 mL (30 units).</p>
+                        <h3>Units vs. mL</h3>
+                        <p>A U-100 insulin syringe has 100 units per mL. When the calculator says "draw 20 units," that means 0.20 mL of solution. Most people work in units because the markings on insulin syringes are easier to read precisely. Common syringe sizes: 1 mL (100 units), 0.5 mL (50 units), 0.3 mL (30 units).</p>
                     </div>
 
                     <div class="learn-card">
@@ -405,7 +674,7 @@
                             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m19 9-7 4-7-4V5l7 4 7-4v4Z"/><path d="M5 13v6l7 4 7-4v-6"/></svg>
                         </div>
                         <h3>Injection Basics</h3>
-                        <p>Most research peptides are administered subcutaneously (sub-Q) — a shallow injection into the fat layer, typically the lower abdomen. Use a fresh insulin syringe for every injection. Swab the vial stopper with alcohol before drawing. After filling the syringe, tap to bring any air bubbles to the top and gently depress the plunger to clear them.</p>
+                        <p>Most research peptides are administered subcutaneously (sub-Q) — a shallow injection into the fat layer, typically the lower abdomen. Use a fresh insulin syringe for every injection. Swab the vial stopper with alcohol before drawing. After filling the syringe, tap to bring air bubbles to the top and gently depress the plunger to clear them.</p>
                     </div>
 
                 </div>
