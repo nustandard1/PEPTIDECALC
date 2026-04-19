@@ -14,31 +14,31 @@ const PRESETS = {
             label:    'Retatrutide',
             sublabel: 'GLP-3 Triple Agonist',
             name:     'Retatrutide',
-            hint:     'Typically started at 0.5–2 mg per week and titrated upward based on tolerance. Common research doses range from 2–8 mg/week. Vial sizes vary — enter your specific amount above.',
+            hint:     'Typically started at 0.5–2 mg per week and titrated upward based on tolerance. Common research doses range from 2–6 mg/week. Vial sizes vary — enter your specific amount above.',
         },
         {
             label:    'Tirzepatide',
             sublabel: 'GLP-1/GIP Dual Agonist',
             name:     'Tirzepatide',
-            hint:     'Starting doses commonly 2.5 mg/week, titrating up to 5–15 mg/week over several months. Titrate slowly — allow 4 weeks at each level. Vial sizes vary.',
+            hint:     'Starting doses commonly 2.5 mg/week, titrating up to 5–15 mg/week over several months. Titrate slowly based on individual tolerance. Vial sizes vary.',
         },
         {
             label:    'Tesamorelin',
             sublabel: 'GHRH Analog',
             name:     'Tesamorelin',
-            hint:     'Commonly researched at 1–2 mg/day subcutaneously. Common vial sizes: 1 mg or 2 mg. Often used as a standalone GHRH without a GHRP.',
+            hint:     'Commonly researched at 1–2 mg/day subcutaneously. Most common vial size: 10 mg. Often used as a standalone GHRH without a GHRP.',
         },
         {
             label:    'MOTS-C',
             sublabel: 'Mitochondrial Peptide',
             name:     'MOTS-C',
-            hint:     'Commonly researched at 5–10 mg, 2–3× per week. Some protocols use up to 15 mg per dose. Typical vial sizes: 5 mg or 10 mg.',
+            hint:     'Commonly researched at 1–5 mg/day, 2–3× per week. Research doses vary — always start at the low end. Typical vial sizes: 5 mg or 10 mg.',
         },
         {
             label:    'NAD+',
             sublabel: 'Coenzyme',
             name:     'NAD+',
-            hint:     'Research doses vary widely — 100–500 mg subcutaneously. Use 3–5 mL BAC water to reduce injection site discomfort. Typical vial sizes: 100 mg, 250 mg, 500 mg.',
+            hint:     'Typically starts at 20 mg, 2–3× per week or daily. Common range: 20–100 mg. Most common vial size: 500 mg. Recommended: 5 mL BAC water (500 units) per 500 mg vial for easy dosing and reduced discomfort.',
         },
         {
             label:    'GHK-Cu',
@@ -250,49 +250,39 @@ function updateBlendHint() {
     const amounts_mg   = activePreset.amounts.map(Number);
     const concentrations = amounts_mg.map(mg => (mg * 1000) / bacWater); /* mcg/mL */
 
-    /* Pick sensible unit rows based on vial size */
-    const maxMg  = Math.min(...amounts_mg);
-    const maxUnits = Math.round((maxMg * 1000 / bacWater) * 0.4); /* ~40% of max conc */
-    const unitRows = buildUnitRows(maxUnits);
+    const unitRows = [5, 10, 15, 20, 25];
 
     const cols = names.length + 1;
     const gridStyle = `grid-template-columns: repeat(${cols}, 1fr)`;
 
-    const headerCells = ['Units', ...names]
+    const headerCells = ['Units drawn', ...names]
         .map(n => `<div class="dht-cell dht-header">${escapeHtml(n)}</div>`)
         .join('');
 
     const rows = unitRows.map((units, rowIdx) => {
-        const vol  = units / 100;
+        const vol    = units / 100;
         const isLast = rowIdx === unitRows.length - 1;
-        const cells = concentrations
+        const cells  = concentrations
             .map(c => `<div class="dht-cell${isLast ? ' dht-row-last' : ''}">${formatDose(c * vol)}</div>`)
             .join('');
-        return `<div class="dht-cell dht-units${isLast ? ' dht-row-last' : ''}">${units} u</div>${cells}`;
+        return `<div class="dht-cell dht-units${isLast ? ' dht-row-last' : ''}">${units}</div>${cells}`;
     }).join('');
 
     hint.innerHTML = `
-        <div class="dose-hint-title">
-            What you get per draw${usingDefault ? ' — assuming 2 mL BAC water (update above to recalculate)' : ` — ${bacWater} mL BAC water`}
+        <div class="dose-hint-title">How much of each compound you get per draw</div>
+        <p class="dose-hint-subtext">${
+            usingDefault
+                ? 'Calculated with 2 mL BAC water — enter your amount in Step 3 to update.'
+                : `Calculated with ${bacWater} mL BAC water.`
+        } "Units drawn" = units on a U-100 syringe (100 units = 1 mL).</p>
+        <div class="dht-scroll">
+            <div class="dht-grid" style="${gridStyle}">
+                ${headerCells}${rows}
+            </div>
         </div>
-        <div class="dht-grid" style="${gridStyle}">
-            ${headerCells}
-            ${rows}
-        </div>
-        <div class="dose-hint-note">Every draw delivers all compounds at this fixed ratio. Adjust BAC water above to update the table.</div>
+        <div class="dose-hint-note">This is a blended vial — every draw delivers all compounds at the same fixed ratio. You can't adjust one independently.</div>
     `;
     hint.classList.remove('hidden');
-}
-
-function buildUnitRows(maxUnits) {
-    /* Generate 4–5 evenly spaced unit amounts from low to maxUnits */
-    if (maxUnits <= 0) return [5, 10, 15, 20];
-    const step  = Math.max(5, Math.round(maxUnits / 4 / 5) * 5);
-    const rows  = [];
-    for (let u = step; u <= maxUnits + step && rows.length < 5; u += step) {
-        rows.push(Math.round(u / 5) * 5 || 5);
-    }
-    return [...new Set(rows)].slice(0, 5);
 }
 
 function clearDoseHint() {
@@ -483,7 +473,7 @@ function hideResult() {
 }
 
 /* ============================================================
-   LOAD BUTTONS (from Blends tab)
+   LOAD BUTTONS (from Blends / Reference tabs)
    ============================================================ */
 function initLoadButtons() {
     document.querySelectorAll('.load-btn').forEach(btn => {
@@ -500,30 +490,49 @@ function initLoadButtons() {
             renderFields(count);
             hideResult();
 
-            /* Find matching preset and select it */
-            const matchingPreset = (PRESETS[count] || []).find(p =>
-                p.isBlend && p.names && p.names[0] === names[0]
-            );
+            if (count === 1) {
+                /* Single compound — find by name in PRESETS[1] */
+                const matchingPreset = (PRESETS[1] || []).find(p => !p.isOther && p.name === names[0]);
 
-            requestAnimationFrame(() => {
-                names.forEach((name, idx) => {
-                    const nameEl = document.getElementById(`name-${idx + 1}`);
-                    const mgEl   = document.getElementById(`mg-${idx + 1}`);
-                    if (nameEl) nameEl.value = name;
-                    if (mgEl && amounts[idx]) mgEl.value = amounts[idx];
+                requestAnimationFrame(() => {
+                    const nameEl = document.getElementById('name-1');
+                    if (nameEl) nameEl.value = names[0];
+
+                    if (matchingPreset) {
+                        activePreset = matchingPreset;
+                        document.querySelectorAll('.preset-btn').forEach((b, idx) => {
+                            if ((PRESETS[1] || [])[idx] === matchingPreset) b.classList.add('selected');
+                        });
+                        showSingleHint(matchingPreset.hint);
+                    }
+
+                    switchTab('calculator');
                 });
+            } else {
+                /* Blend — find by first compound name */
+                const matchingPreset = (PRESETS[count] || []).find(p =>
+                    p.isBlend && p.names && p.names[0] === names[0]
+                );
 
-                if (matchingPreset) {
-                    activePreset = matchingPreset;
-                    /* Highlight matching preset button */
-                    document.querySelectorAll('.preset-btn').forEach((b, idx) => {
-                        if ((PRESETS[count] || [])[idx] === matchingPreset) b.classList.add('selected');
+                requestAnimationFrame(() => {
+                    names.forEach((name, idx) => {
+                        const nameEl = document.getElementById(`name-${idx + 1}`);
+                        const mgEl   = document.getElementById(`mg-${idx + 1}`);
+                        if (nameEl) nameEl.value = name;
+                        if (mgEl && amounts[idx]) mgEl.value = amounts[idx];
                     });
-                    updateBlendHint();
-                }
 
-                switchTab('calculator');
-            });
+                    if (matchingPreset) {
+                        activePreset = matchingPreset;
+                        document.querySelectorAll('.preset-btn').forEach((b, idx) => {
+                            if ((PRESETS[count] || [])[idx] === matchingPreset) b.classList.add('selected');
+                        });
+                        updateBlendHint();
+                    }
+
+                    switchTab('calculator');
+                });
+            }
         });
     });
 }
