@@ -35,10 +35,58 @@ function initCompoundSelector() {
             compoundCount = count;
             document.querySelectorAll('.pill[data-count]').forEach(p => p.classList.remove('active'));
             pill.classList.add('active');
+            renderPresets(count);
             renderFields(count);
             hideResult();
         });
     });
+}
+
+/* === PRESETS === */
+const PRESETS = {
+    2: [
+        { label: 'BPC-157 + TB-500',     names: ['BPC-157', 'TB-500'],         amounts: [] },
+        { label: 'CJC-1295 + Ipamorelin', names: ['CJC-1295', 'Ipamorelin'],    amounts: [] },
+    ],
+    3: [
+        { label: 'GLOW', names: ['BPC-157', 'TB-500', 'GHK-Cu'], amounts: ['10', '10', '50'] },
+    ],
+    4: [
+        { label: 'KLOW', names: ['BPC-157', 'TB-500', 'GHK-Cu', 'KPV'], amounts: ['10', '10', '50', '10'] },
+    ],
+};
+
+function renderPresets(count) {
+    const group   = document.getElementById('preset-group');
+    const buttons = document.getElementById('preset-buttons');
+    const presets = PRESETS[count];
+
+    if (!presets) { group.classList.add('hidden'); return; }
+
+    group.classList.remove('hidden');
+    buttons.innerHTML = '';
+
+    presets.forEach(preset => {
+        const btn = document.createElement('button');
+        btn.className = 'preset-btn';
+        btn.textContent = preset.label;
+        btn.addEventListener('click', () => {
+            applyPreset(preset);
+            document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('selected'));
+            btn.classList.add('selected');
+        });
+        buttons.appendChild(btn);
+    });
+}
+
+function applyPreset(preset) {
+    preset.names.forEach((name, idx) => {
+        const nameEl = document.getElementById(`name-${idx + 1}`);
+        const mgEl   = document.getElementById(`mg-${idx + 1}`);
+        if (nameEl) nameEl.value = name;
+        if (mgEl)   mgEl.value  = preset.amounts[idx] || '';
+    });
+    hideResult();
 }
 
 /* === RENDER FIELDS === */
