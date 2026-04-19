@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeptideCalc — Precision Peptide Dosing Calculator</title>
+    <meta name="description" content="Free peptide reconstitution calculator. Get exact syringe units for any vial configuration — single compound, dual compound, or multi-stack vials.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo">
+                <span class="logo-text">Peptide<span class="logo-accent">Calc</span></span>
+            </div>
+            <nav class="tab-nav">
+                <button class="tab-btn active" data-tab="calculator">Calculator</button>
+                <button class="tab-btn" data-tab="stacks">Stacks</button>
+                <button class="tab-btn" data-tab="learn">Learn</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ===== CALCULATOR ===== -->
+        <section id="tab-calculator" class="tab-pane active">
+            <div class="container">
+
+                <div class="page-hero">
+                    <h1>Reconstitution Calculator</h1>
+                    <p>Enter your vial configuration and desired dose. Get the exact number of units to draw — no guesswork.</p>
+                </div>
+
+                <div class="calc-card">
+
+                    <!-- Step 1 -->
+                    <div class="form-step">
+                        <div class="step-header">
+                            <span class="step-badge">1</span>
+                            <span class="step-title">Vial Configuration</span>
+                        </div>
+                        <div class="pill-group" id="compound-count-group">
+                            <button class="pill active" data-count="1">1 Compound</button>
+                            <button class="pill" data-count="2">2 Compounds</button>
+                            <button class="pill" data-count="3">3 Compounds</button>
+                            <button class="pill" data-count="4">4 Compounds</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="form-step">
+                        <div class="step-header">
+                            <span class="step-badge">2</span>
+                            <span class="step-title">Peptide Amounts</span>
+                        </div>
+                        <div id="peptide-fields"></div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="form-step">
+                        <div class="step-header">
+                            <span class="step-badge">3</span>
+                            <span class="step-title">Bacteriostatic Water</span>
+                        </div>
+                        <div class="field solo">
+                            <label class="field-label">Volume Added to Vial</label>
+                            <div class="input-wrap">
+                                <input class="field-input" type="number" id="bac-water" placeholder="e.g. 2" min="0.1" step="0.1">
+                                <span class="input-unit">mL</span>
+                            </div>
+                            <span class="field-hint">Most people use 1–2 mL. More water = lower concentration = more units per dose.</span>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="form-step">
+                        <div class="step-header">
+                            <span class="step-badge">4</span>
+                            <span class="step-title">Desired Dose</span>
+                        </div>
+                        <div id="dose-fields"></div>
+                    </div>
+
+                    <button class="calc-button" id="calc-btn">
+                        Calculate
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </button>
+
+                    <div id="result-box" class="result-box hidden">
+                        <div class="result-header">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            Your Results
+                        </div>
+                        <div id="result-content" class="result-grid"></div>
+                        <div class="result-note">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4m0-4h.01"/></svg>
+                            Based on a standard U-100 insulin syringe (100 units = 1 mL)
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="info-row">
+                    <div class="info-tile">
+                        <div class="info-tile-label">Units</div>
+                        <div class="info-tile-value">The number to draw on your insulin syringe</div>
+                    </div>
+                    <div class="info-tile">
+                        <div class="info-tile-label">Concentration</div>
+                        <div class="info-tile-value">mcg of peptide per mL of reconstituted solution</div>
+                    </div>
+                    <div class="info-tile">
+                        <div class="info-tile-label">Volume (mL)</div>
+                        <div class="info-tile-value">Shown for reference — syringe units are what matter</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== STACKS ===== -->
+        <section id="tab-stacks" class="tab-pane">
+            <div class="container">
+
+                <div class="page-hero">
+                    <h1>Peptide Stacks</h1>
+                    <p>Common peptide protocols and combination vial configurations. Click any stack to load it directly into the calculator.</p>
+                </div>
+
+                <div class="stack-grid">
+
+                    <div class="stack-card">
+                        <div class="stack-badge badge-heal">Healing</div>
+                        <h2 class="stack-name">BPC-157 + TB-500</h2>
+                        <p class="stack-desc">The most widely used healing stack. BPC-157 drives localized tissue repair; TB-500 promotes systemic recovery and flexibility. Often combined in a single 10 mg vial (5 mg each).</p>
+                        <div class="stack-compounds">
+                            <span class="compound-tag">BPC-157 — 5 mg</span>
+                            <span class="compound-tag">TB-500 — 5 mg</span>
+                        </div>
+                        <div class="stack-protocol">
+                            <div class="protocol-label">Common Protocol</div>
+                            <div class="protocol-text">250–500 mcg BPC-157 · 500 mcg–2 mg TB-500 per dose, 1–2× daily. Typical cycle: 4–6 weeks.</div>
+                        </div>
+                        <button class="load-btn"
+                            data-count="2"
+                            data-names="BPC-157,TB-500"
+                            data-amounts="5,5">
+                            Load in Calculator →
+                        </button>
+                    </div>
+
+                    <div class="stack-card">
+                        <div class="stack-badge badge-growth">GH Peptides</div>
+                        <h2 class="stack-name">Ipamorelin + CJC-1295</h2>
+                        <p class="stack-desc">A synergistic growth hormone secretagogue stack. Ipamorelin provides a clean GH pulse; CJC-1295 extends the release window. Used for body composition, sleep quality, and recovery.</p>
+                        <div class="stack-compounds">
+                            <span class="compound-tag">Ipamorelin — 5 mg</span>
+                            <span class="compound-tag">CJC-1295 — 5 mg</span>
+                        </div>
+                        <div class="stack-protocol">
+                            <div class="protocol-label">Common Protocol</div>
+                            <div class="protocol-text">100–300 mcg Ipamorelin · 100–300 mcg CJC-1295 per dose, before bed or post-workout. Typical cycle: 8–12 weeks.</div>
+                        </div>
+                        <button class="load-btn"
+                            data-count="2"
+                            data-names="Ipamorelin,CJC-1295"
+                            data-amounts="5,5">
+                            Load in Calculator →
+                        </button>
+                    </div>
+
+                    <div class="stack-card">
+                        <div class="stack-badge badge-glow">GLOW Stack</div>
+                        <h2 class="stack-name">GLOW</h2>
+                        <p class="stack-desc">A premium 3-compound vial. Full compound breakdown and protocol details coming soon. Use the calculator above with your specific vial configuration in the meantime.</p>
+                        <div class="stack-compounds">
+                            <span class="compound-tag muted">3 Compounds</span>
+                            <span class="compound-tag muted">Full Details Coming Soon</span>
+                        </div>
+                        <div class="stack-protocol">
+                            <div class="protocol-label">Protocol</div>
+                            <div class="protocol-text">Full dosing protocol coming soon.</div>
+                        </div>
+                    </div>
+
+                    <div class="stack-card">
+                        <div class="stack-badge badge-klow">KLOW Stack</div>
+                        <h2 class="stack-name">KLOW</h2>
+                        <p class="stack-desc">A premium 4-compound vial. Full compound breakdown and protocol details coming soon. Use the calculator above with your specific vial configuration in the meantime.</p>
+                        <div class="stack-compounds">
+                            <span class="compound-tag muted">4 Compounds</span>
+                            <span class="compound-tag muted">Full Details Coming Soon</span>
+                        </div>
+                        <div class="stack-protocol">
+                            <div class="protocol-label">Protocol</div>
+                            <div class="protocol-text">Full dosing protocol coming soon.</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== LEARN ===== -->
+        <section id="tab-learn" class="tab-pane">
+            <div class="container">
+
+                <div class="page-hero">
+                    <h1>Learn</h1>
+                    <p>Everything you need to know about peptides, reconstitution, and safe handling.</p>
+                </div>
+
+                <div class="learn-grid">
+
+                    <div class="learn-card">
+                        <div class="learn-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18"/></svg>
+                        </div>
+                        <h3>What Are Peptides?</h3>
+                        <p>Peptides are short chains of amino acids — the same building blocks as proteins, but smaller. Research peptides are synthetic versions of naturally occurring peptides your body already produces. They interact with specific receptors to drive targeted biological effects, which is why they've become a focal point in performance, recovery, and longevity research.</p>
+                    </div>
+
+                    <div class="learn-card">
+                        <div class="learn-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 3-6 6 6 6"/><path d="M3 9h11a4 4 0 0 1 4 4v2a4 4 0 0 1-4 4H3"/></svg>
+                        </div>
+                        <h3>What Is Reconstitution?</h3>
+                        <p>Peptides are sold as lyophilized (freeze-dried) powder in vials. Before use, you dissolve the powder by adding bacteriostatic water (BAC water) — this is called reconstitution. The amount of water you add determines the concentration, which determines how many units you draw per dose. This calculator does that math for you instantly.</p>
+                    </div>
+
+                    <div class="learn-card">
+                        <div class="learn-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 7h6m-6 4h6m-6 4h4"/></svg>
+                        </div>
+                        <h3>How the Calculator Works</h3>
+                        <p>Enter the total milligrams of peptide in your vial, how many mL of BAC water you added, and your desired dose in micrograms (mcg). The calculator outputs the exact number of units to draw on a standard U-100 insulin syringe. For multi-compound vials, each peptide is calculated independently using the shared water volume.</p>
+                    </div>
+
+                    <div class="learn-card">
+                        <div class="learn-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 16 4-4 4 4 4-4"/></svg>
+                        </div>
+                        <h3>Units vs. mL — What's the Difference?</h3>
+                        <p>A U-100 insulin syringe has 100 units per mL. When the calculator says "draw 20 units," that means 0.20 mL of solution. Most people work in units because the markings on insulin syringes are easier to read with precision. Common syringe sizes: 1 mL (100 units), 0.5 mL (50 units), 0.3 mL (30 units).</p>
+                    </div>
+
+                    <div class="learn-card">
+                        <div class="learn-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2Z"/><path d="M12 12h.01M8 12h.01M16 12h.01"/></svg>
+                        </div>
+                        <h3>Storage and Handling</h3>
+                        <p>Store unreconstituted vials in the refrigerator, away from light. Once reconstituted with BAC water, keep refrigerated and use within 28–30 days. Never freeze a reconstituted vial. Keep vials upright. If you need to mix, gently swirl — never shake. Always use sterile technique: new syringe per injection, alcohol-swab the stopper.</p>
+                    </div>
+
+                    <div class="learn-card">
+                        <div class="learn-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m19 9-7 4-7-4V5l7 4 7-4v4Z"/><path d="M5 13v6l7 4 7-4v-6"/></svg>
+                        </div>
+                        <h3>Injection Basics</h3>
+                        <p>Most research peptides are administered subcutaneously (sub-Q) — a shallow injection into the fat layer, typically the lower abdomen. Use a fresh insulin syringe for every injection. Swab the vial stopper with alcohol before drawing. After filling the syringe, tap to bring any air bubbles to the top and gently depress the plunger to clear them.</p>
+                    </div>
+
+                </div>
+
+                <div class="disclaimer-box">
+                    <div class="disclaimer-title">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/><path d="M12 9v4m0 4h.01"/></svg>
+                        Research Use Disclaimer
+                    </div>
+                    <p>All content on PeptideCalc is provided for educational and research purposes only. Nothing on this site constitutes medical advice, diagnosis, or treatment. Consult a qualified healthcare professional before beginning any peptide protocol.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <span class="footer-brand">PeptideCalc</span>
+            <span class="footer-legal">For research and educational purposes only. Not medical advice.</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
