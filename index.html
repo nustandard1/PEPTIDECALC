@@ -50,17 +50,24 @@
                     <div class="form-step">
                         <div class="step-header">
                             <span class="step-badge">1</span>
-                            <span class="step-title">Vial Configuration</span>
+                            <span class="step-title">What Are You Reconstituting?</span>
                         </div>
-                        <div class="pill-group" id="compound-count-group">
-                            <button class="pill active" data-count="1">1 Compound</button>
-                            <button class="pill" data-count="2">2 Compounds</button>
-                            <button class="pill" data-count="3">3 Compounds</button>
-                            <button class="pill" data-count="4">4 Compounds</button>
+                        <div class="field">
+                            <label class="field-label" for="compound-select">Compound or blend</label>
+                            <div class="select-wrap">
+                                <select class="field-input" id="compound-select">
+                                    <option value="" disabled selected>Choose a compound or blend…</option>
+                                </select>
+                            </div>
                         </div>
-                        <div id="preset-group" class="preset-group">
-                            <div class="preset-label">Select your compound</div>
-                            <div id="preset-buttons" class="preset-buttons"></div>
+                        <!-- Shown only when "Custom Blend" is selected -->
+                        <div id="custom-blend-row" class="custom-blend-row hidden">
+                            <div class="preset-label">How many compounds in the blend?</div>
+                            <div class="pill-group" id="custom-count-group">
+                                <button class="pill active" data-count="2">2</button>
+                                <button class="pill" data-count="3">3</button>
+                                <button class="pill" data-count="4">4</button>
+                            </div>
                         </div>
                     </div>
 

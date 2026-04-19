@@ -7,6 +7,7 @@ let activePreset  = null;
 
 /* ============================================================
    PRESET DATA
+   doseUnit: 'mg' | 'mcg' — controls Step 4 input unit label
    ============================================================ */
 const PRESETS = {
     1: [
@@ -14,37 +15,57 @@ const PRESETS = {
             label:    'Retatrutide',
             sublabel: 'GLP-3 Triple Agonist',
             name:     'Retatrutide',
+            doseUnit: 'mg',
             hint:     'Typically started at 0.5–2 mg per week and titrated upward based on tolerance. Common research doses range from 2–6 mg/week. Vial sizes vary — enter your specific amount above.',
         },
         {
             label:    'Tirzepatide',
             sublabel: 'GLP-1/GIP Dual Agonist',
             name:     'Tirzepatide',
+            doseUnit: 'mg',
             hint:     'Starting doses commonly 2.5 mg/week, titrating up to 5–15 mg/week over several months. Titrate slowly based on individual tolerance. Vial sizes vary.',
         },
         {
             label:    'Tesamorelin',
             sublabel: 'GHRH Analog',
             name:     'Tesamorelin',
+            doseUnit: 'mg',
             hint:     'Commonly researched at 1–2 mg/day subcutaneously. Most common vial size: 10 mg. Often used as a standalone GHRH without a GHRP.',
         },
         {
             label:    'MOTS-C',
             sublabel: 'Mitochondrial Peptide',
             name:     'MOTS-C',
+            doseUnit: 'mg',
             hint:     'Commonly researched at 1–5 mg/day, 2–3× per week. Research doses vary — always start at the low end. Typical vial sizes: 5 mg or 10 mg.',
         },
         {
             label:    'NAD+',
             sublabel: 'Coenzyme',
             name:     'NAD+',
+            doseUnit: 'mg',
             hint:     'Typically starts at 20 mg, 2–3× per week or daily. Common range: 20–100 mg. Most common vial size: 500 mg. Recommended: 5 mL BAC water (500 units) per 500 mg vial for easy dosing and reduced discomfort.',
         },
         {
             label:    'GHK-Cu',
             sublabel: 'Copper Peptide',
             name:     'GHK-Cu',
+            doseUnit: 'mg',
             hint:     'Subcutaneous research doses: 1–2 mg/dose daily or every other day. Also widely used topically at much higher concentrations. Typical vial size: 50 mg.',
+        },
+        {
+            label:    'BPC-157',
+            sublabel: 'Healing Peptide',
+            name:     'BPC-157',
+            doseUnit: 'mcg',
+            hint:     'Commonly researched at 250–500 mcg per injection, 1–2× daily. Often cycled 4–8 weeks on, 2–4 weeks off. Typical vial sizes: 5 mg or 10 mg.',
+        },
+        {
+            label:    'Sermorelin',
+            sublabel: 'GHRH Analog',
+            name:     'Sermorelin',
+            doseUnit: 'mcg',
+            hint:     'Typical research doses: 200–500 mcg subcutaneously before bed. Often used in conjunction with a GHRP for synergistic effect. Typical vial size: 2 mg or 5 mg.',
         },
         {
             label:    'Other',
@@ -56,7 +77,7 @@ const PRESETS = {
         {
             label:   'BPC-157 + TB-500',
             names:   ['BPC-157', 'TB-500'],
-            amounts: [],          /* user enters mg — equal amounts, so dose is same for both */
+            amounts: [],
             isBlend: true,
             equalAmounts: true,
             hint:    'Both compounds are in equal mg amounts — every draw gives you the same mcg of each. Common amounts: 5/5 mg or 10/10 mg per vial.',
@@ -93,8 +114,7 @@ const PRESETS = {
    ============================================================ */
 document.addEventListener('DOMContentLoaded', () => {
     initTabs();
-    initCompoundSelector();
-    renderPresets(1);   /* show presets on load for count=1 */
+    initDropdown();
     renderFields(1);
     document.getElementById('calc-btn').addEventListener('click', calculate);
     document.getElementById('bac-water').addEventListener('input', onBacWaterChange);
@@ -119,54 +139,122 @@ function switchTab(tabName) {
 }
 
 /* ============================================================
-   COMPOUND COUNT SELECTOR
+   DROPDOWN — replaces compound count pills + preset buttons
    ============================================================ */
-function initCompoundSelector() {
-    document.querySelectorAll('.pill[data-count]').forEach(pill => {
+function initDropdown() {
+    buildDropdown();
+
+    const sel = document.getElementById('compound-select');
+    sel.addEventListener('change', () => {
+        const val = sel.value;
+        if (!val) return;
+        hideResult();
+
+        if (val === 'other') {
+            compoundCount = 1;
+            activePreset  = null;
+            hideCustomBlendRow();
+            renderFields(1);
+            showOtherHint();
+            return;
+        }
+
+        if (val === 'custom-blend') {
+            compoundCount = 2;
+            activePreset  = null;
+            showCustomBlendRow(2);
+            renderFields(2);
+            return;
+        }
+
+        /* Encoded as "count-index" e.g. "1-0", "3-0" */
+        const dashIdx = val.indexOf('-');
+        const count   = parseInt(val.slice(0, dashIdx));
+        const idx     = parseInt(val.slice(dashIdx + 1));
+        const preset  = PRESETS[count]?.[idx];
+        if (!preset) return;
+
+        compoundCount = count;
+        activePreset  = preset;   /* set BEFORE renderFields so dose unit is correct */
+        hideCustomBlendRow();
+        renderFields(count);
+        applyPreset(preset);
+    });
+
+    /* Custom blend count picker */
+    document.querySelectorAll('#custom-count-group .pill').forEach(pill => {
         pill.addEventListener('click', () => {
             const count = parseInt(pill.dataset.count);
             compoundCount = count;
-            activePreset = null;
-            document.querySelectorAll('.pill[data-count]').forEach(p => p.classList.remove('active'));
+            activePreset  = null;
+            document.querySelectorAll('#custom-count-group .pill').forEach(p => p.classList.remove('active'));
             pill.classList.add('active');
-            renderPresets(count);
             renderFields(count);
             hideResult();
         });
     });
 }
 
-/* ============================================================
-   PRESETS
-   ============================================================ */
-function renderPresets(count) {
-    const group   = document.getElementById('preset-group');
-    const buttons = document.getElementById('preset-buttons');
-    const presets = PRESETS[count];
+function buildDropdown() {
+    const sel = document.getElementById('compound-select');
+    sel.innerHTML = '<option value="" disabled selected>Choose a compound or blend…</option>';
 
-    if (!presets) { group.style.display = 'none'; return; }
-    group.style.display = '';
-    buttons.innerHTML = '';
+    /* Single compounds group */
+    const singleGroup = document.createElement('optgroup');
+    singleGroup.label = 'Single Compounds';
+    PRESETS[1].forEach((p, i) => {
+        if (p.isOther) return;
+        const opt = document.createElement('option');
+        opt.value = `1-${i}`;
+        opt.textContent = p.sublabel ? `${p.label} — ${p.sublabel}` : p.label;
+        singleGroup.appendChild(opt);
+    });
+    const otherOpt = document.createElement('option');
+    otherOpt.value = 'other';
+    otherOpt.textContent = 'Other / Not Listed';
+    singleGroup.appendChild(otherOpt);
+    sel.appendChild(singleGroup);
 
-    const label = group.querySelector('.preset-label');
-    label.textContent = count === 1 ? 'Select your compound' : 'Select a common blend';
-
-    presets.forEach(preset => {
-        const btn = document.createElement('button');
-        btn.className = 'preset-btn';
-        btn.innerHTML = preset.sublabel
-            ? `<span class="preset-btn-main">${preset.label}</span><span class="preset-btn-sub">${preset.sublabel}</span>`
-            : `<span class="preset-btn-main">${preset.label}</span>`;
-
-        btn.addEventListener('click', () => {
-            document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('selected'));
-            btn.classList.add('selected');
-            applyPreset(preset);
+    /* Common blends group */
+    const blendGroup = document.createElement('optgroup');
+    blendGroup.label = 'Common Blends';
+    [2, 3, 4].forEach(count => {
+        (PRESETS[count] || []).forEach((p, i) => {
+            const opt = document.createElement('option');
+            opt.value = `${count}-${i}`;
+            opt.textContent = `${p.label}  (${p.names.join(' + ')})`;
+            blendGroup.appendChild(opt);
         });
-        buttons.appendChild(btn);
+    });
+    const customOpt = document.createElement('option');
+    customOpt.value = 'custom-blend';
+    customOpt.textContent = 'Custom Blend  (2–4 compounds)';
+    blendGroup.appendChild(customOpt);
+    sel.appendChild(blendGroup);
+}
+
+function showCustomBlendRow(activeCount) {
+    const row = document.getElementById('custom-blend-row');
+    if (row) row.classList.remove('hidden');
+    document.querySelectorAll('#custom-count-group .pill').forEach(p => {
+        p.classList.toggle('active', parseInt(p.dataset.count) === activeCount);
     });
 }
 
+function hideCustomBlendRow() {
+    const row = document.getElementById('custom-blend-row');
+    if (row) row.classList.add('hidden');
+}
+
+/* Set the dropdown to a specific value without triggering the change handler */
+function setDropdownValue(val) {
+    const sel = document.getElementById('compound-select');
+    if (sel) sel.value = val;
+}
+
+/* ============================================================
+   APPLY PRESET
+   ============================================================ */
 function applyPreset(preset) {
     activePreset = preset;
 
@@ -185,7 +273,6 @@ function applyPreset(preset) {
         });
         updateBlendHint();
     } else {
-        /* single compound */
         const nameEl = document.getElementById('name-1');
         if (nameEl) nameEl.value = preset.name || '';
         showSingleHint(preset.hint);
@@ -233,7 +320,6 @@ function updateBlendHint() {
     const hint = document.getElementById('dose-hint');
     if (!hint) return;
 
-    /* For equal-amount blends where user enters mg, show a simple note */
     if (activePreset.equalAmounts || !activePreset.amounts.length) {
         hint.innerHTML = `
             <div class="dose-hint-title">How blended vials work</div>
@@ -244,15 +330,14 @@ function updateBlendHint() {
     }
 
     /* Known amounts (GLOW, KLOW) — build dose table */
-    const bacWater = parseFloat(document.getElementById('bac-water').value) || 2;
-    const usingDefault = !document.getElementById('bac-water').value;
-    const names        = activePreset.names;
-    const amounts_mg   = activePreset.amounts.map(Number);
-    const concentrations = amounts_mg.map(mg => (mg * 1000) / bacWater); /* mcg/mL */
+    const bacWater       = parseFloat(document.getElementById('bac-water').value) || 2;
+    const usingDefault   = !document.getElementById('bac-water').value;
+    const names          = activePreset.names;
+    const amounts_mg     = activePreset.amounts.map(Number);
+    const concentrations = amounts_mg.map(mg => (mg * 1000) / bacWater);
 
     const unitRows = [5, 10, 15, 20, 25];
-
-    const cols = names.length + 1;
+    const cols     = names.length + 1;
     const gridStyle = `grid-template-columns: repeat(${cols}, 1fr)`;
 
     const headerCells = ['Units drawn', ...names]
@@ -297,6 +382,22 @@ function onBacWaterChange() {
 }
 
 /* ============================================================
+   DOSE UNIT TOGGLE (for "Other / Not Listed" compounds)
+   ============================================================ */
+function setDoseUnit(unit) {
+    const input = document.getElementById('dose-single');
+    const label = document.getElementById('dose-unit-label');
+    if (input) {
+        input.dataset.unit  = unit;
+        input.placeholder   = unit === 'mg' ? 'e.g. 2' : 'e.g. 500';
+    }
+    if (label) label.textContent = unit;
+    document.querySelectorAll('.unit-toggle-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.unit === unit);
+    });
+}
+
+/* ============================================================
    RENDER FIELDS
    ============================================================ */
 function renderFields(count) {
@@ -334,17 +435,30 @@ function renderFields(count) {
         peptideContainer.appendChild(group);
     }
 
-    /* Step 4: single → dose in mcg; blend → units to draw */
+    /* Step 4 */
     if (count === 1) {
+        /* Determine dose unit from active preset; show toggle for unlisted compounds */
+        const doseUnit  = activePreset?.doseUnit || null;
+        const unitLabel = doseUnit || 'mcg';
+        const showToggle = !doseUnit; /* only when "Other / Not Listed" */
+
         step4Title.textContent = 'Desired Dose';
         doseContainer.innerHTML = `
             <div class="field solo">
                 <label class="field-label" for="dose-single">How much do you want to take?</label>
                 <div class="input-wrap">
                     <input class="field-input has-unit" type="number" id="dose-single"
-                           placeholder="e.g. 500" min="0.01" step="0.01">
-                    <span class="input-unit">mcg</span>
+                           placeholder="${unitLabel === 'mg' ? 'e.g. 2' : 'e.g. 500'}"
+                           min="0.0001" step="0.0001" data-unit="${unitLabel}">
+                    <span class="input-unit" id="dose-unit-label">${unitLabel}</span>
                 </div>
+                ${showToggle ? `
+                <div class="unit-toggle" id="unit-toggle">
+                    <span class="unit-toggle-label">Unit:</span>
+                    <button class="unit-toggle-btn active" data-unit="mcg" onclick="setDoseUnit('mcg')">mcg</button>
+                    <button class="unit-toggle-btn" data-unit="mg" onclick="setDoseUnit('mg')">mg</button>
+                </div>
+                ` : ''}
                 <div id="dose-hint" class="dose-hint hidden"></div>
             </div>
         `;
@@ -389,8 +503,12 @@ function calculate() {
     }
 
     if (compoundCount === 1) {
-        const dose_mcg = parseFloat(document.getElementById('dose-single')?.value);
-        if (!dose_mcg || dose_mcg <= 0) return showError('Please enter your desired dose (mcg).');
+        const doseInput    = document.getElementById('dose-single');
+        const doseUnit     = doseInput?.dataset.unit || 'mcg';
+        const doseEntered  = parseFloat(doseInput?.value);
+        if (!doseEntered || doseEntered <= 0) return showError('Please enter your desired dose.');
+        const dose_mcg     = doseUnit === 'mg' ? doseEntered * 1000 : doseEntered;
+
         const { name, concentration } = compounds[0];
         const volume_ml = dose_mcg / concentration;
         showResultsSingle({ name, dose_mcg, concentration, volume_ml, units: volume_ml * 100 });
@@ -482,37 +600,51 @@ function initLoadButtons() {
             const names   = btn.dataset.names.split(',').map(s => s.trim());
             const amounts = btn.dataset.amounts ? btn.dataset.amounts.split(',').map(s => s.trim()) : [];
 
-            compoundCount = count;
-            document.querySelectorAll('.pill[data-count]').forEach(p => p.classList.remove('active'));
-            document.querySelector(`.pill[data-count="${count}"]`).classList.add('active');
-
-            renderPresets(count);
-            renderFields(count);
             hideResult();
+            hideCustomBlendRow();
 
             if (count === 1) {
-                /* Single compound — find by name in PRESETS[1] */
-                const matchingPreset = (PRESETS[1] || []).find(p => !p.isOther && p.name === names[0]);
+                /* Single compound — find matching preset by name */
+                const presetIdx = (PRESETS[1] || []).findIndex(p => !p.isOther && p.name === names[0]);
+                const preset    = presetIdx !== -1 ? PRESETS[1][presetIdx] : null;
+
+                compoundCount = 1;
+                activePreset  = preset;
+
+                if (presetIdx !== -1) {
+                    setDropdownValue(`1-${presetIdx}`);
+                } else {
+                    setDropdownValue('other');
+                }
+
+                renderFields(1);
 
                 requestAnimationFrame(() => {
                     const nameEl = document.getElementById('name-1');
                     if (nameEl) nameEl.value = names[0];
-
-                    if (matchingPreset) {
-                        activePreset = matchingPreset;
-                        document.querySelectorAll('.preset-btn').forEach((b, idx) => {
-                            if ((PRESETS[1] || [])[idx] === matchingPreset) b.classList.add('selected');
-                        });
-                        showSingleHint(matchingPreset.hint);
-                    }
-
+                    if (preset) showSingleHint(preset.hint);
+                    else showOtherHint();
                     switchTab('calculator');
                 });
+
             } else {
-                /* Blend — find by first compound name */
-                const matchingPreset = (PRESETS[count] || []).find(p =>
+                /* Blend */
+                const presetIdx = (PRESETS[count] || []).findIndex(p =>
                     p.isBlend && p.names && p.names[0] === names[0]
                 );
+                const preset = presetIdx !== -1 ? PRESETS[count][presetIdx] : null;
+
+                compoundCount = count;
+                activePreset  = preset;
+
+                if (presetIdx !== -1) {
+                    setDropdownValue(`${count}-${presetIdx}`);
+                } else {
+                    setDropdownValue('custom-blend');
+                    showCustomBlendRow(count);
+                }
+
+                renderFields(count);
 
                 requestAnimationFrame(() => {
                     names.forEach((name, idx) => {
@@ -521,15 +653,7 @@ function initLoadButtons() {
                         if (nameEl) nameEl.value = name;
                         if (mgEl && amounts[idx]) mgEl.value = amounts[idx];
                     });
-
-                    if (matchingPreset) {
-                        activePreset = matchingPreset;
-                        document.querySelectorAll('.preset-btn').forEach((b, idx) => {
-                            if ((PRESETS[count] || [])[idx] === matchingPreset) b.classList.add('selected');
-                        });
-                        updateBlendHint();
-                    }
-
+                    if (preset) updateBlendHint();
                     switchTab('calculator');
                 });
             }
