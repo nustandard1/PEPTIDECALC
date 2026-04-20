@@ -1005,3 +1005,243 @@ button.compound-tag {
     .container { padding: 0 14px; }
     .preset-btn { min-width: 0; }
 }
+
+/* === CALCULATOR ENHANCEMENTS === */
+
+/* Field suggestion hint (dose / BAC) */
+.field-suggestion {
+    margin-top: 6px;
+    padding: 5px 10px;
+    background: var(--cyan-dim);
+    border-left: 2px solid var(--cyan);
+    border-radius: var(--radius-xs);
+    font-size: 12px;
+    color: var(--cyan);
+    font-weight: 500;
+    animation: suggestionFade 0.3s ease;
+}
+.field-suggestion.hidden { display: none; }
+
+@keyframes suggestionFade {
+    from { opacity: 0; transform: translateY(-4px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Syringe diagram */
+.syringe-section {
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+}
+.syringe-wrap {
+    width: 100%;
+}
+.syringe-svg {
+    width: 100%;
+    height: auto;
+    max-height: 90px;
+    display: block;
+}
+.syringe-warning {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border-radius: var(--radius-xs);
+    font-size: 13px;
+    line-height: 1.45;
+}
+.syringe-warning--over {
+    background: rgba(239, 68, 68, 0.10);
+    border-left: 3px solid #ef4444;
+    color: #fca5a5;
+}
+.syringe-warning--under {
+    background: rgba(245, 158, 11, 0.10);
+    border-left: 3px solid var(--amber);
+    color: #fcd34d;
+}
+
+/* Vial duration line */
+.vial-duration {
+    margin-top: 12px;
+}
+.vial-duration-line {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-pill);
+    font-size: 13px;
+    color: var(--text-dim);
+}
+.vial-duration-line svg { color: var(--cyan); flex-shrink: 0; }
+
+/* Dose table ("Dosing at a Glance") */
+.dose-table-wrap {
+    margin-top: 18px;
+    padding: 20px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+.dose-table-wrap.hidden { display: none; }
+.dose-table-fadein { animation: doseTableFade 0.4s ease; }
+@keyframes doseTableFade {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.dose-table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.dose-table-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+}
+.dose-table-sub {
+    font-size: 12px;
+    color: var(--text-dim);
+}
+.dose-table-grid {
+    display: grid;
+    gap: 0;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xs);
+    overflow: hidden;
+}
+.dtg-cell {
+    padding: 8px 10px;
+    font-size: 13px;
+    color: var(--text);
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+    background: var(--surface);
+}
+.dtg-cell:last-child { border-right: none; }
+.dose-table-grid > .dtg-cell:nth-last-child(-n+1),
+.dose-table-grid > .dtg-cell:nth-last-child(-n+2),
+.dose-table-grid > .dtg-cell:nth-last-child(-n+3),
+.dose-table-grid > .dtg-cell:nth-last-child(-n+4) {
+    /* last row uses dtg-row-active only when applicable */
+}
+.dtg-head {
+    background: var(--bg);
+    color: var(--text-dim);
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+.dtg-units-col { font-weight: 600; color: var(--cyan); }
+.dtg-head.dtg-units-col { color: var(--text-dim); }
+.dtg-row-active {
+    background: var(--cyan-dim) !important;
+    color: var(--cyan);
+    font-weight: 600;
+}
+
+/* Blend mode toggle */
+.blend-mode-toggle {
+    display: inline-flex;
+    margin-bottom: 10px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-pill);
+    padding: 3px;
+    gap: 2px;
+}
+.blend-mode-btn {
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-dim);
+    background: transparent;
+    border: none;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    font-family: var(--font);
+    transition: all var(--ease);
+}
+.blend-mode-btn:hover { color: var(--text); }
+.blend-mode-btn.active {
+    background: var(--gradient);
+    color: #fff;
+}
+
+/* Next Steps accordion */
+.next-steps-wrap {
+    margin-top: 16px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+.next-steps-wrap.hidden { display: none; }
+.next-steps-toggle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: left;
+}
+.next-steps-toggle:hover { background: var(--surface); }
+.next-steps-chevron {
+    color: var(--text-dim);
+    transition: transform var(--ease);
+}
+.next-steps-body {
+    padding: 4px 20px 20px;
+    border-top: 1px solid var(--border);
+}
+.next-steps-section {
+    margin-top: 14px;
+}
+.next-steps-section-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--cyan);
+    margin-bottom: 4px;
+    letter-spacing: 0.02em;
+}
+.next-steps-section p {
+    font-size: 13.5px;
+    color: var(--text-dim);
+    line-height: 1.6;
+    margin-bottom: 6px;
+}
+.next-steps-always-show {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+    font-size: 12.5px;
+    color: var(--text-dim);
+    cursor: pointer;
+    user-select: none;
+}
+.next-steps-always-show input { accent-color: var(--cyan); cursor: pointer; }
+
+@media (max-width: 720px) {
+    .dtg-cell { padding: 6px 5px; font-size: 12px; }
+    .dtg-head { font-size: 10px; }
+    .dose-table-wrap { padding: 14px; }
+    .next-steps-toggle { padding: 12px 16px; }
+    .next-steps-body { padding: 4px 16px 16px; }
+}
