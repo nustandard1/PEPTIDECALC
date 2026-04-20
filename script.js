@@ -270,7 +270,7 @@ function showBacRecommendation(mL, preset) {
     const el = document.getElementById('bac-suggestion');
     if (!el || !mL) return;
     const vialNote = preset?.typicalVialMg ? ` (assumes ${preset.typicalVialMg} mg vial)` : '';
-    el.innerHTML = `Recommended: <strong>${mL} mL</strong>${vialNote}`;
+    el.innerHTML = `Typically used: <strong>${mL} mL</strong>${vialNote}`;
     el.classList.remove('hidden');
 }
 
@@ -347,42 +347,11 @@ function updateBlendHint() {
         return;
     }
 
-    const bacWater       = parseFloat(document.getElementById('bac-water').value) || activePreset.recommendedBac || 2;
-    const usingDefault   = !document.getElementById('bac-water').value;
-    const names          = activePreset.names;
-    const amounts_mg     = activePreset.amounts.map(Number);
-    const concentrations = amounts_mg.map(mg => (mg * 1000) / bacWater);
-
-    const unitRows  = [5, 10, 15, 20, 25];
-    const cols      = names.length + 1;
-    const gridStyle = `grid-template-columns: repeat(${cols}, 1fr)`;
-
-    const headerCells = ['Units drawn', ...names]
-        .map(n => `<div class="dht-cell dht-header">${escapeHtml(n)}</div>`)
-        .join('');
-
-    const rows = unitRows.map((units, rowIdx) => {
-        const vol    = units / 100;
-        const isLast = rowIdx === unitRows.length - 1;
-        const cells  = concentrations
-            .map(c => `<div class="dht-cell${isLast ? ' dht-row-last' : ''}">${formatDose(c * vol)}</div>`)
-            .join('');
-        return `<div class="dht-cell dht-units${isLast ? ' dht-row-last' : ''}">${units}</div>${cells}`;
-    }).join('');
-
+    /* Known-amounts blends (GLOW/KLOW) — keep Step 4 compact; the full
+       "Dosing at a Glance" table shows after Calculate. */
     hint.innerHTML = `
-        <div class="dose-hint-title">How much of each compound you get per draw</div>
-        <p class="dose-hint-subtext">${
-            usingDefault
-                ? `Calculated with ${bacWater} mL BAC water (recommended) — enter your amount in Step 3 to update.`
-                : `Calculated with ${bacWater} mL BAC water.`
-        } "Units drawn" = units on a U-100 syringe (100 units = 1 mL).</p>
-        <div class="dht-scroll">
-            <div class="dht-grid" style="${gridStyle}">
-                ${headerCells}${rows}
-            </div>
-        </div>
-        <div class="dose-hint-note">This is a blended vial — every draw delivers all compounds at the same fixed ratio.</div>
+        <div class="dose-hint-title">How blended vials work</div>
+        <div class="dose-hint-text">Every draw delivers all compounds at the same fixed ratio — you can't adjust one independently. Enter your target dose of the primary compound below and we'll show units to draw and dose per compound after you calculate.</div>
         ${activePreset.reconNote ? `<div class="dose-hint-recon-note">${escapeHtml(activePreset.reconNote)}</div>` : ''}
     `;
     hint.classList.remove('hidden');

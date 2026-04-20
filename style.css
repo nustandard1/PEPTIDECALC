@@ -54,19 +54,21 @@ body {
    DISCLAIMER BANNER
    ============================================================ */
 .disclaimer-banner {
-    background: rgba(245, 158, 11, 0.07);
-    border-bottom: 1px solid rgba(245, 158, 11, 0.16);
-    color: #b8883a;
-    font-size: 12px;
-    line-height: 1.5;
-    padding: 8px 24px;
+    background: rgba(245, 158, 11, 0.06);
+    border-bottom: 1px solid rgba(245, 158, 11, 0.14);
+    color: #c0914a;
+    font-size: 11.5px;
+    line-height: 1.4;
+    padding: 6px 20px;
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 6px;
     justify-content: center;
-    flex-wrap: wrap;
     text-align: center;
+    letter-spacing: 0.01em;
 }
+.disclaimer-banner svg { flex-shrink: 0; opacity: 0.75; }
+.disclaimer-banner span { white-space: normal; }
 .disclaimer-banner strong { color: #d4a04a; font-weight: 600; }
 
 /* ============================================================
