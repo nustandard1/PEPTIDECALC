@@ -65,7 +65,49 @@ const PRESETS = {
             sublabel: 'GHRH Analog',
             name:     'Sermorelin',
             doseUnit: 'mcg',
-            hint:     'Typical research doses: 200–500 mcg subcutaneously before bed. Often used in conjunction with a GHRP for synergistic effect. Typical vial size: 2 mg or 5 mg.',
+            hint:     'Typical research doses: 200–500 mcg subcutaneously before bed. Often used in conjunction with a GHRP for synergistic effect. Typical vial sizes: 2 mg or 5 mg.',
+        },
+        {
+            label:    'SELANK',
+            sublabel: 'Anxiolytic Peptide',
+            name:     'SELANK',
+            doseUnit: 'mcg',
+            hint:     'Common research dose: 250–3000 mcg per day, typically split into 1–3 subcutaneous or intranasal doses. Start low (250–300 mcg) to assess response. Common vial sizes: 5 mg, 10 mg.',
+        },
+        {
+            label:    'SEMAX',
+            sublabel: 'Nootropic Peptide',
+            name:     'SEMAX',
+            doseUnit: 'mcg',
+            hint:     'Common research doses: 300–1000 mcg subcutaneously or intranasally, 1–2× daily. Often used in short cycles. Common vial sizes: 5 mg, 10 mg.',
+        },
+        {
+            label:    'Kisspeptin-10',
+            sublabel: 'Hormonal Peptide',
+            name:     'Kisspeptin-10',
+            doseUnit: 'mcg',
+            hint:     'Research doses typically 50–100 mcg subcutaneously — timing and frequency are highly protocol-dependent. Common vial sizes: 2 mg, 5 mg.',
+        },
+        {
+            label:    'PT-141',
+            sublabel: 'Sexual Health Peptide',
+            name:     'PT-141',
+            doseUnit: 'mg',
+            hint:     'Common research dose: 1–2 mg subcutaneously, 45–90 minutes before activity. Start at 0.5–1 mg to assess tolerance for nausea or flushing. Common vial size: 10 mg.',
+        },
+        {
+            label:    'AOD-9604',
+            sublabel: 'Fat Metabolism Fragment',
+            name:     'AOD-9604',
+            doseUnit: 'mcg',
+            hint:     'Commonly researched at 250–500 mcg/day subcutaneously, typically administered in a fasted state. Common vial size: 5 mg.',
+        },
+        {
+            label:    'Glutathione',
+            sublabel: 'Master Antioxidant',
+            name:     'Glutathione',
+            doseUnit: 'mg',
+            hint:     'Common subcutaneous dose: 200–600 mg several times per week. IV protocols typically 400–1200 mg. Common vial sizes: 200 mg, 600 mg, 1200 mg.',
         },
         {
             label:    'Other',
@@ -93,18 +135,20 @@ const PRESETS = {
     ],
     3: [
         {
-            label:   'GLOW',
-            names:   ['BPC-157', 'TB-500', 'GHK-Cu'],
-            amounts: ['10', '10', '50'],
-            isBlend: true,
+            label:     'GLOW',
+            names:     ['BPC-157', 'TB-500', 'GHK-Cu'],
+            amounts:   ['10', '10', '50'],
+            isBlend:   true,
+            reconNote: 'Injection site irritation is common with this blend. Using 3 mL BAC water (more diluted) can help — 2–3 mL is the typical range.',
         },
     ],
     4: [
         {
-            label:   'KLOW',
-            names:   ['BPC-157', 'TB-500', 'GHK-Cu', 'KPV'],
-            amounts: ['10', '10', '50', '10'],
-            isBlend: true,
+            label:     'KLOW',
+            names:     ['BPC-157', 'TB-500', 'GHK-Cu', 'KPV'],
+            amounts:   ['10', '10', '50', '10'],
+            isBlend:   true,
+            reconNote: 'Injection site irritation is common with this blend. Using 3 mL BAC water (more diluted) can help — 2–3 mL is the typical range.',
         },
     ],
 };
@@ -220,9 +264,11 @@ function buildDropdown() {
     blendGroup.label = 'Common Blends';
     [2, 3, 4].forEach(count => {
         (PRESETS[count] || []).forEach((p, i) => {
-            const opt = document.createElement('option');
-            opt.value = `${count}-${i}`;
-            opt.textContent = `${p.label}  (${p.names.join(' + ')})`;
+            const opt     = document.createElement('option');
+            opt.value     = `${count}-${i}`;
+            const namesStr = p.names.join(' + ');
+            /* Only add parenthetical if the label is a short name (e.g. GLOW), not if it already IS the compound list */
+            opt.textContent = p.label === namesStr ? p.label : `${p.label}  (${namesStr})`;
             blendGroup.appendChild(opt);
         });
     });
@@ -366,6 +412,7 @@ function updateBlendHint() {
             </div>
         </div>
         <div class="dose-hint-note">This is a blended vial — every draw delivers all compounds at the same fixed ratio. You can't adjust one independently.</div>
+        ${activePreset.reconNote ? `<div class="dose-hint-recon-note">${escapeHtml(activePreset.reconNote)}</div>` : ''}
     `;
     hint.classList.remove('hidden');
 }
