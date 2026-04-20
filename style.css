@@ -675,11 +675,42 @@ select optgroup { background: #0c1220; color: var(--text-muted); font-style: nor
     display: flex;
     align-items: center;
     gap: 12px;
-    margin-bottom: 20px;
-    padding-bottom: 14px;
+    margin-bottom: 0;
+    padding: 14px 0;
     border-bottom: 1px solid var(--border);
-    flex-wrap: wrap;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity var(--ease);
 }
+.tier-header:hover { opacity: 0.8; }
+
+.tier-header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.tier-chevron {
+    flex-shrink: 0;
+    color: var(--text-muted);
+    transition: transform 0.3s ease;
+}
+.tier-section.collapsed .tier-chevron { transform: rotate(-90deg); }
+
+/* Accordion content — CSS grid collapse trick */
+.tier-content {
+    display: grid;
+    grid-template-rows: 1fr;
+    transition: grid-template-rows 0.32s ease;
+}
+.tier-section.collapsed .tier-content { grid-template-rows: 0fr; }
+
+.tier-content-inner {
+    overflow: hidden;
+}
+.tier-content-inner .stack-grid { padding-top: 20px; }
 
 .tier-badge {
     font-size: 10.5px;
@@ -698,6 +729,15 @@ select optgroup { background: #0c1220; color: var(--text-muted); font-style: nor
     font-size: 12px;
     color: var(--text-muted);
     letter-spacing: 0.2px;
+}
+
+.stack-compound-names {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--cyan);
+    letter-spacing: 0.1px;
+    margin-top: -6px;
+    opacity: 0.9;
 }
 
 .stack-logic {

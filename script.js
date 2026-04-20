@@ -159,11 +159,23 @@ const PRESETS = {
 document.addEventListener('DOMContentLoaded', () => {
     initTabs();
     initDropdown();
+    initTierAccordion();
     renderFields(1);
     document.getElementById('calc-btn').addEventListener('click', calculate);
     document.getElementById('bac-water').addEventListener('input', onBacWaterChange);
     initLoadButtons();
 });
+
+/* ============================================================
+   TIER ACCORDION (Stacks page)
+   ============================================================ */
+function initTierAccordion() {
+    document.querySelectorAll('.tier-header').forEach(header => {
+        header.addEventListener('click', () => {
+            header.closest('.tier-section').classList.toggle('collapsed');
+        });
+    });
+}
 
 /* ============================================================
    TABS
