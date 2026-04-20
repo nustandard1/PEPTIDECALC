@@ -235,73 +235,203 @@
 
                 <div class="page-hero">
                     <h1>Stacks</h1>
-                    <p>Multi-vial protocols where different peptides from separate vials are used together — each drawn and dosed independently.</p>
+                    <p>Commonly used peptide combinations for specific goals.</p>
                 </div>
 
-                <div class="stack-info-banner">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4m0-4h.01"/></svg>
-                    <span><strong>Stacks vs. Blends:</strong> Blends are multiple peptides in one vial, dosed together. Stacks are separate vials used together — calculate each one independently in the calculator.</span>
+                <div class="stacks-disclaimer">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/><path d="M12 9v4m0 4h.01"/></svg>
+                    <span>The information on this page is for <strong>educational purposes only</strong>. Nothing here is medical advice, a treatment protocol, or a recommendation to use any compound. Research peptides carry real risks — always consult a qualified healthcare professional before beginning any protocol.</span>
                 </div>
 
-                <div class="stack-grid">
-
-                    <div class="stack-card">
-                        <div class="stack-badge badge-heal">Recovery</div>
-                        <h2 class="stack-name">Healing & Recovery</h2>
-                        <p class="stack-desc">BPC-157 and TB-500 from separate vials, paired with a GH secretagogue combination. Each peptide is drawn and injected individually — the healing peptides target repair while the GH peptides amplify recovery signaling.</p>
-                        <div class="stack-compounds">
-                            <span class="compound-tag">BPC-157</span>
-                            <span class="compound-tag">TB-500</span>
-                            <span class="compound-tag">Ipamorelin</span>
-                            <span class="compound-tag">CJC-1295</span>
-                        </div>
-                        <div class="stack-protocol">
-                            <div class="protocol-label">General Approach (informational only)</div>
-                            <div class="protocol-text">BPC-157 + TB-500 dosed 1–2× daily. Ipamorelin + CJC-1295 before bed. Each vial calculated separately in the calculator.</div>
-                        </div>
+                <!-- ── BEGINNER ── -->
+                <div class="tier-section">
+                    <div class="tier-header">
+                        <span class="tier-badge tier-beginner">Beginner</span>
+                        <span class="tier-desc">2–3 compounds · straightforward mechanisms · good starting point</span>
                     </div>
+                    <div class="stack-grid">
 
-                    <div class="stack-card">
-                        <div class="stack-badge badge-growth">Performance</div>
-                        <h2 class="stack-name">Body Composition</h2>
-                        <p class="stack-desc">GH secretagogues form the foundation, supporting body composition and recovery. BPC-157 is often added to protect gut integrity and manage inflammation during high-intensity training or caloric restriction.</p>
-                        <div class="stack-compounds">
-                            <span class="compound-tag">Ipamorelin</span>
-                            <span class="compound-tag">CJC-1295</span>
-                            <span class="compound-tag">BPC-157</span>
+                        <div class="stack-card">
+                            <div class="stack-badge badge-heal">Recovery</div>
+                            <h2 class="stack-name">Tissue Repair Foundation</h2>
+                            <p class="stack-desc">The most widely researched starting point for injury recovery. Conservative, well-tolerated, and appropriate for most people beginning peptide research.</p>
+                            <div class="stack-logic">
+                                <div class="stack-logic-label">Why These Together</div>
+                                <p class="stack-logic-text">BPC-157 drives localized healing — tendons, ligaments, gut lining. TB-500 works systemically, reducing inflammation and improving cellular mobility across the whole body. They target different stages of the repair cascade, making them more effective in combination than either alone.</p>
+                            </div>
+                            <div class="stack-compounds">
+                                <button class="compound-tag load-btn" data-count="1" data-names="BPC-157" data-amounts="">BPC-157</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="TB-500" data-amounts="">TB-500</button>
+                            </div>
+                            <p class="stack-calc-hint">Tap a compound to calculate it</p>
+                            <div class="stack-protocol">
+                                <div class="protocol-label">Typical Research Overview</div>
+                                <div class="protocol-text">BPC-157: 250–500 mcg · 1–2× daily · SubQ<br>TB-500: 2–5 mg · 2× weekly · SubQ<br>Cycle: 4–8 weeks on, 2–4 weeks off</div>
+                            </div>
                         </div>
-                        <div class="stack-protocol">
-                            <div class="protocol-label">General Approach (informational only)</div>
-                            <div class="protocol-text">GH peptides taken fasted or pre-sleep for clean GH pulse. BPC-157 alongside for gut health and inflammation support.</div>
+
+                        <div class="stack-card">
+                            <div class="stack-badge badge-growth">GH / Recovery</div>
+                            <h2 class="stack-name">GH Pulse Stack</h2>
+                            <p class="stack-desc">A synergistic growth hormone secretagogue combination used for body composition, sleep quality, and overall recovery. A clean, low-side-effect starting point for GH optimization.</p>
+                            <div class="stack-logic">
+                                <div class="stack-logic-label">Why These Together</div>
+                                <p class="stack-logic-text">CJC-1295 (GHRH analog) extends the GH release signal window from the hypothalamus. Ipamorelin (GHRP) triggers the actual GH pulse from the pituitary with minimal cortisol or prolactin elevation. Neither compound alone produces the amplitude that the combination does — they work on different receptors toward the same outcome.</p>
+                            </div>
+                            <div class="stack-compounds">
+                                <button class="compound-tag load-btn" data-count="1" data-names="CJC-1295" data-amounts="">CJC-1295</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="Ipamorelin" data-amounts="">Ipamorelin</button>
+                            </div>
+                            <p class="stack-calc-hint">Tap a compound to calculate it</p>
+                            <div class="stack-protocol">
+                                <div class="protocol-label">Typical Research Overview</div>
+                                <div class="protocol-text">CJC-1295: 100–300 mcg + Ipamorelin: 100–300 mcg<br>Timing: Fasted or pre-sleep (30 min before bed) · SubQ<br>Cycle: 8–16 weeks</div>
+                            </div>
                         </div>
+
+                        <div class="stack-card">
+                            <div class="stack-badge badge-cognitive">Cognitive</div>
+                            <h2 class="stack-name">Cognitive Clarity Stack</h2>
+                            <p class="stack-desc">Two neuropeptides that work synergistically — one for mental sharpness, one for stress and mental noise. Often described as focus without the edge.</p>
+                            <div class="stack-logic">
+                                <div class="stack-logic-label">Why These Together</div>
+                                <p class="stack-logic-text">SEMAX enhances cognitive function and upregulates BDNF (brain-derived neurotrophic factor). SELANK is an anxiolytic that reduces mental noise without sedation. Together, they sharpen focus while managing the overstimulation that can come with nootropic compounds. The combination is often more tolerable at lower doses than either compound alone at higher doses.</p>
+                            </div>
+                            <div class="stack-compounds">
+                                <button class="compound-tag load-btn" data-count="1" data-names="SEMAX" data-amounts="">SEMAX</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="SELANK" data-amounts="">SELANK</button>
+                            </div>
+                            <p class="stack-calc-hint">Tap a compound to calculate it</p>
+                            <div class="stack-protocol">
+                                <div class="protocol-label">Typical Research Overview</div>
+                                <div class="protocol-text">SEMAX: 300–600 mcg + SELANK: 250–500 mcg<br>1–2× daily · SubQ or intranasal<br>Cycle: 4–8 weeks on, 2–4 weeks off</div>
+                            </div>
+                        </div>
+
                     </div>
+                </div>
 
-                    <div class="stack-card coming-soon-card">
-                        <div class="stack-badge badge-glow">Longevity</div>
-                        <h2 class="stack-name">Longevity Stack</h2>
-                        <p class="stack-desc">Full protocol details coming soon — including compound list, timing, cycle length, and context for use.</p>
-                        <div class="stack-compounds">
-                            <span class="compound-tag muted">Details coming soon</span>
-                        </div>
-                        <div class="stack-protocol">
-                            <div class="protocol-label">Status</div>
-                            <div class="protocol-text">Content in progress.</div>
-                        </div>
+                <!-- ── INTERMEDIATE ── -->
+                <div class="tier-section">
+                    <div class="tier-header">
+                        <span class="tier-badge tier-intermediate">Intermediate</span>
+                        <span class="tier-desc">3–4 compounds · layered mechanisms · requires understanding of each compound</span>
                     </div>
+                    <div class="stack-grid">
 
-                    <div class="stack-card coming-soon-card">
-                        <div class="stack-badge badge-klow">Aesthetic</div>
-                        <h2 class="stack-name">Skin & Beauty Stack</h2>
-                        <p class="stack-desc">Full protocol details coming soon — including compound list, timing, cycle length, and context for use.</p>
-                        <div class="stack-compounds">
-                            <span class="compound-tag muted">Details coming soon</span>
+                        <div class="stack-card">
+                            <div class="stack-badge badge-fat">Body Composition</div>
+                            <h2 class="stack-name">GLP-Based Recomposition</h2>
+                            <p class="stack-desc">A two-mechanism approach to fat loss — appetite and metabolic regulation paired with targeted visceral fat reduction. One of the most researched body composition protocols currently in use.</p>
+                            <div class="stack-logic">
+                                <div class="stack-logic-label">Why These Together</div>
+                                <p class="stack-logic-text">GLP-class peptides (Retatrutide or Tirzepatide) suppress appetite and improve insulin sensitivity — powerful for systemic fat loss. Tesamorelin specifically targets visceral fat through GHRH stimulation, an area GLP compounds don't address as directly. They operate via completely different mechanisms, making them complementary. <strong>Retatrutide</strong> (GLP-3 triple agonist) is the more aggressive option. <strong>Tirzepatide</strong> (GLP-1/GIP dual agonist) is a more studied starting point for those new to GLP peptides.</p>
+                            </div>
+                            <div class="stack-compounds">
+                                <button class="compound-tag load-btn" data-count="1" data-names="Retatrutide" data-amounts="">Retatrutide</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="Tirzepatide" data-amounts="">Tirzepatide</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="Tesamorelin" data-amounts="">Tesamorelin</button>
+                            </div>
+                            <p class="stack-calc-hint">Use Retatrutide or Tirzepatide — not both. Tap to calculate.</p>
+                            <div class="stack-protocol">
+                                <div class="protocol-label">Typical Research Overview</div>
+                                <div class="protocol-text">Retatrutide: 0.5–6 mg/week (titrate slowly) OR Tirzepatide: 2.5–10 mg/week (titrate)<br>Tesamorelin: 1–2 mg/day · SubQ<br>Cycle: 12+ weeks; assess and adjust every 4 weeks</div>
+                            </div>
                         </div>
-                        <div class="stack-protocol">
-                            <div class="protocol-label">Status</div>
-                            <div class="protocol-text">Content in progress.</div>
+
+                        <div class="stack-card">
+                            <div class="stack-badge badge-heal">Full Repair</div>
+                            <h2 class="stack-name">Wolverine Recovery Stack</h2>
+                            <p class="stack-desc">A comprehensive tissue repair protocol covering localized healing, systemic regeneration, connective tissue quality, and inflammation control. Used for serious injuries, post-surgery recovery, or chronic pain situations.</p>
+                            <div class="stack-logic">
+                                <div class="stack-logic-label">Why These Together</div>
+                                <p class="stack-logic-text">Each compound removes a different bottleneck in the healing cascade: BPC-157 = localized repair signaling; TB-500 = systemic inflammation control and cell migration; GHK-Cu = collagen synthesis and connective tissue regeneration; KPV = potent anti-inflammatory and gut barrier support. This is the same compound lineup as the KLOW blend — just run as separate vials for independent dosing control. Note: If exact dosing control matters less, the KLOW blend achieves the same combination in a single vial.</p>
+                            </div>
+                            <div class="stack-compounds">
+                                <button class="compound-tag load-btn" data-count="1" data-names="BPC-157" data-amounts="">BPC-157</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="TB-500" data-amounts="">TB-500</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="GHK-Cu" data-amounts="">GHK-Cu</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="KPV" data-amounts="">KPV</button>
+                            </div>
+                            <p class="stack-calc-hint">Tap a compound to calculate it</p>
+                            <div class="stack-protocol">
+                                <div class="protocol-label">Typical Research Overview</div>
+                                <div class="protocol-text">BPC-157: 250–500 mcg · 1–2× daily<br>TB-500: 2–5 mg · 2× weekly<br>GHK-Cu: 1–2 mg · daily<br>KPV: 100–500 mcg · daily<br>Cycle: 6–12 weeks</div>
+                            </div>
                         </div>
+
+                        <div class="stack-card">
+                            <div class="stack-badge badge-glow">Aesthetic</div>
+                            <h2 class="stack-name">Skin & Regeneration Stack</h2>
+                            <p class="stack-desc">A goal-specific protocol aimed at skin quality, collagen production, and cellular renewal. Used by those focused on anti-aging aesthetics, skin laxity, or post-injury skin repair.</p>
+                            <div class="stack-logic">
+                                <div class="stack-logic-label">Why These Together</div>
+                                <p class="stack-logic-text">GHK-Cu is the primary driver — it stimulates collagen synthesis, improves skin laxity, and upregulates cellular repair signals. BPC-157 supports the underlying healing environment, particularly useful for wound repair and gut-skin axis support. Glutathione reduces systemic oxidative stress, which directly impacts skin aging and tone. Together they address collagen production, repair, and oxidative protection simultaneously.</p>
+                            </div>
+                            <div class="stack-compounds">
+                                <button class="compound-tag load-btn" data-count="1" data-names="GHK-Cu" data-amounts="">GHK-Cu</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="BPC-157" data-amounts="">BPC-157</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="Glutathione" data-amounts="">Glutathione</button>
+                            </div>
+                            <p class="stack-calc-hint">Tap a compound to calculate it</p>
+                            <div class="stack-protocol">
+                                <div class="protocol-label">Typical Research Overview</div>
+                                <div class="protocol-text">GHK-Cu: 1–2 mg · daily · SubQ<br>BPC-157: 250–500 mcg · daily · SubQ<br>Glutathione: 200–400 mg · 3–5× weekly · SubQ or IV<br>Cycle: 8–16 weeks</div>
+                            </div>
+                        </div>
+
                     </div>
+                </div>
 
+                <!-- ── ADVANCED ── -->
+                <div class="tier-section">
+                    <div class="tier-header">
+                        <span class="tier-badge tier-advanced">Advanced</span>
+                        <span class="tier-desc">Multi-compound protocols · complex timing · not for beginners</span>
+                    </div>
+                    <div class="stack-grid">
+
+                        <div class="stack-card">
+                            <div class="stack-badge badge-glow">Longevity</div>
+                            <h2 class="stack-name">Mitochondrial Stack</h2>
+                            <p class="stack-desc">A three-compound protocol targeting the root causes of cellular energy decline. Aimed at longevity, fatigue reduction, and metabolic optimization. One of the most research-backed advanced protocols in the peptide community.</p>
+                            <div class="stack-logic">
+                                <div class="stack-logic-label">Why These Together</div>
+                                <p class="stack-logic-text">This stack addresses three distinct mitochondrial failure points simultaneously. <strong>SS-31</strong> stabilizes cardiolipin on the inner mitochondrial membrane — the structural foundation everything else depends on. <strong>MOTS-C</strong> acts as a mitochondrial signaling peptide, triggering biogenesis (building new mitochondria). <strong>NAD+</strong> provides the redox currency that those improved mitochondria need to produce ATP. Introduce them sequentially — SS-31 first for 2 weeks to establish the foundation, then add MOTS-C, with NAD+ running throughout. Separate SS-31 and MOTS-C injections by 4–6 hours if possible (one is a "conservation" signal, the other drives "expansion").</p>
+                            </div>
+                            <div class="stack-compounds">
+                                <button class="compound-tag load-btn" data-count="1" data-names="SS-31" data-amounts="">SS-31</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="MOTS-C" data-amounts="">MOTS-C</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="NAD+" data-amounts="">NAD+</button>
+                            </div>
+                            <p class="stack-calc-hint">Tap a compound to calculate it</p>
+                            <div class="stack-protocol">
+                                <div class="protocol-label">Typical Research Overview</div>
+                                <div class="protocol-text">Weeks 1–2: SS-31 only · 5–10 mg · 3× weekly<br>Weeks 3+: Add MOTS-C · 5–10 mg · 2× weekly<br>NAD+: 50–100 mg · 3–5× weekly (throughout)<br>Cycle: 12 weeks on, 4 weeks off</div>
+                            </div>
+                        </div>
+
+                        <div class="stack-card">
+                            <div class="stack-badge badge-fat">Fat Loss</div>
+                            <h2 class="stack-name">Advanced Recomposition Stack</h2>
+                            <p class="stack-desc">A high-powered fat loss protocol combining three compounds with distinct and complementary mechanisms. For those who have already run GLP-class peptides and understand their personal tolerance and response.</p>
+                            <div class="stack-logic">
+                                <div class="stack-logic-label">Why These Together</div>
+                                <p class="stack-logic-text">Retatrutide (GLP-3 triple agonist) handles appetite suppression, glucose optimization, and glucagon-driven fat mobilization across the body — it's the most potent GLP-class peptide currently researched. Tesamorelin specifically drives visceral fat reduction via GH stimulation — an area GLP compounds don't target as directly. AOD-9604 is a modified GH fragment that selectively activates fat breakdown enzymes without affecting blood sugar, filling gaps the other two compounds leave. Each works through a different receptor pathway. Titrate slowly and monitor for overlapping side effects.</p>
+                            </div>
+                            <div class="stack-compounds">
+                                <button class="compound-tag load-btn" data-count="1" data-names="Retatrutide" data-amounts="">Retatrutide</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="Tesamorelin" data-amounts="">Tesamorelin</button>
+                                <button class="compound-tag load-btn" data-count="1" data-names="AOD-9604" data-amounts="">AOD-9604</button>
+                            </div>
+                            <p class="stack-calc-hint">Tap a compound to calculate it</p>
+                            <div class="stack-protocol">
+                                <div class="protocol-label">Typical Research Overview</div>
+                                <div class="protocol-text">Retatrutide: 0.5 mg/week → titrate to 2–6 mg/week over 8–12 weeks<br>Tesamorelin: 1–2 mg · daily · SubQ (morning)<br>AOD-9604: 250–500 mcg · daily · fasted · SubQ<br>Cycle: 12–16 weeks; assess every 4 weeks</div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>

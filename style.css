@@ -644,10 +644,105 @@ select optgroup { background: #0c1220; color: var(--text-muted); font-style: nor
     border-radius: var(--radius-pill);
     width: fit-content;
 }
-.badge-heal   { background: rgba(16,185,129,0.10); color: #10b981; }
-.badge-growth { background: rgba(139,92,246,0.12);  color: #a78bfa; }
-.badge-glow   { background: rgba(0,212,255,0.10);   color: #00d4ff; }
-.badge-klow   { background: rgba(245,158,11,0.10);  color: #f59e0b; }
+.badge-heal      { background: rgba(16,185,129,0.10);  color: #10b981; }
+.badge-growth    { background: rgba(139,92,246,0.12);  color: #a78bfa; }
+.badge-glow      { background: rgba(0,212,255,0.10);   color: #00d4ff; }
+.badge-klow      { background: rgba(245,158,11,0.10);  color: #f59e0b; }
+.badge-fat       { background: rgba(251,113,133,0.10); color: #fb7185; }
+.badge-cognitive { background: rgba(99,179,237,0.12);  color: #63b3ed; }
+
+/* === STACKS PAGE SPECIFIC === */
+
+.stacks-disclaimer {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: rgba(245,158,11,0.05);
+    border: 1px solid rgba(245,158,11,0.16);
+    border-radius: var(--radius-sm);
+    padding: 14px 18px;
+    font-size: 13px;
+    color: #9a7435;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.stacks-disclaimer svg { color: var(--amber); flex-shrink: 0; margin-top: 2px; }
+.stacks-disclaimer strong { color: #c49a4a; }
+
+.tier-section { margin-bottom: 52px; }
+
+.tier-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+}
+
+.tier-badge {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    padding: 5px 14px;
+    border-radius: var(--radius-pill);
+    flex-shrink: 0;
+}
+.tier-beginner    { background: rgba(16,185,129,0.12);  color: #10b981;  border: 1px solid rgba(16,185,129,0.22); }
+.tier-intermediate{ background: rgba(139,92,246,0.12);  color: #a78bfa;  border: 1px solid rgba(139,92,246,0.22); }
+.tier-advanced    { background: rgba(251,113,133,0.10); color: #fb7185;  border: 1px solid rgba(251,113,133,0.22); }
+
+.tier-desc {
+    font-size: 12px;
+    color: var(--text-muted);
+    letter-spacing: 0.2px;
+}
+
+.stack-logic {
+    background: rgba(255,255,255,0.025);
+    border-left: 2px solid var(--cyan);
+    border-radius: 0 var(--radius-xs) var(--radius-xs) 0;
+    padding: 12px 14px;
+}
+.stack-logic-label {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    color: var(--cyan);
+    margin-bottom: 6px;
+}
+.stack-logic-text {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.7;
+}
+.stack-logic-text strong { color: var(--text); font-weight: 600; }
+
+button.compound-tag {
+    cursor: pointer;
+    font-family: var(--font);
+    border: none;
+    transition: background var(--ease), border-color var(--ease), color var(--ease);
+}
+button.compound-tag:hover {
+    background: var(--cyan-dim);
+    border-color: var(--cyan);
+    color: var(--cyan);
+}
+/* Re-apply compound-tag border since button reset removes it */
+button.compound-tag {
+    border: 1px solid var(--border);
+}
+
+.stack-calc-hint {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: -4px;
+}
 
 .stack-name { font-size: 21px; font-weight: 700; letter-spacing: -0.4px; color: var(--text); line-height: 1.2; }
 .stack-desc { font-size: 13.5px; color: var(--text-dim); line-height: 1.7; }
