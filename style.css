@@ -1008,18 +1008,23 @@ button.compound-tag {
 
 /* === CALCULATOR ENHANCEMENTS === */
 
-/* Field suggestion hint (dose / BAC) */
+/* Field recommendation (persistent hint text next to input) */
+.field-recommendation,
 .field-suggestion {
-    margin-top: 6px;
-    padding: 5px 10px;
-    background: var(--cyan-dim);
-    border-left: 2px solid var(--cyan);
+    margin-top: 8px;
+    padding: 7px 12px;
+    background: rgba(245, 158, 11, 0.08);
+    border-left: 3px solid var(--amber);
     border-radius: var(--radius-xs);
-    font-size: 12px;
-    color: var(--cyan);
+    font-size: 13px;
+    color: #fcd34d;
     font-weight: 500;
+    line-height: 1.5;
     animation: suggestionFade 0.3s ease;
 }
+.field-recommendation strong { color: #fde68a; font-weight: 700; }
+.field-rec-disclaimer { color: var(--text-dim); font-weight: 400; font-size: 12px; }
+.field-recommendation.hidden,
 .field-suggestion.hidden { display: none; }
 
 @keyframes suggestionFade {
@@ -1039,7 +1044,7 @@ button.compound-tag {
 .syringe-svg {
     width: 100%;
     height: auto;
-    max-height: 90px;
+    max-height: 120px;
     display: block;
 }
 .syringe-warning {
