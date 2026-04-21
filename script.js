@@ -55,6 +55,8 @@ const PRESETS = {
           hint: 'Commonly researched at 250–500 mcg/day subcutaneously, typically administered in a fasted state. Common vial size: 5 mg.' },
         { label: 'Glutathione',   sublabel: 'Master Antioxidant',          name: 'Glutathione',   doseUnit: 'mg',  defaultDose: 300, typicalVialMg: 600, recommendedBac: 3, dosesPerWeek: 4,    route: 'subq_or_iv',
           hint: 'Common subcutaneous dose: 200–600 mg several times per week. IV protocols typically 400–1200 mg. Common vial sizes: 200 mg, 600 mg, 1200 mg.' },
+        { label: 'Thymosin Alpha-1', sublabel: 'Immune Modulator',          name: 'Thymosin Alpha-1', doseUnit: 'mg', defaultDose: 1.6, typicalVialMg: 5, recommendedBac: 2, dosesPerWeek: 2,   route: 'subq',
+          hint: 'Common research dose: 1.6 mg (1600 mcg) 2× per week subcutaneously. Some protocols use daily dosing (0.8–1.6 mg) during active immune challenges. Typical vial sizes: 5 mg or 10 mg.' },
         { label: 'Other', sublabel: null, isOther: true },
     ],
     2: [
@@ -80,11 +82,24 @@ document.addEventListener('DOMContentLoaded', () => {
     initTabs();
     initDropdown();
     initTierAccordion();
+    initLearnSubtabs();
     renderFields(1);
     document.getElementById('calc-btn').addEventListener('click', calculate);
     document.getElementById('bac-water').addEventListener('input', onBacWaterInput);
     initLoadButtons();
 });
+
+function initLearnSubtabs() {
+    document.querySelectorAll('.learn-subtab').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const target = btn.dataset.subtab;
+            document.querySelectorAll('.learn-subtab').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.learn-subpane').forEach(p => p.classList.remove('active'));
+            btn.classList.add('active');
+            document.getElementById(`learn-${target}`).classList.add('active');
+        });
+    });
+}
 
 function initTierAccordion() {
     document.querySelectorAll('.tier-header').forEach(header => {
