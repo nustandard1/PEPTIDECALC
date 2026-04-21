@@ -1070,40 +1070,89 @@
 
     <script src="script.js"></script>
 
-    <!-- ===== NOVA AI ASSISTANT ===== -->
+    <!-- ===== NOVA AI PANEL ===== -->
+    <div id="nova-overlay" onclick="closeNova()"></div>
+
+    <div id="nova-panel">
+      <div id="nova-panel-header">
+        <div id="nova-panel-title">
+          <img src="NOVA3.png" alt="Nova" id="nova-header-logo"/>
+          <div>
+            <div id="nova-panel-name">Nova</div>
+            <div id="nova-panel-subtitle">Peptide Research Assistant</div>
+          </div>
+        </div>
+        <div id="nova-panel-controls">
+          <button id="nova-minimize" onclick="minimizeNova()" title="Minimize">—</button>
+          <button id="nova-close" onclick="closeNova()" title="Close">✕</button>
+        </div>
+      </div>
+      <iframe
+        id="nova-iframe"
+        src="https://www.chatbase.co/chatbot-iframe/OLiVTzOPwLTpSSlLIIytj"
+        frameborder="0"
+        allow="microphone">
+      </iframe>
+    </div>
+
+    <!-- Nova Launcher Button -->
+    <div id="nova-launcher" title="Ask Nova">
+      <img src="NOVA3.png" alt="Nova" id="nova-launcher-logo"/>
+      <div id="nova-tooltip">Ask me anything about peptides</div>
+    </div>
+
     <script>
-    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="OLiVTzOPwLTpSSlLIIytj";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
-    </script>
+    // Nova Chat Panel Controls
+    const novaPanel    = document.getElementById('nova-panel');
+    const novaOverlay  = document.getElementById('nova-overlay');
+    const novaLauncher = document.getElementById('nova-launcher');
 
-    <button class="nova-pill" id="nova-pill" type="button" aria-label="Open Nova AI assistant">
-        <span class="nova-pill-icon" aria-hidden="true">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-        </span>
-        <span class="nova-pill-text">Nova</span>
-        <span class="nova-pill-tooltip" id="nova-pill-tooltip">Ask me anything about peptides</span>
-    </button>
+    function openNova() {
+      novaPanel.classList.remove('minimized');
+      novaPanel.classList.add('open');
+      novaOverlay.style.display = 'block';
+      setTimeout(() => novaOverlay.classList.add('active'), 10);
+    }
 
-    <script>
-    (function() {
-        const btn     = document.getElementById('nova-pill');
-        const tooltip = document.getElementById('nova-pill-tooltip');
-        if (!btn) return;
+    function closeNova() {
+      novaPanel.classList.remove('open');
+      novaOverlay.classList.remove('active');
+      setTimeout(() => novaOverlay.style.display = 'none', 250);
+    }
 
-        btn.addEventListener('click', () => {
-            if (window.chatbase) window.chatbase('open');
-        });
+    function minimizeNova() {
+      novaPanel.classList.add('minimized');
+      novaPanel.classList.remove('open');
+      novaOverlay.classList.remove('active');
+      setTimeout(() => novaOverlay.style.display = 'none', 250);
+    }
 
-        /* First-visit: auto-show tooltip after 2s, hide after 3s */
-        try {
-            if (!localStorage.getItem('nova_introduced')) {
-                setTimeout(() => {
-                    tooltip.classList.add('nova-pill-tooltip--visible');
-                    setTimeout(() => tooltip.classList.remove('nova-pill-tooltip--visible'), 3000);
-                    localStorage.setItem('nova_introduced', '1');
-                }, 2000);
-            }
-        } catch (e) { /* localStorage unavailable — skip */ }
-    })();
+    novaLauncher.addEventListener('click', function() {
+      if (novaPanel.classList.contains('open')) {
+        closeNova();
+      } else {
+        openNova();
+      }
+    });
+
+    // First visit tooltip — shows once, never again
+    document.addEventListener('DOMContentLoaded', function() {
+      const hasSeenNova = localStorage.getItem('nova_introduced');
+      if (!hasSeenNova) {
+        setTimeout(() => {
+          const tooltip = document.getElementById('nova-tooltip');
+          if (tooltip) {
+            tooltip.style.opacity = '1';
+            tooltip.style.transform = 'translateY(0)';
+            setTimeout(() => {
+              tooltip.style.opacity = '';
+              tooltip.style.transform = '';
+              localStorage.setItem('nova_introduced', 'true');
+            }, 3000);
+          }
+        }, 2000);
+      }
+    });
     </script>
 </body>
 </html>

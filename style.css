@@ -1278,97 +1278,189 @@ button.compound-tag {
     .next-steps-body { padding: 4px 16px 16px; }
 }
 
-/* === NOVA AI ASSISTANT PILL === */
-/* Hide the default Chatbase bubble — we use our own pill */
+/* === NOVA AI PANEL === */
 #chatbase-bubble-button { display: none !important; }
 
-.nova-pill {
+#nova-overlay {
+    display: none;
     position: fixed;
-    bottom: 22px;
-    right: 22px;
-    z-index: 999;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 11px 18px 11px 14px;
-    font-family: var(--font);
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 0.01em;
-    color: #fff;
-    background: var(--gradient);
-    border: none;
-    border-radius: var(--radius-pill);
-    box-shadow: 0 6px 20px rgba(0, 212, 255, 0.28), 0 2px 6px rgba(0, 0, 0, 0.4);
-    cursor: pointer;
-    transition: transform var(--ease), box-shadow var(--ease);
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    z-index: 998;
+    opacity: 0;
+    transition: opacity 0.25s ease;
 }
-.nova-pill:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 8px 26px rgba(0, 212, 255, 0.4), 0 3px 8px rgba(0, 0, 0, 0.45);
-}
-.nova-pill:active { transform: translateY(0); }
+#nova-overlay.active { opacity: 1; }
 
-.nova-pill-icon {
+#nova-panel {
+    position: fixed;
+    bottom: 100px;
+    right: 22px;
+    width: 380px;
+    height: 560px;
+    max-height: calc(100vh - 140px);
+    background: var(--surface, #0c0f1a);
+    border: 1px solid var(--border, #1b2035);
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 212, 255, 0.08);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transform: translateY(16px) scale(0.98);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+}
+#nova-panel.open {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    pointer-events: auto;
+}
+#nova-panel.minimized {
+    transform: translateY(16px) scale(0.98);
+    opacity: 0;
+    pointer-events: none;
+}
+
+#nova-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 14px;
+    background: var(--surface-2, #101522);
+    border-bottom: 1px solid var(--border, #1b2035);
+    flex-shrink: 0;
+}
+#nova-panel-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#nova-header-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+#nova-panel-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text, #fff);
+    line-height: 1.2;
+}
+#nova-panel-subtitle {
+    font-size: 11.5px;
+    color: var(--text-muted, #9aa3b2);
+    line-height: 1.2;
+    margin-top: 2px;
+}
+#nova-panel-controls {
+    display: flex;
+    gap: 4px;
+}
+#nova-panel-controls button {
+    width: 28px;
+    height: 28px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.18);
-    color: #fff;
-    flex-shrink: 0;
+    background: transparent;
+    color: var(--text-muted, #9aa3b2);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+#nova-panel-controls button:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text, #fff);
+    border-color: var(--border, #1b2035);
 }
 
-.nova-pill-text { line-height: 1; }
+#nova-iframe {
+    flex: 1;
+    width: 100%;
+    border: 0;
+    background: #fff;
+}
 
-.nova-pill-tooltip {
+#nova-launcher {
+    position: fixed;
+    bottom: 22px;
+    right: 22px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--surface-2, #101522);
+    border: 1px solid var(--border, #1b2035);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(0, 212, 255, 0.1);
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#nova-launcher:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(0, 212, 255, 0.25), 0 0 0 1px rgba(0, 212, 255, 0.2);
+}
+#nova-launcher-logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+#nova-launcher:hover #nova-launcher-logo {
+    transform: scale(1.05);
+}
+
+#nova-tooltip {
     position: absolute;
     bottom: calc(100% + 10px);
     right: 0;
     padding: 8px 12px;
-    background: var(--card);
-    color: var(--text);
-    border: 1px solid var(--border-hi);
-    border-radius: var(--radius-sm);
-    box-shadow: var(--shadow);
+    background: var(--surface-2, #101522);
+    color: var(--text, #fff);
+    border: 1px solid var(--border, #1b2035);
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
     font-size: 12.5px;
     font-weight: 500;
     white-space: nowrap;
     pointer-events: none;
     opacity: 0;
     transform: translateY(4px);
-    transition: opacity var(--ease), transform var(--ease);
+    transition: opacity 0.2s ease, transform 0.2s ease;
 }
-.nova-pill-tooltip::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    right: 22px;
-    width: 8px;
-    height: 8px;
-    background: var(--card);
-    border-right: 1px solid var(--border-hi);
-    border-bottom: 1px solid var(--border-hi);
-    transform: translateY(-50%) rotate(45deg);
-}
-.nova-pill:hover .nova-pill-tooltip,
-.nova-pill-tooltip--visible {
+#nova-launcher:hover #nova-tooltip {
     opacity: 1;
     transform: translateY(0);
 }
 
 @media (max-width: 600px) {
-    .nova-pill {
-        padding: 0;
-        width: 52px;
-        height: 52px;
-        justify-content: center;
+    #nova-panel {
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 75vh;
+        max-height: 75vh;
+        border-radius: 16px 16px 0 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    #nova-launcher {
+        width: 54px;
+        height: 54px;
         bottom: 18px;
         right: 18px;
     }
-    .nova-pill-text { display: none; }
-    .nova-pill-icon { width: 22px; height: 22px; background: transparent; }
-    .nova-pill-icon svg { width: 22px; height: 22px; }
+    #nova-launcher-logo { width: 40px; height: 40px; }
 }
