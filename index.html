@@ -25,9 +25,9 @@
             </div>
             <nav class="tab-nav">
                 <button class="tab-btn active" data-tab="calculator">Calculator</button>
+                <button class="tab-btn" data-tab="reference">Peptides</button>
                 <button class="tab-btn" data-tab="blends">Blends</button>
                 <button class="tab-btn" data-tab="stacks">Stacks</button>
-                <button class="tab-btn" data-tab="reference">Reference</button>
                 <button class="tab-btn" data-tab="learn">Learn</button>
             </nav>
         </div>
@@ -41,7 +41,7 @@
 
                 <div class="page-hero">
                     <h1>Reconstitution Calculator</h1>
-                    <p>Select your vial, enter your water amount, and get the exact units to draw — no guesswork.</p>
+                    <p>Select your vial, enter your water amount, and get the exact units to draw — no guesswork. <span class="hero-or">or,</span> <button type="button" class="hero-nova-btn" onclick="openNova()">use Nova AI</button></p>
                 </div>
 
                 <div class="calc-card">
@@ -250,7 +250,7 @@
                 </div>
 
                 <!-- ── BEGINNER ── -->
-                <div class="tier-section">
+                <div class="tier-section collapsed">
                     <div class="tier-header">
                         <div class="tier-header-left">
                             <span class="tier-badge tier-beginner">Beginner</span>
@@ -334,7 +334,7 @@
                 </div>
 
                 <!-- ── INTERMEDIATE ── -->
-                <div class="tier-section">
+                <div class="tier-section collapsed">
                     <div class="tier-header">
                         <div class="tier-header-left">
                             <span class="tier-badge tier-intermediate">Intermediate</span>
@@ -473,7 +473,7 @@
                 </div>
 
                 <!-- ── ADVANCED ── -->
-                <div class="tier-section">
+                <div class="tier-section collapsed">
                     <div class="tier-header">
                         <div class="tier-header-left">
                             <span class="tier-badge tier-advanced">Advanced</span>

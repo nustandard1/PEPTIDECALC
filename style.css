@@ -1464,3 +1464,30 @@ button.compound-tag {
     }
     #nova-launcher-logo { width: 40px; height: 40px; }
 }
+
+/* === Hero "use Nova AI" inline button === */
+.hero-or {
+    color: var(--text-muted);
+    margin-left: 4px;
+}
+.hero-nova-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 2px;
+    padding: 4px 12px;
+    font-family: var(--font);
+    font-size: 0.95em;
+    font-weight: 600;
+    color: #fff;
+    background: var(--gradient);
+    border: none;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 2px 8px rgba(0, 212, 255, 0.25);
+}
+.hero-nova-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(0, 212, 255, 0.4);
+}
