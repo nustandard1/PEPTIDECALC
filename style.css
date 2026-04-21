@@ -1010,6 +1010,31 @@ button.compound-tag {
 
 /* === CALCULATOR ENHANCEMENTS === */
 
+/* "Based on X mg vial and Y mL BAC water" under result header */
+.result-based-on {
+    font-size: 12.5px;
+    color: var(--text-dim);
+    margin: -4px 0 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed var(--border);
+    font-style: italic;
+}
+.result-based-on.hidden { display: none; }
+
+/* Extra note inside BAC recommendation (e.g. GLOW/KLOW irritation note) */
+.bac-rec-extra {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #cbb56f;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.45;
+}
+
+/* Anchor for the Typical Dosing hint that now sits BELOW Calculate */
+.dose-hint-anchor:empty { display: none; }
+.dose-hint-anchor { margin-top: 14px; }
+
 /* Field recommendation (persistent hint text next to input) */
 .field-recommendation,
 .field-suggestion {

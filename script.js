@@ -17,11 +17,11 @@ let blendInputMode = 'dose'; /* 'units' | 'dose' — default to dose */
    ============================================================ */
 const PRESETS = {
     1: [
-        { label: 'Retatrutide',   sublabel: 'GLP-3 Triple Agonist',       name: 'Retatrutide',   doseUnit: 'mg',  defaultDose: 0.5, typicalVialMg: 10,  recommendedBac: 2, dosesPerWeek: 1,    route: 'subq',
+        { label: 'Retatrutide',   sublabel: 'GLP-3 Triple Agonist',       name: 'Retatrutide',   doseUnit: 'mg',  defaultDose: 0.5, typicalVialMg: 10,  recommendedBac: '1-2', dosesPerWeek: 1,    route: 'subq',
           hint: 'Typically started at 0.5–2 mg per week and titrated upward based on tolerance. Common research doses range from 2–6 mg/week. Vial sizes vary — enter your specific amount above.' },
         { label: 'Tirzepatide',   sublabel: 'GLP-1/GIP Dual Agonist',     name: 'Tirzepatide',   doseUnit: 'mg',  defaultDose: 2.5, typicalVialMg: 10,  recommendedBac: 2, dosesPerWeek: 1,    route: 'subq',
           hint: 'Starting doses commonly 2.5 mg/week, titrating up to 5–15 mg/week over several months. Titrate slowly based on individual tolerance. Vial sizes vary.' },
-        { label: 'Tesamorelin',   sublabel: 'GHRH Analog',                 name: 'Tesamorelin',   doseUnit: 'mg',  defaultDose: 1,   typicalVialMg: 10,  recommendedBac: 2, dosesPerWeek: 7,    route: 'subq',
+        { label: 'Tesamorelin',   sublabel: 'GHRH Analog',                 name: 'Tesamorelin',   doseUnit: 'mg',  defaultDose: 1,   typicalVialMg: 10,  recommendedBac: '1-2', dosesPerWeek: 7,    route: 'subq',
           hint: 'Commonly researched at 1–2 mg/day subcutaneously. Most common vial size: 10 mg. Often used as a standalone GHRH without a GHRP.' },
         { label: 'MOTS-C',        sublabel: 'Mitochondrial Peptide',       name: 'MOTS-C',        doseUnit: 'mg',  defaultDose: 5,   typicalVialMg: 10,  recommendedBac: 2, dosesPerWeek: 2.5,  route: 'subq',
           hint: 'Commonly researched at 1–5 mg/day, 2–3× per week. Research doses vary — always start at the low end. Typical vial sizes: 5 mg or 10 mg.' },
@@ -248,7 +248,7 @@ function applyPreset(preset) {
             if (nameEl) nameEl.value = name;
             if (mgEl && preset.amounts[i]) mgEl.value = preset.amounts[i];
         });
-        updateBlendHint();
+        clearDoseHint();
         showBacRecommendation(preset.recommendedBac, preset);
         showBlendDoseTypical(preset);
     } else {
@@ -270,7 +270,8 @@ function showBacRecommendation(mL, preset) {
     const el = document.getElementById('bac-suggestion');
     if (!el || !mL) return;
     const vialNote = preset?.typicalVialMg ? ` (assumes ${preset.typicalVialMg} mg vial)` : '';
-    el.innerHTML = `Typically used: <strong>${mL} mL</strong>${vialNote}`;
+    const reconNote = preset?.reconNote ? `<div class="bac-rec-extra">${escapeHtml(preset.reconNote)}</div>` : '';
+    el.innerHTML = `Typically used: <strong>${mL} mL</strong>${vialNote}${reconNote}`;
     el.classList.remove('hidden');
 }
 
@@ -312,60 +313,43 @@ function clearFields() {
    DOSE HINTS
    ============================================================ */
 function showSingleHint(text) {
-    const hint = document.getElementById('dose-hint');
-    if (!hint || !text) { clearDoseHint(); return; }
-    hint.innerHTML = `
-        <div class="dose-hint-title">Typical Dosing — Reference Only</div>
-        <div class="dose-hint-text">${escapeHtml(text)}</div>
+    const anchor = document.getElementById('dose-hint-anchor');
+    if (!anchor || !text) { clearDoseHint(); return; }
+    anchor.innerHTML = `
+        <div class="dose-hint">
+            <div class="dose-hint-title">Typical Dosing — Reference Only</div>
+            <div class="dose-hint-text">${escapeHtml(text)}</div>
+        </div>
     `;
-    hint.classList.remove('hidden');
 }
 
 function showOtherHint() {
-    const hint = document.getElementById('dose-hint');
-    if (!hint) return;
-    hint.innerHTML = `
-        <div class="dose-hint-title">Need dosing information?</div>
-        <div class="dose-hint-text">
-            Check the <button class="hint-ref-link" onclick="switchTab('reference')">Reference tab →</button> for dose ranges on common peptides.
+    const anchor = document.getElementById('dose-hint-anchor');
+    if (!anchor) return;
+    anchor.innerHTML = `
+        <div class="dose-hint">
+            <div class="dose-hint-title">Need dosing information?</div>
+            <div class="dose-hint-text">
+                Check the <button class="hint-ref-link" onclick="switchTab('reference')">Reference tab →</button> for dose ranges on common peptides.
+            </div>
         </div>
     `;
-    hint.classList.remove('hidden');
 }
 
 function updateBlendHint() {
-    if (!activePreset || !activePreset.isBlend) return;
-    const hint = document.getElementById('dose-hint');
-    if (!hint) return;
-
-    if (activePreset.equalAmounts || !activePreset.amounts?.length) {
-        hint.innerHTML = `
-            <div class="dose-hint-title">How blended vials work</div>
-            <div class="dose-hint-text">${escapeHtml(activePreset.hint || 'Enter the mg amounts above, add BAC water, then set your target dose.')}</div>
-        `;
-        hint.classList.remove('hidden');
-        return;
-    }
-
-    /* Known-amounts blends (GLOW/KLOW) — keep Step 4 compact; the full
-       "Dosing at a Glance" table shows after Calculate. */
-    hint.innerHTML = `
-        <div class="dose-hint-title">How blended vials work</div>
-        <div class="dose-hint-text">Every draw delivers all compounds at the same fixed ratio — you can't adjust one independently. Enter your target dose of the primary compound below and we'll show units to draw and dose per compound after you calculate.</div>
-        ${activePreset.reconNote ? `<div class="dose-hint-recon-note">${escapeHtml(activePreset.reconNote)}</div>` : ''}
-    `;
-    hint.classList.remove('hidden');
+    /* No longer renders an explainer — blends keep Step 4 compact. */
+    clearDoseHint();
 }
 
 function clearDoseHint() {
-    const hint = document.getElementById('dose-hint');
-    if (hint) hint.classList.add('hidden');
+    const anchor = document.getElementById('dose-hint-anchor');
+    if (anchor) anchor.innerHTML = '';
+    const legacy = document.getElementById('dose-hint');
+    if (legacy) legacy.classList.add('hidden');
 }
 
 function onBacWaterInput() {
-    if (activePreset && activePreset.isBlend && !activePreset.equalAmounts) {
-        updateBlendHint();
-    }
+    /* Nothing to update — blend hint is removed; table shows post-calc. */
 }
 
 /* ============================================================
@@ -444,7 +428,6 @@ function renderFields(count) {
                     <button class="unit-toggle-btn" data-unit="mg" onclick="setDoseUnit('mg')">mg</button>
                 </div>
                 ` : ''}
-                <div id="dose-hint" class="dose-hint hidden"></div>
             </div>
         `;
 
@@ -537,10 +520,12 @@ function calculate() {
         if (!doseEntered || doseEntered <= 0) return showError('Please enter your desired dose.');
         const dose_mcg = doseUnit === 'mg' ? doseEntered * 1000 : doseEntered;
 
+        if (!sanityCheck(compounds, bacWater, dose_mcg)) return;
+
         const { name, mg, concentration } = compounds[0];
         const volume_ml = dose_mcg / concentration;
         const units     = volume_ml * 100;
-        showResultsSingle({ name, mg, dose_mcg, concentration, volume_ml, units });
+        showResultsSingle({ name, mg, dose_mcg, concentration, volume_ml, units, bacWater });
 
     } else {
         let units, primaryDose_mcg;
@@ -558,18 +543,68 @@ function calculate() {
             primaryDose_mcg = compounds[0].concentration * (units / 100);
         }
 
+        if (!sanityCheck(compounds, bacWater, primaryDose_mcg)) return;
+
         const volume_ml = units / 100;
         const results   = compounds.map(c => ({ ...c, volume_ml, units, dose_mcg: c.concentration * volume_ml }));
-        showResultsBlend(results, units, volume_ml, primaryDose_mcg);
+        showResultsBlend(results, units, volume_ml, primaryDose_mcg, bacWater);
     }
+}
+
+/* ============================================================
+   SANITY CHECK — flag values that look unusual and ask to confirm
+   ============================================================ */
+function sanityCheck(compounds, bacWater, dose_mcg) {
+    const warnings = [];
+
+    if (bacWater < 0.3 || bacWater > 6) {
+        warnings.push(`• BAC water: ${bacWater} mL — most peptide vials use 1–3 mL (up to 5 mL for large vials like NAD+).`);
+    }
+
+    compounds.forEach(c => {
+        if (c.mg < 0.2) {
+            warnings.push(`• ${c.name}: ${c.mg} mg — smaller than typical vials (most are 2–10 mg).`);
+        } else if (c.mg > 200) {
+            warnings.push(`• ${c.name}: ${c.mg} mg — only a few compounds (NAD+, Glutathione) come in this size.`);
+        }
+    });
+
+    if (dose_mcg < 1) {
+        warnings.push(`• Dose: ${formatDose(dose_mcg)} — unusually small.`);
+    } else if (dose_mcg > 50000) {
+        warnings.push(`• Dose: ${formatDose(dose_mcg)} — unusually large.`);
+    }
+
+    /* Preset-relative: dose vs typical starting dose */
+    let typical_mcg = null;
+    if (compoundCount === 1 && activePreset?.defaultDose) {
+        typical_mcg = activePreset.doseUnit === 'mg'
+            ? activePreset.defaultDose * 1000
+            : activePreset.defaultDose;
+    } else if (activePreset?.primaryDose_mcg) {
+        typical_mcg = activePreset.primaryDose_mcg;
+    }
+    if (typical_mcg) {
+        const ratio = dose_mcg / typical_mcg;
+        if (ratio > 20) {
+            warnings.push(`• Your dose is ~${ratio.toFixed(1)}× the typical starting dose.`);
+        } else if (ratio < 0.05) {
+            warnings.push(`• Your dose is ~${(1 / ratio).toFixed(1)}× smaller than the typical starting dose.`);
+        }
+    }
+
+    if (warnings.length === 0) return true;
+
+    return confirm('Are you sure these values are correct?\n\n' + warnings.join('\n') + '\n\nClick OK to calculate anyway, or Cancel to go back and edit.');
 }
 
 /* ============================================================
    RESULTS
    ============================================================ */
-function showResultsSingle({ name, mg, dose_mcg, concentration, volume_ml, units }) {
+function showResultsSingle({ name, mg, dose_mcg, concentration, volume_ml, units, bacWater }) {
     const content = document.getElementById('result-content');
     document.getElementById('result-box').classList.remove('error');
+    setResultBasedOn([{ name, mg }], bacWater);
 
     const duration = buildVialDuration(mg, dose_mcg, activePreset);
 
@@ -592,12 +627,12 @@ function showResultsSingle({ name, mg, dose_mcg, concentration, volume_ml, units
 
     showResultBox();
     buildAndShowDoseTable([{ name, concentration }], units);
-    buildAndShowNextSteps(activePreset?.route || 'subq', units);
 }
 
-function showResultsBlend(results, units, volume_ml, primaryDose_mcg) {
+function showResultsBlend(results, units, volume_ml, primaryDose_mcg, bacWater) {
     const content = document.getElementById('result-content');
     document.getElementById('result-box').classList.remove('error');
+    setResultBasedOn(results.map(r => ({ name: r.name, mg: r.mg })), bacWater);
 
     const cards = results.map(r => `
         <div class="result-item">
@@ -610,7 +645,6 @@ function showResultsBlend(results, units, volume_ml, primaryDose_mcg) {
         </div>
     `).join('');
 
-    /* Vial duration — based on primary compound mg and primary dose */
     const primary = results[0];
     const duration = buildVialDuration(primary.mg, primaryDose_mcg, activePreset);
 
@@ -626,7 +660,16 @@ function showResultsBlend(results, units, volume_ml, primaryDose_mcg) {
 
     showResultBox();
     buildAndShowDoseTable(results.map(r => ({ name: r.name, concentration: r.concentration })), units);
-    buildAndShowNextSteps(activePreset?.route || 'subq', units);
+}
+
+function setResultBasedOn(compounds, bacWater) {
+    const el = document.getElementById('result-based-on');
+    if (!el) return;
+    const mgStr = compounds.length === 1
+        ? `${compounds[0].mg} mg vial`
+        : `${compounds.map(c => c.mg).join(' / ')} mg vial`;
+    el.innerHTML = `Based on ${mgStr} and ${bacWater} mL BAC water`;
+    el.classList.remove('hidden');
 }
 
 function showResultBox() {
@@ -641,14 +684,16 @@ function showError(msg) {
     box.classList.add('error');
     content.innerHTML = `<div class="result-error">⚠ ${escapeHtml(msg)}</div>`;
     box.classList.remove('hidden');
+    const basedOn = document.getElementById('result-based-on');
+    if (basedOn) basedOn.classList.add('hidden');
     hideDoseTable();
-    hideNextSteps();
 }
 
 function hideResult() {
     document.getElementById('result-box').classList.add('hidden');
+    const basedOn = document.getElementById('result-based-on');
+    if (basedOn) basedOn.classList.add('hidden');
     hideDoseTable();
-    hideNextSteps();
 }
 
 /* ============================================================
@@ -781,7 +826,7 @@ function buildAndShowDoseTable(compounds, calculatedUnits) {
     wrap.innerHTML = `
         <div class="dose-table-header">
             <span class="dose-table-title">Dosing at a Glance</span>
-            <span class="dose-table-sub">Highlighted row = your current draw</span>
+            <span class="dose-table-sub">Based on your inputs — highlighted row = your current draw</span>
         </div>
         <div class="dose-table-grid" style="grid-template-columns: repeat(${headerCols.length}, 1fr)">
             ${headerHtml}
@@ -819,80 +864,6 @@ function buildVialDuration(vialMg, dose_mcg, preset) {
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
         Vial contains ~${doses} doses${weekStr}
     </div>`;
-}
-
-/* ============================================================
-   NEXT STEPS ACCORDION
-   ============================================================ */
-function getShowGuide() { return localStorage.getItem('pcalc_show_guide') === 'true'; }
-function setShowGuide(v) { localStorage.setItem('pcalc_show_guide', v ? 'true' : 'false'); }
-
-function buildAndShowNextSteps(route, units) {
-    const wrap = document.getElementById('next-steps-wrap');
-    if (!wrap) return;
-
-    const alwaysShow = getShowGuide();
-
-    let adminTitle, adminContent;
-    if (route === 'subq_or_iv') {
-        adminTitle   = 'Administration (SubQ or IV)';
-        adminContent = `<p>Subcutaneous (SubQ) is most common for home use. Pinch skin at belly, thigh, or glute. Insert needle at 45°, inject slowly, withdraw.</p>
-<p>IV protocols require sterile technique. If administered by a clinic, communicate your reconstitution math with the provider.</p>`;
-    } else if (route === 'intranasal_or_subq') {
-        adminTitle   = 'Administration (Intranasal or SubQ)';
-        adminContent = `<p>Intranasal: transfer reconstituted solution to a nasal spray bottle. Tilt head back, insert tip, spray while inhaling gently. Alternate nostrils.</p>
-<p>SubQ alternative: pinch skin at belly or thigh, insert at 45°, inject slowly.</p>`;
-    } else {
-        adminTitle   = 'Injection (SubQ)';
-        adminContent = `<p>Pinch a fold of skin at belly, thigh, or glute. Insert the insulin syringe at 45°, inject slowly and steadily, then withdraw.</p>
-<p>Rotate injection sites each time to reduce irritation.</p>`;
-    }
-
-    const bodyHtml = `
-        <div class="next-steps-section">
-            <div class="next-steps-section-title">1 — Preparation</div>
-            <p>Wash hands. Wipe the vial top and your injection site with an alcohol swab. Let dry for 10–15 seconds.</p>
-            <p>Draw ${formatUnits(units)} units of air into the syringe, inject into the vial to equalize pressure, then withdraw ${formatUnits(units)} units of solution.</p>
-        </div>
-        <div class="next-steps-section">
-            <div class="next-steps-section-title">2 — ${escapeHtml(adminTitle)}</div>
-            ${adminContent}
-        </div>
-        <div class="next-steps-section">
-            <div class="next-steps-section-title">3 — Storage</div>
-            <p>Reconstituted peptides should be refrigerated (2–8°C / 36–46°F) and used within 28–30 days. Keep away from light. Do not freeze after reconstitution.</p>
-        </div>
-        <label class="next-steps-always-show">
-            <input type="checkbox" id="always-show-guide" ${alwaysShow ? 'checked' : ''} onchange="setShowGuide(this.checked)">
-            Always show this guide
-        </label>
-    `;
-
-    const isOpen = alwaysShow;
-    wrap.innerHTML = `
-        <button class="next-steps-toggle" onclick="toggleNextSteps(this)" aria-expanded="${isOpen}">
-            <span>Injection Guide</span>
-            <svg class="next-steps-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="${isOpen ? 'transform:rotate(180deg)' : ''}"><polyline points="6 9 12 15 18 9"/></svg>
-        </button>
-        <div class="next-steps-body" style="${isOpen ? '' : 'display:none'}">
-            ${bodyHtml}
-        </div>
-    `;
-
-    wrap.classList.remove('hidden');
-}
-
-function toggleNextSteps(btn) {
-    const body = btn.nextElementSibling;
-    const open = btn.getAttribute('aria-expanded') === 'true';
-    btn.setAttribute('aria-expanded', !open);
-    body.style.display = open ? 'none' : 'block';
-    btn.querySelector('.next-steps-chevron').style.transform = open ? '' : 'rotate(180deg)';
-}
-
-function hideNextSteps() {
-    const wrap = document.getElementById('next-steps-wrap');
-    if (wrap) wrap.classList.add('hidden');
 }
 
 /* ============================================================
