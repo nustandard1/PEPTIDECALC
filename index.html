@@ -1069,5 +1069,41 @@
     </footer>
 
     <script src="script.js"></script>
+
+    <!-- ===== NOVA AI ASSISTANT ===== -->
+    <script>
+    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="OLiVTzOPwLTpSSlLIIytj";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+    </script>
+
+    <button class="nova-pill" id="nova-pill" type="button" aria-label="Open Nova AI assistant">
+        <span class="nova-pill-icon" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </span>
+        <span class="nova-pill-text">Nova</span>
+        <span class="nova-pill-tooltip" id="nova-pill-tooltip">Ask me anything about peptides</span>
+    </button>
+
+    <script>
+    (function() {
+        const btn     = document.getElementById('nova-pill');
+        const tooltip = document.getElementById('nova-pill-tooltip');
+        if (!btn) return;
+
+        btn.addEventListener('click', () => {
+            if (window.chatbase) window.chatbase('open');
+        });
+
+        /* First-visit: auto-show tooltip after 2s, hide after 3s */
+        try {
+            if (!localStorage.getItem('nova_introduced')) {
+                setTimeout(() => {
+                    tooltip.classList.add('nova-pill-tooltip--visible');
+                    setTimeout(() => tooltip.classList.remove('nova-pill-tooltip--visible'), 3000);
+                    localStorage.setItem('nova_introduced', '1');
+                }, 2000);
+            }
+        } catch (e) { /* localStorage unavailable — skip */ }
+    })();
+    </script>
 </body>
 </html>

@@ -1277,3 +1277,98 @@ button.compound-tag {
     .next-steps-toggle { padding: 12px 16px; }
     .next-steps-body { padding: 4px 16px 16px; }
 }
+
+/* === NOVA AI ASSISTANT PILL === */
+/* Hide the default Chatbase bubble — we use our own pill */
+#chatbase-bubble-button { display: none !important; }
+
+.nova-pill {
+    position: fixed;
+    bottom: 22px;
+    right: 22px;
+    z-index: 999;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px 11px 14px;
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #fff;
+    background: var(--gradient);
+    border: none;
+    border-radius: var(--radius-pill);
+    box-shadow: 0 6px 20px rgba(0, 212, 255, 0.28), 0 2px 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: transform var(--ease), box-shadow var(--ease);
+}
+.nova-pill:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 26px rgba(0, 212, 255, 0.4), 0 3px 8px rgba(0, 0, 0, 0.45);
+}
+.nova-pill:active { transform: translateY(0); }
+
+.nova-pill-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.18);
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.nova-pill-text { line-height: 1; }
+
+.nova-pill-tooltip {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    right: 0;
+    padding: 8px 12px;
+    background: var(--card);
+    color: var(--text);
+    border: 1px solid var(--border-hi);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow);
+    font-size: 12.5px;
+    font-weight: 500;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity var(--ease), transform var(--ease);
+}
+.nova-pill-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 22px;
+    width: 8px;
+    height: 8px;
+    background: var(--card);
+    border-right: 1px solid var(--border-hi);
+    border-bottom: 1px solid var(--border-hi);
+    transform: translateY(-50%) rotate(45deg);
+}
+.nova-pill:hover .nova-pill-tooltip,
+.nova-pill-tooltip--visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+    .nova-pill {
+        padding: 0;
+        width: 52px;
+        height: 52px;
+        justify-content: center;
+        bottom: 18px;
+        right: 18px;
+    }
+    .nova-pill-text { display: none; }
+    .nova-pill-icon { width: 22px; height: 22px; background: transparent; }
+    .nova-pill-icon svg { width: 22px; height: 22px; }
+}
