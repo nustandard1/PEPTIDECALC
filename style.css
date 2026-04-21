@@ -1469,8 +1469,9 @@ button.compound-tag {
 .hero-nova-row {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
-    margin-top: 14px;
+    margin-top: 32px;
     flex-wrap: nowrap;
     white-space: nowrap;
 }
