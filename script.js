@@ -57,6 +57,8 @@ const PRESETS = {
           hint: 'Common subcutaneous dose: 200–600 mg several times per week. IV protocols typically 400–1200 mg. Common vial sizes: 200 mg, 600 mg, 1200 mg.' },
         { label: 'Thymosin Alpha-1', sublabel: 'Immune Modulator',          name: 'Thymosin Alpha-1', doseUnit: 'mg', defaultDose: 1.6, typicalVialMg: 5, recommendedBac: 2, dosesPerWeek: 2,   route: 'subq',
           hint: 'Common research dose: 1.6 mg (1600 mcg) 2× per week subcutaneously. Some protocols use daily dosing (0.8–1.6 mg) during active immune challenges. Typical vial sizes: 5 mg or 10 mg.' },
+        { label: 'IGF-1 LR3',     sublabel: 'Long-Arg3 IGF-1 Analog',        name: 'IGF-1 LR3',     doseUnit: 'mcg', defaultDose: 20,  typicalVialMg: 1,   recommendedBac: 1, dosesPerWeek: 7,   route: 'subq',
+          hint: 'Advanced compound — not for beginners. Common research doses: 20–50 mcg/day subcutaneously, often post-workout or bilaterally rotated. Typical vial size: 1 mg. Carries real risks (hypoglycemia, organ hypertrophy with overuse) — start low.' },
         { label: 'Other', sublabel: null, isOther: true },
     ],
     2: [
