@@ -85,11 +85,21 @@ document.addEventListener('DOMContentLoaded', () => {
     initDropdown();
     initTierAccordion();
     initLearnSubtabs();
+    initJumpLinks();
     renderFields(1);
     document.getElementById('calc-btn').addEventListener('click', calculate);
     document.getElementById('bac-water').addEventListener('input', onBacWaterInput);
     initLoadButtons();
 });
+
+function initJumpLinks() {
+    document.querySelectorAll('[data-jump-tab]').forEach(link => {
+        link.addEventListener('click', e => {
+            e.preventDefault();
+            switchTab(link.dataset.jumpTab);
+        });
+    });
+}
 
 function initLearnSubtabs() {
     document.querySelectorAll('.learn-subtab').forEach(btn => {
@@ -101,13 +111,41 @@ function initLearnSubtabs() {
             document.getElementById(`learn-${target}`).classList.add('active');
         });
     });
+
+    document.querySelectorAll('.lib-card').forEach(card => {
+        const body = card.querySelector('.lib-body');
+        if (body && !body.querySelector('.lib-collapse-btn')) {
+            const btn = document.createElement('button');
+            btn.className = 'lib-collapse-btn';
+            btn.type = 'button';
+            btn.innerHTML = 'Collapse <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>';
+            btn.addEventListener('click', e => {
+                e.preventDefault();
+                card.open = false;
+                card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+            body.appendChild(btn);
+        }
+    });
 }
 
 function initTierAccordion() {
-    document.querySelectorAll('.tier-header').forEach(header => {
-        header.addEventListener('click', () => {
-            header.closest('.tier-section').classList.toggle('collapsed');
-        });
+    document.querySelectorAll('.tier-section').forEach(section => {
+        const header = section.querySelector('.tier-header');
+        header.addEventListener('click', () => section.classList.toggle('collapsed'));
+
+        const inner = section.querySelector('.tier-content-inner');
+        if (inner && !inner.querySelector('.tier-collapse-btn')) {
+            const btn = document.createElement('button');
+            btn.className = 'tier-collapse-btn';
+            btn.type = 'button';
+            btn.innerHTML = 'Collapse <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>';
+            btn.addEventListener('click', () => {
+                section.classList.add('collapsed');
+                header.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+            inner.appendChild(btn);
+        }
     });
 }
 
