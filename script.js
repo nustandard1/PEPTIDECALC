@@ -60,6 +60,8 @@ const PRESETS = {
           hint: 'Common research dose: 1.6 mg (1600 mcg) 2× per week subcutaneously. Some protocols use daily dosing (0.8–1.6 mg) during active immune challenges. Typical vial sizes: 5 mg or 10 mg.' },
         { label: 'IGF-1 LR3',     sublabel: 'Long-Arg3 IGF-1 Analog',        name: 'IGF-1 LR3',     doseUnit: 'mcg', defaultDose: 20,  typicalVialMg: 1,   recommendedBac: 1, dosesPerWeek: 7,   route: 'subq',
           hint: 'Advanced compound — not for beginners. Common research doses: 20–50 mcg/day subcutaneously, often post-workout or bilaterally rotated. Typical vial size: 1 mg. Carries real risks (hypoglycemia, organ hypertrophy with overuse) — start low.' },
+        { label: 'Epithalon',     sublabel: 'Telomere Longevity Peptide',     name: 'Epithalon',     doseUnit: 'mg',  defaultDose: 5,   typicalVialMg: 10,  recommendedBac: 2, dosesPerWeek: 7,   route: 'subq',
+          hint: 'Synthetic tetrapeptide (Ala-Glu-Asp-Gly) researched for telomere elongation and anti-aging effects. Common protocol: 5–10 mg/day subcutaneously for 10–20 consecutive days, repeated 1–2× per year. Not a daily long-term compound — cycle-based use only. Typical vial size: 10 mg.' },
         { label: 'Other', sublabel: null, isOther: true },
     ],
     2: [
