@@ -91,6 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('calc-btn').addEventListener('click', calculate);
     document.getElementById('bac-water').addEventListener('input', onBacWaterInput);
     initLoadButtons();
+    restoreCalcState();
 });
 
 function initJumpLinks() {
@@ -162,6 +163,13 @@ function switchTab(tabName) {
     document.querySelector(`.tab-btn[data-tab="${tabName}"]`).classList.add('active');
     document.getElementById(`tab-${tabName}`).classList.add('active');
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    const mobileBar = document.getElementById('mobile-calc-bar');
+    if (mobileBar) mobileBar.classList.toggle('hidden', tabName !== 'calculator');
+}
+
+function toggleStepHelp(id) {
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle('hidden');
 }
 
 /* ============================================================
@@ -328,8 +336,26 @@ function showBacRecommendation(mL, preset) {
     if (!el || !mL) return;
     const vialNote = preset?.typicalVialMg ? ` (assumes ${preset.typicalVialMg} mg vial)` : '';
     const reconNote = preset?.reconNote ? `<div class="bac-rec-extra">${escapeHtml(preset.reconNote)}</div>` : '';
-    el.innerHTML = `Typically used: <strong>${mL} mL</strong>${vialNote}${reconNote}`;
+
+    let mLDisplay;
+    if (typeof mL === 'number') {
+        mLDisplay = `<button class="bac-use-btn" onclick="useBacRecommendation(${mL})">${mL} mL →</button>`;
+    } else {
+        /* String range like '1-2' — show bold text plus button for lower bound */
+        const lowerBound = parseFloat(String(mL).split('-')[0]);
+        const fixBtn = !isNaN(lowerBound)
+            ? ` <button class="bac-use-btn" onclick="useBacRecommendation(${lowerBound})">${lowerBound} mL →</button>`
+            : '';
+        mLDisplay = `<strong>${mL} mL</strong>${fixBtn}`;
+    }
+
+    el.innerHTML = `Typically used: ${mLDisplay}${vialNote}${reconNote}`;
     el.classList.remove('hidden');
+}
+
+function useBacRecommendation(mL) {
+    const input = document.getElementById('bac-water');
+    if (input) { input.value = mL; input.dispatchEvent(new Event('input')); }
 }
 
 function clearBacRecommendation() {
@@ -442,6 +468,7 @@ function showBlendVialSizeSelector() {
             <button class="vial-size-pill${activeBlendVialSize === '10'    ? ' active' : ''}" data-size="10">10 / 10 mg</button>
             <button class="vial-size-pill${activeBlendVialSize === 'other' ? ' active' : ''}" data-size="other">Other</button>
         </div>
+        <div class="vial-size-other-hint hidden" id="vial-size-other-hint">Enter your specific vial amounts in the fields below.</div>
     `;
     container.prepend(sel);
 
@@ -450,12 +477,15 @@ function showBlendVialSizeSelector() {
             sel.querySelectorAll('.vial-size-pill').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             activeBlendVialSize = btn.dataset.size;
+            const otherHint = document.getElementById('vial-size-other-hint');
             if (btn.dataset.size === 'other') {
+                if (otherHint) otherHint.classList.remove('hidden');
                 const mg1 = document.getElementById('mg-1');
                 if (mg1) { mg1.value = ''; mg1.focus(); }
                 const mg2 = document.getElementById('mg-2');
                 if (mg2) mg2.value = '';
             } else {
+                if (otherHint) otherHint.classList.add('hidden');
                 const v = btn.dataset.size;
                 const mg1 = document.getElementById('mg-1');
                 const mg2 = document.getElementById('mg-2');
@@ -712,11 +742,19 @@ function sanityCheck(compounds, bacWater, dose_mcg) {
    RESULTS
    ============================================================ */
 function showResultsSingle({ name, mg, dose_mcg, concentration, volume_ml, units, bacWater }) {
+    saveCalcState();
     const content = document.getElementById('result-content');
     document.getElementById('result-box').classList.remove('error');
     setResultBasedOn([{ name, mg }], bacWater);
 
     const duration = buildVialDuration(mg, dose_mcg, activePreset);
+
+    let adjustBac = null;
+    if (units > 100) {
+        adjustBac = Math.round(bacWater * (units / 50) * 10) / 10;
+    } else if (units < 1) {
+        adjustBac = Math.max(0.1, Math.round(bacWater * (units / 5) * 10) / 10);
+    }
 
     content.innerHTML = `
         <div class="result-item">
@@ -731,7 +769,7 @@ function showResultsSingle({ name, mg, dose_mcg, concentration, volume_ml, units
                 ${Math.round(concentration)} mcg/mL
             </div>
         </div>
-        <div class="syringe-section">${buildSyringe(units)}</div>
+        <div class="syringe-section">${buildSyringe(units, adjustBac)}</div>
         ${duration ? `<div class="vial-duration">${duration}</div>` : ''}
     `;
 
@@ -740,6 +778,7 @@ function showResultsSingle({ name, mg, dose_mcg, concentration, volume_ml, units
 }
 
 function showResultsBlend(results, units, volume_ml, primaryDose_mcg, bacWater) {
+    saveCalcState();
     const content = document.getElementById('result-content');
     document.getElementById('result-box').classList.remove('error');
     setResultBasedOn(results.map(r => ({ name: r.name, mg: r.mg })), bacWater);
@@ -758,13 +797,20 @@ function showResultsBlend(results, units, volume_ml, primaryDose_mcg, bacWater) 
     const primary = results[0];
     const duration = buildVialDuration(primary.mg, primaryDose_mcg, activePreset);
 
+    let adjustBac = null;
+    if (units > 100) {
+        adjustBac = Math.round(bacWater * (units / 50) * 10) / 10;
+    } else if (units < 1) {
+        adjustBac = Math.max(0.1, Math.round(bacWater * (units / 5) * 10) / 10);
+    }
+
     content.innerHTML = `
         <div class="blend-draw-summary">
             Drawing <strong>${formatUnits(units)} units</strong>
             <span class="blend-draw-ml">(${volume_ml.toFixed(3)} mL)</span> — dose per compound:
         </div>
         <div class="result-grid-inner">${cards}</div>
-        <div class="syringe-section">${buildSyringe(units)}</div>
+        <div class="syringe-section">${buildSyringe(units, adjustBac)}</div>
         ${duration ? `<div class="vial-duration">${duration}</div>` : ''}
     `;
 
@@ -809,7 +855,7 @@ function hideResult() {
 /* ============================================================
    SYRINGE SVG — orange barrel, brighter labels
    ============================================================ */
-function buildSyringe(units) {
+function buildSyringe(units, adjustBac = null) {
     const OVER_MAX  = units > 100;
     const UNDER_MIN = units < 1;
     const drawUnits = Math.min(Math.max(units, 0), 100);
@@ -840,9 +886,11 @@ function buildSyringe(units) {
 
     let warning = '';
     if (OVER_MAX) {
-        warning = `<div class="syringe-warning syringe-warning--over">⚠ ${formatUnits(units)} units exceeds a standard U-100 syringe (100 units = 1 mL). Consider splitting into multiple injections or using a larger syringe.</div>`;
+        const fixHtml = adjustBac ? ` <button class="warning-fix-btn" onclick="setBacAndRecalc(${adjustBac})">Try ${adjustBac} mL →</button>` : '';
+        warning = `<div class="syringe-warning syringe-warning--over">⚠ ${formatUnits(units)} units exceeds a standard U-100 syringe (100 units = 1 mL). Consider splitting into multiple injections or using a larger syringe.${fixHtml}</div>`;
     } else if (UNDER_MIN) {
-        warning = `<div class="syringe-warning syringe-warning--under">⚠ ${formatUnits(units)} units is a very small volume — consider adding more BAC water to make measurement easier.</div>`;
+        const fixHtml = adjustBac ? ` <button class="warning-fix-btn" onclick="setBacAndRecalc(${adjustBac})">Try ${adjustBac} mL →</button>` : '';
+        warning = `<div class="syringe-warning syringe-warning--under">⚠ ${formatUnits(units)} units is a very small volume — consider adding more BAC water to make measurement easier.${fixHtml}</div>`;
     }
 
     const svgW = BARREL_X + BARREL_W + 70;
@@ -892,6 +940,13 @@ function buildSyringe(units) {
 </svg>`;
 
     return `<div class="syringe-wrap">${svg}${warning}</div>`;
+}
+
+function setBacAndRecalc(mL) {
+    const bac = document.getElementById('bac-water');
+    if (bac) bac.value = mL;
+    hideResult();
+    calculate();
 }
 
 /* ============================================================
@@ -1010,6 +1065,7 @@ function initLoadButtons() {
                         showOtherHint();
                     }
                     switchTab('calculator');
+                    showToast('Loaded into calculator');
                 });
 
             } else {
@@ -1042,10 +1098,63 @@ function initLoadButtons() {
                         showBlendDoseTypical(preset);
                     }
                     switchTab('calculator');
+                    showToast('Loaded into calculator');
                 });
             }
         });
     });
+}
+
+/* ============================================================
+   LOCALSTORAGE PERSISTENCE
+   ============================================================ */
+function saveCalcState() {
+    try {
+        const state = {
+            compound: document.getElementById('compound-select')?.value,
+            compoundCount,
+            bac: document.getElementById('bac-water')?.value,
+            blendInputMode,
+            blendVialSize: activeBlendVialSize,
+        };
+        for (let i = 1; i <= compoundCount; i++) {
+            state[`name${i}`] = document.getElementById(`name-${i}`)?.value || '';
+            state[`mg${i}`]   = document.getElementById(`mg-${i}`)?.value || '';
+        }
+        const doseEl = document.getElementById('dose-single') ||
+                       document.getElementById('dose-primary') ||
+                       document.getElementById('units-draw');
+        if (doseEl) state.dose = doseEl.value;
+        localStorage.setItem('vialLogicCalc', JSON.stringify(state));
+    } catch(e) {}
+}
+
+function restoreCalcState() {
+    try {
+        const raw = localStorage.getItem('vialLogicCalc');
+        if (!raw) return;
+        const state = JSON.parse(raw);
+        if (!state.compound) return;
+        const sel = document.getElementById('compound-select');
+        if (!sel) return;
+        sel.value = state.compound;
+        if (!sel.value) return; /* option may not exist */
+        sel.dispatchEvent(new Event('change'));
+        requestAnimationFrame(() => {
+            const bac = document.getElementById('bac-water');
+            if (bac && state.bac) bac.value = state.bac;
+            for (let i = 1; i <= (state.compoundCount || 1); i++) {
+                const nameEl = document.getElementById(`name-${i}`);
+                const mgEl   = document.getElementById(`mg-${i}`);
+                if (nameEl && state[`name${i}`]) nameEl.value = state[`name${i}`];
+                if (mgEl   && state[`mg${i}`])   mgEl.value   = state[`mg${i}`];
+            }
+            const doseEl = document.getElementById('dose-single') ||
+                           document.getElementById('dose-primary') ||
+                           document.getElementById('units-draw');
+            if (doseEl && state.dose) doseEl.value = state.dose;
+        });
+    } catch(e) {}
 }
 
 /* ============================================================
@@ -1068,6 +1177,53 @@ function formatDoseNumber(mcg) {
 }
 
 function formatDoseUnit(mcg) { return mcg >= 1000 ? 'mg' : 'mcg'; }
+
+function copyResult() {
+    const content = document.getElementById('result-content');
+    const basedOn = document.getElementById('result-based-on');
+    if (!content) return;
+    const text = [
+        basedOn?.textContent?.trim(),
+        content.innerText?.trim()
+    ].filter(Boolean).join('\n');
+    navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById('copy-result-btn');
+        if (btn) {
+            btn.textContent = '✓ Copied';
+            setTimeout(() => {
+                btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy';
+            }, 2000);
+        }
+    }).catch(() => showToast('Copy failed — try again'));
+}
+
+function clearCalc() {
+    const sel = document.getElementById('compound-select');
+    if (sel) sel.value = '';
+    compoundCount  = 1;
+    activePreset   = null;
+    activeBlendVialSize = null;
+    hideCustomBlendRow();
+    renderFields(1);
+    clearDoseHint();
+    clearBacRecommendation();
+    hideResult();
+    const bac = document.getElementById('bac-water');
+    if (bac) bac.value = '';
+    localStorage.removeItem('vialLogicCalc');
+}
+
+function showToast(msg) {
+    const t = document.getElementById('toast');
+    if (!t) return;
+    t.textContent = msg;
+    t.classList.remove('hidden', 'toast-out');
+    clearTimeout(window._toastTimer);
+    window._toastTimer = setTimeout(() => {
+        t.classList.add('toast-out');
+        setTimeout(() => t.classList.add('hidden'), 380);
+    }, 2200);
+}
 
 function escapeHtml(str) {
     return String(str)

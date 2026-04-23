@@ -1830,3 +1830,174 @@ button.compound-tag {
     .lib-body { padding: 4px 16px 18px; }
     .library-cat-title { font-size: 16px; }
 }
+
+/* ============================================================
+   UX ENHANCEMENTS (batch)
+   ============================================================ */
+
+/* 1. BAC "Use this" button */
+.bac-use-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--cyan);
+    background: var(--cyan-dim);
+    border: 1px solid rgba(0,212,255,0.25);
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    font-family: var(--font);
+    transition: all var(--ease);
+}
+.bac-use-btn:hover { background: rgba(0,212,255,0.18); }
+
+/* 2. Toast notifications */
+.toast {
+    position: fixed;
+    bottom: 88px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--card);
+    border: 1px solid var(--border-hi);
+    color: var(--text);
+    padding: 10px 22px;
+    border-radius: var(--radius-pill);
+    font-size: 13px;
+    font-weight: 500;
+    z-index: 1100;
+    box-shadow: var(--shadow);
+    transition: opacity 0.35s ease;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.toast.hidden { display: none; }
+.toast.toast-out { opacity: 0; }
+
+/* 3. Vial size other hint */
+.vial-size-other-hint {
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-top: 6px;
+    font-style: italic;
+}
+.vial-size-other-hint.hidden { display: none; }
+
+/* 4. Step help buttons and panels */
+.step-help-btn {
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--border-hi);
+    background: var(--surface);
+    color: var(--text-dim);
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: var(--font);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all var(--ease);
+}
+.step-help-btn:hover { border-color: var(--cyan); color: var(--cyan); }
+.step-help-panel {
+    margin: -8px 0 12px;
+    padding: 10px 14px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--cyan);
+    border-radius: var(--radius-sm);
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.6;
+}
+.step-help-panel.hidden { display: none; }
+.step-help-panel strong { color: var(--text); }
+
+/* 5. Sticky mobile Calculate button */
+.mobile-sticky-calc { display: none; }
+@media (max-width: 640px) {
+    .mobile-sticky-calc {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 10px 16px 16px;
+        background: rgba(7,9,15,0.96);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border-top: 1px solid var(--border);
+        z-index: 150;
+    }
+    .mobile-sticky-calc.hidden { display: none; }
+    .mobile-sticky-calc .calc-button { width: 100%; margin: 0; }
+}
+
+/* 7. Warning fix button */
+.warning-fix-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    margin-left: 6px;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--amber);
+    background: rgba(245,158,11,0.12);
+    border: 1px solid rgba(245,158,11,0.3);
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    font-family: var(--font);
+    transition: all var(--ease);
+}
+.warning-fix-btn:hover { background: rgba(245,158,11,0.22); }
+
+/* 8. Copy result button */
+.copy-result-btn {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-dim);
+    background: transparent;
+    border: 1px solid var(--border-hi);
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    font-family: var(--font);
+    transition: all var(--ease);
+}
+.copy-result-btn:hover { color: var(--text); border-color: var(--cyan); }
+
+/* 9. Reset / Start Over button */
+.reset-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+    margin-top: 8px;
+    padding: 9px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-muted);
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-family: var(--font);
+    transition: all var(--ease);
+}
+.reset-btn:hover { color: var(--text-dim); border-color: var(--border-hi); }
+
+/* 11. Dose table inside result-box spacing */
+.result-box .dose-table-wrap {
+    margin-top: 20px;
+    border-top: 1px solid var(--border);
+    padding-top: 4px;
+}

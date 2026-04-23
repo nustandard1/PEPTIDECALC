@@ -88,6 +88,10 @@
                         <div class="step-header">
                             <span class="step-badge">3</span>
                             <span class="step-title">Bacteriostatic Water</span>
+                            <button class="step-help-btn" onclick="toggleStepHelp('bac-help')" aria-label="Help">?</button>
+                        </div>
+                        <div id="bac-help" class="step-help-panel hidden">
+                            <strong>1 mL = 100 units</strong> on a U-100 insulin syringe. Add this much sterile water to dissolve the peptide. Less water = higher concentration = fewer units per dose. More water = lower concentration = more units per dose.
                         </div>
                         <div class="field solo">
                             <label class="field-label">Water Added to Vial <span class="field-label-hint">* 1 mL = 100 units</span></label>
@@ -104,6 +108,10 @@
                         <div class="step-header">
                             <span class="step-badge">4</span>
                             <span class="step-title" id="step4-title">Desired Dose</span>
+                            <button class="step-help-btn" onclick="toggleStepHelp('dose-help')" aria-label="Help">?</button>
+                        </div>
+                        <div id="dose-help" class="step-help-panel hidden">
+                            <strong>mcg</strong> (micrograms) = 1/1000th of a mg. Most peptides are dosed in mcg. Enter the amount you want per injection — the calculator will tell you exactly how many units to draw on your syringe.
                         </div>
                         <p class="step-subnote">Not sure what to enter? See the <a href="#" class="inline-link" data-jump-tab="reference">Peptides tab</a> for typical protocols.</p>
                         <div id="dose-fields"></div>
@@ -113,6 +121,10 @@
                         Calculate
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                     </button>
+                    <button class="reset-btn" id="reset-btn" onclick="clearCalc()">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4.86"/></svg>
+                        Start Over
+                    </button>
 
                     <div id="dose-hint-anchor" class="dose-hint-anchor"></div>
 
@@ -120,6 +132,10 @@
                         <div class="result-header">
                             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
                             Your Results
+                            <button class="copy-result-btn" id="copy-result-btn" onclick="copyResult()" title="Copy results to clipboard">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                                Copy
+                            </button>
                         </div>
                         <div id="result-based-on" class="result-based-on hidden"></div>
                         <div id="result-content" class="result-grid"></div>
@@ -127,9 +143,8 @@
                             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4m0-4h.01"/></svg>
                             Based on a standard U-100 insulin syringe (100 units = 1 mL)
                         </div>
+                        <div id="dose-table-wrap" class="dose-table-wrap hidden"></div>
                     </div>
-
-                    <div id="dose-table-wrap" class="dose-table-wrap hidden"></div>
 
                 </div>
 
@@ -2015,5 +2030,17 @@
       }
     });
     </script>
+
+    <!-- Toast notification -->
+    <div id="toast" class="toast hidden"></div>
+
+    <!-- Mobile sticky Calculate bar (shown only on calculator tab, mobile) -->
+    <div class="mobile-sticky-calc hidden" id="mobile-calc-bar">
+        <button class="calc-button" onclick="document.getElementById('calc-btn').click()">
+            Calculate
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </button>
+    </div>
+
 </body>
 </html>
