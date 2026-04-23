@@ -1179,6 +1179,49 @@ button.compound-tag {
     font-weight: 600;
 }
 
+/* Blend vial size selector */
+.blend-vial-size-selector {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    padding: 10px 14px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+.vial-size-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.vial-size-pills {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+.vial-size-pill {
+    padding: 5px 14px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-muted);
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: var(--font);
+    transition: all var(--ease);
+}
+.vial-size-pill:hover { color: var(--text); border-color: var(--accent); }
+.vial-size-pill.active {
+    background: var(--gradient);
+    color: #fff;
+    border-color: transparent;
+}
+
 /* Blend mode toggle */
 .blend-mode-toggle {
     display: inline-flex;

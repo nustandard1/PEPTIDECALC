@@ -25,10 +25,9 @@
             </div>
             <nav class="tab-nav">
                 <button class="tab-btn active" data-tab="calculator">Calculator</button>
-                <button class="tab-btn" data-tab="reference">Peptides</button>
-                <button class="tab-btn" data-tab="blends">Blends</button>
-                <button class="tab-btn" data-tab="stacks">Stacks</button>
                 <button class="tab-btn" data-tab="learn">Learn</button>
+                <button class="tab-btn" data-tab="reference">Peptides</button>
+                <button class="tab-btn" data-tab="stacks">Stacks</button>
             </nav>
         </div>
     </header>
@@ -147,93 +146,6 @@
                         <div class="info-tile-label">Volume (mL)</div>
                         <div class="info-tile-value">Shown for reference — syringe units are what matter</div>
                     </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- ===== BLENDS ===== -->
-        <section id="tab-blends" class="tab-pane">
-            <div class="container">
-
-                <div class="page-hero">
-                    <h1>Blends</h1>
-                    <p>Multi-compound vials where everything is reconstituted together. One draw — multiple peptides at a fixed ratio. Click any blend to load it into the calculator.</p>
-                </div>
-
-                <div class="stack-grid">
-
-                    <div class="stack-card">
-                        <div class="stack-badge badge-heal">Healing</div>
-                        <h2 class="stack-name">BPC-157 + TB-500</h2>
-                        <p class="stack-desc">The most widely used healing blend. BPC-157 drives localized tissue repair; TB-500 promotes systemic recovery and flexibility. Available in 5/5 mg or 10/10 mg configurations — enter your specific amounts after loading.</p>
-                        <div class="stack-compounds">
-                            <span class="compound-tag">BPC-157</span>
-                            <span class="compound-tag">TB-500</span>
-                        </div>
-                        <div class="stack-protocol">
-                            <div class="protocol-label">Common Range (informational only)</div>
-                            <div class="protocol-text">Because both compounds are equal mg, every draw gives you the same mcg of each. Common draws: 250–500 mcg per compound per dose, 1–2× daily. Typical cycle: 4–6 weeks.</div>
-                        </div>
-                        <button class="load-btn" data-count="2" data-names="BPC-157,TB-500" data-amounts="">
-                            Load in Calculator →
-                        </button>
-                    </div>
-
-                    <div class="stack-card">
-                        <div class="stack-badge badge-growth">GH Peptides</div>
-                        <h2 class="stack-name">CJC-1295 + Ipamorelin</h2>
-                        <p class="stack-desc">A synergistic growth hormone secretagogue blend. CJC-1295 extends the GH release window; Ipamorelin provides a clean, selective GH pulse. Used for body composition, sleep quality, and recovery.</p>
-                        <div class="stack-compounds">
-                            <span class="compound-tag">CJC-1295</span>
-                            <span class="compound-tag">Ipamorelin</span>
-                        </div>
-                        <div class="stack-protocol">
-                            <div class="protocol-label">Common Range (informational only)</div>
-                            <div class="protocol-text">Equal mg of each compound — every draw gives the same mcg of both. Common draws: 100–300 mcg per compound per dose. Before bed or post-workout. Typical cycle: 8–12 weeks.</div>
-                        </div>
-                        <button class="load-btn" data-count="2" data-names="CJC-1295,Ipamorelin" data-amounts="">
-                            Load in Calculator →
-                        </button>
-                    </div>
-
-                    <div class="stack-card">
-                        <div class="stack-badge badge-glow">GLOW</div>
-                        <h2 class="stack-name">GLOW</h2>
-                        <p class="stack-desc">A premium 3-compound regenerative blend. BPC-157 and TB-500 are equal at 10 mg each; GHK-Cu is 50 mg — 5× more concentrated. Every draw delivers all three at a fixed ratio determined by these amounts.</p>
-                        <div class="stack-compounds">
-                            <span class="compound-tag">BPC-157 — 10 mg</span>
-                            <span class="compound-tag">TB-500 — 10 mg</span>
-                            <span class="compound-tag">GHK-Cu — 50 mg</span>
-                        </div>
-                        <div class="stack-protocol">
-                            <div class="protocol-label">Common Range (informational only)</div>
-                            <div class="protocol-text">With 2 mL BAC water: drawing 10 units = 500 mcg BPC-157, 500 mcg TB-500, 2.5 mg GHK-Cu. Load in the calculator to see exact amounts for any draw.</div>
-                        </div>
-                        <button class="load-btn" data-count="3" data-names="BPC-157,TB-500,GHK-Cu" data-amounts="10,10,50">
-                            Load in Calculator →
-                        </button>
-                    </div>
-
-                    <div class="stack-card">
-                        <div class="stack-badge badge-klow">KLOW</div>
-                        <h2 class="stack-name">KLOW</h2>
-                        <p class="stack-desc">The full GLOW formula plus KPV at 10 mg — equal to BPC-157 and TB-500. KPV adds potent anti-inflammatory and gut support properties. All four compounds delivered at a fixed ratio with every draw.</p>
-                        <div class="stack-compounds">
-                            <span class="compound-tag">BPC-157 — 10 mg</span>
-                            <span class="compound-tag">TB-500 — 10 mg</span>
-                            <span class="compound-tag">GHK-Cu — 50 mg</span>
-                            <span class="compound-tag">KPV — 10 mg</span>
-                        </div>
-                        <div class="stack-protocol">
-                            <div class="protocol-label">Common Range (informational only)</div>
-                            <div class="protocol-text">With 2 mL BAC water: drawing 10 units = 500 mcg BPC-157, 500 mcg TB-500, 2.5 mg GHK-Cu, 500 mcg KPV. Load in the calculator for exact amounts.</div>
-                        </div>
-                        <button class="load-btn" data-count="4" data-names="BPC-157,TB-500,GHK-Cu,KPV" data-amounts="10,10,50,10">
-                            Load in Calculator →
-                        </button>
-                    </div>
-
                 </div>
 
             </div>
@@ -758,6 +670,34 @@
                 <!-- BLENDS -->
                 <div class="ref-section-title">Blends</div>
                 <div class="ref-grid">
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">BPC-157 + TB-500</span>
+                            <span class="ref-badge badge-heal">2-Compound Blend</span>
+                        </div>
+                        <p class="ref-desc">The most widely used healing blend. BPC-157 drives localized tissue repair; TB-500 promotes systemic recovery and flexibility. Both compounds are equal mg — every draw gives the same mcg of each.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row"><span class="ref-detail-label">Common Vials</span><span class="ref-detail-val">5/5 mg · 10/10 mg (equal amounts)</span></div>
+                            <div class="ref-detail-row"><span class="ref-detail-label">Dose Range</span><span class="ref-detail-val">250–500 mcg per compound · 1–2× daily</span></div>
+                            <div class="ref-detail-row"><span class="ref-detail-label">Typical Cycle</span><span class="ref-detail-val">4–6 weeks</span></div>
+                        </div>
+                        <button class="load-btn" data-count="2" data-names="BPC-157,TB-500" data-amounts="">Load in Calculator →</button>
+                    </div>
+
+                    <div class="ref-card">
+                        <div class="ref-card-header">
+                            <span class="ref-name">CJC-1295 + Ipamorelin</span>
+                            <span class="ref-badge badge-growth">2-Compound Blend</span>
+                        </div>
+                        <p class="ref-desc">A synergistic GH secretagogue blend. CJC-1295 extends the GH release window; Ipamorelin provides a clean, selective GH pulse. Used for body composition, sleep quality, and recovery.</p>
+                        <div class="ref-details">
+                            <div class="ref-detail-row"><span class="ref-detail-label">Common Vials</span><span class="ref-detail-val">5/5 mg · 10/10 mg (equal amounts)</span></div>
+                            <div class="ref-detail-row"><span class="ref-detail-label">Dose Range</span><span class="ref-detail-val">100–300 mcg per compound · before bed or post-workout</span></div>
+                            <div class="ref-detail-row"><span class="ref-detail-label">Typical Cycle</span><span class="ref-detail-val">8–12 weeks</span></div>
+                        </div>
+                        <button class="load-btn" data-count="2" data-names="CJC-1295,Ipamorelin" data-amounts="">Load in Calculator →</button>
+                    </div>
 
                     <div class="ref-card">
                         <div class="ref-card-header">

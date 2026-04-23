@@ -2,9 +2,10 @@
    PEPTIDECALC — CALCULATOR LOGIC
    ============================================================ */
 
-let compoundCount  = 1;
-let activePreset   = null;
-let blendInputMode = 'dose'; /* 'units' | 'dose' — default to dose */
+let compoundCount      = 1;
+let activePreset       = null;
+let blendInputMode     = 'dose'; /* 'units' | 'dose' — default to dose */
+let activeBlendVialSize = null;  /* '5' | '10' | 'other' | null */
 
 /* ============================================================
    PRESET DATA
@@ -226,6 +227,7 @@ function clearInputValues() {
     const bac = document.getElementById('bac-water');
     if (bac) bac.value = '';
     clearBacRecommendation();
+    activeBlendVialSize = null;
 }
 
 function buildDropdown() {
@@ -424,6 +426,55 @@ function setDoseUnit(unit) {
 }
 
 /* ============================================================
+   BLEND VIAL SIZE SELECTOR
+   ============================================================ */
+function showBlendVialSizeSelector() {
+    const container = document.getElementById('peptide-fields');
+    if (!container) return;
+
+    const sel = document.createElement('div');
+    sel.id = 'blend-vial-size-selector';
+    sel.className = 'blend-vial-size-selector';
+    sel.innerHTML = `
+        <span class="vial-size-label">Vial Size</span>
+        <div class="vial-size-pills">
+            <button class="vial-size-pill${activeBlendVialSize === '5'     ? ' active' : ''}" data-size="5">5 / 5 mg</button>
+            <button class="vial-size-pill${activeBlendVialSize === '10'    ? ' active' : ''}" data-size="10">10 / 10 mg</button>
+            <button class="vial-size-pill${activeBlendVialSize === 'other' ? ' active' : ''}" data-size="other">Other</button>
+        </div>
+    `;
+    container.prepend(sel);
+
+    sel.querySelectorAll('.vial-size-pill').forEach(btn => {
+        btn.addEventListener('click', () => {
+            sel.querySelectorAll('.vial-size-pill').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeBlendVialSize = btn.dataset.size;
+            if (btn.dataset.size === 'other') {
+                const mg1 = document.getElementById('mg-1');
+                if (mg1) { mg1.value = ''; mg1.focus(); }
+                const mg2 = document.getElementById('mg-2');
+                if (mg2) mg2.value = '';
+            } else {
+                const v = btn.dataset.size;
+                const mg1 = document.getElementById('mg-1');
+                const mg2 = document.getElementById('mg-2');
+                if (mg1) mg1.value = v;
+                if (mg2) mg2.value = v;
+            }
+        });
+    });
+
+    /* Restore previously selected value when re-rendering (e.g. blend mode toggle) */
+    if (activeBlendVialSize && activeBlendVialSize !== 'other') {
+        const mg1 = document.getElementById('mg-1');
+        const mg2 = document.getElementById('mg-2');
+        if (mg1) mg1.value = activeBlendVialSize;
+        if (mg2) mg2.value = activeBlendVialSize;
+    }
+}
+
+/* ============================================================
    RENDER FIELDS
    ============================================================ */
 function renderFields(count) {
@@ -458,6 +509,10 @@ function renderFields(count) {
             </div>
         `;
         peptideContainer.appendChild(group);
+    }
+
+    if (activePreset?.equalAmounts) {
+        showBlendVialSizeSelector();
     }
 
     if (count === 1) {
