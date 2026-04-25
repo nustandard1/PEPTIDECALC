@@ -417,7 +417,7 @@ function showOtherHint() {
         <div class="dose-hint">
             <div class="dose-hint-title">Need dosing information?</div>
             <div class="dose-hint-text">
-                Check the <button class="hint-ref-link" onclick="switchTab('reference')">Reference tab →</button> for dose ranges on common peptides.
+                Check the <button class="hint-ref-link" onclick="switchTab('library')">Library →</button> for compound protocols.
             </div>
         </div>
     `;
