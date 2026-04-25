@@ -1713,6 +1713,7 @@ button.compound-tag {
     color: var(--cyan);
     margin-bottom: 8px;
 }
+.lib-section-label--avoid { color: #f59e0b; }
 
 .lib-section p {
     font-size: 14.5px;
