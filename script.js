@@ -1382,12 +1382,18 @@ function renderResearchFeed() {
 function buildResearchCard(e) {
     const card = document.createElement('details');
     card.className = 'research-card';
+    if (e.isTrial)    card.classList.add('research-card--trial');
+    if (e.isPreprint) card.classList.add('research-card--preprint');
     card.dataset.peptides = (e.peptides || []).join('|');
+    card.dataset.kind     = e.kind || 'study';
+
     const searchText = [
         e.title, e.displayTitle, e.summary, e.context, e.limitations,
         (e.keyFindings || []).join(' '),
         (e.peptides || []).join(' '),
-        e.studyType, e.journal, e.authors
+        e.studyType, e.journal, e.authors,
+        e.trialMeta?.sponsor, e.trialMeta?.phase, e.trialMeta?.status,
+        (e.trialMeta?.conditions || []).join(' ')
     ].filter(Boolean).join(' ').toLowerCase();
     card.dataset.searchText = searchText;
 
@@ -1395,38 +1401,65 @@ function buildResearchCard(e) {
         `<span class="research-tag research-tag--peptide">${escapeHtml(p)}</span>`
     ).join('');
 
+    const kindTag = e.isTrial
+        ? `<span class="research-tag research-tag--trial">Clinical trial</span>`
+        : (e.isPreprint
+            ? `<span class="research-tag research-tag--preprint">Preprint</span>`
+            : '');
+
     const typeTag = e.studyType
         ? `<span class="research-tag research-tag--type">${escapeHtml(e.studyType)}</span>`
-        : '';
-    const preprintTag = e.isPreprint
-        ? `<span class="research-tag research-tag--preprint">Preprint</span>`
         : '';
     const dateStr  = formatResearchDate(e.publishedDate);
     const headline = e.displayTitle || e.title || 'Untitled';
 
     const findings = (e.keyFindings || []).map(f => `<li>${escapeHtml(f)}</li>`).join('');
-    const citation = [e.authors, e.journal, e.publishedDate ? new Date(e.publishedDate).getFullYear() : null]
-        .filter(Boolean).join(' · ');
-    const sourceUrl = e.url || (e.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${e.pmid}/` : (e.doi ? `https://doi.org/${e.doi}` : '#'));
+    const citation = e.isTrial
+        ? [e.trialMeta?.sponsor, 'ClinicalTrials.gov', e.publishedDate ? `last updated ${formatResearchDate(e.publishedDate)}` : null]
+            .filter(Boolean).join(' · ')
+        : [e.authors, e.journal, e.publishedDate ? new Date(e.publishedDate).getFullYear() : null]
+            .filter(Boolean).join(' · ');
+
+    const sourceUrl = e.url || (e.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${e.pmid}/` : (e.nctId ? `https://clinicaltrials.gov/study/${e.nctId}` : (e.doi ? `https://doi.org/${e.doi}` : '#')));
+
+    const trialMetaBlock = e.isTrial && e.trialMeta ? `
+        <div class="research-trial-strip">
+            ${e.trialMeta.phase    ? `<div class="research-trial-cell"><span class="research-trial-label">Phase</span><span class="research-trial-value">${escapeHtml(e.trialMeta.phase)}</span></div>` : ''}
+            ${e.trialMeta.status   ? `<div class="research-trial-cell"><span class="research-trial-label">Status</span><span class="research-trial-value">${escapeHtml(e.trialMeta.status)}</span></div>` : ''}
+            ${e.trialMeta.enrollment ? `<div class="research-trial-cell"><span class="research-trial-label">Enrollment</span><span class="research-trial-value">${escapeHtml(e.trialMeta.enrollment)}</span></div>` : ''}
+            ${e.trialMeta.hasResults ? `<div class="research-trial-cell"><span class="research-trial-label">Results</span><span class="research-trial-value research-trial-value--ok">Posted</span></div>` : ''}
+        </div>
+        ${(e.trialMeta.conditions || []).length ? `
+            <div class="research-section">
+                <div class="research-section-label">Conditions</div>
+                <div class="research-conditions">${(e.trialMeta.conditions || []).slice(0, 6).map(c => `<span class="research-condition">${escapeHtml(c)}</span>`).join('')}</div>
+            </div>` : ''}
+    ` : '';
+
+    const sourceLabel = e.isTrial ? 'Open registry entry' : 'Read source';
+    const idBadge     = e.isTrial && e.trialMeta?.nctId
+        ? `<span class="research-pmid">${escapeHtml(e.trialMeta.nctId)}</span>`
+        : (e.pmid ? `<span class="research-pmid">PMID: ${escapeHtml(e.pmid)}</span>` : '');
 
     card.innerHTML = `
         <summary class="research-card-summary">
             <div class="research-card-meta">
                 ${peptideTags}
+                ${kindTag}
                 ${typeTag}
-                ${preprintTag}
                 ${dateStr ? `<span class="research-date">${dateStr}</span>` : ''}
             </div>
             <h3 class="research-headline">${escapeHtml(headline)}</h3>
             <svg class="research-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </summary>
         <div class="research-card-body">
+            ${trialMetaBlock}
             ${e.title && e.title !== headline ? `<div class="research-official-title">${escapeHtml(e.title)}</div>` : ''}
             ${citation ? `<div class="research-citation">${escapeHtml(citation)}</div>` : ''}
             ${e.summary ? `<div class="research-summary">${escapeHtml(e.summary)}</div>` : ''}
             ${findings ? `
                 <div class="research-section">
-                    <div class="research-section-label">Key findings</div>
+                    <div class="research-section-label">${e.isTrial ? 'Design highlights' : 'Key findings'}</div>
                     <ul class="research-findings">${findings}</ul>
                 </div>` : ''}
             ${e.context ? `
@@ -1436,15 +1469,15 @@ function buildResearchCard(e) {
                 </div>` : ''}
             ${e.limitations ? `
                 <div class="research-section">
-                    <div class="research-section-label">Limitations</div>
+                    <div class="research-section-label">${e.isTrial ? 'Caveats' : 'Limitations'}</div>
                     <div class="research-limitations">${escapeHtml(e.limitations)}</div>
                 </div>` : ''}
             <div class="research-card-footer">
                 <a class="research-source-link" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">
-                    Read source
+                    ${sourceLabel}
                     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M7 7h10v10"/></svg>
                 </a>
-                ${e.pmid ? `<span class="research-pmid">PMID: ${escapeHtml(e.pmid)}</span>` : ''}
+                ${idBadge}
             </div>
         </div>
     `;

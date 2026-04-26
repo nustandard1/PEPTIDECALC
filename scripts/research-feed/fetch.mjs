@@ -1,10 +1,10 @@
 /**
  * VialLogic — Weekly Research Feed Updater
  *
- * Pulls new peptide research from PubMed (and optionally bioRxiv preprints),
- * summarizes each abstract via the Claude API into structured JSON,
- * and writes data/research-feed.json. Designed to be run from a GitHub
- * Actions cron, which then opens a PR for human review.
+ * Pulls new peptide research from PubMed, medRxiv/bioRxiv preprints, and
+ * ClinicalTrials.gov, summarizes each via the Claude API into structured
+ * JSON, and writes data/research-feed.json. Designed to be run from a
+ * GitHub Actions cron, which then opens a PR for human review.
  *
  * Required env: ANTHROPIC_API_KEY
  * Optional env:
@@ -12,7 +12,8 @@
  *   MAX_NEW_PER_RUN    (default: 12)  — soft cap on entries added per run
  *   MAX_FEED_SIZE      (default: 200) — cap total entries kept in feed
  *   LOOKBACK_DAYS      (overrides watchlist.lookbackDays)
- *   INCLUDE_BIORXIV    (default: false) — set "true" to also pull preprints
+ *   INCLUDE_PREPRINTS  (default: true) — pull medRxiv + bioRxiv preprints
+ *   INCLUDE_TRIALS     (default: true) — pull ClinicalTrials.gov registry
  */
 
 import fs from 'node:fs/promises';
@@ -29,7 +30,8 @@ const FEED_PATH    = path.join(REPO_ROOT, 'data', 'research-feed.json');
 const MODEL              = process.env.MODEL || 'claude-sonnet-4-5-20250929';
 const MAX_NEW_PER_RUN    = parseInt(process.env.MAX_NEW_PER_RUN  || '12', 10);
 const MAX_FEED_SIZE      = parseInt(process.env.MAX_FEED_SIZE    || '200', 10);
-const INCLUDE_BIORXIV    = (process.env.INCLUDE_BIORXIV || 'false').toLowerCase() === 'true';
+const INCLUDE_PREPRINTS  = (process.env.INCLUDE_PREPRINTS || 'true').toLowerCase() === 'true';
+const INCLUDE_TRIALS     = (process.env.INCLUDE_TRIALS    || 'true').toLowerCase() === 'true';
 const PUBMED_TOOL        = 'viallogic-research-feed';
 const PUBMED_EMAIL       = process.env.PUBMED_EMAIL || 'noreply@viallogic.com';
 const NCBI_API_KEY       = process.env.NCBI_API_KEY || '';
@@ -189,36 +191,134 @@ function parsePubmedArticle(a) {
 }
 
 /* ------------------------------------------------------------------ */
-/*  bioRxiv (optional)                                                */
+/*  medRxiv / bioRxiv preprints                                       */
 /* ------------------------------------------------------------------ */
 
-async function biorxivSearch(peptideName, lookbackDays) {
-    if (!INCLUDE_BIORXIV) return [];
+async function preprintSearch(server, peptideName, queryAliases, lookbackDays) {
+    // server: 'medrxiv' | 'biorxiv'
+    if (!INCLUDE_PREPRINTS) return [];
     try {
         const end   = new Date().toISOString().slice(0, 10);
         const start = new Date(Date.now() - lookbackDays * 86400 * 1000).toISOString().slice(0, 10);
-        const url   = `https://api.biorxiv.org/details/biorxiv/${start}/${end}/0`;
+        const url   = `https://api.biorxiv.org/details/${server}/${start}/${end}/0`;
         const data  = await fetchJson(url);
-        const term  = peptideName.toLowerCase();
+        const terms = [peptideName, ...(queryAliases || [])].map(t => t.toLowerCase());
         const hits  = (data?.collection || []).filter(p => {
             const blob = `${p.title || ''} ${p.abstract || ''}`.toLowerCase();
-            return blob.includes(term);
+            return terms.some(t => blob.includes(t));
         });
         return hits.slice(0, 5).map(p => ({
-            source: 'biorxiv',
+            source: server,
+            kind: 'preprint',
             pmid: '',
             doi: p.doi,
-            url: `https://www.biorxiv.org/content/${p.doi}v${p.version || 1}`,
+            url: `https://www.${server === 'medrxiv' ? 'medrxiv' : 'biorxiv'}.org/content/${p.doi}v${p.version || 1}`,
             title: p.title,
             authors: (p.authors || '').split(';').slice(0, 1).join('') + ((p.authors || '').includes(';') ? ' et al.' : ''),
-            journal: 'bioRxiv (preprint)',
+            journal: `${server === 'medrxiv' ? 'medRxiv' : 'bioRxiv'} (preprint)`,
             publishedDate: p.date,
             abstract: p.abstract || '',
             pubTypes: ['Preprint'],
             isPreprint: true,
+            isTrial: false,
         }));
     } catch (err) {
-        console.warn(`bioRxiv lookup failed for ${peptideName}: ${err.message}`);
+        console.warn(`${server} lookup failed for ${peptideName}: ${err.message}`);
+        return [];
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  ClinicalTrials.gov                                                 */
+/* ------------------------------------------------------------------ */
+
+async function clinicalTrialsSearch(peptideName, queryAliases, lookbackDays) {
+    if (!INCLUDE_TRIALS) return [];
+    try {
+        const end   = new Date().toISOString().slice(0, 10);
+        const start = new Date(Date.now() - lookbackDays * 86400 * 1000).toISOString().slice(0, 10);
+        // OR together the peptide name + aliases for the intervention search
+        const terms = [peptideName, ...(queryAliases || [])].map(t => `"${t}"`).join(' OR ');
+        const url = `https://clinicaltrials.gov/api/v2/studies`
+            + `?query.intr=${encodeURIComponent(terms)}`
+            + `&filter.advanced=${encodeURIComponent(`AREA[LastUpdatePostDate]RANGE[${start},${end}]`)}`
+            + `&pageSize=10`
+            + `&sort=LastUpdatePostDate:desc`;
+        const r = await fetch(url);
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        const data = await r.json();
+        const studies = data?.studies || [];
+
+        return studies.map(s => {
+            const proto      = s?.protocolSection || {};
+            const ident      = proto?.identificationModule || {};
+            const status     = proto?.statusModule || {};
+            const design     = proto?.designModule || {};
+            const sponsor    = proto?.sponsorCollaboratorsModule?.leadSponsor || {};
+            const conds      = proto?.conditionsModule?.conditions || [];
+            const desc       = proto?.descriptionModule || {};
+            const interv     = proto?.armsInterventionsModule?.interventions || [];
+            const outcomes   = proto?.outcomesModule?.primaryOutcomes || [];
+            const eligi      = proto?.eligibilityModule || {};
+            const hasResults = !!s?.hasResults;
+
+            const phase   = (design?.phases || []).join('/').replace(/PHASE/gi, 'Phase ').replace(/_/g, ' ').trim();
+            const interventions = interv
+                .filter(i => (i?.type || '').toUpperCase() === 'DRUG' || (i?.type || '').toUpperCase() === 'BIOLOGICAL')
+                .map(i => `${i.name || ''}${i.description ? ' — ' + i.description : ''}`)
+                .filter(Boolean)
+                .slice(0, 3)
+                .join('; ');
+            const primaryOutcomes = outcomes.slice(0, 2).map(o => o?.measure).filter(Boolean).join('; ');
+            const enrollment = proto?.designModule?.enrollmentInfo?.count;
+
+            // Build a "synthetic abstract" Claude can summarize.
+            const abstract = [
+                desc?.briefSummary && `BRIEF SUMMARY: ${desc.briefSummary}`,
+                desc?.detailedDescription && `DETAILED DESCRIPTION: ${desc.detailedDescription}`,
+                conds.length && `CONDITIONS: ${conds.join('; ')}`,
+                interventions && `INTERVENTIONS: ${interventions}`,
+                primaryOutcomes && `PRIMARY OUTCOMES: ${primaryOutcomes}`,
+                eligi?.eligibilityCriteria && `ELIGIBILITY: ${String(eligi.eligibilityCriteria).slice(0, 800)}`,
+            ].filter(Boolean).join('\n\n');
+
+            if (!ident?.nctId || !abstract) return null;
+
+            const dateStr = status?.lastUpdatePostDateStruct?.date
+                || status?.startDateStruct?.date
+                || status?.primaryCompletionDateStruct?.date
+                || end;
+
+            return {
+                source: 'clinicaltrials',
+                kind: 'trial',
+                nctId: ident.nctId,
+                pmid: '',
+                doi: '',
+                url: `https://clinicaltrials.gov/study/${ident.nctId}`,
+                title: ident?.briefTitle || ident?.officialTitle || '(untitled trial)',
+                authors: sponsor?.name || '',
+                journal: `ClinicalTrials.gov · ${sponsor?.name || 'unknown sponsor'}`,
+                publishedDate: dateStr,
+                abstract,
+                pubTypes: ['Trial registration'],
+                isPreprint: false,
+                isTrial: true,
+                trialMeta: {
+                    nctId: ident.nctId,
+                    phase: phase || '',
+                    status: (status?.overallStatus || '').replace(/_/g, ' '),
+                    sponsor: sponsor?.name || '',
+                    studyType: design?.studyType || '',
+                    enrollment: enrollment != null ? String(enrollment) : '',
+                    conditions: conds,
+                    primaryOutcomes,
+                    hasResults,
+                },
+            };
+        }).filter(Boolean);
+    } catch (err) {
+        console.warn(`ClinicalTrials.gov lookup failed for ${peptideName}: ${err.message}`);
         return [];
     }
 }
@@ -259,26 +359,74 @@ When "include" is false, all other fields may be empty strings or empty arrays.
 
 Output ONLY valid JSON matching the schema. No prose, no code fences.`;
 
+const TRIAL_SYSTEM_PROMPT = `You are summarizing a CLINICAL TRIAL REGISTRATION (from ClinicalTrials.gov) for an audience of peptide researchers and curious self-experimenters on viallogic.com. This is NOT a published paper — it is a registry entry describing a planned, ongoing, or completed trial.
+
+WHAT TO INCLUDE (set "include": true):
+- Late-phase trials (Phase 2, 3, 4) of peptides
+- First-in-human trials of novel peptides or analogs
+- Trials whose status changed meaningfully (e.g. recruiting → completed, or results posted)
+- Trials testing a peptide for a NEW indication, mechanism, or population
+- Trials of pipeline compounds where this is the only public data
+- Trials where results have been posted (\`hasResults: true\`)
+
+WHAT TO EXCLUDE (set "include": false):
+- Tiny single-site pilot studies (n < 20) without a unique angle
+- Generic-formulation or bioequivalence studies
+- Unblinded marketing post-marketing studies with no novel design
+- Withdrawn or terminated trials with no useful information
+- Trials where the peptide is only an active comparator and is not the focus
+- Behavioral / app / questionnaire studies that happen to enroll patients on the peptide
+
+Required fields when "include" is true:
+- "displayTitle": short, journalist-style headline (≤ 14 words). Lead with what's new. Format examples:
+  - "Phase 3 retatrutide trial in obesity completes enrollment"
+  - "First-in-human Phase 1 of new GLP-1/glucagon dual agonist begins"
+  - "Long-term semaglutide bone density trial posts primary results"
+  - "Phase 2 BPC-157 gut healing trial enters recruitment"
+- "summary": 1–2 sentences (≤ 60 words) describing the trial: what's being tested, in whom, with what design.
+- "keyFindings": 2–4 short bullets, each ≤ 25 words. For ACTIVE trials: list design highlights (phase, n, primary endpoint, intervention dose, comparator, status). For trials with results posted: summarize the actual results.
+- "studyType": One short label. Examples: "Trial — Phase 3 RCT", "Trial registration — Phase 1", "Trial — Phase 2, completed (results posted)".
+- "context": 1–2 sentences (≤ 50 words) on how this trial fits with prior research on the peptide. Be cautious: a trial registration is not evidence of efficacy.
+- "limitations": 1 sentence (≤ 35 words). For active trials, note that results are not yet published. For posted-result trials, note the same caveats as for any RCT.
+- "peptides": array of canonical names from the candidate list that this trial primarily studies.
+- "include": true.
+
+Output ONLY valid JSON. No prose, no code fences.`;
+
 async function summarize(article, candidatePeptides) {
-    const userMsg = `Article metadata:
-- Title: ${article.title}
-- Authors: ${article.authors || 'unknown'}
-- Journal: ${article.journal || 'unknown'}
+    const isTrial = article.kind === 'trial';
+    const sys     = isTrial ? TRIAL_SYSTEM_PROMPT : SYSTEM_PROMPT;
+
+    const trialMetaBlock = isTrial && article.trialMeta ? `
+TRIAL METADATA:
+- NCT ID:      ${article.trialMeta.nctId}
+- Phase:       ${article.trialMeta.phase || 'unspecified'}
+- Status:      ${article.trialMeta.status || 'unknown'}
+- Type:        ${article.trialMeta.studyType || 'unknown'}
+- Enrollment:  ${article.trialMeta.enrollment || 'unspecified'}
+- Sponsor:     ${article.trialMeta.sponsor || 'unknown'}
+- Has results: ${article.trialMeta.hasResults ? 'YES — results posted' : 'no'}
+- Conditions:  ${(article.trialMeta.conditions || []).join('; ') || 'unspecified'}` : '';
+
+    const userMsg = `${isTrial ? 'TRIAL' : 'ARTICLE'} metadata:
+- Title:     ${article.title}
+- Source:    ${article.isTrial ? 'ClinicalTrials.gov registry' : (article.isPreprint ? 'PREPRINT (not peer-reviewed)' : 'peer-reviewed publication')}
+- Authors:   ${article.authors || 'unknown'}
+- Journal:   ${article.journal || 'unknown'}
 - Published: ${article.publishedDate || 'unknown'}
-- PubMed pub types: ${(article.pubTypes || []).join(', ') || 'unknown'}
-- Source: ${article.isPreprint ? 'PREPRINT (not peer-reviewed)' : 'peer-reviewed'}
+- Pub types: ${(article.pubTypes || []).join(', ') || 'unknown'}${trialMetaBlock}
 
-Candidate peptides for this article (must be subset): ${candidatePeptides.join(', ')}
+Candidate peptides (must be subset): ${candidatePeptides.join(', ')}
 
-Abstract:
+${isTrial ? 'Registry content:' : 'Abstract:'}
 ${article.abstract}
 
-Return JSON with keys: summary, keyFindings, studyType, context, limitations, peptides, include.`;
+Return JSON with keys: displayTitle, summary, keyFindings, studyType, context, limitations, peptides, include.`;
 
     const resp = await anthropic.messages.create({
         model: MODEL,
-        max_tokens: 1200,
-        system: SYSTEM_PROMPT,
+        max_tokens: 1400,
+        system: sys,
         messages: [{ role: 'user', content: userMsg }],
     });
 
@@ -288,7 +436,6 @@ Return JSON with keys: summary, keyFindings, studyType, context, limitations, pe
         .join('')
         .trim();
 
-    // Strip code fences if model adds them despite instructions
     const cleaned = text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, '');
     try {
         return JSON.parse(cleaned);
@@ -319,7 +466,7 @@ async function main() {
     console.log(`Lookback window: ${lookbackDays} days`);
     console.log(`Watching ${watchlist.peptides.length} peptides`);
 
-    // 1. Search PubMed (and bioRxiv) per peptide; merge by ID.
+    // 1. Search every source per peptide; merge by ID.
     for (const p of watchlist.peptides) {
         try {
             const pmids = await pubmedSearch(p.query, lookbackDays);
@@ -334,8 +481,10 @@ async function main() {
                 allCandidates.get(id).peptides.add(p.name);
             }
 
-            const preprints = await biorxivSearch(p.name, lookbackDays);
-            for (const pp of preprints) {
+            const aliases = p.aliases || [];
+
+            const med = await preprintSearch('medrxiv', p.name, aliases, lookbackDays);
+            for (const pp of med) {
                 const id = `doi-${pp.doi}`;
                 if (knownIds.has(id)) continue;
                 if (!allCandidates.has(id)) {
@@ -344,7 +493,27 @@ async function main() {
                 allCandidates.get(id).peptides.add(p.name);
             }
 
-            console.log(`  ${p.name}: ${pmids.length} PubMed${INCLUDE_BIORXIV ? `, ${preprints.length} preprint` : ''}`);
+            const bio = await preprintSearch('biorxiv', p.name, aliases, lookbackDays);
+            for (const pp of bio) {
+                const id = `doi-${pp.doi}`;
+                if (knownIds.has(id)) continue;
+                if (!allCandidates.has(id)) {
+                    allCandidates.set(id, { _article: pp, peptides: new Set() });
+                }
+                allCandidates.get(id).peptides.add(p.name);
+            }
+
+            const trials = await clinicalTrialsSearch(p.name, aliases, lookbackDays);
+            for (const t of trials) {
+                const id = `nct-${t.nctId}`;
+                if (knownIds.has(id)) continue;
+                if (!allCandidates.has(id)) {
+                    allCandidates.set(id, { _article: t, peptides: new Set() });
+                }
+                allCandidates.get(id).peptides.add(p.name);
+            }
+
+            console.log(`  ${p.name}: ${pmids.length} PubMed, ${med.length} medRxiv, ${bio.length} bioRxiv, ${trials.length} trials`);
         } catch (err) {
             console.warn(`Search failed for ${p.name}: ${err.message}`);
         }
@@ -398,8 +567,10 @@ async function main() {
 
         feed.entries.push({
             id,
+            kind: article.kind || 'study',
             pmid: article.pmid,
             doi: article.doi,
+            nctId: article.trialMeta?.nctId || '',
             url: article.url,
             title: article.title,
             displayTitle: summary.displayTitle || article.title,
@@ -414,6 +585,8 @@ async function main() {
             limitations: summary.limitations,
             context: summary.context,
             isPreprint: !!article.isPreprint,
+            isTrial: !!article.isTrial,
+            trialMeta: article.trialMeta || null,
         });
         added++;
         console.log(`  + added ${id} — ${article.title.slice(0, 70)}…`);
