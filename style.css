@@ -1599,11 +1599,88 @@ button.compound-tag {
 /* === Peptide Library === */
 .library-intro {
     max-width: 640px;
-    margin: 0 auto 36px;
+    margin: 0 auto 20px;
     text-align: center;
     color: var(--text-dim);
     font-size: 15px;
     line-height: 1.55;
+}
+
+.library-search {
+    position: relative;
+    max-width: 520px;
+    margin: 0 auto 36px;
+    display: flex;
+    align-items: center;
+}
+.library-search-icon {
+    position: absolute;
+    left: 16px;
+    color: var(--text-dim);
+    pointer-events: none;
+}
+.library-search-input {
+    width: 100%;
+    padding: 12px 40px 12px 44px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-pill, 999px);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+.library-search-input:focus {
+    border-color: var(--cyan);
+    box-shadow: 0 0 0 3px rgba(34, 211, 238, 0.15);
+}
+.library-search-input::-webkit-search-cancel-button { display: none; }
+.library-search-clear {
+    position: absolute;
+    right: 10px;
+    width: 26px;
+    height: 26px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    color: var(--text-dim);
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+.library-search-clear:hover {
+    background: var(--card);
+    color: var(--text);
+}
+.library-search.has-value .library-search-clear {
+    display: flex;
+}
+.library-search-empty {
+    max-width: 520px;
+    margin: -16px auto 36px;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 14px;
+    padding: 20px;
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+}
+
+.lib-card.search-hidden,
+.library-category.search-hidden {
+    display: none !important;
+}
+
+.lib-match-highlight {
+    background: rgba(34, 211, 238, 0.22);
+    color: var(--text);
+    padding: 0 2px;
+    border-radius: 3px;
 }
 
 .library-category {
@@ -2018,4 +2095,268 @@ button.compound-tag {
     margin-top: 20px;
     border-top: 1px solid var(--border);
     padding-top: 4px;
+}
+
+/* ============================================================
+   LATEST RESEARCH TAB
+   ============================================================ */
+.research-meta {
+    max-width: 760px;
+    margin: 0 auto 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 13px;
+}
+.research-meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+.research-meta-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #10b981;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.6);
+    animation: research-pulse 2.5s ease-in-out infinite;
+}
+@keyframes research-pulse {
+    0%, 100% { opacity: 1; }
+    50%      { opacity: 0.4; }
+}
+.research-updated {
+    font-size: 12px;
+    color: var(--text-dim);
+    opacity: 0.8;
+}
+
+.research-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    max-width: 880px;
+    margin: 0 auto 16px;
+}
+.research-filter {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    border-radius: var(--radius-pill, 999px);
+    padding: 6px 14px;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.research-filter:hover {
+    color: var(--text);
+    border-color: var(--cyan);
+}
+.research-filter.active {
+    background: var(--gradient, linear-gradient(135deg, #22d3ee, #a855f7));
+    color: #0a0a0a;
+    border-color: transparent;
+    font-weight: 600;
+}
+
+.research-search {
+    position: relative;
+    max-width: 520px;
+    margin: 0 auto 28px;
+    display: flex;
+    align-items: center;
+}
+.research-search-icon {
+    position: absolute;
+    left: 16px;
+    color: var(--text-dim);
+    pointer-events: none;
+}
+.research-search-input {
+    width: 100%;
+    padding: 11px 16px 11px 44px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-pill, 999px);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+.research-search-input:focus {
+    border-color: var(--cyan);
+    box-shadow: 0 0 0 3px rgba(34, 211, 238, 0.15);
+}
+
+.research-feed {
+    max-width: 880px;
+    margin: 0 auto;
+    display: grid;
+    gap: 16px;
+}
+.research-loading {
+    text-align: center;
+    color: var(--text-dim);
+    padding: 60px 20px;
+    font-size: 15px;
+}
+.research-empty {
+    max-width: 520px;
+    margin: 16px auto 0;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 14px;
+    padding: 20px;
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+}
+
+.research-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px 24px;
+    transition: border-color 0.15s, transform 0.15s;
+}
+.research-card:hover {
+    border-color: var(--cyan);
+}
+.research-card.is-hidden {
+    display: none;
+}
+
+.research-card-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.research-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 10px;
+    border-radius: var(--radius-pill, 999px);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    background: rgba(34, 211, 238, 0.12);
+    color: var(--cyan);
+    border: 1px solid rgba(34, 211, 238, 0.3);
+}
+.research-tag.research-tag--peptide {
+    background: rgba(168, 85, 247, 0.12);
+    color: #c084fc;
+    border-color: rgba(168, 85, 247, 0.3);
+}
+.research-tag.research-tag--preprint {
+    background: rgba(245, 158, 11, 0.12);
+    color: var(--amber, #f59e0b);
+    border-color: rgba(245, 158, 11, 0.3);
+}
+.research-tag.research-tag--type {
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text-dim);
+    border-color: var(--border);
+}
+.research-date {
+    margin-left: auto;
+    font-size: 12px;
+    color: var(--text-dim);
+}
+
+.research-card h3 {
+    font-size: 17px;
+    line-height: 1.35;
+    margin: 0 0 6px;
+    color: var(--text);
+}
+.research-card .research-citation {
+    font-size: 13px;
+    color: var(--text-dim);
+    margin-bottom: 14px;
+    font-style: italic;
+}
+.research-card .research-summary {
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: var(--text);
+    margin-bottom: 14px;
+}
+.research-section {
+    margin-bottom: 12px;
+}
+.research-section-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    color: var(--text-dim);
+    margin-bottom: 6px;
+}
+.research-findings {
+    margin: 0;
+    padding-left: 18px;
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.55;
+}
+.research-findings li {
+    margin-bottom: 4px;
+}
+.research-card .research-context,
+.research-card .research-limitations {
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: var(--text-dim);
+}
+.research-card-footer {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+.research-source-link {
+    color: var(--cyan);
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+.research-source-link:hover { text-decoration: underline; }
+.research-pmid {
+    font-size: 12px;
+    color: var(--text-dim);
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.research-disclaimer {
+    max-width: 760px;
+    margin: 36px auto 0;
+    padding: 16px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--text-dim);
+}
+.research-disclaimer strong { color: var(--text); }
+
+@media (max-width: 640px) {
+    .research-card { padding: 18px; }
+    .research-card h3 { font-size: 15.5px; }
+    .research-date { width: 100%; margin-left: 0; }
 }

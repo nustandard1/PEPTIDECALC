@@ -28,6 +28,7 @@
                 <button class="tab-btn" data-tab="start-here">Start Here</button>
                 <button class="tab-btn" data-tab="library">Library</button>
                 <button class="tab-btn" data-tab="stacks">Stacks</button>
+                <button class="tab-btn" data-tab="research">Latest Research</button>
             </nav>
         </div>
     </header>
@@ -688,6 +689,13 @@
                 </div>
 
                 <p class="library-intro">Organized by category. Each entry covers discovery, mechanism of action, available research, synergistic pairings, and a typical research protocol for reference.</p>
+
+                <div class="library-search">
+                    <svg class="library-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="search" id="library-search-input" class="library-search-input" placeholder="Search peptides, mechanisms, conditions…" autocomplete="off">
+                    <button type="button" id="library-search-clear" class="library-search-clear" aria-label="Clear search">&times;</button>
+                </div>
+                <div id="library-search-empty" class="library-search-empty hidden">No results. Try a different keyword.</div>
 
                 <!-- HEALING & RECOVERY -->
                 <div class="library-category">
@@ -2047,6 +2055,47 @@
                         <button type="button" class="nova-guide-btn" onclick="openNova()">Chat with Nova →</button>
                     </div>
 
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ===== LATEST RESEARCH ===== -->
+        <section id="tab-research" class="tab-pane">
+            <div class="container">
+
+                <div class="page-hero">
+                    <h1>Latest Research</h1>
+                    <p>New peer-reviewed studies and notable preprints on the peptides we cover. Updated weekly. Each entry links to the source so you can read the original.</p>
+                </div>
+
+                <div class="research-meta">
+                    <div class="research-meta-item">
+                        <span class="research-meta-dot"></span>
+                        <span>Auto-curated from PubMed and bioRxiv. Each batch is human-reviewed before publishing.</span>
+                    </div>
+                    <div class="research-meta-item research-updated" id="research-last-updated"></div>
+                </div>
+
+                <div class="research-filters" id="research-filters">
+                    <button class="research-filter active" data-filter="all">All</button>
+                    <!-- peptide filters injected by JS based on feed -->
+                </div>
+
+                <div class="research-search">
+                    <svg class="research-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="search" id="research-search-input" class="research-search-input" placeholder="Search by title, peptide, or finding…" autocomplete="off">
+                </div>
+
+                <div id="research-feed" class="research-feed">
+                    <div class="research-loading">Loading latest research…</div>
+                </div>
+
+                <div id="research-empty" class="research-empty hidden">No matching entries.</div>
+
+                <div class="research-disclaimer">
+                    <strong>How to read this:</strong> Most peptide research is animal-model or mechanistic. Preprints are flagged — they have not been peer-reviewed. Sample sizes, study design, and limitations are listed for each entry so you can weigh the evidence yourself. Nothing here is medical advice.
                 </div>
 
             </div>

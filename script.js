@@ -91,6 +91,8 @@ document.addEventListener('DOMContentLoaded', () => {
     initTierAccordion();
     initLearnSubtabs();
     initJumpLinks();
+    initLibrarySearch();
+    initResearchFeed();
     renderFields(1);
     document.getElementById('calc-btn').addEventListener('click', calculate);
     document.getElementById('bac-water').addEventListener('input', onBacWaterInput);
@@ -1235,4 +1237,237 @@ function escapeHtml(str) {
         .replace(/</g, '&lt;')
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;');
+}
+
+/* ============================================================
+   LIBRARY SEARCH
+   ============================================================ */
+function initLibrarySearch() {
+    const input   = document.getElementById('library-search-input');
+    const wrap    = input ? input.closest('.library-search') : null;
+    const clear   = document.getElementById('library-search-clear');
+    const empty   = document.getElementById('library-search-empty');
+    if (!input || !wrap) return;
+
+    // Cache the searchable text for each card once.
+    const cards = Array.from(document.querySelectorAll('.lib-card'));
+    cards.forEach(card => {
+        card.dataset.searchText = (card.textContent || '').toLowerCase();
+    });
+    const categories = Array.from(document.querySelectorAll('.library-category'));
+
+    function applyFilter() {
+        const q = input.value.trim().toLowerCase();
+        wrap.classList.toggle('has-value', q.length > 0);
+
+        let anyVisible = false;
+        cards.forEach(card => {
+            const match = !q || card.dataset.searchText.includes(q);
+            card.classList.toggle('search-hidden', !match);
+            if (match) anyVisible = true;
+        });
+
+        categories.forEach(cat => {
+            const visibleCards = cat.querySelectorAll('.lib-card:not(.search-hidden)');
+            cat.classList.toggle('search-hidden', visibleCards.length === 0);
+        });
+
+        if (empty) empty.classList.toggle('hidden', anyVisible || !q);
+    }
+
+    input.addEventListener('input', applyFilter);
+    if (clear) {
+        clear.addEventListener('click', () => {
+            input.value = '';
+            applyFilter();
+            input.focus();
+        });
+    }
+}
+
+/* ============================================================
+   LATEST RESEARCH FEED
+   ============================================================ */
+let RESEARCH_DATA = null;
+let RESEARCH_FILTER = 'all';
+
+async function initResearchFeed() {
+    const feed   = document.getElementById('research-feed');
+    if (!feed) return;
+    try {
+        const res = await fetch('./data/research-feed.json', { cache: 'no-cache' });
+        if (!res.ok) throw new Error('feed not available');
+        RESEARCH_DATA = await res.json();
+    } catch (err) {
+        feed.innerHTML = '<div class="research-loading">Feed unavailable. Check back soon.</div>';
+        return;
+    }
+
+    renderResearchUpdated();
+    renderResearchFilters();
+    renderResearchFeed();
+
+    const search = document.getElementById('research-search-input');
+    if (search) search.addEventListener('input', applyResearchFilters);
+}
+
+function renderResearchUpdated() {
+    const el = document.getElementById('research-last-updated');
+    if (!el) return;
+    if (!RESEARCH_DATA?.lastUpdated) {
+        el.textContent = '';
+        return;
+    }
+    const d = new Date(RESEARCH_DATA.lastUpdated);
+    if (isNaN(d)) return;
+    const fmt = d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+    el.textContent = `Last updated ${fmt}`;
+}
+
+function renderResearchFilters() {
+    const wrap = document.getElementById('research-filters');
+    if (!wrap) return;
+    const entries = RESEARCH_DATA?.entries || [];
+    const peptides = new Set();
+    entries.forEach(e => (e.peptides || []).forEach(p => peptides.add(p)));
+    const sorted = Array.from(peptides).sort();
+
+    // Keep the "All" button, replace the rest
+    wrap.querySelectorAll('.research-filter:not([data-filter="all"])').forEach(b => b.remove());
+    sorted.forEach(p => {
+        const btn = document.createElement('button');
+        btn.className = 'research-filter';
+        btn.dataset.filter = p;
+        btn.textContent = p;
+        wrap.appendChild(btn);
+    });
+
+    wrap.querySelectorAll('.research-filter').forEach(btn => {
+        btn.addEventListener('click', () => {
+            wrap.querySelectorAll('.research-filter').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            RESEARCH_FILTER = btn.dataset.filter;
+            applyResearchFilters();
+        });
+    });
+}
+
+function renderResearchFeed() {
+    const feed    = document.getElementById('research-feed');
+    const empty   = document.getElementById('research-empty');
+    const entries = RESEARCH_DATA?.entries || [];
+
+    if (!feed) return;
+    feed.innerHTML = '';
+
+    if (!entries.length) {
+        feed.innerHTML = `
+            <div class="research-loading">
+                The research feed will populate after the first weekly update.<br>
+                <span style="font-size:13px;opacity:0.7">Check back next Monday.</span>
+            </div>`;
+        if (empty) empty.classList.add('hidden');
+        return;
+    }
+
+    // Sort by published date desc
+    const sorted = entries.slice().sort((a, b) => {
+        return (b.publishedDate || '').localeCompare(a.publishedDate || '');
+    });
+
+    sorted.forEach(e => feed.appendChild(buildResearchCard(e)));
+    applyResearchFilters();
+}
+
+function buildResearchCard(e) {
+    const card = document.createElement('article');
+    card.className = 'research-card';
+    card.dataset.peptides = (e.peptides || []).join('|');
+    const searchText = [
+        e.title, e.summary, e.context, e.limitations,
+        (e.keyFindings || []).join(' '),
+        (e.peptides || []).join(' '),
+        e.studyType, e.journal, e.authors
+    ].filter(Boolean).join(' ').toLowerCase();
+    card.dataset.searchText = searchText;
+
+    const peptideTags = (e.peptides || []).map(p =>
+        `<span class="research-tag research-tag--peptide">${escapeHtml(p)}</span>`
+    ).join('');
+
+    const typeTag = e.studyType
+        ? `<span class="research-tag research-tag--type">${escapeHtml(e.studyType)}</span>`
+        : '';
+    const preprintTag = e.isPreprint
+        ? `<span class="research-tag research-tag--preprint">Preprint · not peer-reviewed</span>`
+        : '';
+    const dateStr = formatResearchDate(e.publishedDate);
+
+    const findings = (e.keyFindings || []).map(f => `<li>${escapeHtml(f)}</li>`).join('');
+
+    const citation = [e.authors, e.journal, e.publishedDate ? new Date(e.publishedDate).getFullYear() : null]
+        .filter(Boolean).join(' · ');
+
+    const sourceUrl = e.url || (e.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${e.pmid}/` : (e.doi ? `https://doi.org/${e.doi}` : '#'));
+
+    card.innerHTML = `
+        <div class="research-card-header">
+            ${peptideTags}
+            ${typeTag}
+            ${preprintTag}
+            ${dateStr ? `<span class="research-date">${dateStr}</span>` : ''}
+        </div>
+        <h3>${escapeHtml(e.title || 'Untitled')}</h3>
+        ${citation ? `<div class="research-citation">${escapeHtml(citation)}</div>` : ''}
+        ${e.summary ? `<div class="research-summary">${escapeHtml(e.summary)}</div>` : ''}
+        ${findings ? `
+            <div class="research-section">
+                <div class="research-section-label">Key findings</div>
+                <ul class="research-findings">${findings}</ul>
+            </div>` : ''}
+        ${e.context ? `
+            <div class="research-section">
+                <div class="research-section-label">How it fits</div>
+                <div class="research-context">${escapeHtml(e.context)}</div>
+            </div>` : ''}
+        ${e.limitations ? `
+            <div class="research-section">
+                <div class="research-section-label">Limitations</div>
+                <div class="research-limitations">${escapeHtml(e.limitations)}</div>
+            </div>` : ''}
+        <div class="research-card-footer">
+            <a class="research-source-link" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">
+                Read source
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M7 7h10v10"/></svg>
+            </a>
+            ${e.pmid ? `<span class="research-pmid">PMID: ${escapeHtml(e.pmid)}</span>` : ''}
+        </div>
+    `;
+    return card;
+}
+
+function formatResearchDate(iso) {
+    if (!iso) return '';
+    const d = new Date(iso);
+    if (isNaN(d)) return iso;
+    return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+function applyResearchFilters() {
+    const search = document.getElementById('research-search-input');
+    const empty  = document.getElementById('research-empty');
+    const q = (search?.value || '').trim().toLowerCase();
+    const cards = document.querySelectorAll('.research-card');
+    let visible = 0;
+
+    cards.forEach(card => {
+        const peptides = (card.dataset.peptides || '').split('|').filter(Boolean);
+        const matchesFilter = RESEARCH_FILTER === 'all' || peptides.includes(RESEARCH_FILTER);
+        const matchesSearch = !q || (card.dataset.searchText || '').includes(q);
+        const show = matchesFilter && matchesSearch;
+        card.classList.toggle('is-hidden', !show);
+        if (show) visible++;
+    });
+
+    if (empty) empty.classList.toggle('hidden', visible > 0 || (RESEARCH_DATA?.entries || []).length === 0);
 }
