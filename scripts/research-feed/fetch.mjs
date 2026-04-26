@@ -8,7 +8,7 @@
  *
  * Required env: ANTHROPIC_API_KEY
  * Optional env:
- *   MODEL              (default: claude-sonnet-4-5-20250929)
+ *   MODEL              (default: claude-sonnet-4-6)
  *   MAX_NEW_PER_RUN    (default: 12)  — soft cap on entries added per run
  *   MAX_FEED_SIZE      (default: 200) — cap total entries kept in feed
  *   LOOKBACK_DAYS      (overrides watchlist.lookbackDays)
@@ -27,7 +27,7 @@ const REPO_ROOT    = path.resolve(__dirname, '..', '..');
 const WATCHLIST    = path.join(REPO_ROOT, 'data', 'research-watchlist.json');
 const FEED_PATH    = path.join(REPO_ROOT, 'data', 'research-feed.json');
 
-const MODEL              = process.env.MODEL || 'claude-sonnet-4-5-20250929';
+const MODEL              = process.env.MODEL || 'claude-sonnet-4-6';
 const MAX_NEW_PER_RUN    = parseInt(process.env.MAX_NEW_PER_RUN  || '12', 10);
 const MAX_FEED_SIZE      = parseInt(process.env.MAX_FEED_SIZE    || '200', 10);
 const INCLUDE_PREPRINTS  = (process.env.INCLUDE_PREPRINTS || 'true').toLowerCase() === 'true';

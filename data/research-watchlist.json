@@ -41,6 +41,16 @@
     { "name": "Retatrutide",      "query": "\"retatrutide\"",
       "aliases": ["Retatrutide", "LY3437943"] },
     { "name": "IGF-1 LR3",        "query": "\"IGF-1 LR3\" OR \"long R3 IGF-1\" OR \"long-arg3 IGF-1\"",
-      "aliases": ["IGF-1 LR3", "long R3 IGF-1", "Long-Arg3 IGF-1"] }
+      "aliases": ["IGF-1 LR3", "long R3 IGF-1", "Long-Arg3 IGF-1"] },
+    { "name": "Epithalon",        "query": "\"epithalon\" OR \"epitalon\" OR \"epithalamine\" OR \"AEDG peptide\"",
+      "aliases": ["Epithalon", "Epitalon", "AEDG"] },
+    { "name": "Selank",           "query": "\"selank\" OR \"TP-7\" OR \"selanc\"",
+      "aliases": ["Selank", "TP-7"] },
+    { "name": "Semax",            "query": "\"semax\" OR \"ACTH 4-7 PGP\"",
+      "aliases": ["Semax", "ACTH 4-7 PGP"] },
+    { "name": "PT-141",           "query": "\"bremelanotide\" OR \"PT-141\" OR \"PT 141\"",
+      "aliases": ["PT-141", "Bremelanotide", "Vyleesi"] },
+    { "name": "NAD+",             "query": "(\"nicotinamide mononucleotide\" OR \"NMN\" OR \"nicotinamide riboside\" OR \"NR supplementation\" OR \"IV NAD\" OR \"NAD+ infusion\") AND (aging OR longevity OR \"metabolic health\" OR \"mitochondrial function\")",
+      "aliases": ["NAD+", "NMN", "NR", "nicotinamide mononucleotide", "nicotinamide riboside"] }
   ]
 }
