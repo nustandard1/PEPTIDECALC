@@ -1380,11 +1380,11 @@ function renderResearchFeed() {
 }
 
 function buildResearchCard(e) {
-    const card = document.createElement('article');
+    const card = document.createElement('details');
     card.className = 'research-card';
     card.dataset.peptides = (e.peptides || []).join('|');
     const searchText = [
-        e.title, e.summary, e.context, e.limitations,
+        e.title, e.displayTitle, e.summary, e.context, e.limitations,
         (e.keyFindings || []).join(' '),
         (e.peptides || []).join(' '),
         e.studyType, e.journal, e.authors
@@ -1399,48 +1399,53 @@ function buildResearchCard(e) {
         ? `<span class="research-tag research-tag--type">${escapeHtml(e.studyType)}</span>`
         : '';
     const preprintTag = e.isPreprint
-        ? `<span class="research-tag research-tag--preprint">Preprint · not peer-reviewed</span>`
+        ? `<span class="research-tag research-tag--preprint">Preprint</span>`
         : '';
-    const dateStr = formatResearchDate(e.publishedDate);
+    const dateStr  = formatResearchDate(e.publishedDate);
+    const headline = e.displayTitle || e.title || 'Untitled';
 
     const findings = (e.keyFindings || []).map(f => `<li>${escapeHtml(f)}</li>`).join('');
-
     const citation = [e.authors, e.journal, e.publishedDate ? new Date(e.publishedDate).getFullYear() : null]
         .filter(Boolean).join(' · ');
-
     const sourceUrl = e.url || (e.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${e.pmid}/` : (e.doi ? `https://doi.org/${e.doi}` : '#'));
 
     card.innerHTML = `
-        <div class="research-card-header">
-            ${peptideTags}
-            ${typeTag}
-            ${preprintTag}
-            ${dateStr ? `<span class="research-date">${dateStr}</span>` : ''}
-        </div>
-        <h3>${escapeHtml(e.title || 'Untitled')}</h3>
-        ${citation ? `<div class="research-citation">${escapeHtml(citation)}</div>` : ''}
-        ${e.summary ? `<div class="research-summary">${escapeHtml(e.summary)}</div>` : ''}
-        ${findings ? `
-            <div class="research-section">
-                <div class="research-section-label">Key findings</div>
-                <ul class="research-findings">${findings}</ul>
-            </div>` : ''}
-        ${e.context ? `
-            <div class="research-section">
-                <div class="research-section-label">How it fits</div>
-                <div class="research-context">${escapeHtml(e.context)}</div>
-            </div>` : ''}
-        ${e.limitations ? `
-            <div class="research-section">
-                <div class="research-section-label">Limitations</div>
-                <div class="research-limitations">${escapeHtml(e.limitations)}</div>
-            </div>` : ''}
-        <div class="research-card-footer">
-            <a class="research-source-link" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">
-                Read source
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M7 7h10v10"/></svg>
-            </a>
-            ${e.pmid ? `<span class="research-pmid">PMID: ${escapeHtml(e.pmid)}</span>` : ''}
+        <summary class="research-card-summary">
+            <div class="research-card-meta">
+                ${peptideTags}
+                ${typeTag}
+                ${preprintTag}
+                ${dateStr ? `<span class="research-date">${dateStr}</span>` : ''}
+            </div>
+            <h3 class="research-headline">${escapeHtml(headline)}</h3>
+            <svg class="research-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="research-card-body">
+            ${e.title && e.title !== headline ? `<div class="research-official-title">${escapeHtml(e.title)}</div>` : ''}
+            ${citation ? `<div class="research-citation">${escapeHtml(citation)}</div>` : ''}
+            ${e.summary ? `<div class="research-summary">${escapeHtml(e.summary)}</div>` : ''}
+            ${findings ? `
+                <div class="research-section">
+                    <div class="research-section-label">Key findings</div>
+                    <ul class="research-findings">${findings}</ul>
+                </div>` : ''}
+            ${e.context ? `
+                <div class="research-section">
+                    <div class="research-section-label">How it fits</div>
+                    <div class="research-context">${escapeHtml(e.context)}</div>
+                </div>` : ''}
+            ${e.limitations ? `
+                <div class="research-section">
+                    <div class="research-section-label">Limitations</div>
+                    <div class="research-limitations">${escapeHtml(e.limitations)}</div>
+                </div>` : ''}
+            <div class="research-card-footer">
+                <a class="research-source-link" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">
+                    Read source
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M7 7h10v10"/></svg>
+                </a>
+                ${e.pmid ? `<span class="research-pmid">PMID: ${escapeHtml(e.pmid)}</span>` : ''}
+            </div>
         </div>
     `;
     return card;
