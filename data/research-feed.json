@@ -1,4 +1,519 @@
 {
-  "lastUpdated": null,
-  "entries": []
+  "lastUpdated": "2026-04-26T10:50:12.988Z",
+  "entries": [
+    {
+      "id": "pmid-42012820",
+      "pmid": "42012820",
+      "doi": "10.1080/13696998.2026.2646078",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42012820/",
+      "title": "Cost-effectiveness of tirzepatide versus semaglutide for patients with obesity or overweight in the US: evidence from the SURMOUNT-5 head-to-head phase-3 trial.",
+      "authors": "Johansson E et al.",
+      "journal": "Journal of medical economics",
+      "publishedDate": "2026-12-01",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Tirzepatide",
+        "Semaglutide"
+      ],
+      "studyType": "Cost-effectiveness simulation modeling",
+      "summary": "Cost-effectiveness modeling study using SURMOUNT-5 trial data found tirzepatide (maximum-tolerated-dose) dominated semaglutide for obesity/overweight treatment in the US, projecting lower costs ($41,688 savings per patient), greater quality-adjusted life years (0.506 QALYs gained), and reduced incidence of type 2 diabetes and cardiovascular disease.",
+      "keyFindings": [
+        "Tirzepatide generated per-patient cost savings of $41,688 and 0.506 additional QALYs versus semaglutide over modeled lifetime horizon.",
+        "Per 1,000 patients, tirzepatide prevented 70 cases of type 2 diabetes and 10 cases of cardiovascular disease compared to semaglutide.",
+        "Patients on semaglutide spent 3.07 more years living with moderate/severe obstructive sleep apnea than those on tirzepatide.",
+        "Tirzepatide showed positive incremental net health benefit (0.784), indicating net clinical and economic advantage over semaglutide."
+      ],
+      "limitations": "Model-based projections rely on assumptions about long-term outcomes extrapolated from trial data; actual real-world cost-effectiveness may differ from simulated estimates.",
+      "context": "This extends findings from the SURMOUNT-5 head-to-head trial, which demonstrated tirzepatide's superior weight reduction versus semaglutide. The modeling translates short-term clinical benefits into projected long-term health economic outcomes, consistent with tirzepatide's dual GIP/GLP-1 receptor agonism showing greater metabolic effects than GLP-1 agonism alone.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-41999297",
+      "pmid": "41999297",
+      "doi": "10.1080/07853890.2026.2660386",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41999297/",
+      "title": "GLP-1 receptor agonists in stroke prevention: a narrative review on emerging therapeutic frontiers.",
+      "authors": "Chikatimalla R et al.",
+      "journal": "Annals of medicine",
+      "publishedDate": "2026-12-01",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review synthesizes evidence from cardiovascular outcome trials and mechanistic studies on GLP-1 receptor agonists for stroke prevention in type 2 diabetes. Long-acting agents showed 15–39% relative risk reductions in ischemic stroke across major trials, with benefits independent of glycemic control.",
+      "keyFindings": [
+        "Long-acting GLP-1RAs reduced nonfatal and ischemic stroke risk by 15–39% across major trials.",
+        "Benefits observed independent of glycemic control, most prominent in patients with preserved renal function and shorter diabetes duration.",
+        "Protective mechanisms include anti-inflammatory, antioxidant, neuroprotective, and endothelial-stabilizing effects.",
+        "Short-acting exendin-based GLP-1RAs showed limited cerebrovascular benefit compared to long-acting agents."
+      ],
+      "limitations": "Narrative review with inherent selection bias; inconsistencies across included trials and limited data in non-diabetic or high-risk stroke populations restrict generalizability.",
+      "context": "This review extends prior cardiovascular outcome data by specifically focusing on cerebrovascular protection. The findings are consistent with established pleiotropic effects of GLP-1RAs beyond glucose control, though highlight differences between agent types in stroke prevention efficacy.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42027588",
+      "pmid": "42027588",
+      "doi": "10.1210/jcemcr/luag121",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42027588/",
+      "title": "Unexplained hypercapnia with normal pulmonary evaluation in a patient receiving semaglutide: a diagnostic challenge.",
+      "authors": "Prasad S et al.",
+      "journal": "JCEM case reports",
+      "publishedDate": "2026-05-01",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 40-year-old patient with obesity developed reversible central respiratory depression with hypercapnia after semaglutide dose escalation to 1 mg weekly. Symptoms and blood gas abnormalities resolved within 3 weeks of drug discontinuation and temporary noninvasive ventilation.",
+      "keyFindings": [
+        "Respiratory acidosis (pH 7.33, PaCO₂ 56 mmHg) developed 4 weeks after semaglutide escalation to 1 mg weekly.",
+        "Overnight monitoring showed sustained nocturnal hypercapnia without apneic events (AHI <5), indicating central ventilatory drive impairment.",
+        "Complete symptom resolution within 10 days and blood gas normalization (pH 7.38, PaCO₂ 44 mmHg) at 3 weeks after discontinuation.",
+        "Patient remained asymptomatic at 3-month follow-up without recurrence."
+      ],
+      "limitations": "Single case report limits generalizability; causality is inferred temporally but cannot be definitively proven without rechallenge or mechanistic investigation.",
+      "context": "Semaglutide is an established GLP-1 receptor agonist for obesity and diabetes management. This case represents a previously uncharacterized adverse effect of central respiratory depression, extending beyond the known gastrointestinal side-effect profile.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42034831",
+      "pmid": "42034831",
+      "doi": "10.1038/s41366-026-02088-1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42034831/",
+      "title": "GLP-1 agonists and changes in body mass and composition in adults with overweight or obesity with or without type 2 diabetes mellitus: a systematic review and meta-analysis.",
+      "authors": "Sawicka-Gutaj N et al.",
+      "journal": "International journal of obesity (2005)",
+      "publishedDate": "2026-04-25",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "Systematic review and meta-analysis of 36 studies (24 in meta-analysis) evaluated GLP-1 receptor agonists and dual GLP-1/GIP agonists for weight loss in adults with overweight/obesity. Treatment consistently reduced body weight (4-9% across 3-12 months), BMI, and waist circumference, primarily through fat mass reduction while preserving lean tissue.",
+      "keyFindings": [
+        "At 3 months, mean body weight decreased approximately 9% with marked reductions in fat mass and visceral adipose tissue.",
+        "At 6 months, weight reduction averaged 5%, with semaglutide, liraglutide, and exenatide showing comparable effects.",
+        "At 12 months, weight loss persisted at around 4% with variability between agents, particularly liraglutide.",
+        "Fat mass decline predominated while lean body mass reductions were modest, indicating selective fat loss."
+      ],
+      "limitations": "Heterogeneity between studies in patient populations, treatment durations, and specific GLP-1 agonist agents may affect generalizability of pooled estimates.",
+      "context": "These findings are consistent with known mechanisms of GLP-1 receptor agonists in reducing appetite and body weight. The demonstration of preferential fat mass loss while preserving lean tissue extends prior evidence and supports therapeutic use for metabolic health beyond glycemic control.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42033237",
+      "pmid": "42033237",
+      "doi": "10.1093/ajhp/zxag121",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42033237/",
+      "title": "Cardiovascular outcomes of glucagon-like peptide-1 receptor agonists: A systematic review.",
+      "authors": "Bihelek N et al.",
+      "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+      "publishedDate": "2026-04-25",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Systematic review",
+      "summary": "Systematic review of 12 randomized controlled trials evaluating cardiovascular outcomes with GLP-1 receptor agonists in type 2 diabetes, overweight/obesity with atherosclerotic disease, and heart failure with preserved ejection fraction. GLP-1RAs consistently reduced major adverse cardiovascular events in type 2 diabetes patients, with benefits also seen in select non-diabetic populations.",
+      "keyFindings": [
+        "GLP-1RAs showed consistent reduction in major adverse cardiovascular events in patients with type 2 diabetes across 10 trials.",
+        "Liraglutide was the only GLP-1RA demonstrating reduction in MACE, cardiovascular death, and all-cause death individually.",
+        "Semaglutide reduced MACE in overweight/obesity patients with atherosclerotic disease but without diabetes.",
+        "Tirzepatide reduced composite heart failure events and cardiovascular death in obesity patients with heart failure with preserved ejection fraction."
+      ],
+      "limitations": "As a systematic review, findings are limited by heterogeneity across included trials in patient populations, follow-up duration (1.2–5.4 years), and specific GLP-1RA agents tested.",
+      "context": "This systematic review consolidates evidence supporting cardiovascular benefits of GLP-1 receptor agonists, extending prior cardiovascular outcome trials. The findings expand GLP-1RA indications beyond diabetes to include cardiovascular disease prevention in obesity and heart failure populations.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42030208",
+      "pmid": "42030208",
+      "doi": "10.1159/000552104",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42030208/",
+      "title": "Real-World Comparison of Short-Term Adverse Events, Treatment Persistence, and Efficacy of Semaglutide and Tirzepatide: A Nationwide Multicenter Study.",
+      "authors": "Hep&#x15f;en S et al.",
+      "journal": "Obesity facts",
+      "publishedDate": "2026-04-24",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Observational cohort — multicenter",
+      "summary": "Nationwide observational study of 2,549 patients with obesity compared semaglutide (n=1,434) versus tirzepatide (n=1,115) over 6 months. Both treatments showed similar adverse event rates (~51%) and persistence, but tirzepatide achieved greater body weight loss (14.4% vs 12.6%) with more musculoskeletal and allergic reactions.",
+      "keyFindings": [
+        "Overall adverse event rates similar between groups (50.9% semaglutide vs 51.0% tirzepatide, p=0.524), predominantly gastrointestinal.",
+        "Tirzepatide achieved greater body weight loss at 6 months: 14.4% versus 12.6% with semaglutide.",
+        "Musculoskeletal and allergic reactions more common with tirzepatide; pancreatic-related discontinuations more frequent with semaglutide (p=0.006).",
+        "HbA1c reductions comparable between treatments in patients with type 2 diabetes."
+      ],
+      "limitations": "Observational design without randomization; short 6-month follow-up may not capture long-term safety signals or durability of weight loss; confounding by indication possible despite multicenter data.",
+      "context": "Extends prior randomized trial data (SURMOUNT, STEP programs) into real-world practice, confirming tirzepatide's weight-loss advantage while revealing subtle safety differences not fully captured in controlled trials. Consistent with GIP/GLP-1 dual agonism producing enhanced metabolic effects.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42026662",
+      "pmid": "42026662",
+      "doi": "10.1186/s40842-026-00290-8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42026662/",
+      "title": "Efficacy and safety of semaglutide injection in Indian patients with type 2 diabetes mellitus inadequately controlled on metformin: a phase 3, randomized, active-controlled trial (SIZE-DM study).",
+      "authors": "Kapoor N et al.",
+      "journal": "Cardiovascular diabetology. Endocrinology reports",
+      "publishedDate": "2026-04-24",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Randomized active-controlled trial",
+      "summary": "This phase 3 randomized trial compared generic semaglutide to innovator semaglutide in 320 Indian adults with type 2 diabetes inadequately controlled on metformin. Generic semaglutide demonstrated non-inferior efficacy with mean HbA1c reduction of 2.20% and comparable safety over 24 weeks.",
+      "keyFindings": [
+        "Both generic and innovator semaglutide achieved mean HbA1c reduction of 2.20% at 24 weeks with non-inferiority demonstrated.",
+        "86.62% of participants achieved HbA1c <7.0% target across both treatment arms.",
+        "Body weight, fasting and post-prandial glucose reductions were similar between generic and innovator formulations.",
+        "Safety profiles were comparable with predominantly mild-to-moderate adverse events and no treatment-related serious adverse events."
+      ],
+      "limitations": "24-week duration may not capture long-term safety or durability of glycemic control; study population limited to Indian adults may affect generalizability.",
+      "context": "Semaglutide is an established GLP-1 receptor agonist for type 2 diabetes. This trial extends evidence by demonstrating that a generic formulation achieves bioequivalent efficacy and safety to the innovator product in an Indian population.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42030632",
+      "pmid": "42030632",
+      "doi": "10.1016/j.bodyim.2026.102095",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42030632/",
+      "title": "Body image in the age of GLP-1s: Emerging questions for research and practice.",
+      "authors": "Craddock N, Schneider J",
+      "journal": "Body image",
+      "publishedDate": "2026-04-23",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Commentary/perspective paper",
+      "summary": "This is a conceptual paper arguing that body image should be considered a central factor in GLP-1 receptor agonist (semaglutide, tirzepatide) use, functioning as motivator, mediator, and moderator of outcomes. The authors identify research gaps and call for longitudinal studies and psychological support frameworks.",
+      "keyFindings": [
+        "Body image has received little systematic attention in GLP-1 research despite its relevance to motivations and psychological adjustment.",
+        "Proposes body image as key motivator, mediator, and moderator across GLP-1 treatment trajectory, not merely an outcome.",
+        "Identifies need for prospective studies examining body image before, during, and after GLP-1 use.",
+        "Calls for body image-informed psychological support and professional training to prevent reinforcing appearance-contingent self-worth."
+      ],
+      "limitations": "This is a conceptual/commentary paper proposing research priorities rather than presenting empirical data on body image outcomes with GLP-1 use.",
+      "context": "This perspective extends emerging concerns about psychological aspects of GLP-1 therapy beyond documented psychiatric side effects, focusing specifically on body image domains largely absent from current clinical trials of semaglutide and tirzepatide.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42029362",
+      "pmid": "42029362",
+      "doi": "10.1016/j.hrthm.2026.03.1940",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42029362/",
+      "title": "Glucagon-like peptide-1 and atrial fibrillation incidence: Associations independent of weight loss.",
+      "authors": "Palmisano T et al.",
+      "journal": "Heart rhythm",
+      "publishedDate": "2026-04-23",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Retrospective cohort study",
+      "summary": "Retrospective cohort study of 12,812 patients found GLP-1 therapy reduced atrial fibrillation incidence by 33% (HR 0.67) compared to matched controls, with protective effects persisting even in patients who gained weight, suggesting antiarrhythmic mechanisms independent of weight loss.",
+      "keyFindings": [
+        "GLP-1 use reduced AF risk by 33% (HR 0.67, P<0.001) and mortality by 66% (HR 0.34, P<0.001) versus controls.",
+        "Protective effect against AF persisted across all weight change groups, including patients who gained weight.",
+        "Among GLP-1 agents, only semaglutide showed statistically significant AF risk reduction.",
+        "AF risk reduction appeared after 24 months of GLP-1 use; mortality benefit persisted across all durations."
+      ],
+      "limitations": "Retrospective design from single academic center limits causal inference; AF detection via chart review may underestimate true incidence; residual confounding possible despite propensity matching.",
+      "context": "This extends prior observations linking GLP-1 receptor agonists to reduced AF incidence by demonstrating effects independent of weight loss. The finding suggests direct antiarrhythmic properties beyond metabolic benefits, consistent with emerging evidence of GLP-1 cardiovascular effects.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42023428",
+      "pmid": "42023428",
+      "doi": "10.1111/dom.70769",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42023428/",
+      "title": "Efficacy, Safety and PK of Once-Daily Oral Semaglutide 25&#x2009;mg for Obesity With and Without Type 2 Diabetes in Comparison With Subcutaneous Semaglutide 2.4&#x2009;mg: A Model-Informed Drug Development Approach.",
+      "authors": "Overgaard RV et al.",
+      "journal": "Diabetes, obesity & metabolism",
+      "publishedDate": "2026-04-23",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Model-informed drug development analysis",
+      "summary": "Model-informed analysis extrapolated data from subcutaneous semaglutide 2.4 mg to support oral semaglutide 25 mg approval for obesity treatment. Simulated trials predicted oral semaglutide 25 mg achieves similar exposure and weight loss (7.8–16.3%) as subcutaneous formulation in people with and without type 2 diabetes.",
+      "keyFindings": [
+        "82.2% of participants on oral semaglutide 25 mg achieved exposure levels comparable to subcutaneous semaglutide 2.4 mg.",
+        "Simulated weight loss with oral semaglutide 25 mg: 9.4% in obesity with T2D, 16.3% in obesity without T2D.",
+        "Predicted efficacy and exposure of oral 25 mg formulation similar to established subcutaneous 2.4 mg dose."
+      ],
+      "limitations": "Efficacy and safety data for oral 25 mg dose derived from modeling and simulation rather than direct clinical trial evidence in target populations.",
+      "context": "Extends established efficacy of subcutaneous semaglutide 2.4 mg to an oral high-dose formulation. Consistent with known dose-exposure-response relationships for GLP-1 receptor agonists in obesity treatment.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42020128",
+      "pmid": "42020128",
+      "doi": "10.1136/bmjopen-2026-116911",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42020128/",
+      "title": "LEAN mass Preservation with Resistance Exercise and Protein during semaglutide and tirzepatide therapy (LEAN-PREP study): a protocol for a randomised controlled trial.",
+      "authors": "Alawadhi AA et al.",
+      "journal": "BMJ open",
+      "publishedDate": "2026-04-22",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Randomized controlled trial protocol",
+      "summary": "This is a protocol for a 6-month randomized controlled trial in 232 adults with obesity in Kuwait testing whether resistance exercise and/or protein supplementation can preserve muscle mass during semaglutide or tirzepatide therapy. Primary outcome is MRI-measured quadriceps cross-sectional area.",
+      "keyFindings": [
+        "232 participants randomized 1:1:1:1 to control, resistance exercise, protein supplementation, or combined intervention with GLP-1 therapy",
+        "Resistance exercise: home-based, 3 sessions/week; protein target: 1.6 g/kg/day",
+        "Primary outcome: quadriceps cross-sectional area by MRI at 6 months",
+        "Secondary outcomes include body composition, strength, physical function, liver fat, and metabolic biomarkers"
+      ],
+      "limitations": "This is a study protocol only; no results are yet available to assess intervention efficacy or safety.",
+      "context": "GLP-1 receptor agonists like semaglutide and tirzepatide produce substantial weight loss but also significant lean mass loss. This trial addresses a recognized clinical concern by testing pragmatic interventions to preserve muscle during pharmacotherapy, particularly relevant in populations with high baseline muscle weakness prevalence.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42020100",
+      "pmid": "42020100",
+      "doi": "10.1111/ceo.70096",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42020100/",
+      "title": "Is There a Causal Link Between GLP-1 Receptor Agonists and Non-Arteritic Anterior Ischaemic Optic Neuropathy? A Critique of the Clinical Evidence.",
+      "authors": "Danesh-Meyer HV, Rizzo JF",
+      "journal": "Clinical & experimental ophthalmology",
+      "publishedDate": "2026-04-22",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Critical review",
+      "summary": "This critical review examines the evidence linking GLP-1 receptor agonists, particularly semaglutide, to non-arteritic anterior ischemic optic neuropathy (NAION). While observational data show mixed signals, meta-analyses of randomized trials lack power to assess this rare outcome but suggest at most a moderate risk increase (OR 2-3).",
+      "keyFindings": [
+        "Observational studies show mixed findings: some Scandinavian registries report elevated NAION risk, while large US databases show null or weak associations.",
+        "Meta-analyses of randomized controlled trials lack power for this rare outcome but suggest at most moderate risk increase (OR 2-3).",
+        "Case reports and pharmacovigilance data are subject to confounding and reporting bias, limiting causal inference.",
+        "Authors conclude causal link cannot be excluded but call for larger pooled RCT analyses with adjudicated ocular outcomes."
+      ],
+      "limitations": "Review is limited by the current lack of adequately powered randomized trials with adjudicated ocular outcomes to definitively establish or exclude causality.",
+      "context": "This addresses emerging safety concerns about GLP-1 receptor agonists and vision loss. The review is consistent with the broader understanding that while GLP-1RAs have established cardiometabolic benefits, rare adverse events require careful evaluation through rigorous study designs.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-41774502",
+      "pmid": "41774502",
+      "doi": "10.1172/jci.insight.201148",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774502/",
+      "title": "Semaglutide reduces murine blood pressure through the vascular smooth muscle GLP-1 receptor.",
+      "authors": "Medak KD et al.",
+      "journal": "JCI insight",
+      "publishedDate": "2026-04-22",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "Using cell-type-specific GLP-1R knockout mice, this study demonstrates that semaglutide lowers blood pressure through GLP-1 receptors on vascular smooth muscle cells (VSMCs), not endothelial cells. VSMC GLP-1Rs were also required for semaglutide's effects on glomerular filtration and sodium excretion.",
+      "keyFindings": [
+        "VSMC GLP-1Rs are essential for semaglutide-mediated BP reduction in mice; endothelial/immune cell GLP-1Rs are not required.",
+        "VSMC GLP-1R is dispensable for semaglutide effects on food intake, body weight, and glucose but required for increased GFR and natriuresis.",
+        "Semaglutide directly induced vasorelaxation in preconstricted mesenteric arteries ex vivo.",
+        "Semaglutide-induced proteomic changes in renal artery and kidney were abolished in mice lacking VSMC GLP-1R expression."
+      ],
+      "limitations": "Mouse models may not fully recapitulate human vascular GLP-1R expression patterns or cardiovascular physiology; translation to human blood pressure regulation requires validation.",
+      "context": "Prior work attributed semaglutide's blood pressure effects to weight loss and endothelial signaling. These findings challenge that paradigm by identifying vascular smooth muscle cells as the critical target for BP reduction, consistent with direct vascular effects of GLP-1R agonists.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42025961",
+      "pmid": "42025961",
+      "doi": "10.1016/j.japh.2026.103117",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42025961/",
+      "title": "Semaglutide for obesity management: A narrative review of efficacy, safety, and future directions.",
+      "authors": "Hajibandeh S et al.",
+      "journal": "Journal of the American Pharmacists Association : JAPhA",
+      "publishedDate": "2026-04-21",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review synthesized evidence from 34 studies on semaglutide for weight management, examining efficacy, adverse events, perioperative considerations, and use in special populations. Clinical trials consistently demonstrated meaningful weight reduction, though long-term safety data remain incomplete.",
+      "keyFindings": [
+        "Clinical trials consistently demonstrated meaningful weight reduction with semaglutide across diverse populations.",
+        "Evidence regarding acute pancreatitis and suicidal ideation is mixed, with some safety signals reported in postmarketing analyses.",
+        "Recent guidelines support individualized perioperative assessment for GLP-1 RA management.",
+        "Long-term neurologic and post-bariatric surgery safety outcomes remain incompletely characterized."
+      ],
+      "limitations": "As a narrative review rather than systematic review, study selection may be subject to bias and lacks quantitative synthesis of safety or efficacy outcomes.",
+      "context": "This review consolidates existing evidence on semaglutide, a GLP-1 receptor agonist already established for glycemic control and weight management. It extends prior findings by highlighting emerging safety concerns and gaps in long-term data as clinical use expands beyond traditional indications.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-41859865",
+      "pmid": "41859865",
+      "doi": "10.1039/d6cp00567e",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41859865/",
+      "title": "Carbonless amino acids and a carbonless GHK peptide.",
+      "authors": "Skurski P, Anusiewicz I",
+      "journal": "Physical chemistry chemical physics : PCCP",
+      "publishedDate": "2026-04-16",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "GHK-Cu"
+      ],
+      "studyType": "Computational chemistry — DFT modeling",
+      "summary": "Computational quantum chemistry study designed carbon-free analogues of glycine, histidine, lysine, and the GHK tripeptide by replacing carbon atoms with boron and nitrogen. The carbonless cGHK showed broader conformational flexibility and stronger Cu(II) binding than natural GHK (ΔG = -6.24 kcal/mol favoring cGHK).",
+      "keyFindings": [
+        "Carbonless amino acid analogues (cGly, cHis, cLys) were computationally designed maintaining isoelectronicity with natural residues.",
+        "Carbonless cGHK peptide exhibited greater conformational plasticity than natural GHK in aqueous conditions.",
+        "cGHK bound Cu(II) more strongly than GHK by 6.24 kcal/mol at 298 K in computational models.",
+        "BN substitution can tune metal-binding thermodynamics in carbon-free bioinspired peptide scaffolds."
+      ],
+      "limitations": "Entirely computational with no experimental synthesis or validation of the proposed carbonless peptide structures or their predicted properties.",
+      "context": "GHK is known for its copper-binding properties and biological activities. This purely computational study explores hypothetical carbon-free analogues, representing speculative chemical design rather than extending experimental knowledge of natural GHK peptide function.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-41997403",
+      "pmid": "41997403",
+      "doi": "10.1016/j.ejphar.2026.178880",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41997403/",
+      "title": "Glycyl-L-histidyl-L-lysine-Cu2(GHK-Cu) Attenuates CuSOor LPS induced-inflammation in Zebrafish larvae model.",
+      "authors": "Hu J et al.",
+      "journal": "European journal of pharmacology",
+      "publishedDate": "2026-04-15",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "GHK-Cu"
+      ],
+      "studyType": "Animal model — zebrafish larvae",
+      "summary": "GHK-Cu, a tripeptide complex used in cosmetics, was tested in zebrafish larvae challenged with copper sulfate or LPS. It reduced neutrophil and macrophage migration, decreased pro-inflammatory cytokines, lowered oxidative stress markers, and downregulated the JAK1 pathway.",
+      "keyFindings": [
+        "GHK-Cu decreased neutrophil and macrophage migration in inflamed zebrafish larvae",
+        "Suppressed pro-inflammatory cytokines (tnf-a, il-1β, il6) and increased anti-inflammatory il-10 expression",
+        "Reduced nitric oxide and reactive oxygen species levels while improving SOD activity",
+        "Downregulated JAK1 pathway, suggesting a mechanism for anti-inflammatory effects"
+      ],
+      "limitations": "Zebrafish larvae model; direct translation to human inflammatory conditions or cosmetic applications remains uncertain.",
+      "context": "GHK-Cu is known for tissue repair and anti-aging in dermatology. This study extends those findings by demonstrating anti-inflammatory and anti-oxidant effects in an acute inflammation model, consistent with its proposed regenerative properties.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-41966639",
+      "pmid": "41966639",
+      "doi": "10.1007/s40279-026-02437-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41966639/",
+      "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance.",
+      "authors": "Mendias CL, Awan TM",
+      "journal": "Sports medicine (Auckland, N.Z.)",
+      "publishedDate": "2026-04-12",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "BPC-157",
+        "TB-500",
+        "GHK-Cu",
+        "CJC-1295",
+        "Ipamorelin",
+        "Sermorelin",
+        "Tesamorelin",
+        "MOTS-c"
+      ],
+      "studyType": "Narrative review",
+      "summary": "Narrative review examining the pharmacology, safety, and regulatory status of approved and unapproved peptides marketed for musculoskeletal injury recovery and athletic performance enhancement, including both FDA-approved compounds and gray-market alternatives.",
+      "keyFindings": [
+        "Many unapproved peptides show favorable tissue repair outcomes in animal models but lack rigorous human safety data.",
+        "Gray market of unapproved peptides operates largely outside regulatory oversight despite expanding patient demand.",
+        "Framework provided for evidence-based patient discussions about peptide therapies and alternative treatments.",
+        "Social media amplifies placebo effects associated with peptide use in sports medicine contexts."
+      ],
+      "limitations": "As a narrative review, does not provide systematic evaluation or meta-analysis of available evidence across the included peptides.",
+      "context": "This review addresses the growing gap between peptide availability and evidence quality in sports medicine. It consolidates regulatory status and safety profiles across multiple peptides, highlighting the disconnect between preclinical promise and clinical validation.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-41945630",
+      "pmid": "41945630",
+      "doi": "10.20945/2359-4292-2026-0031",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41945630/",
+      "title": "Are serum MOTS-c levels and MOTS-c m.1382A>C polymorphism related to polycystic ovary syndrome?",
+      "authors": "Filibeli BE et al.",
+      "journal": "Archives of endocrinology and metabolism",
+      "publishedDate": "2026-04-07",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Observational case-control study",
+      "summary": "Cross-sectional study comparing serum MOTS-c levels and the m.1382A>C polymorphism between 121 adolescent females with PCOS and 125 healthy controls. MOTS-c levels were slightly higher in PCOS but not statistically significant; all participants had wild-type genotype.",
+      "keyFindings": [
+        "Mean serum MOTS-c levels trended higher in PCOS adolescents versus controls but did not reach significance (p=0.059).",
+        "No significant associations found between MOTS-c levels and anthropometric or metabolic parameters in PCOS patients.",
+        "All 246 participants had wild-type (A/A) genotype for m.1382A>C polymorphism; no variant carriers identified.",
+        "Results suggest MOTS-c has minor involvement in PCOS pathophysiology in this adolescent cohort."
+      ],
+      "limitations": "No polymorphism variants detected in either group limits genetic analysis; cross-sectional design cannot establish causality; single ethnic population may limit generalizability.",
+      "context": "MOTS-c is a mitochondrial-derived peptide linked to insulin sensitivity and metabolism. This study extends prior metabolic findings to adolescent PCOS, finding no clear association, which contrasts with MOTS-c's established role in insulin resistance disorders.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42021992",
+      "pmid": "42021992",
+      "doi": "10.3389/fragi.2026.1790247",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42021992/",
+      "title": "Therapeutic peptides in gerontology: mechanisms and applications for healthy aging.",
+      "authors": "Mavrych V et al.",
+      "journal": "Frontiers in aging",
+      "publishedDate": "2026-01-01",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "BPC-157",
+        "TB-500",
+        "GHK-Cu",
+        "CJC-1295",
+        "Ipamorelin"
+      ],
+      "studyType": "Narrative review",
+      "summary": "Narrative review of therapeutic peptides in aging medicine, examining mechanisms and clinical applications of nine peptides including FDA-approved and investigational agents. Found promising preclinical evidence but noted investigational peptides lack long-term safety data and systematic clinical validation.",
+      "keyFindings": [
+        "Nine peptides identified spanning metabolic, regenerative, neuroprotective, and hormonal aging interventions across diverse mechanisms.",
+        "FDA-approved peptides demonstrated robust safety profiles from large-scale trials; non-approved agents showed promising preclinical evidence.",
+        "Significant knowledge gaps exist in optimal dosing, combination therapies, and efficacy biomarkers for investigational peptides.",
+        "Review synthesized 20 primary sources from databases through January 2026 on peptide mechanisms in aging populations."
+      ],
+      "limitations": "Narrative review methodology lacks systematic quality assessment and meta-analysis; relies on heterogeneous evidence from preclinical to clinical studies with variable methodological rigor.",
+      "context": "This review consolidates current knowledge on peptide therapeutics targeting aging hallmarks, distinguishing between rigorously tested FDA-approved agents and investigational peptides with limited clinical data. Consistent with growing interest in peptide-based interventions for healthspan extension.",
+      "isPreprint": false
+    },
+    {
+      "id": "pmid-42018810",
+      "pmid": "42018810",
+      "doi": "10.1590/1414-431X2026e14744",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42018810/",
+      "title": "Combined antiretroviral therapy with low- or normal-protein, high-calorie diets appears to induce significant deleterious electrocardiographic changes in a rodent model.",
+      "authors": "Chege BM et al.",
+      "journal": "Brazilian journal of medical and biological research = Revista brasileira de pesquisas medicas e biologicas",
+      "publishedDate": "2026-01-01",
+      "addedDate": "2026-04-26",
+      "peptides": [
+        "Tesamorelin"
+      ],
+      "studyType": "Animal model — rat",
+      "summary": "Sprague Dawley rats on calorie-dense diets (low or normal protein) combined with antiretroviral regimens showed significant ECG abnormalities and myocardial fibrosis at 24 weeks. Tesamorelin co-administration prevented these cardiac effects, suggesting growth hormone pathway involvement.",
+      "keyFindings": [
+        "Calorie-dense diets plus dolutegravir or classical cART caused significant ECG changes and myocardial fibrosis (P<0.0001).",
+        "Tesamorelin co-treatment with dolutegravir prevented cardiac fibrosis and ECG abnormalities seen with antiretroviral therapy alone.",
+        "Diet composition significantly modulated antiretroviral-associated cardiotoxicity in this 24-week rat model."
+      ],
+      "limitations": "Rat model may not fully recapitulate human HIV-associated cardiovascular pathology; 24-week duration is relatively short for assessing chronic cardiac outcomes.",
+      "context": "Tesamorelin is a growth hormone-releasing hormone analogue used clinically for HIV-associated lipodystrophy. This study extends its potential cardioprotective role, consistent with known growth hormone effects on cardiac metabolism and remodeling.",
+      "isPreprint": false
+    }
+  ]
 }

@@ -17,7 +17,7 @@
     { "name": "SLU-PP-332",       "query": "\"SLU-PP-332\"" },
     { "name": "DSIP",             "query": "\"delta sleep inducing peptide\" OR \"DSIP\"" },
     { "name": "Kisspeptin-10",    "query": "\"kisspeptin-10\" OR \"kisspeptin 10\"" },
-    { "name": "Glutathione",      "query": "\"glutathione\" AND (peptide OR injection OR therapy)" },
+    { "name": "Glutathione",      "query": "(\"glutathione supplementation\" OR \"glutathione injection\" OR \"glutathione infusion\" OR \"intravenous glutathione\" OR \"liposomal glutathione\" OR \"oral glutathione\")" },
     { "name": "Semaglutide",      "query": "\"semaglutide\"" },
     { "name": "Tirzepatide",      "query": "\"tirzepatide\"" },
     { "name": "Retatrutide",      "query": "\"retatrutide\"" },

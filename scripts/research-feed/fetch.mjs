@@ -238,7 +238,7 @@ Rules:
 - "context": 1–2 sentences (≤ 50 words) on how this fits with prior knowledge of the peptide. Cautious language ("appears to", "consistent with", "extends prior findings"). If the study contradicts prior work, say so.
 - "limitations": 1 sentence (≤ 35 words) on the biggest caveat — small sample, animal-only, no control, preprint, conflict of interest disclosed in abstract, etc.
 - "peptides": array of canonical names from the provided peptide list that the study is actually about. Must be a subset of the candidates given.
-- "include": boolean. Set false if the study is irrelevant to the peptide(s), is a duplicate index entry, is purely a chemistry synthesis paper with no biological data, or otherwise wouldn't help readers understand the peptide. When false, all other fields can be empty.
+- "include": boolean. Be STRICT. Set false unless the peptide is a primary subject of the study — i.e. it is the intervention being tested, the therapy under investigation, or the central mechanistic focus. Set false if the peptide is only mentioned as a downstream biomarker, an oxidative-stress readout, an incidental ingredient in a multi-compound formulation, a co-factor, or background biology. Set false for purely synthetic-chemistry papers with no biological model. Set false for review articles that mention the peptide only in passing rather than reviewing its therapeutic use. When false, all other fields can be empty.
 
 Output ONLY valid JSON matching the schema. No prose, no code fences.`;
 
