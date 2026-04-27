@@ -1,6 +1,9 @@
 name: Update Research Feed
 
 on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/research-feed.yml']
   schedule:
     # Every Sunday at 06:00 UTC
     - cron: '0 6 * * 0'
