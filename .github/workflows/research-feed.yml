@@ -45,14 +45,6 @@ jobs:
           LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '' }}
         run: node fetch.mjs
 
-      - name: Send weekly digest email
-        working-directory: scripts/research-feed
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          DIGEST_TO: ${{ secrets.DIGEST_TO }}
-          DIGEST_FROM: contact@supastrong.net
-        run: node digest.mjs
 
       - name: Check for changes
         id: changes
