@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T11:53:39.727Z",
+  "lastUpdated": "2026-04-28T01:01:59.145Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -60,6 +60,79 @@
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
+    },
+    {
+      "id": "pmid-42038657",
+      "kind": "study",
+      "pmid": "42038657",
+      "doi": "10.1002/ccr3.72356",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42038657/",
+      "title": "Acute Systemic Complications Following High-Dose Semaglutide Reinitiation in an Elderly Patient.",
+      "displayTitle": "Case report: severe systemic complications after semaglutide reinitiation in elderly patient",
+      "authors": "Mehta J et al.",
+      "journal": "Clinical case reports",
+      "publishedDate": "2026-05-01",
+      "addedDate": "2026-04-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "This case report describes acute systemic gastrointestinal complications occurring within hours of reinitiating high-dose semaglutide after prolonged interruption in an elderly patient with comorbidities who had previously tolerated the drug.",
+      "keyFindings": [
+        "Severe GI intolerance with systemic complications developed within hours of high-dose semaglutide reinitiation.",
+        "Complications occurred despite prior tolerance of semaglutide before the treatment interruption.",
+        "Elderly patients with comorbidities appear particularly vulnerable to reinitiation-related adverse events.",
+        "Re-titration from lower doses is recommended when restarting GLP-1 agonists after drug holidays."
+      ],
+      "limitations": "Single case report limits generalizability; no systematic data on reinitiation protocols or comparator outcomes are provided.",
+      "context": "GLP-1 receptor agonists like semaglutide are known to cause GI adverse effects, particularly during dose escalation. This case extends prior safety knowledge by highlighting that prolonged treatment interruption may reset tolerance, warranting re-titration even in previously stable patients.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT05649137",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT05649137",
+      "url": "https://clinicaltrials.gov/study/NCT05649137",
+      "title": "A Research Study to See How Semaglutide Helps People With Excess Weight and Type 2 Diabetes Lose Weight",
+      "displayTitle": "Phase 3 semaglutide 7.2 mg trial in obese T2D patients posts results",
+      "authors": "Novo Nordisk A/S",
+      "journal": "ClinicalTrials.gov · Novo Nordisk A/S",
+      "publishedDate": "2026-04-27",
+      "addedDate": "2026-04-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Trial — Phase 3 RCT, completed (results posted)",
+      "summary": "This completed Phase 3 RCT tested a novel high-dose semaglutide (7.2 mg weekly) versus the approved 2.4 mg dose and placebo in 512 adults with obesity and type 2 diabetes over ~72 weeks, assessing weight loss and glycemic control.",
+      "keyFindings": [
+        "Three-arm RCT: semaglutide 7.2 mg vs. 2.4 mg vs. placebo; n=512 adults with BMI ≥30 and T2D.",
+        "Primary endpoints: relative body weight change and proportion achieving ≥5% weight reduction.",
+        "Participants were randomized 4:1 in favor of active semaglutide over placebo.",
+        "Results have been posted; trial is completed as of April 2026."
+      ],
+      "limitations": "Full peer-reviewed publication of results is pending; registry-posted results require independent scrutiny before clinical conclusions can be drawn.",
+      "context": "Semaglutide 2.4 mg (Wegovy) is approved for obesity; this trial explores a higher 7.2 mg dose in T2D patients, where GLP-1 agonists also improve glycemic control, potentially expanding the therapeutic ceiling for weight loss.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT05649137",
+        "phase": "Phase 3",
+        "status": "COMPLETED",
+        "sponsor": "Novo Nordisk A/S",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "512",
+        "conditions": [
+          "Obesity",
+          "Diabetes Mellitus, Type 2"
+        ],
+        "primaryOutcomes": "Relative Change in Body Weight; Number of Participants Who Achieve Body Weight Reduction Greater Than or Equal to (>=) 5% (Yes/no)",
+        "hasResults": true
+      }
     },
     {
       "id": "pmid-42034831",
@@ -184,6 +257,79 @@
       "trialMeta": null
     },
     {
+      "id": "nct-NCT06401447",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT06401447",
+      "url": "https://clinicaltrials.gov/study/NCT06401447",
+      "title": "TPF Concurrent Chemo-radiotherapy Plus Immunotherapy for Local Advanced Esophageal Squamous Cell Carcinoma",
+      "displayTitle": "Thymosin Alpha-1 added to chemo-immunotherapy for esophageal cancer",
+      "authors": "Fudan University",
+      "journal": "ClinicalTrials.gov · Fudan University",
+      "publishedDate": "2026-04-24",
+      "addedDate": "2026-04-28",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Trial registration — Single-arm interventional (Phase NA)",
+      "summary": "This single-arm trial (n=50) investigates whether thymosin α1, probiotics, a PD-1 inhibitor (sintilimab), and three-drug chemotherapy can modify the tumor immune microenvironment and improve progression-free survival in locally advanced esophageal squamous cell carcinoma patients undergoing concurrent chemoradiotherapy.",
+      "keyFindings": [
+        "Single-arm, Phase NA study; n=50 patients with stage II-IV inoperable esophageal squamous cell carcinoma.",
+        "Thymosin α1 administered daily during radiotherapy alongside sintilimab, paclitaxel, cisplatin, and 5-FU.",
+        "Primary endpoint is progression-free survival; secondary immune microenvironment modification is a key question.",
+        "Status: active, not recruiting; no results posted."
+      ],
+      "limitations": "No results have been posted; this is a small, uncontrolled single-arm study, limiting conclusions about causality or generalizability.",
+      "context": "Concurrent chemoradiotherapy remains standard for inoperable locally advanced esophageal cancer, but relapse exceeds 50%. Thymosin α1 is explored here as an immune modulator to enhance radiosensitivity and anti-tumor immunity alongside PD-1 checkpoint inhibition.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT06401447",
+        "phase": "NA",
+        "status": "ACTIVE NOT RECRUITING",
+        "sponsor": "Fudan University",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "50",
+        "conditions": [
+          "Esophageal Squamous Cell Carcinoma"
+        ],
+        "primaryOutcomes": "Progression Free Survival",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42036071",
+      "kind": "study",
+      "pmid": "42036071",
+      "doi": "10.1016/j.clnesp.2026.103305",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42036071/",
+      "title": "Medical Nutrition in the Glucagon-Like Peptide-1 (GLP-1) Era: Protein Strategies, Micronutrient Monitoring, and Lean Mass Preservation.",
+      "displayTitle": "Protein and micronutrient strategies to preserve lean mass on GLP-1 drugs",
+      "authors": "Arslan S",
+      "journal": "Clinical nutrition ESPEN",
+      "publishedDate": "2026-04-24",
+      "addedDate": "2026-04-28",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review synthesizes evidence on body-composition changes, macronutrient dynamics, and micronutrient risks during GLP-1 receptor agonist therapy, proposing a dietitian-led framework including protein targets, lab monitoring panels, and resistance training to preserve lean mass.",
+      "keyFindings": [
+        "Randomized trials show clinically relevant absolute lean mass loss alongside fat loss with GLP-1RA therapy.",
+        "Recommended daily protein intake of ≥1.2 g/kg (up to 1.6 g/kg without CKD) with ~0.3–0.4 g/kg per meal.",
+        "Per-meal leucine target of ~2.5–3 g proposed to maximize muscle protein synthesis during reduced intake.",
+        "Structured monitoring of vitamin D, B12, iron, folate, zinc, and thiamine recommended, especially in high-risk patients."
+      ],
+      "limitations": "As a narrative review, it may reflect author selection bias and does not provide pooled effect estimates; recommendations are guideline-informed rather than derived from original data.",
+      "context": "Lean mass loss during GLP-1RA-induced weight loss is an emerging concern consistent with findings from STEP and SURMOUNT body-composition substudies; this review extends prior work by proposing specific clinical protocols for mitigation.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
       "id": "pmid-42029362",
       "kind": "study",
       "pmid": "42029362",
@@ -243,6 +389,48 @@
       "trialMeta": null
     },
     {
+      "id": "nct-NCT07336862",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07336862",
+      "url": "https://clinicaltrials.gov/study/NCT07336862",
+      "title": "Bariatric Surgery Combined With GLP-1 Receptor Agonists Study",
+      "displayTitle": "Phase 2 trial combines bariatric surgery with semaglutide for severe obesity",
+      "authors": "China-Japan Friendship Hospital",
+      "journal": "ClinicalTrials.gov · China-Japan Friendship Hospital",
+      "publishedDate": "2026-04-23",
+      "addedDate": "2026-04-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Trial registration — Phase 1/2 RCT",
+      "summary": "This Phase 1/2 RCT at China-Japan Friendship Hospital is testing bariatric surgery (laparoscopic sleeve gastrectomy) combined with semaglutide versus surgery alone in 200 adults with severe obesity (BMI ≥35) and metabolic comorbidities, to evaluate long-term weight loss and metabolic outcomes.",
+      "keyFindings": [
+        "Phase 1/2 interventional trial; n=200 adults aged 18–60 with BMI ≥35 and metabolic syndrome or T2DM.",
+        "Primary endpoint: percentage of total weight loss following combined surgery plus GLP-1 RA therapy.",
+        "Comparator arms test different combination regimens of laparoscopic sleeve gastrectomy plus semaglutide.",
+        "Currently recruiting; no results posted."
+      ],
+      "limitations": "This is a trial registration only; no results are yet available, and efficacy or safety conclusions cannot be drawn.",
+      "context": "Bariatric surgery is the most effective obesity intervention but weight regain remains a challenge. Semaglutide independently drives significant weight loss; this trial explores whether adjuvant semaglutide post-surgery provides synergistic and durable metabolic benefit.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07336862",
+        "phase": "Phase 1/Phase 2",
+        "status": "RECRUITING",
+        "sponsor": "China-Japan Friendship Hospital",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "200",
+        "conditions": [
+          "Obesity"
+        ],
+        "primaryOutcomes": "the Percentage of weight loss",
+        "hasResults": false
+      }
+    },
+    {
       "id": "pmid-42020128",
       "kind": "study",
       "pmid": "42020128",
@@ -269,6 +457,66 @@
       ],
       "limitations": "This is a protocol publication describing planned methods; no efficacy or safety data are yet available from the trial itself.",
       "context": "GLP-1 receptor agonists produce substantial weight loss but also significant lean mass reduction, raising sarcopenia concerns. This trial addresses a recognized clinical need to preserve muscle during pharmacological weight loss, particularly relevant in Kuwait where muscle weakness prevalence is high in people with type 2 diabetes.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42020100",
+      "kind": "study",
+      "pmid": "42020100",
+      "doi": "10.1111/ceo.70096",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42020100/",
+      "title": "Is There a Causal Link Between GLP-1 Receptor Agonists and Non-Arteritic Anterior Ischaemic Optic Neuropathy? A Critique of the Clinical Evidence.",
+      "displayTitle": "GLP-1 agonists and vision loss: causal link unproven, review finds",
+      "authors": "Danesh-Meyer HV, Rizzo JF",
+      "journal": "Clinical & experimental ophthalmology",
+      "publishedDate": "2026-04-22",
+      "addedDate": "2026-04-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review critically evaluates clinical evidence linking GLP-1 receptor agonists, particularly semaglutide, to non-arteritic anterior ischaemic optic neuropathy (NAION). The authors conclude that while a causal link cannot be excluded, current evidence is inconsistent and insufficient to establish causality.",
+      "keyFindings": [
+        "Scandinavian registry studies reported elevated NAION risk with GLP-1RAs, while large U.S. and multinational EHR analyses found null or weak associations.",
+        "Meta-analyses of RCTs lack statistical power for this rare outcome but suggest at most an odds ratio of 2–3.",
+        "Case reports and pharmacovigilance signals are subject to confounding and reporting bias, limiting causal inference.",
+        "Authors call for larger pooled RCT analyses with adjudicated ocular outcomes to definitively assess risk."
+      ],
+      "limitations": "As a narrative review, it is subject to author selection bias and does not perform a formal systematic search or quantitative synthesis of all available evidence.",
+      "context": "Concerns about semaglutide and NAION emerged from recent case series and pharmacovigilance data; this review extends that discussion by systematically weighing the quality of evidence across study designs, consistent with the broader debate about rare ocular adverse events in GLP-1RA users.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-41774502",
+      "kind": "study",
+      "pmid": "41774502",
+      "doi": "10.1172/jci.insight.201148",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774502/",
+      "title": "Semaglutide reduces murine blood pressure through the vascular smooth muscle GLP-1 receptor.",
+      "displayTitle": "Semaglutide lowers blood pressure via vascular smooth muscle GLP-1 receptors in mice",
+      "authors": "Medak KD et al.",
+      "journal": "JCI insight",
+      "publishedDate": "2026-04-22",
+      "addedDate": "2026-04-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "This mouse study identified vascular smooth muscle cells (VSMCs) as the key cellular target through which semaglutide reduces blood pressure, finding that VSMC GLP-1 receptors are required for BP reduction, increased glomerular filtration rate, and natriuresis — but not for effects on body weight or blood glucose.",
+      "keyFindings": [
+        "VSMC GLP-1Rs are essential for semaglutide-mediated blood pressure reduction in mice; endothelial/immune cell GLP-1Rs are not.",
+        "VSMC GLP-1R is required for semaglutide's effects on glomerular filtration rate and natriuresis, but not food intake or body weight.",
+        "Semaglutide directly induced vasorelaxation in preconstricted mesenteric arteries ex vivo.",
+        "Semaglutide caused proteomic changes in renal artery and kidney (platelet, lipid, apoptosis pathways) abolished without VSMC GLP-1R expression."
+      ],
+      "limitations": "Findings are limited to murine models; whether VSMC GLP-1R mechanisms translate to human blood pressure regulation remains to be established.",
+      "context": "Prior work attributed GLP-1R agonist blood pressure reduction largely to weight loss and endothelial GLP-1R signaling. These findings appear to challenge that consensus, identifying VSMCs as the primary cellular mediator and extending prior mechanistic understanding of cardiovascular and renal GLP-1R effects.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -363,6 +611,158 @@
         "primaryOutcomes": "Progression to severe dengue/critical dengue; All-cause mortality within 30 days",
         "hasResults": false
       }
+    },
+    {
+      "id": "pmid-42025961",
+      "kind": "study",
+      "pmid": "42025961",
+      "doi": "10.1016/j.japh.2026.103117",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42025961/",
+      "title": "Semaglutide for obesity management: A narrative review of efficacy, safety, and future directions.",
+      "displayTitle": "Semaglutide for obesity: efficacy strong, long-term safety gaps remain",
+      "authors": "Hajibandeh S et al.",
+      "journal": "Journal of the American Pharmacists Association : JAPhA",
+      "publishedDate": "2026-04-21",
+      "addedDate": "2026-04-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review synthesized 34 studies and reports on semaglutide's efficacy and safety in obesity management, covering adverse events, perioperative use, and special populations. Clinical trials consistently showed meaningful weight reduction, but long-term neurologic, post-bariatric, and safety outcomes remain incompletely characterized.",
+      "keyFindings": [
+        "Clinical trials consistently demonstrated meaningful weight reduction with semaglutide across diverse populations.",
+        "Evidence on acute pancreatitis risk is limited but cases have been reported in trials and post-marketing analyses.",
+        "Data on suicidal ideation is mixed: some analyses show a safety signal; others report no increased risk.",
+        "Multi-society guidelines support individualized perioperative assessment for GLP-1 RA management."
+      ],
+      "limitations": "Narrative reviews are susceptible to selection bias and cannot quantify effect sizes or heterogeneity as rigorously as systematic reviews or meta-analyses.",
+      "context": "Semaglutide's efficacy for weight loss and glycemic control is well-established from landmark trials (SUSTAIN, STEP series). This review extends prior findings by highlighting emerging safety uncertainties — particularly neuropsychiatric signals and special-population use — that rapid real-world adoption has outpaced.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42025665",
+      "kind": "study",
+      "pmid": "42025665",
+      "doi": "10.1016/j.ajo.2026.04.021",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42025665/",
+      "title": "Glucagon-Like Peptide-1 Receptor Agonists and Risk of Systemic and Ocular Vascular Complications in Patients with Type 2 Diabetes and Diabetic Retinopathy.",
+      "displayTitle": "GLP-1 agonists cut cardiovascular and retinal complication risk in diabetic retinopathy patients",
+      "authors": "Shah J et al.",
+      "journal": "American journal of ophthalmology",
+      "publishedDate": "2026-04-21",
+      "addedDate": "2026-04-28",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Observational cohort — retrospective",
+      "summary": "This retrospective cohort study of 173,216 adults with type 2 diabetes and diabetic retinopathy found that GLP-1 receptor agonist use was associated with significantly reduced risk of major cardiovascular, renal, and ocular vascular complications over two years compared to non-users after propensity score matching.",
+      "keyFindings": [
+        "GLP-1 RAs associated with 35% lower risk of myocardial infarction (HR 0.65) and 60% lower risk of needing renal replacement therapy (HR 0.40).",
+        "Risk of progression to proliferative diabetic retinopathy reduced by 22% (HR 0.78) among GLP-1 RA users.",
+        "Retinal vein occlusion risk reduced by 30% (HR 0.70) and neovascular glaucoma by 35% (HR 0.65).",
+        "No significant association was observed for retinal artery occlusions or non-arteritic ischemic optic neuropathy."
+      ],
+      "limitations": "Retrospective design with residual confounding despite propensity score matching; two-year follow-up may be insufficient to capture long-term ocular outcomes.",
+      "context": "Extends prior cardiovascular outcome trial findings to a high-risk, often-excluded population with pre-existing diabetic retinopathy; consistent with known pleiotropic vascular-protective effects of GLP-1 RAs, and adds new ocular-specific outcome data.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42015513",
+      "kind": "study",
+      "pmid": "42015513",
+      "doi": "10.1093/europace/euag091",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42015513/",
+      "title": "Differential Effects of Semaglutide and Colchicine on Atrial Remodeling in Rats with Reduced Ejection Fraction after Myocardial Infarction.",
+      "displayTitle": "Semaglutide reduces atrial fibrosis and AF risk in post-MI rats",
+      "authors": "Levi O et al.",
+      "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+      "publishedDate": "2026-04-21",
+      "addedDate": "2026-04-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — rat",
+      "summary": "In rats with reduced ejection fraction after myocardial infarction, both semaglutide and colchicine reduced atrial fibrillation inducibility and duration, but semaglutide additionally attenuated atrial fibrosis, suppressed NLRP3 inflammasome activity, prevented connexin-43 lateralization, and reduced SK4 channel expression.",
+      "keyFindings": [
+        "Both semaglutide and colchicine reduced AF inducibility and AF duration in post-MI HF rats.",
+        "Semaglutide uniquely attenuated atrial fibrosis and prevented connexin-43 lateralization, reducing signal complexity.",
+        "Semaglutide suppressed NLRP3 inflammasome expression and downregulated proarrhythmic SK4 potassium channels.",
+        "Colchicine inhibited NLRP3, SK4, p38, JNK, and AKT signaling but did not prevent fibrosis or Cx43 remodeling."
+      ],
+      "limitations": "Animal-only study using male rats; findings may not translate directly to human HF with AF, and sex-specific effects were not evaluated.",
+      "context": "GLP-1 receptor agonists like semaglutide have shown cardiovascular benefits in clinical trials; this study extends prior findings by suggesting semaglutide may specifically target atrial remodeling substrates, including fibrosis and connexin remodeling, beyond its known metabolic and anti-inflammatory actions.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42014432",
+      "kind": "study",
+      "pmid": "42014432",
+      "doi": "10.1038/s41514-026-00383-9",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42014432/",
+      "title": "Pilot study of epigenetic aging and treatment response to semaglutide in the SLIM LIVER study.",
+      "displayTitle": "Semaglutide links to epigenetic aging changes in HIV-MASLD patients",
+      "authors": "Corley MJ et al.",
+      "journal": "npj aging",
+      "publishedDate": "2026-04-21",
+      "addedDate": "2026-04-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This post hoc analysis of the 24-week SLIM LIVER trial examined epigenetic aging biomarkers in 41 people with HIV and metabolic liver disease receiving weekly semaglutide 1.0 mg. Participants with decreased DunedinPACE showed greater liver fat reduction, and increased PCDNAmTL correlated with better gait speed.",
+      "keyFindings": [
+        "41.5% of participants showed decreased DunedinPACE; these had greater liver fat reduction (p=0.024).",
+        "Increased PCDNAmTL was associated with improved gait speed (p=0.012).",
+        "Median PCGrimAge increased +0.54 years over 24 weeks, suggesting mixed epigenetic aging signals.",
+        "Epigenetic clock changes may serve as early noninvasive biomarkers of semaglutide treatment response."
+      ],
+      "limitations": "Post hoc, single-arm design with no control group and a small sample of 41 participants limits causal inference and generalizability.",
+      "context": "Semaglutide is established for reducing liver fat and improving metabolic health; this study extends prior findings by suggesting epigenetic aging biomarkers may reflect biological responsiveness to GLP-1RA therapy, particularly in a high-risk HIV-positive population.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42013898",
+      "kind": "study",
+      "pmid": "42013898",
+      "doi": "10.1055/a-2858-3774",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42013898/",
+      "title": "GLP-1 Receptor Agonist Use and Wound Outcomes After Free Flap Breast Reconstruction.",
+      "displayTitle": "GLP-1 agonists linked to fewer wound complications after breast reconstruction",
+      "authors": "Ha J et al.",
+      "journal": "Journal of reconstructive microsurgery",
+      "publishedDate": "2026-04-21",
+      "addedDate": "2026-04-28",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Retrospective cohort study",
+      "summary": "This retrospective cohort study using a large health records database compared wound outcomes in adults taking GLP-1 receptor agonists vs. non-users before free flap breast reconstruction. GLP-1 users had significantly lower composite wound complication rates (9.0% vs. 17.1%), including fewer infections and dehiscence.",
+      "keyFindings": [
+        "Composite wound complications nearly halved in GLP-1 users vs. non-users (9.0% vs. 17.1%, p=0.002).",
+        "Surgical site infections reduced by half in GLP-1 users (4.1% vs. 8.1%, p=0.026).",
+        "Wound dehiscence also significantly lower in GLP-1 users (3.8% vs. 7.8%, p=0.023).",
+        "Benefit was significant in non-diabetic subgroup; diabetic subgroup showed no significant difference."
+      ],
+      "limitations": "Retrospective design with de-identified database records limits causal inference, and confounding by indication or unmeasured variables may persist despite propensity score matching.",
+      "context": "Prior data on GLP-1 agonists and surgical wound outcomes have been mixed, with some studies suggesting benefit and others signaling risk in certain procedures. These findings appear to support perioperative safety of GLP-1 agonists and extend prior evidence of potential anti-inflammatory wound-healing benefits.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
     },
     {
       "id": "pmid-41859865",
