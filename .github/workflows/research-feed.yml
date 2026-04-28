@@ -73,21 +73,7 @@ jobs:
           git commit -m "Research feed update — ${DATE}"
           git push origin "$BRANCH"
           gh pr create \
-            --title "Research feed update — ${DATE}" \
-            --body "$(cat <<'EOF'
-## Weekly research feed update
-
-Auto-fetched from PubMed, medRxiv/bioRxiv, and ClinicalTrials.gov.
-
-**Review checklist before merging:**
-- [ ] Headlines are plain-English and accurate
-- [ ] No duplicates or near-duplicates of existing entries
-- [ ] Summaries and key findings are factually correct
-- [ ] Limitations and context are honest
-- [ ] No entries that are clearly out of scope
-
-This PR was opened automatically — human review is required before merging.
-EOF
-)" \
+            --title "Research feed update - ${DATE}" \
+            --body "Auto-fetched from PubMed, medRxiv/bioRxiv, and ClinicalTrials.gov. Review headlines, summaries, and findings before merging. This PR was opened automatically - human review required." \
             --base main \
             --head "$BRANCH"
