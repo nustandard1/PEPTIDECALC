@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T11:53:39.727Z",
+  "lastUpdated": "2026-05-03T10:35:34.737Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -32,6 +32,96 @@
       "trialMeta": null
     },
     {
+      "id": "pmid-42058630",
+      "kind": "study",
+      "pmid": "42058630",
+      "doi": "10.1016/j.bioactmat.2026.03.057",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42058630/",
+      "title": "Microenvironment-responsive injectable dynamic hydrogel for sequential antioxidant and tissue regeneration therapy of radiation-induced skin injury.",
+      "displayTitle": "GHK-Cu hydrogel accelerates radiation-induced skin wound healing in vitro and in vivo",
+      "authors": "Yu X et al.",
+      "journal": "Bioactive materials",
+      "publishedDate": "2026-09-01",
+      "addedDate": "2026-05-03",
+      "peptides": [
+        "GHK-Cu"
+      ],
+      "studyType": "In vitro and animal model study",
+      "summary": "Researchers developed an injectable hydrogel (HCG@CDs) incorporating GHK-Cu and carbon dots to treat radiation-induced skin injury. In vitro and in vivo testing showed the system reduced oxidative stress and inflammation while promoting collagen deposition and accelerated wound healing.",
+      "keyFindings": [
+        "GHK-Cu was released sustainably from the hydrogel to promote cell migration, proliferation, and collagen deposition.",
+        "Carbon dots provided SOD-like ROS scavenging activity, released rapidly under acidic wound microenvironment conditions.",
+        "The hydrogel showed pH-responsive, sequential dual-release of carbon dots then GHK-Cu for staged therapy.",
+        "In vivo evaluation confirmed significant acceleration of radiation-induced skin wound healing with reduced inflammation."
+      ],
+      "limitations": "Animal model specifics and sample sizes are not detailed in the abstract, limiting assessment of statistical robustness and translational relevance.",
+      "context": "GHK-Cu is known to promote wound healing, collagen synthesis, and anti-inflammatory responses. This study extends prior findings by incorporating GHK-Cu into a smart hydrogel system combining it with antioxidant carbon dots for sequential, site-responsive delivery in radiation wounds.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42064835",
+      "kind": "study",
+      "pmid": "42064835",
+      "doi": "10.1007/s10616-026-00967-z",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42064835/",
+      "title": "Lysine-proline-valine peptide attenuates hepatic lipid accumulation through ROS-dependent regulation of the PPAR&#x3b3; pathway in HepG2 cells.",
+      "displayTitle": "KPV tripeptide reduces fatty liver lipid buildup in HepG2 cells",
+      "authors": "Lee JY et al.",
+      "journal": "Cytotechnology",
+      "publishedDate": "2026-06-01",
+      "addedDate": "2026-05-03",
+      "peptides": [
+        "KPV"
+      ],
+      "studyType": "In vitro",
+      "summary": "This in vitro study tested the tripeptide KPV (Lysine-Proline-Valine) against oleic acid-induced steatosis in HepG2 hepatocytes. At 100 µg/mL, KPV significantly reduced lipid accumulation and fatty acid synthase expression by lowering ROS and inhibiting downstream ERK, AKT/mTORC1, and PPARγ signaling.",
+      "keyFindings": [
+        "KPV at 100 µg/mL significantly attenuated oleic acid-induced hepatic lipid accumulation without cytotoxicity.",
+        "KPV reduced ROS generation, thereby preventing ERK activation in steatotic HepG2 cells.",
+        "KPV suppressed AKT and mTORC1 phosphorylation under hepatic steatosis conditions.",
+        "KPV modulated PPARγ phosphorylation, normalizing fatty acid synthase (FAS) expression."
+      ],
+      "limitations": "Results are limited to a single hepatocellular cell line (HepG2) with no animal or human validation, and only one concentration of KPV was tested.",
+      "context": "KPV is an endogenous tripeptide fragment of α-MSH with known anti-inflammatory properties; this study extends prior findings by identifying a novel antioxidant and anti-lipogenic role in hepatocytes, consistent with emerging interest in KPV for metabolic and inflammatory conditions.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42060879",
+      "kind": "study",
+      "pmid": "42060879",
+      "doi": "10.1212/WNL.0000000000214864",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42060879/",
+      "title": "Glucagon-like Peptide-1 Receptor Agonists and Risk of Nonarteritic Anterior Ischemic Optic Neuropathy: Systematic Review and Meta-Analysis.",
+      "displayTitle": "Semaglutide linked to 2.5x higher NAION risk in meta-analysis",
+      "authors": "Dhivagaran T et al.",
+      "journal": "Neurology",
+      "publishedDate": "2026-05-26",
+      "addedDate": "2026-05-03",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "This systematic review and meta-analysis of 5 observational studies (~1.6 million patients) found that semaglutide use was associated with a 2.52-fold increased risk of nonarteritic anterior ischemic optic neuropathy (NAION) compared to non-GLP-1RA users, with the association especially pronounced in patients with diabetes.",
+      "keyFindings": [
+        "Semaglutide associated with RR 2.52 (95% CrI 1.56–4.72) for NAION vs. non-GLP-1RA users; P(RR>1) = 99.9%.",
+        "Risk was particularly elevated in diabetic patients: RR 2.41 (95% CrI 1.57–4.10).",
+        "Incidence of NAION among semaglutide users estimated at 118 per 100,000.",
+        "Leave-one-out sensitivity analyses consistently supported the primary findings."
+      ],
+      "limitations": "Evidence rated only low-to-moderate certainty; included studies are predominantly observational, limiting causal inference and leaving residual confounding unaddressed.",
+      "context": "Prior observational studies on GLP-1RAs and NAION reported conflicting results. This meta-analysis synthesizes that evidence, extending concerns first raised in smaller studies and suggesting semaglutide may carry a specific ophthalmologic safety signal warranting clinical attention.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
       "id": "pmid-42027588",
       "kind": "study",
       "pmid": "42027588",
@@ -57,6 +147,246 @@
       ],
       "limitations": "Single case report cannot establish causation; temporal association and resolution after discontinuation are suggestive but not definitive proof of drug-related effect.",
       "context": "This appears to be the first documented case of central respiratory depression associated with semaglutide. While GLP-1 receptor agonists are widely prescribed for obesity management, respiratory complications have rarely been reported in the literature.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42066004",
+      "kind": "study",
+      "pmid": "42066004",
+      "doi": "10.1021/acsami.5c24385",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42066004/",
+      "title": "An Ionic Liquid-Based Enteric Formulation for Enhanced Oral Delivery of Semaglutide in Type 2 Diabetes Mellitus.",
+      "displayTitle": "Ionic liquid formulation boosts oral semaglutide absorption 2.3-fold in mice",
+      "authors": "Tao J et al.",
+      "journal": "ACS applied materials & interfaces",
+      "publishedDate": "2026-05-01",
+      "addedDate": "2026-05-03",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "Researchers developed a sorbic acid-choline ionic liquid enteric formulation for oral semaglutide delivery, testing it in vitro and in type 2 diabetes mouse models. The formulation achieved a 2.3-fold increase in peak plasma concentration versus Rybelsus and glucose-lowering efficacy comparable to subcutaneous injection.",
+      "keyFindings": [
+        "2.3-fold increase in maximum plasma concentration compared to reference oral semaglutide (Rybelsus).",
+        "Glucose-lowering efficacy in T2DM mice matched subcutaneous semaglutide administration.",
+        "pH-responsive release protected semaglutide from gastric degradation while enabling intestinal absorption.",
+        "Repeated-dose studies showed favorable systemic and gastrointestinal tolerability in tested conditions."
+      ],
+      "limitations": "Results are limited to mouse models and in vitro systems; translation to human pharmacokinetics and long-term safety remains unestablished.",
+      "context": "Oral peptide bioavailability is a well-documented challenge; Rybelsus (oral semaglutide) achieves only ~1% bioavailability. This study extends prior ionic liquid absorption-enhancer research by combining enteric protection with intestinal permeation enhancement, appearing to outperform the existing commercial oral formulation in preclinical models.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42060800",
+      "kind": "study",
+      "pmid": "42060800",
+      "doi": "10.4103/ijp.ijp_686_25",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42060800/",
+      "title": "Semaglutide in obesity and type 2 diabetes: A review of clinical trial evidence from 1 to 5 semaglutide treatment effect in people with obesity program.",
+      "displayTitle": "Semaglutide 2.4 mg cuts weight up to 17% across STEP 1–5 trials",
+      "authors": "Khanna A et al.",
+      "journal": "Indian journal of pharmacology",
+      "publishedDate": "2026-05-01",
+      "addedDate": "2026-05-03",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This review synthesizes findings from the STEP 1–5 clinical trials evaluating once-weekly semaglutide 2.4 mg for weight management in adults with and without type 2 diabetes. Semaglutide achieved 10–17% weight loss in non-diabetic participants and ~10% in those with T2DM, with sustained effects over two years.",
+      "keyFindings": [
+        "Non-diabetic participants achieved 10–17% average weight loss; T2DM patients achieved ~10% reduction.",
+        "Adding intensive behavioral therapy (STEP 3) further enhanced weight loss outcomes.",
+        "STEP 4 showed significant weight regain after treatment withdrawal, highlighting obesity's relapsing nature.",
+        "STEP 5 confirmed ~15% weight loss maintained over 2 years; side effects were mostly manageable GI events."
+      ],
+      "limitations": "As a narrative review of existing trials, it is subject to publication bias and does not perform pooled statistical analysis; long-term safety beyond 2 years remains incompletely characterized.",
+      "context": "These findings are consistent with prior evidence establishing semaglutide as among the most effective pharmacological options for obesity. The STEP program extends prior GLP-1 agonist data by demonstrating durability and the need for continuous therapy.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42053447",
+      "kind": "study",
+      "pmid": "42053447",
+      "doi": "10.1002/jcph.70158",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42053447/",
+      "title": "Assessment of the Drug-Drug Interaction Potential of Lotiglipron (PF-07081532) with Midazolam, Omeprazole, Dabigatran, Rosuvastatin, and the Oral Contraceptives Levonorgestrel and Ethinyl Estradiol.",
+      "displayTitle": "Lotiglipron causes major drug interactions; semaglutide shows none with midazolam",
+      "authors": "Cronenberger C et al.",
+      "journal": "Journal of clinical pharmacology",
+      "publishedDate": "2026-05-01",
+      "addedDate": "2026-05-03",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Randomized controlled trial",
+      "summary": "Two Phase 1 trials in overweight/obese adults assessed drug-drug interactions between the GLP-1 receptor agonist lotiglipron (and semaglutide) and several drug substrates. Lotiglipron caused substantial changes in exposure of multiple co-administered drugs and triggered liver transaminase elevations in 19–31% of participants, leading to termination of its clinical development.",
+      "keyFindings": [
+        "Lotiglipron reduced omeprazole AUC by up to 70% and increased rosuvastatin AUC up to 2.3-fold.",
+        "Lotiglipron reduced midazolam AUC by up to 30% and dabigatran Cmax by up to 55%.",
+        "Liver transaminase elevations (>3× ULN) occurred in 19–31% of lotiglipron-treated participants across studies.",
+        "Semaglutide produced no significant changes in midazolam AUC or Cmax."
+      ],
+      "limitations": "Both Phase 1 studies were prematurely terminated due to safety concerns, limiting the completeness of PK data; semaglutide DDI assessment was restricted to midazolam only.",
+      "context": "GLP-1 receptor agonists can slow gastric emptying, which may affect drug absorption; lotiglipron's transaminase signal and broad metabolic interactions appear more severe than seen with approved agents like semaglutide, consistent with its clinical program being halted.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42038657",
+      "kind": "study",
+      "pmid": "42038657",
+      "doi": "10.1002/ccr3.72356",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42038657/",
+      "title": "Acute Systemic Complications Following High-Dose Semaglutide Reinitiation in an Elderly Patient.",
+      "displayTitle": "Case report: severe GI complications after high-dose semaglutide restart in elderly patient",
+      "authors": "Mehta J et al.",
+      "journal": "Clinical case reports",
+      "publishedDate": "2026-05-01",
+      "addedDate": "2026-05-03",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "This case report describes acute systemic complications occurring within hours of reinitiating high-dose semaglutide in an elderly patient following a prolonged treatment interruption, despite prior tolerance. The authors recommend re-titration from lower doses when restarting GLP-1 receptor agonists after drug holidays.",
+      "keyFindings": [
+        "Severe gastrointestinal intolerance with systemic complications developed within hours of high-dose semaglutide reinitiation.",
+        "The patient had previously tolerated semaglutide, highlighting restart as a distinct risk period.",
+        "Elderly patients with comorbidities appear particularly vulnerable to reinitiation-related adverse effects.",
+        "Authors recommend re-titrating from lower doses after prolonged GLP-1 receptor agonist interruptions."
+      ],
+      "limitations": "Single case report limits generalizability; full clinical details, comorbidity profile, and duration of treatment interruption are not specified in the abstract.",
+      "context": "GLP-1 receptor agonists like semaglutide are known to cause gastrointestinal side effects, particularly during dose escalation. This case extends prior findings by highlighting that restarting at a previously tolerated high dose after a drug holiday can trigger severe adverse events, a clinically important but underemphasized risk.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-41986942",
+      "kind": "study",
+      "pmid": "41986942",
+      "doi": "10.1002/edm2.70219",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986942/",
+      "title": "A Multicentre, Prospective, Non-Interventional Single-Arm Study Investigating the Impact of Once-Daily Oral Semaglutide in a Real-World Adult Population With Type 2 Diabetes in Mexico.",
+      "displayTitle": "Oral semaglutide cuts HbA1c by 1.3% in Mexican T2D patients",
+      "authors": "Gonz&#xe1;lez-G&#xe1;lvez G et al.",
+      "journal": "Endocrinology, diabetes & metabolism",
+      "publishedDate": "2026-05-01",
+      "addedDate": "2026-05-03",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This real-world, non-interventional study followed 177 Mexican adults with type 2 diabetes on once-daily oral semaglutide for 38 weeks. Treatment was associated with significant reductions in HbA1c (−1.3%), body weight (−4.3 kg), and waist circumference (−3.7 cm), with improved treatment satisfaction.",
+      "keyFindings": [
+        "HbA1c fell from 8.1% to 6.8% (mean change −1.3%) at week 38 (p < 0.0001).",
+        "Body weight decreased by a mean of 4.3 kg and waist circumference by 3.7 cm (both p < 0.0001).",
+        "Only 6.2% of patients withdrew due to adverse events, consistent with prior safety data.",
+        "78.5% completed the study; treatment satisfaction improved significantly over time."
+      ],
+      "limitations": "Single-arm, non-interventional design with no comparator group limits causal inference; only 62.7% of patients remained on treatment at study end.",
+      "context": "These findings are consistent with the broader PIONEER REAL multinational trial and prior clinical data showing oral semaglutide improves glycemic control and reduces body weight in T2D. This analysis extends those findings to a real-world Mexican population with high rates of obesity and cardiovascular disease.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-41947645",
+      "kind": "study",
+      "pmid": "41947645",
+      "doi": "10.1002/phar.70135",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41947645/",
+      "title": "Incretin-Based Therapies for the Treatment of Binge Eating-A Systematic Review.",
+      "displayTitle": "GLP-1 agonists show consistent reductions in binge eating behaviors",
+      "authors": "White RT et al.",
+      "journal": "Pharmacotherapy",
+      "publishedDate": "2026-05-01",
+      "addedDate": "2026-05-03",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review",
+      "summary": "This systematic review of 12 human studies evaluated GLP-1 receptor agonists (liraglutide, semaglutide, dulaglutide) in patients with binge eating disorder. Despite heterogeneous designs and small samples, consistent reductions in binge eating behaviors and significant weight loss (-3 to -24 kg) were observed.",
+      "keyFindings": [
+        "12 studies met inclusion criteria from 1,125 screened records; most had fewer than 75 participants.",
+        "Consistent reductions in binge eating seen via Binge Eating Scale scores, binge frequency, and remission rates.",
+        "Body weight reductions ranged from -3 to -24 kg alongside improvements in glycemic control.",
+        "Adverse effects were primarily gastrointestinal; no new psychiatric safety concerns were identified."
+      ],
+      "limitations": "Evidence is limited by small sample sizes (generally <75 participants), heterogeneous study designs, variable outcome measures, and short follow-up durations across the 12 included studies.",
+      "context": "GLP-1 RAs are established for obesity and type 2 diabetes; this review extends prior findings by suggesting their appetite- and reward-modulating effects may also benefit binge eating disorder, a population with high cardiometabolic comorbidity.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-41941221",
+      "kind": "study",
+      "pmid": "41941221",
+      "doi": "10.1111/apt.70639",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41941221/",
+      "title": "Review Article: An Update on Non-Invasive Tests for Steatotic Liver Disease - Insights From the ESSENCE Phase 3 Trial and Longitudinal Studies.",
+      "displayTitle": "Expert panel recommends non-invasive tests to guide semaglutide use in MASH",
+      "authors": "Alkhouri N et al.",
+      "journal": "Alimentary pharmacology & therapeutics",
+      "publishedDate": "2026-05-01",
+      "addedDate": "2026-05-03",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "An expert panel reviewed non-invasive testing strategies to identify at-risk MASH patients who would benefit from semaglutide (2.4 mg), recently FDA-approved for MASH based on the ESSENCE Phase 3 trial. The panel recommended specific NIT thresholds to guide patient selection for pharmacotherapy.",
+      "keyFindings": [
+        "Semaglutide 2.4 mg was recently approved in the US for MASH based on the ESSENCE Phase 3 trial.",
+        "Panel recommended targeting patients with CAP ≥280 dB/m and AST ≥17 IU/L (females) or ≥20 IU/L (males) for confirmatory testing.",
+        "Confirmatory NITs include vibration-controlled transient elastography, MR elastography, enhanced liver fibrosis score, and combination tests.",
+        "Semaglutide should be offered to at-risk MASH patients at highest risk of major adverse liver outcomes."
+      ],
+      "limitations": "Recommendations reflect expert opinion from a single conference panel rather than systematic evidence synthesis, potentially introducing consensus bias.",
+      "context": "Semaglutide's approval for MASH represents a significant regulatory milestone. This review extends prior ESSENCE trial findings by providing practical NIT-based guidance for patient selection in real-world clinical settings where liver biopsy is rarely used.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42047624",
+      "kind": "study",
+      "pmid": "42047624",
+      "doi": "10.1002/cmdc.202501023",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42047624/",
+      "title": "Copper(II)-Tripeptide Complexes as Potential Skin Healing Agents: Synthesis, Characterization, and Wound Repair Ability.",
+      "displayTitle": "Novel copper-tripeptide complexes show wound healing potential in cell assay",
+      "authors": "Aguilar L et al.",
+      "journal": "ChemMedChem",
+      "publishedDate": "2026-04-28",
+      "addedDate": "2026-05-03",
+      "peptides": [
+        "GHK-Cu"
+      ],
+      "studyType": "In vitro",
+      "summary": "Researchers synthesized and characterized four new copper(II)-tripeptide complexes (CuGGI, CuAAA, CuFGG, CuVYV) and tested their wound healing ability in a scratch assay using MRC-5 fibroblast cells. CuAAA and CuVYV promoted cell migration without cytotoxicity, identifying them as promising skin-healing candidates.",
+      "keyFindings": [
+        "CuAAA and CuVYV promoted wound closure by inducing cell migration in MRC-5 fibroblast cells.",
+        "All four complexes were non-cytotoxic at wound-healing-effective doses.",
+        "CuVYV showed the most accessible Cu(III)/Cu(II) redox transition in the biologically relevant window.",
+        "VYV formed a 1:1 complex with copper via double deprotonation, distinct from the 1:2 stoichiometry of the other three peptides."
+      ],
+      "limitations": "Results are limited to a single in vitro scratch assay in one cell line (MRC-5); no animal or human data are reported, and GHK-Cu was not included as a direct comparator.",
+      "context": "GHK-Cu is the benchmark copper-tripeptide complex known for skin repair and anti-inflammatory effects. This study extends that framework by exploring structurally distinct tripeptide ligands, suggesting that copper coordination geometry and redox activity across different tripeptide sequences may broadly support wound healing.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -182,6 +512,48 @@
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
+    },
+    {
+      "id": "nct-NCT06401447",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT06401447",
+      "url": "https://clinicaltrials.gov/study/NCT06401447",
+      "title": "TPF Concurrent Chemo-radiotherapy Plus Immunotherapy for Local Advanced Esophageal Squamous Cell Carcinoma",
+      "displayTitle": "Thymosin Alpha-1 added to chemo-immunoradiotherapy for esophageal cancer",
+      "authors": "Fudan University",
+      "journal": "ClinicalTrials.gov · Fudan University",
+      "publishedDate": "2026-04-24",
+      "addedDate": "2026-05-03",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Trial registration — single-arm interventional (Phase NA)",
+      "summary": "This single-arm trial (n=50) tests whether adding thymosin alpha-1, probiotics, and the PD-1 inhibitor sintilimab to three-drug chemoradiotherapy can modify the tumor immune microenvironment and improve progression-free survival in locally advanced esophageal squamous cell carcinoma.",
+      "keyFindings": [
+        "Single-arm, Phase NA study; n=50 patients with stage II–IV inoperable esophageal squamous cell carcinoma.",
+        "Thymosin alpha-1 administered daily throughout radiotherapy alongside sintilimab, paclitaxel, cisplatin, and 5-FU.",
+        "Primary endpoint is progression-free survival; trial is active but not yet recruiting.",
+        "No results posted; trial explores immune microenvironment modification as a radiosensitization strategy."
+      ],
+      "limitations": "No results have been published; as a single-arm study without a control group, causal attribution of any observed benefit will be difficult.",
+      "context": "Thymosin alpha-1 is an immunomodulatory peptide previously studied as an adjunct in oncology and infection settings. Its use here to potentially enhance radiosensitivity and antitumor immunity alongside PD-1 blockade represents a novel combinatorial approach in esophageal cancer.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT06401447",
+        "phase": "NA",
+        "status": "ACTIVE NOT RECRUITING",
+        "sponsor": "Fudan University",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "50",
+        "conditions": [
+          "Esophageal Squamous Cell Carcinoma"
+        ],
+        "primaryOutcomes": "Progression Free Survival",
+        "hasResults": false
+      }
     },
     {
       "id": "pmid-42029362",
