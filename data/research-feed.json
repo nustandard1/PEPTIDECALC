@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T11:53:39.727Z",
+  "lastUpdated": "2026-05-10T10:50:10.388Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -32,6 +32,338 @@
       "trialMeta": null
     },
     {
+      "id": "pmid-42078492",
+      "kind": "study",
+      "pmid": "42078492",
+      "doi": "10.1007/s13340-026-00903-8",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42078492/",
+      "title": "Three-year changes in renal function after switching from injectable GLP-1 receptor agonists to oral semaglutide in Japanese patients with type 2 diabetes: a retrospective cohort study.",
+      "displayTitle": "Switching to oral semaglutide slows kidney decline over 3 years",
+      "authors": "Takashima S et al.",
+      "journal": "Diabetology international",
+      "publishedDate": "2026-07-01",
+      "addedDate": "2026-05-10",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort — retrospective",
+      "summary": "This retrospective cohort study of 36 Japanese type 2 diabetes patients examined renal outcomes 3 years after switching from injectable GLP-1 receptor agonists to oral semaglutide (7 mg/day), finding significant improvements in both albuminuria and eGFR decline rate.",
+      "keyFindings": [
+        "Median UACR decreased significantly from 54.3 to 35.8 mg/g creatinine over 3 years post-switch.",
+        "Annual eGFR slope improved from -1.92 to -0.26 mL/min/1.73 m²/year after switching (difference: 1.67).",
+        "Improvements in eGFR slope were significantly associated with greater weight loss and lower baseline HbA1c.",
+        "HbA1c decreased by 0.33% and body weight by 3.50 kg, both sustained at 3 years."
+      ],
+      "limitations": "Very small sample (n=36), retrospective design without a control group limits causal inference and generalizability beyond the Japanese clinical setting.",
+      "context": "The FLOW trial established renoprotective effects of subcutaneous semaglutide; this study extends prior findings by suggesting oral semaglutide may offer similar long-term renal benefits in real-world clinical practice after switching from other injectable GLP-1RAs.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42064835",
+      "kind": "study",
+      "pmid": "42064835",
+      "doi": "10.1007/s10616-026-00967-z",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42064835/",
+      "title": "Lysine-proline-valine peptide attenuates hepatic lipid accumulation through ROS-dependent regulation of the PPAR&#x3b3; pathway in HepG2 cells.",
+      "displayTitle": "KPV tripeptide reduces fat buildup in liver cells via ROS-PPAR pathway",
+      "authors": "Lee JY et al.",
+      "journal": "Cytotechnology",
+      "publishedDate": "2026-06-01",
+      "addedDate": "2026-05-10",
+      "peptides": [
+        "KPV"
+      ],
+      "studyType": "In vitro",
+      "summary": "This in vitro study examined whether KPV (Lysine-Proline-Valine), an endogenous tripeptide derived from α-MSH, could protect HepG2 hepatic cells from oleic acid-induced lipid accumulation. At 100 µg/mL, KPV significantly reduced lipid deposition and fatty acid synthase expression by dampening ROS generation and suppressing ERK, AKT/mTORC1, and PPARγ phosphorylation.",
+      "keyFindings": [
+        "KPV (100 µg/mL) significantly attenuated oleic acid-induced lipid accumulation in HepG2 cells without cytotoxicity.",
+        "KPV reduced reactive oxygen species generation, thereby preventing extracellular signal-regulated kinase activation.",
+        "KPV downregulated AKT phosphorylation, leading to inhibition of mTORC1 phosphorylation under steatosis conditions.",
+        "KPV normalized fatty acid synthase expression via regulation of PPARγ phosphorylation, a key lipogenesis transcription factor."
+      ],
+      "limitations": "Study is limited to a single human hepatocellular carcinoma cell line (HepG2) with no animal or clinical validation, limiting translational relevance.",
+      "context": "KPV is best known for its anti-inflammatory properties, particularly in gut inflammation models. These findings extend prior work by demonstrating antioxidant and anti-lipogenic effects in hepatocytes, suggesting a broader metabolic role consistent with its parent molecule α-MSH's involvement in energy homeostasis.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42100587",
+      "kind": "study",
+      "pmid": "42100587",
+      "doi": "10.1210/jcemcr/luag103",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42100587/",
+      "title": "Semaglutide-associated Twiddler syndrome.",
+      "displayTitle": "Case report: semaglutide-linked 25 kg weight loss triggers life-threatening Twiddler syndrome",
+      "authors": "Seiler T et al.",
+      "journal": "JCEM case reports",
+      "publishedDate": "2026-06-01",
+      "addedDate": "2026-05-10",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 52-year-old woman with an ICD developed Twiddler syndrome after losing 25 kg on semaglutide, causing lead entanglement and device malfunction. Lead extraction was complicated by cardiac tamponade, requiring ICD reimplantation after recovery.",
+      "keyFindings": [
+        "Rapid 25 kg weight loss on semaglutide increased ICD generator mobility, leading to Twiddler syndrome.",
+        "Lead entanglement caused right ventricular lead dysfunction and painful device mobility.",
+        "Lead extraction triggered cardiac tamponade, a potentially life-threatening complication.",
+        "Authors warn GLP-1 agonist users with cardiac implantable devices may face elevated Twiddler syndrome risk."
+      ],
+      "limitations": "Single case report; causality between semaglutide-induced weight loss and Twiddler syndrome cannot be definitively established from one patient.",
+      "context": "Twiddler syndrome is a rare mechanical ICD/pacemaker complication; this case appears to be among the first linking GLP-1 receptor agonist-induced weight loss to increased generator pocket laxity as a precipitating mechanism.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42060879",
+      "kind": "study",
+      "pmid": "42060879",
+      "doi": "10.1212/WNL.0000000000214864",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42060879/",
+      "title": "Glucagon-like Peptide-1 Receptor Agonists and Risk of Nonarteritic Anterior Ischemic Optic Neuropathy: Systematic Review and Meta-Analysis.",
+      "displayTitle": "Semaglutide linked to 2.5x higher NAION risk in meta-analysis",
+      "authors": "Dhivagaran T et al.",
+      "journal": "Neurology",
+      "publishedDate": "2026-05-26",
+      "addedDate": "2026-05-10",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "This systematic review and Bayesian meta-analysis pooled 5 observational studies (1.59 million patients) to assess whether GLP-1 receptor agonists, particularly semaglutide, increase risk of nonarteritic anterior ischemic optic neuropathy (NAION). Semaglutide users had a 2.52-fold higher NAION risk versus non-GLP-1RA users, with 99.9% posterior probability of increased risk.",
+      "keyFindings": [
+        "Semaglutide associated with RR 2.52 (95% CrI 1.56–4.72) for NAION vs. non-GLP-1RA users.",
+        "Association was stronger in diabetic patients: RR 2.41 (95% CrI 1.57–4.10), P(RR>1) 99.9%.",
+        "Incidence of NAION among semaglutide users was 118 per 100,000 (95% CrI 32–451).",
+        "Leave-one-out sensitivity analyses consistently supported the primary findings."
+      ],
+      "limitations": "Evidence certainty is rated only low-to-moderate; all included studies are observational, precluding causal inference, and residual confounding cannot be excluded.",
+      "context": "Prior individual observational studies reported conflicting evidence on GLP-1RA-associated NAION risk. This meta-analysis extends those findings by pooling the largest available evidence base, suggesting a consistent and statistically robust signal, though certainty of evidence is rated only low-to-moderate.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42106472",
+      "kind": "study",
+      "pmid": "42106472",
+      "doi": "10.1007/s40265-026-02325-x",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42106472/",
+      "title": "Incretin-Based Anti-obesity Medications in Polycystic Ovary Syndrome: The Evidence Map.",
+      "displayTitle": "Semaglutide and tirzepatide reviewed for PCOS treatment evidence",
+      "authors": "Jensterle M, Janez A",
+      "journal": "Drugs",
+      "publishedDate": "2026-05-09",
+      "addedDate": "2026-05-10",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review maps evidence for liraglutide, semaglutide, and tirzepatide in polycystic ovary syndrome (PCOS), evaluating mechanistic, clinical, and safety data. Semaglutide shows early weight-loss efficacy and preliminary signals for improved natural conception, while tirzepatide has no PCOS-specific evidence yet.",
+      "keyFindings": [
+        "Semaglutide data are sparse but show weight-loss efficacy and preliminary signals of increased natural conception likelihood.",
+        "Tirzepatide has no PCOS-specific evidence and cannot be recommended beyond extrapolation from obesity/diabetes trials.",
+        "Liraglutide has the densest PCOS evidence, with visceral fat reduction, improved glycemia, and early androgen/fertility signals.",
+        "Reproductive safety, adolescent use, and long-term cardiometabolic outcomes remain major evidence gaps across all agents."
+      ],
+      "limitations": "Narrative review design with product-segmented framing; underlying studies cited are small, heterogeneous, and largely non-randomized, limiting strength of conclusions.",
+      "context": "Incretin-based therapies are increasingly explored for PCOS given the syndrome's links to obesity and insulin resistance. This review extends prior liraglutide-focused work by systematically mapping semaglutide and tirzepatide evidence, highlighting that PCOS-specific trial data remain critically limited.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42105046",
+      "kind": "study",
+      "pmid": "42105046",
+      "doi": "10.1007/s13300-026-01875-3",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42105046/",
+      "title": "Semaglutide and Cardiovascular Outcomes in People with Type 2 Diabetes: A SUSTAIN-6 Post Hoc Analysis by Weight Loss Category.",
+      "displayTitle": "Semaglutide's cardioprotection appears weight-loss independent in T2D",
+      "authors": "Navas A et al.",
+      "journal": "Diabetes therapy : research, treatment and education of diabetes and related disorders",
+      "publishedDate": "2026-05-09",
+      "addedDate": "2026-05-10",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Post hoc observational analysis",
+      "summary": "This post hoc analysis of the SUSTAIN-6 trial stratified 1,479 semaglutide-treated T2D patients by degree of weight loss over 56 weeks and found no significant difference in subsequent MACE rates across weight loss categories, suggesting semaglutide's cardiovascular benefits may operate through weight-independent mechanisms.",
+      "keyFindings": [
+        "MACE incidence did not differ by weight loss category (P=0.73) across all four groups.",
+        "MACE event rates were similar: no loss/gain 1.05%, <5% loss 1.69%, 5–10% loss 1.06%, >10% loss 0.89%.",
+        "No degree of weight loss was associated with significantly lower adjusted odds of MACE vs. no weight loss.",
+        "Findings suggest semaglutide's cardioprotective effects may be mediated by weight-independent mechanisms."
+      ],
+      "limitations": "Post hoc, single-arm design limits causal inference; the placebo arm was excluded, and residual confounding cannot be ruled out despite age/sex adjustment.",
+      "context": "Semaglutide previously demonstrated cardiovascular benefit in SUSTAIN-6, but whether that benefit is driven by weight loss was unclear. These findings are consistent with emerging evidence that GLP-1RA cardioprotection may involve direct pleiotropic effects beyond weight reduction.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42097623",
+      "kind": "study",
+      "pmid": "42097623",
+      "doi": "10.1542/peds.2025-074286",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42097623/",
+      "title": "Effects of Semaglutide on Weight and Insulin Requirements in Two Adolescents With Type 1 Diabetes.",
+      "displayTitle": "Semaglutide improves glycemia and weight in two obese adolescents with T1D",
+      "authors": "Schwarz CR et al.",
+      "journal": "Pediatrics",
+      "publishedDate": "2026-05-08",
+      "addedDate": "2026-05-10",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "Two female adolescents (ages 12 and 17) with type 1 diabetes and obesity were treated with once-weekly subcutaneous semaglutide added to insulin pump therapy. After 12 months, both showed notable improvements in glycemic control, body weight, and insulin requirements with no adverse events.",
+      "keyFindings": [
+        "Both adolescents achieved improved glycemic control after 12 months of adjunctive semaglutide therapy.",
+        "Weight reduction and decreased insulin requirements were observed in both patients.",
+        "No adverse events were reported over the 12-month treatment period.",
+        "Semaglutide was added to existing automated insulin delivery systems, not used as monotherapy."
+      ],
+      "limitations": "Only two patients reported with no control group; long-term effects on growth and body composition in adolescents remain unknown.",
+      "context": "GLP-1 receptor agonists are increasingly explored as adjuncts to insulin in type 1 diabetes; this case report extends limited pediatric evidence, suggesting semaglutide may offer metabolic benefits in adolescents with T1D and obesity, consistent with findings in adult T1D populations.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07572890",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07572890",
+      "url": "https://clinicaltrials.gov/study/NCT07572890",
+      "title": "Adia Med of Winter Park LLC Chronic Kidney Disease Research Study",
+      "displayTitle": "Phase 2 trial tests glutathione plus stem cell therapy for CKD",
+      "authors": "Adia Med of Winter Park LLC",
+      "journal": "ClinicalTrials.gov · Adia Med of Winter Park LLC",
+      "publishedDate": "2026-05-07",
+      "addedDate": "2026-05-10",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Phase 2 RCT",
+      "summary": "This randomized, single-blind, placebo-controlled Phase 2 trial evaluates AdiaVita (umbilical cord blood-derived stem cells and exosomes) combined with intravenous and transdermal glutathione in ~100 adults with stage 2–4 chronic kidney disease, measuring changes in eGFR and serum creatinine over 12 months.",
+      "keyFindings": [
+        "Phase 2 RCT; n=100 adults aged 18–80 with CKD stage 2–4 (eGFR 15–89 mL/min/1.73m²).",
+        "Three arms: AdiaVita + glutathione vs. glutathione + placebo vs. double placebo.",
+        "Primary endpoints: change in eGFR and serum creatinine at 12 months.",
+        "Monthly IV infusions for 3 months plus twice-daily transdermal glutathione spray; crossover option after month 3."
+      ],
+      "limitations": "Trial is not yet recruiting and has no posted results; efficacy and safety of this combination remain unestablished.",
+      "context": "Glutathione's antioxidant and cytoprotective properties have generated interest in CKD, where oxidative stress drives disease progression. This is among the first trials combining glutathione with allogeneic stem cell/exosome therapy for renal function improvement.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07572890",
+        "phase": "Phase 2",
+        "status": "NOT YET RECRUITING",
+        "sponsor": "Adia Med of Winter Park LLC",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "100",
+        "conditions": [
+          "Chronic Kidney Disease",
+          "Kidney Disease",
+          "Kidney Disease, Chronic",
+          "Chronic Kidney Disease (CKD)",
+          "CKD"
+        ],
+        "primaryOutcomes": "Change in Estimated Glomerular Filtration Rate (eGFR); Change in Serum Creatinine",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42084774",
+      "kind": "study",
+      "pmid": "42084774",
+      "doi": "10.1007/s10522-026-10444-x",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42084774/",
+      "title": "The GHK-Cu delays aging in&#xa0;Caenorhabditis elegans&#xa0;via coordinated regulation of mitochondrial function and activation of DAF-16/SKN-1 pathways.",
+      "displayTitle": "GHK-Cu extends lifespan and delays aging in C. elegans",
+      "authors": "Wen H et al.",
+      "journal": "Biogerontology",
+      "publishedDate": "2026-05-05",
+      "addedDate": "2026-05-10",
+      "peptides": [
+        "GHK-Cu"
+      ],
+      "studyType": "Animal model — C. elegans",
+      "summary": "This study examined GHK-Cu (glycine-histidine-lysine complexed with copper) in C. elegans, finding it significantly extended lifespan, improved multiple aging-related phenotypes, preserved mitochondrial function, and activated DAF-16 and SKN-1 longevity pathways.",
+      "keyFindings": [
+        "GHK-Cu significantly extended C. elegans lifespan and reduced lipofuscin and lipid accumulation.",
+        "GHK-Cu preserved mitochondrial membrane potential, reduced fragmentation, and promoted ATP biosynthesis.",
+        "Mitochondrial dynamics shifted toward fusion via regulation of drp-1 and fzo-1 gene expression.",
+        "GHK-Cu activated DAF-16 and SKN-1 pathways, upregulating antioxidant genes sod-3, gst-4, gcs-1, lys-7, and lys-8."
+      ],
+      "limitations": "Findings are limited to an invertebrate model (C. elegans), and translation to mammalian aging biology remains to be demonstrated.",
+      "context": "GHK-Cu is known for antioxidant and tissue-repair properties in mammalian models. This study extends prior findings by providing the first mechanistic evidence linking GHK-Cu to lifespan extension via mitochondrial dynamics and conserved longevity transcription factors DAF-16 and SKN-1.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07304440",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07304440",
+      "url": "https://clinicaltrials.gov/study/NCT07304440",
+      "title": "Adia MED of Winter Park LLC Autism Spectrum Disorder Research Study",
+      "displayTitle": "Phase 1/2 trial tests glutathione plus stem cells for autism in children",
+      "authors": "Adia Med of Winter Park LLC",
+      "journal": "ClinicalTrials.gov · Adia Med of Winter Park LLC",
+      "publishedDate": "2026-05-04",
+      "addedDate": "2026-05-10",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Phase 1/2 RCT",
+      "summary": "This 24-month randomized trial in 100 children aged 3–12 with confirmed ASD compares glutathione alone versus glutathione combined with monthly IV umbilical cord blood-derived stem cell and exosome infusions (AdiaVita), measuring autism symptom change via the ATEC scale.",
+      "keyFindings": [
+        "Phase 1/2 RCT with crossover design; n=100 children ages 3–12 with DSM-5 confirmed ASD.",
+        "Primary endpoint: change in total ATEC score at Month 6; 24-month follow-up total.",
+        "Glutathione delivered IV monthly plus twice-daily topical cream; AdiaVita arm adds monthly IV stem cell/exosome infusions.",
+        "Families pay $12,000 participation fee; no results posted; trial is active but not recruiting."
+      ],
+      "limitations": "No results have been posted; the pay-to-participate model and single-sponsor design raise significant methodological and ethical concerns that limit generalizability.",
+      "context": "Glutathione has been investigated as an antioxidant intervention in ASD based on evidence of oxidative stress in affected children. Combining it with stem cell/exosome therapy is experimental with no established efficacy data; this appears to be one of the first registered trials of this combination.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07304440",
+        "phase": "Phase 1/Phase 2",
+        "status": "ACTIVE NOT RECRUITING",
+        "sponsor": "Adia Med of Winter Park LLC",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "100",
+        "conditions": [
+          "Autism Spectrum Disorder",
+          "Autism",
+          "ASD",
+          "Autism Spectrum Disorder (ASD)"
+        ],
+        "primaryOutcomes": "Change from Baseline in Total Autism Treatment Evaluation Checklist (ATEC) Score at Month 6",
+        "hasResults": false
+      }
+    },
+    {
       "id": "pmid-42027588",
       "kind": "study",
       "pmid": "42027588",
@@ -57,6 +389,66 @@
       ],
       "limitations": "Single case report cannot establish causation; temporal association and resolution after discontinuation are suggestive but not definitive proof of drug-related effect.",
       "context": "This appears to be the first documented case of central respiratory depression associated with semaglutide. While GLP-1 receptor agonists are widely prescribed for obesity management, respiratory complications have rarely been reported in the literature.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-41588687",
+      "kind": "study",
+      "pmid": "41588687",
+      "doi": "10.1002/rcm.70039",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41588687/",
+      "title": "In Vitro Metabolism and Analytical Characterization of SLU-PP-332 and SLU-PP-915: Novel Pan-ERR Agonists With Doping Potential.",
+      "displayTitle": "SLU-PP-332 metabolites mapped for sports doping detection",
+      "authors": "M&#xf6;ller T et al.",
+      "journal": "Rapid communications in mass spectrometry : RCM",
+      "publishedDate": "2026-04-30",
+      "addedDate": "2026-05-10",
+      "peptides": [
+        "SLU-PP-332"
+      ],
+      "studyType": "In vitro",
+      "summary": "Researchers characterized the in vitro metabolism of two pan-ERR agonists, SLU-PP-332 and SLU-PP-915, using human liver fractions and LC-HRMS/MS to support anti-doping testing. Nine metabolites were identified for SLU-PP-332 and seven for SLU-PP-915.",
+      "keyFindings": [
+        "SLU-PP-332 produced 9 metabolites: 6 Phase-I and 3 Phase-II conjugates in human liver S9/microsome systems.",
+        "SLU-PP-915 yielded 7 Phase-I metabolites only, with no Phase-II conjugates detected.",
+        "Three SLU-PP-915 metabolites were confirmed via chemical synthesis and NMR spectroscopy.",
+        "Findings aim to enable detection of illicit use of these exercise-mimetic compounds in sports drug testing."
+      ],
+      "limitations": "Study is limited to in vitro metabolic models (S9 fraction and microsomes); in vivo metabolism and actual pharmacokinetics in humans remain uncharacterized.",
+      "context": "SLU-PP-332 and SLU-PP-915 are emerging exercise mimetics targeting estrogen-related receptors; this metabolic profiling work extends early pharmacological characterization toward anti-doping surveillance, consistent with growing interest in ERR agonists as performance-enhancing agents.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42047624",
+      "kind": "study",
+      "pmid": "42047624",
+      "doi": "10.1002/cmdc.202501023",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42047624/",
+      "title": "Copper(II)-Tripeptide Complexes as Potential Skin Healing Agents: Synthesis, Characterization, and Wound Repair Ability.",
+      "displayTitle": "Novel copper-tripeptide complexes show wound-healing activity in cell assay",
+      "authors": "Aguilar L et al.",
+      "journal": "ChemMedChem",
+      "publishedDate": "2026-04-28",
+      "addedDate": "2026-05-10",
+      "peptides": [
+        "GHK-Cu"
+      ],
+      "studyType": "In vitro",
+      "summary": "Researchers synthesized and characterized four copper(II)-tripeptide complexes (CuGGI, CuAAA, CuFGG, CuVYV) and tested their wound-healing potential in a scratch assay using MRC-5 fibroblast cells. CuAAA and CuVYV promoted cell migration and showed no cytotoxicity at effective doses.",
+      "keyFindings": [
+        "CuAAA and CuVYV promoted wound closure by inducing cell migration in MRC-5 fibroblasts.",
+        "All four complexes were redox-active; CuVYV showed the most accessible Cu(III)/Cu(II) transition.",
+        "CuVYV formed a 1:1 complex via double deprotonation; CuGGI, CuAAA, CuFGG formed 1:2 complexes.",
+        "None of the compounds were cytotoxic at wound-repair-effective doses."
+      ],
+      "limitations": "Results are limited to a single in vitro scratch assay model; no animal or ex vivo skin data are presented, limiting translational conclusions.",
+      "context": "GHK-Cu is the best-known copper-tripeptide complex with established skin-repair and anti-inflammatory activity. This study extends the concept to novel tripeptide ligands, consistent with prior findings that copper coordination enhances peptide wound-healing properties.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
