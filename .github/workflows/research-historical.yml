@@ -41,10 +41,10 @@ jobs:
 
       - name: Commit landmark feed to main
         run: |
-          git diff --quiet data/research-historical.json && echo "No changes." && exit 0
+          git add data/research-historical.json
+          git diff --cached --quiet data/research-historical.json && echo "No changes." && exit 0
           DATE=$(date -u +%Y-%m-%d)
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/research-historical.json
           git commit -m "Research historical: landmark fetch — ${DATE}"
           git push origin main
