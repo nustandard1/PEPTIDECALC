@@ -23,7 +23,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
 
     steps:
       - uses: actions/checkout@v4
@@ -41,31 +40,17 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          MODEL: claude-sonnet-4-6
           MAX_NEW_PER_RUN: ${{ github.event.inputs.max_new || '12' }}
           LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '' }}
         run: node fetch.mjs
 
-
-      - name: Check for changes
-        id: changes
+      - name: Commit updated feed to main
         run: |
-          git diff --quiet data/research-feed.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
-
-      - name: Open PR if feed changed
-        if: steps.changes.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
+          git diff --quiet data/research-feed.json && echo "No new entries, skipping commit." && exit 0
           DATE=$(date -u +%Y-%m-%d)
-          BRANCH="research-feed/${DATE}"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -b "$BRANCH"
           git add data/research-feed.json
           git commit -m "Research feed update — ${DATE}"
-          git push origin "$BRANCH"
-          gh pr create \
-            --title "Research feed update - ${DATE}" \
-            --body "Auto-fetched from PubMed, medRxiv/bioRxiv, and ClinicalTrials.gov. Review headlines, summaries, and findings before merging. This PR was opened automatically - human review required." \
-            --base main \
-            --head "$BRANCH"
+          git push origin main
