@@ -1450,13 +1450,14 @@ function buildResearchCard(e) {
                 ${dateStr ? `<span class="research-date">${dateStr}</span>` : ''}
             </div>
             <h3 class="research-headline">${escapeHtml(headline)}</h3>
+            ${e.summary ? `<p class="research-summary-preview">${escapeHtml(e.summary)}</p>` : ''}
             <svg class="research-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            <span class="research-expand-hint">Show details</span>
         </summary>
         <div class="research-card-body">
             ${trialMetaBlock}
             ${e.title && e.title !== headline ? `<div class="research-official-title">${escapeHtml(e.title)}</div>` : ''}
             ${citation ? `<div class="research-citation">${escapeHtml(citation)}</div>` : ''}
-            ${e.summary ? `<div class="research-summary">${escapeHtml(e.summary)}</div>` : ''}
             ${findings ? `
                 <div class="research-section">
                     <div class="research-section-label">${e.isTrial ? 'Design highlights' : 'Key findings'}</div>
@@ -1479,8 +1480,18 @@ function buildResearchCard(e) {
                 </a>
                 ${idBadge}
             </div>
+            <button class="lib-collapse-btn research-collapse-btn" type="button">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+                Collapse
+            </button>
         </div>
     `;
+
+    card.querySelector('.research-collapse-btn').addEventListener('click', () => {
+        card.open = false;
+        card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+
     return card;
 }
 

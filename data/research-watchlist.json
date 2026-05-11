@@ -51,6 +51,10 @@
     { "name": "PT-141",           "query": "\"bremelanotide\" OR \"PT-141\" OR \"PT 141\"",
       "aliases": ["PT-141", "Bremelanotide", "Vyleesi"] },
     { "name": "NAD+",             "query": "(\"nicotinamide mononucleotide\" OR \"NMN\" OR \"nicotinamide riboside\" OR \"NR supplementation\" OR \"IV NAD\" OR \"NAD+ infusion\") AND (aging OR longevity OR \"metabolic health\" OR \"mitochondrial function\")",
-      "aliases": ["NAD+", "NMN", "NR", "nicotinamide mononucleotide", "nicotinamide riboside"] }
+      "aliases": ["NAD+", "NMN", "NR", "nicotinamide mononucleotide", "nicotinamide riboside"] },
+    { "name": "SS-31",            "query": "\"SS-31\" OR \"elamipretide\" OR \"MTP-131\" OR \"Bendavia\"",
+      "aliases": ["SS-31", "Elamipretide", "MTP-131", "Bendavia"] },
+    { "name": "AOD-9604",         "query": "\"AOD-9604\" OR \"AOD 9604\" OR \"HGH fragment 176-191\" OR \"HGH frag 176\"",
+      "aliases": ["AOD-9604", "AOD 9604", "HGH fragment 176-191"] }
   ]
 }
