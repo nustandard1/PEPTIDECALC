@@ -2127,6 +2127,35 @@ button.compound-tag {
 /* ============================================================
    LATEST RESEARCH TAB
    ============================================================ */
+.research-mode-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin: 0 auto 24px;
+}
+.research-mode-btn {
+    padding: 8px 20px;
+    font-family: var(--font);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    color: var(--text-muted);
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.research-mode-btn:hover {
+    color: var(--text);
+    border-color: var(--cyan);
+}
+.research-mode-btn.active {
+    color: var(--cyan);
+    border-color: var(--cyan);
+    background: rgba(0, 212, 255, 0.08);
+}
+
 .research-meta {
     max-width: 760px;
     margin: 0 auto 20px;

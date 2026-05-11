@@ -1288,12 +1288,41 @@ function initLibrarySearch() {
 /* ============================================================
    LATEST RESEARCH FEED
    ============================================================ */
-let RESEARCH_DATA = null;
-let RESEARCH_FILTER = 'all';
+let RESEARCH_DATA     = null;
+let HISTORICAL_DATA   = null;
+let RESEARCH_FILTER   = 'all';
+let RESEARCH_MODE     = 'recent'; // 'recent' | 'landmark'
+
+function activeResearchData() {
+    return RESEARCH_MODE === 'landmark' ? HISTORICAL_DATA : RESEARCH_DATA;
+}
 
 async function initResearchFeed() {
-    const feed   = document.getElementById('research-feed');
+    const feed = document.getElementById('research-feed');
     if (!feed) return;
+
+    // Wire up mode toggle
+    document.querySelectorAll('.research-mode-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            if (btn.dataset.mode === RESEARCH_MODE) return;
+            RESEARCH_MODE = btn.dataset.mode;
+            document.querySelectorAll('.research-mode-btn').forEach(b =>
+                b.classList.toggle('active', b.dataset.mode === RESEARCH_MODE)
+            );
+            RESEARCH_FILTER = 'all';
+            const searchInput = document.getElementById('research-search-input');
+            if (searchInput) searchInput.value = '';
+            if (RESEARCH_MODE === 'landmark' && !HISTORICAL_DATA) {
+                await loadHistoricalFeed();
+            }
+            renderResearchMeta();
+            renderResearchUpdated();
+            renderResearchFilters();
+            renderResearchFeed();
+        });
+    });
+
+    // Load recent feed
     try {
         const res = await fetch('./data/research-feed.json', { cache: 'no-cache' });
         if (!res.ok) throw new Error('feed not available');
@@ -1303,6 +1332,7 @@ async function initResearchFeed() {
         return;
     }
 
+    renderResearchMeta();
     renderResearchUpdated();
     renderResearchFilters();
     renderResearchFeed();
@@ -1311,23 +1341,50 @@ async function initResearchFeed() {
     if (search) search.addEventListener('input', applyResearchFilters);
 }
 
+async function loadHistoricalFeed() {
+    const feed = document.getElementById('research-feed');
+    if (feed) feed.innerHTML = '<div class="research-loading">Loading landmark studies…</div>';
+    try {
+        const res = await fetch('./data/research-historical.json', { cache: 'no-cache' });
+        if (!res.ok) throw new Error('not found');
+        HISTORICAL_DATA = await res.json();
+    } catch {
+        HISTORICAL_DATA = { lastUpdated: null, entries: [] };
+    }
+}
+
+function renderResearchMeta() {
+    const desc = document.getElementById('research-meta-desc');
+    if (!desc) return;
+    const span = desc.querySelector('span:last-child');
+    if (!span) return;
+    if (RESEARCH_MODE === 'landmark') {
+        span.textContent = 'A curated library of foundational studies — RCTs, meta-analyses, and key mechanistic research. Static; does not update weekly.';
+    } else {
+        span.textContent = 'Auto-curated from PubMed, medRxiv/bioRxiv, and ClinicalTrials.gov. Each batch is human-reviewed before publishing.';
+    }
+}
+
 function renderResearchUpdated() {
     const el = document.getElementById('research-last-updated');
     if (!el) return;
-    if (!RESEARCH_DATA?.lastUpdated) {
+    const data = activeResearchData();
+    if (!data?.lastUpdated) {
         el.textContent = '';
         return;
     }
-    const d = new Date(RESEARCH_DATA.lastUpdated);
-    if (isNaN(d)) return;
+    const d = new Date(data.lastUpdated);
+    if (isNaN(d) || d.getFullYear() < 2020) { el.textContent = ''; return; }
     const fmt = d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
-    el.textContent = `Last updated ${fmt}`;
+    el.textContent = RESEARCH_MODE === 'landmark' ? `Curated ${fmt}` : `Last updated ${fmt}`;
 }
 
 function renderResearchFilters() {
     const wrap = document.getElementById('research-filters');
     if (!wrap) return;
-    const entries = RESEARCH_DATA?.entries || [];
+    // Reset "All" to active on mode switch
+    wrap.querySelectorAll('.research-filter').forEach(b => b.classList.toggle('active', b.dataset.filter === 'all'));
+    const entries = activeResearchData()?.entries || [];
     const peptides = new Set();
     entries.forEach(e => (e.peptides || []).forEach(p => peptides.add(p)));
     const sorted = Array.from(peptides).sort();
@@ -1355,17 +1412,16 @@ function renderResearchFilters() {
 function renderResearchFeed() {
     const feed    = document.getElementById('research-feed');
     const empty   = document.getElementById('research-empty');
-    const entries = RESEARCH_DATA?.entries || [];
+    const entries = activeResearchData()?.entries || [];
 
     if (!feed) return;
     feed.innerHTML = '';
 
     if (!entries.length) {
-        feed.innerHTML = `
-            <div class="research-loading">
-                The research feed will populate after the first weekly update.<br>
-                <span style="font-size:13px;opacity:0.7">Check back next Monday.</span>
-            </div>`;
+        const emptyMsg = RESEARCH_MODE === 'landmark'
+            ? 'Landmark studies haven\'t been populated yet. Run the workflow in GitHub Actions to generate them.'
+            : 'The research feed will populate after the first weekly update.<br><span style="font-size:13px;opacity:0.7">Check back next Monday.</span>';
+        feed.innerHTML = `<div class="research-loading">${emptyMsg}</div>`;
         if (empty) empty.classList.add('hidden');
         return;
     }
@@ -1518,5 +1574,5 @@ function applyResearchFilters() {
         if (show) visible++;
     });
 
-    if (empty) empty.classList.toggle('hidden', visible > 0 || (RESEARCH_DATA?.entries || []).length === 0);
+    if (empty) empty.classList.toggle('hidden', visible > 0 || (activeResearchData()?.entries || []).length === 0);
 }

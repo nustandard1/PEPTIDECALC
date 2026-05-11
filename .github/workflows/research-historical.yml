@@ -1,0 +1,50 @@
+name: Research Historical — One-time Landmark Fetch
+
+on:
+  workflow_dispatch:
+    inputs:
+      lookback_years:
+        description: 'Years to look back (default: 6)'
+        required: false
+        default: '6'
+      max_per_peptide:
+        description: 'Max landmark entries per peptide (default: 3)'
+        required: false
+        default: '3'
+
+jobs:
+  fetch-historical:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: scripts/research-feed
+        run: npm install
+
+      - name: Run landmark fetcher
+        working-directory: scripts/research-feed
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NCBI_API_KEY:      ${{ secrets.NCBI_API_KEY }}
+          MODEL:             claude-sonnet-4-6
+          LOOKBACK_YEARS:    ${{ github.event.inputs.lookback_years || '6' }}
+          MAX_PER_PEPTIDE:   ${{ github.event.inputs.max_per_peptide || '3' }}
+        run: node fetch-historical.mjs
+
+      - name: Commit landmark feed to main
+        run: |
+          git diff --quiet data/research-historical.json && echo "No changes." && exit 0
+          DATE=$(date -u +%Y-%m-%d)
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/research-historical.json
+          git commit -m "Research historical: landmark fetch — ${DATE}"
+          git push origin main
