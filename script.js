@@ -64,6 +64,8 @@ const PRESETS = {
           hint: 'Commonly researched at 100–200 mcg per dose, 2–3× per week or nightly as needed. May also be used intranasally. Typical vial sizes: 2 mg or 5 mg. Best used 30–60 minutes before sleep. Not intended for continuous daily use — cycle as needed.' },
         { label: 'Epithalon',     sublabel: 'Telomere Longevity Peptide',     name: 'Epithalon',     doseUnit: 'mg',  defaultDose: 5,   typicalVialMg: 10,  recommendedBac: 2, dosesPerWeek: 7,   route: 'subq',
           hint: 'Synthetic tetrapeptide (Ala-Glu-Asp-Gly) researched for telomere elongation and anti-aging effects. Common protocol: 5–10 mg/day subcutaneously for 10–20 consecutive days, repeated 1–2× per year. Not a daily long-term compound — cycle-based use only. Typical vial size: 10 mg.' },
+        { label: 'FOXO4-DRI',    sublabel: 'Senolytic Peptide',              name: 'FOXO4-DRI',     doseUnit: 'mg',  defaultDose: 1,   typicalVialMg: 5,   recommendedBac: 1, dosesPerWeek: null, route: 'subq',
+          hint: 'Frontier senolytic — not for beginners. Disrupts the FOXO4-p53 interaction that lets senescent cells evade apoptosis, selectively clearing senescent cells. Common research protocol: 1–2 mg/day SubQ for 3 consecutive days, repeated 1–2× per quarter. Typical vial size: 5 mg. No validated human protocol — all dosing is extrapolated from mouse studies. Use only after thorough review of the source literature.' },
         { label: 'Other', sublabel: null, isOther: true },
     ],
     2: [
