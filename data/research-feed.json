@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T10:50:10.388Z",
+  "lastUpdated": "2026-05-17T10:59:08.933Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -152,6 +152,369 @@
       "trialMeta": null
     },
     {
+      "id": "nct-NCT06554717",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT06554717",
+      "url": "https://clinicaltrials.gov/study/NCT06554717",
+      "title": "Tesamorelin as an Adjunct to Exercise for Improving Physical Function in HIV",
+      "displayTitle": "Phase 2 trial tests tesamorelin plus exercise for physical function in aging HIV",
+      "authors": "Massachusetts General Hospital",
+      "journal": "ClinicalTrials.gov · Massachusetts General Hospital",
+      "publishedDate": "2026-05-15",
+      "addedDate": "2026-05-17",
+      "peptides": [
+        "Tesamorelin"
+      ],
+      "studyType": "Trial registration — Phase 2 RCT",
+      "summary": "This Phase 2 RCT is evaluating whether tesamorelin (1.28 mg/day SC) combined with a home-based exercise program improves physical function and muscle health in 100 sedentary, frail adults aged 50–80 living with HIV, compared to placebo plus exercise over 24 weeks.",
+      "keyFindings": [
+        "Phase 2 RCT; n=100; randomized, placebo-controlled, 24-week intervention plus 24-week off-drug follow-up.",
+        "Primary endpoint: change in Repeated Chair Stand Time, a validated measure of lower-body functional strength.",
+        "All participants receive supervised home-based exercise; tesamorelin vs. placebo added on top.",
+        "Secondary outcomes include muscle mass/quality, quality of life, exercise adherence, and durability of effects post-treatment."
+      ],
+      "limitations": "Trial is actively recruiting; no results are available, and registry entries do not constitute evidence of efficacy or safety.",
+      "context": "Tesamorelin is FDA-approved for HIV-associated lipodystrophy and has shown muscle mass benefits in prior studies, but its effects on physical performance and strength in aging, frail people with HIV have not been previously evaluated.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT06554717",
+        "phase": "Phase 2",
+        "status": "RECRUITING",
+        "sponsor": "Massachusetts General Hospital",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "100",
+        "conditions": [
+          "HIV-1-infection",
+          "Frailty",
+          "Impaired Physical Function",
+          "Abdominal Obesity",
+          "Aging"
+        ],
+        "primaryOutcomes": "Change in Repeated Chair Stand Time",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42139091",
+      "kind": "study",
+      "pmid": "42139091",
+      "doi": "10.1093/cid/ciag121",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42139091/",
+      "title": "Differing Presentations of Excess Visceral Abdominal Fat in People Living With HIV: Two Clinical Cases Highlighting Distinct Therapeutic Pathways With Tesamorelin and Glucagon-Like Peptide-1 Receptor Agonists.",
+      "displayTitle": "Tesamorelin targets visceral fat in HIV patients beyond BMI-based treatment",
+      "authors": "Beach R et al.",
+      "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+      "publishedDate": "2026-05-15",
+      "addedDate": "2026-05-17",
+      "peptides": [
+        "Tesamorelin"
+      ],
+      "studyType": "Case report",
+      "summary": "Two case reports describe HIV-positive adults with excess visceral abdominal fat treated with tesamorelin and/or GLP-1 receptor agonists. Tesamorelin provided selective visceral fat reduction and improved lipid levels and well-being, particularly in a non-obese patient where weight-based therapies would be inadequate.",
+      "keyFindings": [
+        "Non-obese HIV patient (BMI 27 kg/m²) treated with tesamorelin showed marked reductions in waist circumference and improved lipid levels.",
+        "Obese HIV patient on GLP-1 agonist had fluctuating weight and persistent visceral fat due to intermittent medication access.",
+        "Adding tesamorelin to the obese patient's regimen provided more targeted visceral adiposity reduction.",
+        "EVAF in HIV can persist regardless of BMI category, supporting fat-distribution-based treatment decisions."
+      ],
+      "limitations": "Only two cases reported, limiting generalizability; no controlled comparison or long-term follow-up data provided.",
+      "context": "Tesamorelin is FDA-approved for HIV-associated lipodystrophy and has consistently shown selective visceral fat reduction in PLWH. These cases extend prior findings by illustrating its utility across different obesity phenotypes and as a complement to GLP-1 therapies.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42140745",
+      "kind": "study",
+      "pmid": "42140745",
+      "doi": "10.1111/obr.70161",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42140745/",
+      "title": "Effects of Semaglutide on Dumping Syndrome and Reactive Hypoglycemia After Bariatric Surgery: A Systematic Review and Meta-Analysis.",
+      "displayTitle": "Semaglutide significantly reduces dumping syndrome and hypoglycemia post-bariatric surgery",
+      "authors": "Eisa N, Barood O",
+      "journal": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
+      "publishedDate": "2026-05-15",
+      "addedDate": "2026-05-17",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "This systematic review and meta-analysis of 7 studies (337 patients) evaluated semaglutide for dumping syndrome and reactive hypoglycemia after bariatric surgery, finding significant improvements in symptom scores, hypoglycemic episode frequency, quality of life, and glycemic variability.",
+      "keyFindings": [
+        "Dumping symptom scores improved significantly (SMD -1.18; 95% CI -1.64 to -0.72; p<0.001).",
+        "Hypoglycemic episodes reduced significantly (SMD -0.85; 95% CI -1.22 to -0.48; p<0.001).",
+        "Quality of life improved (SMD 0.73) and glycemic variability decreased (SMD -0.71).",
+        "GI adverse events were common but rarely caused treatment discontinuation."
+      ],
+      "limitations": "Only 7 studies with 337 total patients were included, comprising heterogeneous study designs (RCTs, cohort studies, one case series), limiting the strength of conclusions.",
+      "context": "Semaglutide, as a GLP-1 receptor agonist, appears to modulate gastric emptying and insulin secretion, consistent with prior mechanistic rationale for its use in post-bariatric complications. These findings extend limited prior evidence by pooling data across RCTs and observational studies.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42138385",
+      "kind": "study",
+      "pmid": "42138385",
+      "doi": "10.1097/QAD.0000000000004544",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42138385/",
+      "title": "Impact of semaglutide on liver fibrosis score in people with HIV: findings from the CNICS cohort.",
+      "displayTitle": "Semaglutide linked to reduced liver fibrosis scores in HIV patients",
+      "authors": "Ma J et al.",
+      "journal": "AIDS (London, England)",
+      "publishedDate": "2026-05-15",
+      "addedDate": "2026-05-17",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This observational cohort study examined 1,850 people with HIV initiating semaglutide across 10 US clinical sites. Semaglutide was associated with significant reductions in FIB-4 liver fibrosis scores, particularly in those with moderate-to-advanced fibrosis at baseline.",
+      "keyFindings": [
+        "Semaglutide reduced FIB-4 scores in patients with moderate-to-advanced fibrosis (FIB-4 ≥1.3; ΔFIB-4: -0.11, P<0.01).",
+        "Greatest reductions occurred in advanced fibrosis group (FIB-4 >2.67; ΔFIB-4: -0.64, P<0.001).",
+        "No significant FIB-4 reduction was observed in patients with low baseline fibrosis (FIB-4 <1.3).",
+        "Mean treatment duration was 218 days; most patients had multiple cardiometabolic comorbidities."
+      ],
+      "limitations": "Pre/post quasi-experimental design without a randomized control group limits causal inference; confounding by indication and unmeasured variables cannot be excluded.",
+      "context": "GLP-1 receptor agonists like semaglutide have shown promise for MASLD and liver fibrosis in the general population. These findings extend that evidence to people with HIV, a population with heightened metabolic and liver disease burden, appearing consistent with broader anti-fibrotic and metabolic benefits.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-41759565",
+      "kind": "study",
+      "pmid": "41759565",
+      "doi": "10.1016/j.amjcard.2026.02.030",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41759565/",
+      "title": "CagriSema Versus Semaglutide Monotherapy or Placebo for Obesity: A Systematic Review and Meta-Analysis of Randomized Controlled Trials with GRADE Assessment.",
+      "displayTitle": "CagriSema beats semaglutide alone: 11 kg greater weight loss in meta-analysis",
+      "authors": "Gadelmawla AF et al.",
+      "journal": "The American journal of cardiology",
+      "publishedDate": "2026-05-15",
+      "addedDate": "2026-05-17",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "This systematic review and meta-analysis of 4 RCTs (n=4,419) compared the dual therapy CagriSema (semaglutide + cagrilintide) against semaglutide monotherapy or placebo in people with obesity. CagriSema produced significantly greater weight loss, waist circumference reduction, and blood pressure lowering, but with more gastrointestinal adverse events.",
+      "keyFindings": [
+        "CagriSema reduced percent weight loss with a large effect size (Cohen's d: -1.38; 95% CI: -1.84 to -0.91).",
+        "CagriSema achieved ~11 kg greater absolute weight loss and 9.41 cm greater waist circumference reduction vs. comparators.",
+        "Systolic blood pressure was reduced by an additional 7.06 mmHg with CagriSema.",
+        "Gastrointestinal adverse events were 32% more frequent with CagriSema (RR: 1.32)."
+      ],
+      "limitations": "High heterogeneity across trials (I² = 94.8%) limits the precision of pooled estimates, and longer-term safety and efficacy data beyond current trial durations are lacking.",
+      "context": "Semaglutide is an established GLP-1 receptor agonist for obesity and type 2 diabetes. Adding cagrilintide (an amylin analog) appears to extend weight-loss efficacy beyond semaglutide alone, consistent with the hypothesis that dual receptor targeting enhances metabolic outcomes.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07586865",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07586865",
+      "url": "https://clinicaltrials.gov/study/NCT07586865",
+      "title": "Recombinant Human Thymosin Beta 4 for Injection(NL005) for Acute Myocardial Infarction",
+      "displayTitle": "Phase 2 trial tests recombinant thymosin beta 4 for heart attack repair",
+      "authors": "Beijing Northland Biotech. Co., Ltd.",
+      "journal": "ClinicalTrials.gov · Beijing Northland Biotech. Co., Ltd.",
+      "publishedDate": "2026-05-14",
+      "addedDate": "2026-05-17",
+      "peptides": [
+        "TB-500"
+      ],
+      "studyType": "Trial registration — Phase 2 RCT",
+      "summary": "This Phase IIc multicenter, randomized, double-blind, placebo-controlled trial evaluates two IV doses of recombinant human thymosin beta 4 (NL005) versus placebo in 189 anterior STEMI patients treated with primary PCI, measuring infarct size reduction by cardiac MRI at 90 days.",
+      "keyFindings": [
+        "Phase IIc RCT; n=189 randomized 1:1:1 to NL005 10 µg/kg, 20 µg/kg, or placebo IV for 7 days post-PCI.",
+        "Primary endpoint: absolute and relative myocardial infarct size by CMR at Day 90.",
+        "Eligibility restricted to first anterior STEMI from LAD occlusion with no collateral supply.",
+        "Extended follow-up through Day 360; trial not yet recruiting as of May 2026."
+      ],
+      "limitations": "Trial has not yet begun recruiting; no results are available, and registration alone provides no evidence of clinical efficacy or safety.",
+      "context": "Thymosin beta 4 (TB-500) has shown cardioprotective and regenerative effects in preclinical myocardial injury models, promoting cardiomyocyte survival and angiogenesis. This is among the first formal Phase 2 trials evaluating a recombinant Tβ4 formulation in human AMI patients.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07586865",
+        "phase": "Phase 2",
+        "status": "NOT YET RECRUITING",
+        "sponsor": "Beijing Northland Biotech. Co., Ltd.",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "189",
+        "conditions": [
+          "Acute Myocardial Infarction (AMI)",
+          "Acute Myocardial Infarction of Anterior Wall",
+          "Acute Myocardial Infarction With ST Elevation",
+          "Acute Myocardial Infarction of Left Ventricle",
+          "Acute Myocardial Infarction With ST Segment Elevation"
+        ],
+        "primaryOutcomes": "Myocardial Infarct Size (absolute) at Day 90; Myocardial Infarct Size (relative) at Day 90",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42133988",
+      "kind": "study",
+      "pmid": "42133988",
+      "doi": "10.1021/jacs.6c01289",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42133988/",
+      "title": "Glucagon-Like Peptide-1 Receptor Agonists Inhibit the Initiation of Toxic Amyloid-&#x3b2;42 Aggregation.",
+      "displayTitle": "Semaglutide and tirzepatide block toxic amyloid-β42 aggregation initiation",
+      "authors": "Fallot LB et al.",
+      "journal": "Journal of the American Chemical Society",
+      "publishedDate": "2026-05-14",
+      "addedDate": "2026-05-17",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "In vitro",
+      "summary": "Researchers tested five FDA-approved GLP-1 receptor agonists for direct effects on amyloid-β42 aggregation in vitro. Semaglutide, tirzepatide, and liraglutide all inhibited Aβ aggregation by targeting primary nucleation, with submicromolar IC values, providing molecular-level insight into potential Alzheimer's disease mechanisms.",
+      "keyFindings": [
+        "Semaglutide and tirzepatide inhibited Aβ42 primary nucleation with submicromolar IC values.",
+        "Liraglutide showed the strongest primary nucleation suppression plus modest secondary nucleation inhibition.",
+        "Liraglutide significantly reduced fibril maturity, increased tortuosity, and attenuated fibril self-replication.",
+        "Semaglutide- and tirzepatide-associated fibrils had morphology and templating efficiency similar to unmodified fibrils."
+      ],
+      "limitations": "Results are from an in vitro cell-free system, so direct translation to physiologically relevant brain concentrations and in vivo Alzheimer's disease pathology remains uncertain.",
+      "context": "Preclinical and clinical evidence suggests GLP-1RAs protect against neuroinflammation and neurodegeneration; this study extends prior findings by demonstrating direct, mechanistically distinct inhibition of Aβ42 aggregation steps by specific GLP-1RAs.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42133868",
+      "kind": "study",
+      "pmid": "42133868",
+      "doi": "10.1097/MCG.0000000000002395",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42133868/",
+      "title": "Esophageal Motility Patterns Are Not Impacted By Glucagon-Like Peptide-1 Receptor Agonist Use.",
+      "displayTitle": "GLP-1 agonists, including semaglutide, don't alter esophageal motility",
+      "authors": "Wang AL et al.",
+      "journal": "Journal of clinical gastroenterology",
+      "publishedDate": "2026-05-14",
+      "addedDate": "2026-05-17",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This retrospective study compared high-resolution manometry results in 132 type 2 diabetes patients on vs. off GLP-1 receptor agonists (semaglutide most common). No significant differences in esophageal motility diagnoses or GERD detection rates were found between groups.",
+      "keyFindings": [
+        "64.3% of GLP-1RA users had normal high-resolution manometry; no significant difference vs. controls (P=0.07).",
+        "Semaglutide was the most used GLP-1RA, accounting for 57.1% of cases.",
+        "No association found between GLP-1RA type or dose and esophageal motility diagnoses (P=0.51).",
+        "GERD detection rates were similar between GLP-1RA users and non-users (P=0.51)."
+      ],
+      "limitations": "Retrospective design with a relatively small sample (42 cases) limits statistical power to detect modest motility differences.",
+      "context": "GLP-1RAs are known to delay gastric emptying, raising questions about broader GI motility effects. These findings appear reassuring, suggesting the delayed gastric emptying effect does not extend meaningfully to esophageal motility.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42132708",
+      "kind": "study",
+      "pmid": "42132708",
+      "doi": "10.1016/j.ophtha.2026.04.008",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42132708/",
+      "title": "Glucagon-Like Peptide-1 Receptor Agonists and the Risk of Non-Arteritic Anterior Ischemic Optic Neuropathy: A Consensus Statement by the North American Neuro-Ophthalmology Society and the American Academy of Ophthalmology.",
+      "displayTitle": "Expert consensus: semaglutide may carry small NAION risk",
+      "authors": "DeParis SW et al.",
+      "journal": "Ophthalmology",
+      "publishedDate": "2026-05-14",
+      "addedDate": "2026-05-17",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Regulatory / safety consensus statement",
+      "summary": "The North American Neuro-Ophthalmology Society and American Academy of Ophthalmology issued a consensus statement on the possible link between GLP-1 receptor agonists (including semaglutide) and non-arteritic anterior ischemic optic neuropathy (NAION), concluding that current evidence suggests a small possible increased risk but overall magnitude remains low.",
+      "keyFindings": [
+        "Most retrospective studies report a small possible increased NAION risk with GLP-1 RAs such as semaglutide.",
+        "Some studies report no correlation between GLP-1 RAs and NAION.",
+        "Overall absolute risk of NAION remains low across the available literature.",
+        "Shared decision-making between patient and care team is recommended regarding GLP-1 RA use."
+      ],
+      "limitations": "Underlying evidence base relies primarily on retrospective observational studies using electronic health records and claims data, which are subject to significant confounding and bias.",
+      "context": "Appears consistent with emerging signals from recent observational studies raising concern about semaglutide and optic nerve ischemia; this consensus extends prior findings by synthesizing the evidence and providing formal clinical guidance from two major ophthalmology societies.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42126770",
+      "kind": "study",
+      "pmid": "42126770",
+      "doi": "10.1007/s11255-026-05198-x",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42126770/",
+      "title": "MOTS-c is associated with oxidative stress and arterial stiffness in peritoneal dialysis patients: a pilot study.",
+      "displayTitle": "MOTS-c levels linked to oxidative stress and arterial stiffness in dialysis patients",
+      "authors": "Musolino M et al.",
+      "journal": "International urology and nephrology",
+      "publishedDate": "2026-05-13",
+      "addedDate": "2026-05-17",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Observational cohort — pilot",
+      "summary": "This pilot study measured MOTS-c in serum, urine, and peritoneal dialysate of 32 stable peritoneal dialysis patients, finding that urinary MOTS-c inversely correlated with oxidative stress markers and dialysate MOTS-c inversely correlated with arterial stiffness and blood pressure, suggesting a novel mitochondrial-vascular axis in uremia.",
+      "keyFindings": [
+        "Urinary MOTS-c inversely correlated with serum AOPPs (R = -0.592, p = 0.012), indicating lower oxidative stress with higher uMOTS-c.",
+        "Urinary MOTS-c positively associated with pulse wave velocity (R = 0.708, p = 0.001), possibly reflecting a compensatory vascular response.",
+        "Dialysate MOTS-c strongly and inversely correlated with PWV (R = -0.717, p = 0.019) and both systolic/diastolic blood pressure.",
+        "Urinary MOTS-c also positively associated with left ventricular systolic function (R = 0.440, p = 0.04)."
+      ],
+      "limitations": "Small pilot sample of 32 patients limits statistical power and generalizability; cross-sectional design precludes causal inference about MOTS-c and cardiovascular outcomes.",
+      "context": "MOTS-c is a mitochondria-derived peptide previously implicated in metabolic homeostasis and vascular function, but its role in the uremic environment had not been explored. These findings extend prior mechanistic work by suggesting compartment-specific MOTS-c behavior in peritoneal dialysis patients.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42128272",
+      "kind": "study",
+      "pmid": "42128272",
+      "doi": "10.1016/j.lfs.2026.124452",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42128272/",
+      "title": "MOTS-c attenuates hyperoxia-induced neonatal cardiac injury by inhibiting oxeiptosis via maintaining the KEAP1-PGAM5 interaction.",
+      "displayTitle": "MOTS-c protects neonatal hearts from hyperoxia by blocking oxeiptosis pathway",
+      "authors": "Li SH et al.",
+      "journal": "Life sciences",
+      "publishedDate": "2026-05-12",
+      "addedDate": "2026-05-17",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Animal model — mouse + in vitro",
+      "summary": "This study examined whether MOTS-c, a mitochondrial-derived peptide, could protect neonatal mouse hearts from hyperoxia-induced injury. MOTS-c administration reduced cardiac hypertrophy, fibrosis, and dysfunction by maintaining the KEAP1-PGAM5 interaction and blocking AIFM1-mediated oxeiptosis.",
+      "keyFindings": [
+        "Hyperoxia (85% O₂) caused significant cardiac hypertrophy, fibrosis, and dysfunction in neonatal mice with reduced serum MOTS-c levels.",
+        "MOTS-c administration markedly ameliorated hyperoxia-induced cardiac pathology and restored cardiac function in vivo.",
+        "MOTS-c inhibited the KEAP1-PGAM5-AIFM1 axis, preventing ROS-triggered oxeiptosis in cardiomyocytes.",
+        "KEAP1 overexpression abolished MOTS-c's protective effects, confirming KEAP1 as the critical mechanistic target."
+      ],
+      "limitations": "Study relies on neonatal mouse and H9C2 rat cell models only; translation to human neonates with hyperoxic cardiac injury remains undemonstrated.",
+      "context": "MOTS-c is known for anti-oxidative and cytoprotective effects in various tissues. This study extends prior findings by identifying oxeiptosis suppression via KEAP1-PGAM5 interaction as a novel cardioprotective mechanism, specifically in the neonatal hyperoxia context.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
       "id": "pmid-42106472",
       "kind": "study",
       "pmid": "42106472",
@@ -208,6 +571,36 @@
       ],
       "limitations": "Post hoc, single-arm design limits causal inference; the placebo arm was excluded, and residual confounding cannot be ruled out despite age/sex adjustment.",
       "context": "Semaglutide previously demonstrated cardiovascular benefit in SUSTAIN-6, but whether that benefit is driven by weight loss was unclear. These findings are consistent with emerging evidence that GLP-1RA cardioprotection may involve direct pleiotropic effects beyond weight reduction.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42142418",
+      "kind": "study",
+      "pmid": "42142418",
+      "doi": "10.1016/j.redox.2026.104204",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42142418/",
+      "title": "LAT1-mediated delivery of engineered R13A-MOTS-c attenuates radiation-induced lung injury via Nrf2 activation and mitochondrial protection.",
+      "displayTitle": "Engineered MOTS-c analog reduces radiation lung injury via Nrf2 in mice",
+      "authors": "Zhang YL et al.",
+      "journal": "Redox biology",
+      "publishedDate": "2026-05-09",
+      "addedDate": "2026-05-17",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "Researchers engineered R13A-MOTS-c, a hydrophobicity-enhanced analog of MOTS-c, to improve cellular uptake via LAT1 transporter. In mice exposed to 20 Gy thoracic irradiation, daily 5 mg/kg treatment for 2 weeks reduced pulmonary inflammation, oxidative stress, and mitochondrial dysfunction through Nrf2 pathway activation.",
+      "keyFindings": [
+        "Arginine-to-alanine substitution at position 13 raised the hydrophobicity index from -0.938 to -0.544, improving cellular uptake.",
+        "R13A-MOTS-c enters cells via LAT1-mediated transport, confirmed by competition assays and LAT1 knockdown.",
+        "In vivo, 5 mg/kg R13A-MOTS-c for 2 weeks mitigated radiation-induced lung inflammation and mitochondrial dysfunction in mice.",
+        "Protective effects were abolished by LAT1 inhibition, Nrf2 inhibition, or in Nrf2-knockout conditions, confirming the mechanism."
+      ],
+      "limitations": "Results are limited to mouse and cell-line models; no pharmacokinetic profiling or toxicity data for R13A-MOTS-c are reported, and clinical translatability remains undemonstrated.",
+      "context": "Wild-type MOTS-c has established antioxidant and anti-inflammatory properties but limited membrane permeability. This study extends prior findings by engineering a modified analog with improved bioavailability and demonstrating in vivo efficacy in a radiation injury model.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
