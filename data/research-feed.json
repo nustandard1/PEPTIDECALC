@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T10:59:08.933Z",
+  "lastUpdated": "2026-05-24T11:51:54.286Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -122,6 +122,36 @@
       "trialMeta": null
     },
     {
+      "id": "pmid-42158165",
+      "kind": "study",
+      "pmid": "42158165",
+      "doi": "10.1210/jcemcr/luag107",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42158165/",
+      "title": "Semaglutide use for hypothalamic obesity and type 2 diabetes mellitus after suprasellar germinoma treatment.",
+      "displayTitle": "Semaglutide cuts weight ~14% in hypothalamic obesity case",
+      "authors": "Yokota K et al.",
+      "journal": "JCEM case reports",
+      "publishedDate": "2026-06-01",
+      "addedDate": "2026-05-24",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 38-year-old woman with hypothalamic obesity (BMI 51.4) and type 2 diabetes following suprasellar germinoma treatment lost approximately 14% of body weight within 3 months after starting semaglutide (0.25–0.5 mg/week), with improved glycemic control and preserved muscle mass.",
+      "keyFindings": [
+        "Weight dropped from 131 kg to 112.1 kg (~14% reduction) within 3 months of semaglutide initiation.",
+        "Appetite markedly decreased after semaglutide titration from 0.25 to 0.5 mg/week.",
+        "Glycemic control was optimized alongside weight loss.",
+        "Body composition showed fat mass reduction with relative preservation of muscle mass."
+      ],
+      "limitations": "Single case report with only 3-month follow-up; no control condition; findings may not generalize to all hypothalamic obesity etiologies.",
+      "context": "Hypothalamic obesity is notoriously resistant to standard interventions; GLP-1 receptor agonists like semaglutide appear promising for this condition. This case extends limited prior evidence suggesting GLP-1 agonists may help override dysregulated hypothalamic appetite signaling.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
       "id": "pmid-42060879",
       "kind": "study",
       "pmid": "42060879",
@@ -150,6 +180,348 @@
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
+    },
+    {
+      "id": "pmid-41894894",
+      "kind": "study",
+      "pmid": "41894894",
+      "doi": "10.1016/j.chroma.2026.466909",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41894894/",
+      "title": "Benchmarking size-exclusion chromatography columns for the analysis of therapeutic peptides and model oligonucleotides.",
+      "displayTitle": "SEC column benchmarking for semaglutide and peptide analysis optimized",
+      "authors": "Buff M et al.",
+      "journal": "Journal of chromatography. A",
+      "publishedDate": "2026-05-24",
+      "addedDate": "2026-05-24",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Analytical methods study",
+      "summary": "Eleven size-exclusion chromatography columns were systematically evaluated for analyzing therapeutic peptides, including semaglutide and liraglutide, under varied mobile phase conditions. A phosphate-based mobile phase with 20% isopropanol was identified as optimal for hydrophobic peptides like semaglutide, balancing chromatographic efficiency with preservation of non-covalent aggregates.",
+      "keyFindings": [
+        "A prototype SEC column achieved a reduced plate height near 1, markedly better than typical SEC performance (h = 2–3).",
+        "30% acetonitrile with 0.1% TFA provided best performance for linear, macrocyclic, disulfide-constrained, and lipid-conjugated peptides.",
+        "For semaglutide and liraglutide, phosphate mobile phase with 20% isopropanol was proposed to limit denaturation and characterize aggregates.",
+        "Columns with pore sizes ≥100 Å performed best; UP-SW2000, Biozen dSEC-1, and BioCore SEC-120 yielded top results."
+      ],
+      "limitations": "This is a purely analytical/chromatographic benchmarking study with no biological model; findings are limited to in vitro chromatographic performance and do not address pharmacological or clinical relevance.",
+      "context": "Semaglutide's hydrophobic, lipid-conjugated structure poses known analytical challenges. This study extends prior SEC methodology work by systematically identifying column and mobile phase conditions that preserve semaglutide's native aggregation state during characterization.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42174244",
+      "kind": "study",
+      "pmid": "42174244",
+      "doi": "10.1007/s11695-026-08748-5",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42174244/",
+      "title": "Early Adjuvant Treatment with Semaglutide After Sleeve Gastrectomy in Patients with Class II-III Obesity: A Prospective Non-Randomized Controlled Study.",
+      "displayTitle": "Semaglutide after sleeve gastrectomy boosts 12-month weight loss by ~4%",
+      "authors": "Huang YS et al.",
+      "journal": "Obesity surgery",
+      "publishedDate": "2026-05-23",
+      "addedDate": "2026-05-24",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Prospective non-randomized controlled study",
+      "summary": "This prospective non-randomized controlled study of 103 patients with class II-III obesity examined early adjunctive semaglutide (months 1–6 post-op) after laparoscopic sleeve gastrectomy. At 12 months, the semaglutide group achieved significantly greater total weight loss (35.1% vs. 30.7%) and excess weight loss (86.4% vs. 76.9%) compared to surgery alone.",
+      "keyFindings": [
+        "%TWL at 12 months was significantly greater with semaglutide: -35.1% vs. -30.7% (P=0.002).",
+        "%EWL at 12 months favored semaglutide: 86.4% vs. 76.9% (P=0.026).",
+        "At 6 months, %TWL was also significantly greater in the semaglutide group (P<0.001).",
+        "Exploratory analyses suggested greater lean mass preservation and visceral fat reduction with semaglutide."
+      ],
+      "limitations": "Non-randomized, single-center design with only 103 participants limits causal inference and generalizability; propensity score adjustment partially but not fully addresses baseline confounding.",
+      "context": "Combining GLP-1 receptor agonists with bariatric surgery is an emerging strategy; this study extends prior hypothesis-generating work by showing early short-term adjunctive semaglutide appears to amplify weight loss outcomes after sleeve gastrectomy.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT06340633",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT06340633",
+      "url": "https://clinicaltrials.gov/study/NCT06340633",
+      "title": "SPI-1005 in Adults Receiving Cochlear Implant",
+      "displayTitle": "Phase 2 trial tests SPI-1005 to protect hearing after cochlear implant",
+      "authors": "Sound Pharmaceuticals, Incorporated",
+      "journal": "ClinicalTrials.gov · Sound Pharmaceuticals, Incorporated",
+      "publishedDate": "2026-05-22",
+      "addedDate": "2026-05-24",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Phase 2 RCT",
+      "summary": "This Phase 2 randomized placebo-controlled trial evaluates SPI-1005 (ebselen, a glutathione peroxidase mimetic) in 40 adults receiving a MED-EL cochlear implant, starting 2 days before surgery and continuing for 6 months, to assess safety and effects on hearing, tinnitus, and vertigo outcomes.",
+      "keyFindings": [
+        "Phase 2 RCT, n=40, randomized to SPI-1005 or placebo for 6 months perioperatively.",
+        "Primary endpoint: incidence of treatment-emergent adverse events (safety/tolerability focus).",
+        "Secondary endpoints include hearing thresholds, word recognition, speech discrimination, tinnitus, and vertigo.",
+        "Currently recruiting adults with moderate-to-profound sensorineural hearing loss scheduled for cochlear implantation."
+      ],
+      "limitations": "This is an active trial registration with no results posted; no conclusions about efficacy or safety can be drawn at this stage.",
+      "context": "SPI-1005 (ebselen) mimics glutathione peroxidase to reduce oxidative cochlear injury. Prior Sound Pharmaceuticals trials explored ebselen for noise-induced and drug-induced hearing loss; this is among the first trials targeting cochlear implant-related trauma.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT06340633",
+        "phase": "Phase 2",
+        "status": "RECRUITING",
+        "sponsor": "Sound Pharmaceuticals, Incorporated",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "40",
+        "conditions": [
+          "Hearing Loss",
+          "Cochlear Trauma"
+        ],
+        "primaryOutcomes": "Number of Participants with Treatment Emergent Adverse Events (TEAE)",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42174253",
+      "kind": "study",
+      "pmid": "42174253",
+      "doi": "10.1038/s41591-026-04416-4",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42174253/",
+      "title": "Semaglutide versus placebo in individuals with poor weight loss after bariatric surgery: a double-blinded, randomized, placebo-controlled trial.",
+      "displayTitle": "Semaglutide cuts post-bariatric weight by 18% vs. placebo gain in RCT",
+      "authors": "Stanley C et al.",
+      "journal": "Nature medicine",
+      "publishedDate": "2026-05-22",
+      "addedDate": "2026-05-24",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Randomized controlled trial",
+      "summary": "This 68-week double-blind RCT (BARI-STEP) tested semaglutide 2.4 mg weekly in 70 adults with suboptimal weight loss after gastric bypass or sleeve gastrectomy. Semaglutide produced an 18% body weight reduction versus a 0.4% gain with placebo, a difference of ~19 percentage points.",
+      "keyFindings": [
+        "Mean weight loss was 18.0% with semaglutide vs. +0.4% weight gain with placebo at 68 weeks.",
+        "Adjusted treatment difference was −19.18% (95% CI −23.4 to −14.8; P < 0.001).",
+        "Semaglutide also improved metabolic parameters and quality of life versus placebo.",
+        "Adverse events matched semaglutide's known safety profile; no treatment-related deaths occurred."
+      ],
+      "limitations": "Relatively small sample (n = 70; ITT n = 63) and single-trial evidence; generalizability may be limited given 83% female enrollment and single-center or limited-site design.",
+      "context": "Semaglutide 2.4 mg is established for obesity management in non-surgical populations; this trial extends prior findings by demonstrating substantial efficacy and acceptable safety specifically in patients with suboptimal bariatric surgery outcomes, a population with limited pharmacological options.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42174184",
+      "kind": "study",
+      "pmid": "42174184",
+      "doi": "10.1038/s42255-026-01534-8",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42174184/",
+      "title": "Semaglutide drives weight loss through cAMP-dependent mechanisms in GLP1R-expressing hindbrain neurons.",
+      "displayTitle": "Semaglutide drives weight loss via cAMP signaling in hindbrain neurons",
+      "authors": "Gao C et al.",
+      "journal": "Nature metabolism",
+      "publishedDate": "2026-05-22",
+      "addedDate": "2026-05-24",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Mechanistic study",
+      "summary": "This study examined the intracellular signaling mechanisms by which semaglutide drives weight loss in GLP1R-expressing neurons of the area postrema (AP) in mice. Semaglutide activated both Gs- and Gq-dependent pathways, with cAMP signaling through Gs being essential — disrupting it abolished semaglutide-induced weight loss.",
+      "keyFindings": [
+        "Semaglutide engages both Gs- and Gq-dependent signaling in area postrema GLP1R-expressing neurons.",
+        "Semaglutide drives graded cAMP increases in AP neurons via the Gs pathway.",
+        "PDE4 inhibition enhances and sustains semaglutide-induced cAMP responses in AP neurons.",
+        "Disrupting Gs or cAMP signaling in AP neurons abolishes semaglutide-induced weight loss and brain-wide activation."
+      ],
+      "limitations": "Mechanistic findings are preclinical; direct translation of specific intracellular signaling pathways to human obesity therapy remains to be established.",
+      "context": "Prior work established GLP1R agonists act centrally to suppress appetite, with the area postrema as a key brain site. This study extends those findings by systematically mapping the intracellular signaling architecture — specifically cAMP and calcium — through which semaglutide exerts its weight-loss effects.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42166398",
+      "kind": "study",
+      "pmid": "42166398",
+      "doi": "10.1159/000552202",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42166398/",
+      "title": "Elevated Serum Nardilysin Is Inversely Associated with Cardiovascular Disease in Kidney Transplant Recipients.",
+      "displayTitle": "Higher MOTS-c and nardilysin levels found in kidney transplant recipients",
+      "authors": "S&#x105;czek A et al.",
+      "journal": "Kidney & blood pressure research",
+      "publishedDate": "2026-05-21",
+      "addedDate": "2026-05-24",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This observational cohort study measured serum MOTS-c and nardilysin (NRDc) in 118 kidney transplant recipients and 32 controls, finding both peptides significantly elevated in transplant patients, with higher NRDc independently associated with lower odds of prevalent cardiovascular disease.",
+      "keyFindings": [
+        "MOTS-c was significantly higher in kidney transplant recipients vs. controls (178 vs. 142 ng/mL, P=0.014).",
+        "Higher ln-NRDc was independently associated with lower odds of cardiovascular disease (OR 0.59, 95% CI 0.34–0.97).",
+        "MOTS-c showed a non-significant trend toward lower allograft loss risk (adj. sHR 0.50, P=0.08).",
+        "Neither MOTS-c nor NRDc were associated with all-cause mortality or eGFR decline over ~29 months."
+      ],
+      "limitations": "Relatively small sample (118 KTRs, 32 controls), cross-sectional CV disease assessment, and short median follow-up (~29 months) limit causal inference and detection of incident events.",
+      "context": "MOTS-c is a mitochondria-derived peptide with emerging roles in metabolic and inflammatory regulation; this study extends prior findings into kidney transplant recipients, a population with high cardiometabolic burden, though MOTS-c showed no significant associations with cardiometabolic features here.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42159865",
+      "kind": "study",
+      "pmid": "42159865",
+      "doi": "10.1007/s43440-026-00870-6",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42159865/",
+      "title": "Kisspeptin-10 regulates glycosaminoglycan and decorin content in human cardiac fibroblast cultures.",
+      "displayTitle": "Kisspeptin-10 boosts glycosaminoglycan and decorin in cardiac fibroblasts",
+      "authors": "Radwa&#x144;ska P et al.",
+      "journal": "Pharmacological reports : PR",
+      "publishedDate": "2026-05-20",
+      "addedDate": "2026-05-24",
+      "peptides": [
+        "Kisspeptin-10"
+      ],
+      "studyType": "In vitro",
+      "summary": "This in vitro study examined kisspeptin-10 (KiSS-10) effects on extracellular matrix components in human cardiac fibroblast cultures. KiSS-10 dose-dependently increased glycosaminoglycan content and decorin secretion, with the glycosaminoglycan effect mediated via GPR54 and FAK signalling but not phospholipase C.",
+      "keyFindings": [
+        "KiSS-10 caused a dose-dependent increase in glycosaminoglycan content in both cells and culture medium.",
+        "The glycosaminoglycan-stimulatory effect was abolished by GPR54 blocker (peptide 234) or FAK inhibitor 14.",
+        "Phospholipase C inhibition (D609) did not alter KiSS-10-induced glycosaminoglycan changes, excluding PLC involvement.",
+        "KiSS-10 increased decorin secretion but not decorin gene expression, suggesting post-transcriptional regulation."
+      ],
+      "limitations": "Cell line-based study with no in vivo validation; findings may not reflect complex cardiac fibroblast behaviour in intact myocardial tissue.",
+      "context": "Kisspeptin-10 is known primarily for neuroendocrine roles, but emerging evidence suggests cardiovascular functions. This study extends prior findings by identifying a novel role for KiSS-10 in cardiac ECM remodelling via GPR54/FAK signalling in human cardiac fibroblasts.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT03226821",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT03226821",
+      "url": "https://clinicaltrials.gov/study/NCT03226821",
+      "title": "Body Composition and Adipose Tissue in HIV",
+      "displayTitle": "Tesamorelin for HIV lipodystrophy hepatic fat posts results after early termination",
+      "authors": "Columbia University",
+      "journal": "ClinicalTrials.gov · Columbia University",
+      "publishedDate": "2026-05-19",
+      "addedDate": "2026-05-24",
+      "peptides": [
+        "Tesamorelin"
+      ],
+      "studyType": "Trial — Phase 4, terminated (results posted)",
+      "summary": "This Phase 4 single-arm trial evaluated daily tesamorelin 2 mg subcutaneous injection in HIV-infected patients with lipodystrophy and central adiposity, measuring hepatic lipid content, body composition, and metabolic parameters at 6 and 12 months. The trial was terminated early with only 6 enrolled participants.",
+      "keyFindings": [
+        "Trial terminated early; only 6 of planned participants enrolled, severely limiting statistical power.",
+        "Primary endpoint: hepatic lipid content measured at baseline, 6, and 12 months post-treatment.",
+        "Secondary measures included adipose tissue biopsy, metabolic rate, and insulin sensitivity assessments.",
+        "Results have been posted despite early termination; conclusions should be interpreted with extreme caution given tiny sample."
+      ],
+      "limitations": "Trial was terminated after enrolling only 6 participants; posted results are underpowered and cannot support meaningful efficacy or safety conclusions.",
+      "context": "Tesamorelin is FDA-approved for reducing visceral adiposity in HIV lipodystrophy. This trial extended that work by specifically targeting hepatic lipid content, an understudied complication linked to cardiovascular risk in HIV patients with central adiposity.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT03226821",
+        "phase": "Phase 4",
+        "status": "TERMINATED",
+        "sponsor": "Columbia University",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "6",
+        "conditions": [
+          "HIV Lipodystrophy Syndrome",
+          "Growth Hormone Deficiency",
+          "Body Composition"
+        ],
+        "primaryOutcomes": "Hepatic Lipid Content",
+        "hasResults": true
+      }
+    },
+    {
+      "id": "pmid-42153537",
+      "kind": "study",
+      "pmid": "42153537",
+      "doi": "10.1080/15548627.2026.2677180",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42153537/",
+      "title": "MOTS-c, a mitochondrial-derived peptide, ameliorates lysosomal membrane permeability and improves survival of soft tissue transplantation.",
+      "displayTitle": "MOTS-c improves ischemic flap survival by stabilizing lysosomal membranes",
+      "authors": "Shi J et al.",
+      "journal": "Autophagy",
+      "publishedDate": "2026-05-19",
+      "addedDate": "2026-05-24",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Animal model — rat",
+      "summary": "This study examined MOTS-c, a mitochondrial-derived peptide, in a rat ischemic skin flap model. MOTS-c improved blood flow, reduced lysosomal membrane permeabilization, suppressed endothelial pyroptosis, and enhanced autophagy via inhibition of PLA2G4A through the MAPK1-MAPK3-NF-κB signaling axis.",
+      "keyFindings": [
+        "MOTS-c improved blood flow perfusion and enhanced angiogenesis and collagen remodeling in ischemic flaps.",
+        "MOTS-c reduced endothelial pyroptosis and lysosomal membrane permeabilization (LMP) in ischemic tissue.",
+        "Mechanistically, MOTS-c suppressed PLA2G4A phosphorylation via the MAPK1-MAPK3-NF-κB cascade to restore homeostasis.",
+        "AAV-mediated PLA2G4A overexpression confirmed MOTS-c's protective effects operate through the PLA2G4A-LMP axis."
+      ],
+      "limitations": "Results are from an animal model only; clinical translation to human reconstructive surgery outcomes has not been evaluated.",
+      "context": "MOTS-c is known to reduce ROS and support mitochondrial function; this study extends prior findings by linking MOTS-c to lysosomal integrity and suggesting a novel therapeutic role in reconstructive surgery for ischemic tissue.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07595705",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07595705",
+      "url": "https://clinicaltrials.gov/study/NCT07595705",
+      "title": "Gingival Hyperpigmentation Treatment",
+      "displayTitle": "Phase 2 trial tests glutathione injections for gingival hyperpigmentation",
+      "authors": "Cairo University",
+      "journal": "ClinicalTrials.gov · Cairo University",
+      "publishedDate": "2026-05-19",
+      "addedDate": "2026-05-24",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Phase 2 RCT",
+      "summary": "This Phase 2 RCT at Cairo University evaluates intradermal vitamin C plus glutathione injections versus conventional scalpel surgery for treating gingival hyperpigmentation in 30 adult patients with physiologic melanin-related pigmentation.",
+      "keyFindings": [
+        "Phase 2, n=30, recruiting; comparing glutathione+vitamin C injection vs. surgical scalpel depigmentation.",
+        "Primary endpoint: degree of gingival pigmentation assessed by Takashi index and Gingival Pigmentation Index.",
+        "Glutathione mechanism: inhibits tyrosinase and melanosome transfer from melanocytes to keratinocytes.",
+        "Patients with Dummett-Bolden pigmentation scores 1–3 are eligible; systemically healthy adults only."
+      ],
+      "limitations": "This is an active trial registration with no results posted; evidence of efficacy or safety for this indication remains unpublished.",
+      "context": "Glutathione's antimelanogenic properties are established in dermatology for skin lightening; this trial is among the first to test its injectable use specifically in gingival tissue as an alternative to surgical depigmentation.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07595705",
+        "phase": "Phase 2",
+        "status": "RECRUITING",
+        "sponsor": "Cairo University",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "30",
+        "conditions": [
+          "Gingival Pigmentation",
+          "Depigmentation",
+          "Vitamin C",
+          "Glutathione"
+        ],
+        "primaryOutcomes": "Degree of gingival pigmentation by Takashi index (Hanioka et al., 2005); Degree of gingival pigmentation by Gingival pigmentation index (Kumar et al., 2013)",
+        "hasResults": false
+      }
     },
     {
       "id": "nct-NCT06554717",
@@ -782,6 +1154,39 @@
       ],
       "limitations": "Single case report cannot establish causation; temporal association and resolution after discontinuation are suggestive but not definitive proof of drug-related effect.",
       "context": "This appears to be the first documented case of central respiratory depression associated with semaglutide. While GLP-1 receptor agonists are widely prescribed for obesity management, respiratory complications have rarely been reported in the literature.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42160466",
+      "kind": "study",
+      "pmid": "42160466",
+      "doi": "10.2106/JBJS.RVW.26.00027",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42160466/",
+      "title": "Injectable Peptides in Sports Medicine: A Structured Narrative Review of Evidence, Safety, and Antidoping Implications.",
+      "displayTitle": "Injectable peptides in sports medicine: mostly experimental, one class with solid evidence",
+      "authors": "Villegas Meza AD et al.",
+      "journal": "JBJS reviews",
+      "publishedDate": "2026-05-01",
+      "addedDate": "2026-05-24",
+      "peptides": [
+        "CJC-1295",
+        "Ipamorelin",
+        "Tesamorelin",
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This structured narrative review (2020–2025) examined injectable peptides relevant to orthopaedics and sports medicine across five functional classes, finding that GLP-1 receptor agonists like semaglutide are the only class with reproducible randomized evidence of benefit, while growth hormone secretagogues and regenerative peptides remain investigational with unresolved safety and antidoping concerns.",
+      "keyFindings": [
+        "Semaglutide (GLP-1 agonist) is the only injectable peptide class with reproducible RCT evidence for knee osteoarthritis symptom improvement, primarily via weight loss.",
+        "Structural cartilage modification from any injectable peptide class remains unproven in human studies.",
+        "CJC-1295, ipamorelin, and tesamorelin remain investigational with uncertain safety profiles and widespread antidoping restrictions.",
+        "Collagen-derived injectables showed only preliminary postoperative benefits in small, single-center prospective studies."
+      ],
+      "limitations": "As a narrative review (Level V evidence), it is subject to selection bias and does not include a formal meta-analysis or systematic synthesis of effect sizes.",
+      "context": "This review is consistent with the broader understanding that GLP-1 agonists have the strongest clinical evidence base among injectable peptides, while growth hormone axis secretagogues like CJC-1295 and ipamorelin are widely used off-label despite limited human trial data. It extends prior findings by explicitly contextualizing antidoping and product quality risks for sports medicine clinicians.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
