@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T09:45:34.237Z",
+  "lastUpdated": "2026-06-07T09:58:19.168Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -90,6 +90,305 @@
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
+    },
+    {
+      "id": "pmid-42220603",
+      "kind": "study",
+      "pmid": "42220603",
+      "doi": "10.1210/jcemcr/luag108",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42220603/",
+      "title": "Atypical retrobulbar optic neuropathy after semaglutide escalation.",
+      "displayTitle": "Case report: atypical retrobulbar optic neuropathy after semaglutide dose escalation",
+      "authors": "Channabasappa S et al.",
+      "journal": "JCEM case reports",
+      "publishedDate": "2026-07-01",
+      "addedDate": "2026-06-07",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A man in his early 30s developed acute bilateral visual dysfunction four weeks after semaglutide escalation to 1 mg/week, presenting with retrobulbar optic neuropathy atypical for both NAION and demyelinating optic neuritis. Visual function stabilized after semaglutide discontinuation but a left central scotoma persisted.",
+      "keyFindings": [
+        "Bilateral asymmetric visual field defects emerged within 4 weeks of semaglutide escalation to 1 mg/week.",
+        "Markedly delayed visual evoked potentials and central scotoma in left eye; altitudinal defect in right eye.",
+        "Presentation was atypical for NAION and did not fully align with classical demyelinating optic neuritis.",
+        "Discontinuing semaglutide stabilized vision; no further deterioration on serial follow-up."
+      ],
+      "limitations": "Single case report with no control, making causality with semaglutide impossible to establish; spontaneous recovery or an undetected demyelinating etiology cannot be excluded.",
+      "context": "Pharmacovigilance signals have previously flagged an increased NAION incidence among semaglutide users; this case extends those concerns to an atypical retrobulbar pattern, suggesting GLP-1RA-associated optic neuropathy may present along a broader clinical spectrum than previously recognized.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42228536",
+      "kind": "study",
+      "pmid": "42228536",
+      "doi": "10.1073/pnas.2606533123",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42228536/",
+      "title": "15-PGDH inhibition promotes muscle repair and strength recovery during GLP-1 receptor agonist-induced weight loss.",
+      "displayTitle": "15-PGDH inhibitor rescues semaglutide-impaired muscle repair in obese mice",
+      "authors": "Nalbandian M et al.",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "publishedDate": "2026-06-09",
+      "addedDate": "2026-06-07",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "In an obese mouse model, semaglutide caused significant skeletal muscle mass loss and impaired post-injury myofiber regeneration. Co-treatment with a 15-PGDH inhibitor restored muscle stem cell function, myofiber growth, and strength without compromising semaglutide-induced weight loss.",
+      "keyFindings": [
+        "Semaglutide alone caused significant skeletal muscle mass loss in high-fat diet obese mice.",
+        "Post-injury, obese mice showed pathological calcifications similar to those in Duchenne Muscular Dystrophy.",
+        "Semaglutide reduced calcific remodeling but impaired regenerated myofiber size after injury.",
+        "15-PGDH inhibitor co-treatment rescued myofiber growth and enhanced muscle strength without reducing weight loss."
+      ],
+      "limitations": "Findings are from a mouse obesity model only; translation to humans is uncertain, and long-term safety of combined semaglutide plus 15-PGDH inhibitor treatment was not assessed.",
+      "context": "Muscle mass loss during GLP-1 receptor agonist therapy is an emerging concern; this study extends prior findings by demonstrating a mechanistic link to impaired muscle regeneration and offering 15-PGDH inhibition as a potential co-intervention to preserve muscle quality.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42233942",
+      "kind": "study",
+      "pmid": "42233942",
+      "doi": "10.1080/00498254.2026.2683901",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42233942/",
+      "title": "Steady-state pharmacokinetics of oral semaglutide using semi-mechanistic pharmacokinetic modelling and population simulations.",
+      "displayTitle": "Semi-mechanistic PK model predicts oral semaglutide steady-state absorption",
+      "authors": "Tiwari A et al.",
+      "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
+      "publishedDate": "2026-06-06",
+      "addedDate": "2026-06-07",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Mechanistic study",
+      "summary": "Researchers developed a semi-mechanistic pharmacokinetic model for oral semaglutide using published clinical data, characterizing how SNAC enhancer, dose, gastrointestinal permeability, and intestinal first-pass effects drive absorption. The validated model covers IV, single-dose, and multiple-dose oral regimens.",
+      "keyFindings": [
+        "Oral semaglutide bioavailability is only 0.4–1% in the fasting state due to its large molecular structure.",
+        "SNAC permeation enhancer significantly influences gastric absorption and oral bioavailability of semaglutide.",
+        "Dose, SNAC concentration, GI permeability, and intestinal first-pass effect are key PK drivers identified by the model.",
+        "The validated model is intended to support PBPK development for formulation optimization, drug interactions, and special populations."
+      ],
+      "limitations": "The model relies entirely on published literature-derived parameters rather than original experimental data, which may limit its accuracy for novel populations or formulations.",
+      "context": "Oral semaglutide (Rybelsus) requires SNAC to overcome poor GI absorption. This model extends prior clinical PK findings by providing a semi-mechanistic framework that could inform formulation and drug-interaction research, consistent with known absorption challenges for large peptide molecules.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42249304",
+      "kind": "study",
+      "pmid": "42249304",
+      "doi": "10.1186/s12876-026-04986-0",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42249304/",
+      "title": "Dual GIP/GLP-1 receptor agonist tirzepatide ameliorates hepatic steatosis and inflammatory responses in a MASLD mouse model associated with the CCL2/CCR2 axis.",
+      "displayTitle": "Tirzepatide reduces liver fat and inflammation via CCL2/CCR2 pathway in MASLD mice",
+      "authors": "Pan Y et al.",
+      "journal": "BMC gastroenterology",
+      "publishedDate": "2026-06-05",
+      "addedDate": "2026-06-07",
+      "peptides": [
+        "Tirzepatide",
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "This mouse study examined tirzepatide (TZP) and semaglutide in a high-fat/high-fructose MASLD model. TZP improved metabolic markers and reduced hepatic steatosis and inflammation, with transcriptomic and proteomic profiling linking the effects to downregulation of the CCL2/CCR2 chemokine axis and PI3K-AKT signaling.",
+      "keyFindings": [
+        "TZP improved fasting glucose, HOMA-IR, ALT/AST, and hepatosomatic index compared to untreated HFHFr mice.",
+        "TZP reduced hepatic pro-inflammatory mediators MCP-1, IL-1β, TNF-α, and GSDMD, with partial IL-10 restoration.",
+        "Integrated transcriptomics and proteomics identified chemokine signaling and PI3K-AKT pathways as key TZP-associated signatures.",
+        "Targeted validation confirmed TZP reduced CCL2/CCR2 axis components and decreased PI3K abundance and AKT phosphorylation."
+      ],
+      "limitations": "Small sample size (n=32 mice across four groups) and an exclusively male mouse model limit generalizability; causal mechanisms require further validation beyond association.",
+      "context": "Tirzepatide has previously shown hepatoprotective effects in clinical and preclinical settings; this study extends prior findings by providing molecular mechanistic insight, specifically implicating the CCL2/CCR2 chemokine axis and PI3K-AKT pathway as key mediators of its anti-steatotic and anti-inflammatory actions.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42243958",
+      "kind": "study",
+      "pmid": "42243958",
+      "doi": "10.1186/s12967-026-08398-2",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42243958/",
+      "title": "MOTS-c: How a secreted mitochondrial microprotein may become a potential treatment for inflammatory lung diseases.",
+      "displayTitle": "MOTS-c shows promise as biomarker and therapy for lung diseases",
+      "authors": "Amado CA et al.",
+      "journal": "Journal of translational medicine",
+      "publishedDate": "2026-06-04",
+      "addedDate": "2026-06-07",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This review examines MOTS-c, a mitochondrial microprotein, as a candidate biomarker and therapeutic target in acute and chronic inflammatory lung diseases, synthesizing experimental and clinical evidence on its roles in oxidative stress, inflammation, and mitochondrial dysfunction.",
+      "keyFindings": [
+        "Circulating MOTS-c levels are reduced in acute respiratory distress; exogenous MOTS-c attenuates lung injury in preclinical models.",
+        "Chronic respiratory diseases (COPD, sleep apnea, asthma) are characterized by decreased MOTS-c, reflecting mitochondrial dysfunction.",
+        "Remote ischemic preconditioning appears to exert protective pulmonary effects partly via MOTS-c release.",
+        "Preliminary data suggest elevated MOTS-c in lung cancer, possibly linked to NRF2-mediated antioxidant responses; requires validation."
+      ],
+      "limitations": "Conclusions rest on preliminary and heterogeneous preclinical and clinical data; well-designed multicenter translational trials are explicitly acknowledged as lacking.",
+      "context": "MOTS-c was initially characterized as a metabolic regulator. This review extends its known biology into respiratory medicine, consistent with emerging evidence that mitochondrial-derived peptides coordinate systemic stress responses across multiple organ systems.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07622316",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07622316",
+      "url": "https://clinicaltrials.gov/study/NCT07622316",
+      "title": "GAIP ASD Research Study",
+      "displayTitle": "Phase 1 glutathione plus stem cell trial launches in pediatric ASD",
+      "authors": "Greater Atlanta Integrative Pediatrics",
+      "journal": "ClinicalTrials.gov · Greater Atlanta Integrative Pediatrics",
+      "publishedDate": "2026-06-03",
+      "addedDate": "2026-06-07",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Phase 1 crossover RCT",
+      "summary": "This Phase 1 randomized crossover trial in ~100 individuals aged 3+ with ASD evaluates safety and preliminary effects of umbilical cord blood-derived stem cells/exosomes combined with glutathione versus glutathione alone, using ATEC score change at 6 months as the primary endpoint.",
+      "keyFindings": [
+        "Phase 1, randomized participant-blinded crossover design; ~100 participants aged 3+ with confirmed ASD diagnosis.",
+        "Active arm: three monthly IV AdiaVita infusions plus escalating IV and transdermal glutathione; control: saline placebo plus same glutathione regimen.",
+        "Primary endpoint: change in ATEC score at Month 6; safety follow-up extends to 12 months with DSMB oversight.",
+        "Funded via $12,000 participant payments; exploratory design not powered to prove efficacy; currently recruiting."
+      ],
+      "limitations": "This is an active trial registration only; no results are available, and the participant-funded structure raises significant conflict-of-interest concerns that should temper interpretation of future findings.",
+      "context": "Glutathione deficiency has been hypothesized as a contributing factor in ASD oxidative stress pathways. Prior small cord blood studies in pediatric ASD reported acceptable safety profiles, providing rationale for combining these interventions, though efficacy remains unestablished.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07622316",
+        "phase": "Phase 1",
+        "status": "RECRUITING",
+        "sponsor": "Greater Atlanta Integrative Pediatrics",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "100",
+        "conditions": [
+          "Autism Spectrum Disorder",
+          "Autism",
+          "ASD",
+          "Autism Spectrum Disorder (ASD)"
+        ],
+        "primaryOutcomes": "Change from Baseline in Total Autism Treatment Evaluation Checklist (ATEC) Score at Month 6",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42228044",
+      "kind": "study",
+      "pmid": "42228044",
+      "doi": "10.1007/s11033-026-12064-7",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42228044/",
+      "title": "MOTS-c preserves mitochondrial subpopulation bioenergetics and genome integrity to attenuate cardiac ischemia reperfusion injury.",
+      "displayTitle": "MOTS-c preserves mitochondrial function and reduces cardiac IR injury in rats",
+      "authors": "Santhanam SS et al.",
+      "journal": "Molecular biology reports",
+      "publishedDate": "2026-06-02",
+      "addedDate": "2026-06-07",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Animal model — rat",
+      "summary": "Using an isolated Langendorff rat heart model, researchers found that MOTS-c (53 µM) administered before or at reperfusion onset improved post-ischemic mechanical recovery, reduced oxidative stress, and partially preserved mitochondrial bioenergetics and mtDNA integrity following 30-min global ischemia and 60-min reperfusion.",
+      "keyFindings": [
+        "MOTS-c improved post-ischemic cardiac mechanical recovery compared to untreated IR controls.",
+        "Treatment attenuated oxidative stress and partially preserved electron transport chain and dehydrogenase enzyme activities.",
+        "MOTS-c mitigated IR-induced reductions in mtDNA copy number and mitochondrial regulatory gene expression.",
+        "Protective effects were seen in both subsarcolemmal and interfibrillar mitochondrial subpopulations, though responses varied."
+      ],
+      "limitations": "Small sample size (n=6/group), isolated ex vivo heart model limits translational relevance, and underlying signaling mechanisms were not elucidated.",
+      "context": "MOTS-c is a mitochondrial-derived peptide previously linked to metabolic stress adaptation and cytoprotection. These findings extend prior work by demonstrating cardioprotective effects specifically within distinct mitochondrial subpopulations during ischemia-reperfusion, consistent with its known role in mitochondrial homeostasis.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42230485",
+      "kind": "study",
+      "pmid": "42230485",
+      "doi": "10.1007/s42000-026-00795-y",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42230485/",
+      "title": "Dynamic modulation of LH secretion by continuous kisspeptin infusion in healthy men.",
+      "displayTitle": "Continuous kisspeptin-10 infusion raises LH 5–8-fold in healthy men",
+      "authors": "Naveed A et al.",
+      "journal": "Hormones (Athens, Greece)",
+      "publishedDate": "2026-06-02",
+      "addedDate": "2026-06-07",
+      "peptides": [
+        "Kisspeptin-10"
+      ],
+      "studyType": "Pilot human study",
+      "summary": "Three healthy men received a 24-hour continuous IV infusion of kisspeptin-10 (12.5 mcg/kg/h), producing a rapid 5–8-fold rise in LH that partially declined before infusion end, suggesting receptor desensitization with sustained non-pulsatile stimulation.",
+      "keyFindings": [
+        "LH rose from baseline 2.8–3.8 mIU/mL to peak 17.5–30.6 mIU/mL within 12–20 hours of infusion.",
+        "LH subsequently declined 13–47% from peak by infusion end, settling at 10.7–22.8 mIU/mL.",
+        "FSH and testosterone also rose modestly in parallel with LH.",
+        "Findings suggest partial desensitization of the kisspeptin receptor during continuous non-pulsatile stimulation."
+      ],
+      "limitations": "Extremely small sample size (n=3 men) with no control arm severely limits generalizability and statistical conclusions.",
+      "context": "Continuous kisspeptin infusion dampens GnRH release in non-human primates; this small human study appears consistent with that pattern, extending prior primate findings to men and complementing bolus-dosing approaches used to probe GnRH pulse generation.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT06859788",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT06859788",
+      "url": "https://clinicaltrials.gov/study/NCT06859788",
+      "title": "SPI-1005 for the Treatment of Meniere's Disease (Open Label)",
+      "displayTitle": "Phase 3 open-label SPI-1005 trial recruiting for Meniere's Disease",
+      "authors": "Sound Pharmaceuticals, Incorporated",
+      "journal": "ClinicalTrials.gov · Sound Pharmaceuticals, Incorporated",
+      "publishedDate": "2026-06-02",
+      "addedDate": "2026-06-07",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Phase 3, open-label",
+      "summary": "This open-label Phase 3 trial evaluates the long-term safety of SPI-1005 (ebselen, 400 mg BID), a glutathione peroxidase mimetic, in 200 adults with probable or definite Meniere's Disease over 6 or 12 months of treatment.",
+      "keyFindings": [
+        "Phase 3, open-label, single-arm safety study; n=200 adults aged 18–75 with Meniere's Disease.",
+        "Intervention: SPI-1005 400 mg BID for 6 or 12 months to assess chronic/intermittent use safety.",
+        "Primary endpoint: incidence of treatment-emergent adverse events.",
+        "Status: currently recruiting; no results posted."
+      ],
+      "limitations": "This is an active trial registration with no results posted; open-label design limits ability to assess efficacy or control for placebo effects.",
+      "context": "Ebselen mimics glutathione peroxidase activity and has shown promise in earlier-phase trials for hearing-related conditions including Meniere's Disease. This Phase 3 study extends evaluation to long-term safety in a chronic-use setting.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT06859788",
+        "phase": "Phase 3",
+        "status": "RECRUITING",
+        "sponsor": "Sound Pharmaceuticals, Incorporated",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "200",
+        "conditions": [
+          "Meniere's Disease",
+          "Ménière's Disease"
+        ],
+        "primaryOutcomes": "Incidence of Treatment-Emergent Adverse Events",
+        "hasResults": false
+      }
     },
     {
       "id": "pmid-42064835",
@@ -335,6 +634,66 @@
       "trialMeta": null
     },
     {
+      "id": "pmid-41955717",
+      "kind": "study",
+      "pmid": "41955717",
+      "doi": "10.1016/j.npep.2026.102611",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41955717/",
+      "title": "Kisspeptin-10 attenuates pulmonary arterial hypertension via restoration of mitochondrial function in pulmonary artery smooth muscle cells.",
+      "displayTitle": "Kisspeptin-10 reduces pulmonary arterial hypertension by restoring mitochondrial function",
+      "authors": "Huang S et al.",
+      "journal": "Neuropeptides",
+      "publishedDate": "2026-06-01",
+      "addedDate": "2026-06-07",
+      "peptides": [
+        "Kisspeptin-10"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "This study investigated Kisspeptin-10 in a mouse model of pulmonary arterial hypertension (SU5416/hypoxia), finding it significantly reduced right ventricular pressure, hypertrophy, and vascular remodeling by restoring mitochondrial function and normalizing excessive mitophagy in pulmonary artery smooth muscle cells.",
+      "keyFindings": [
+        "Kisspeptin-10 via GPR54 markedly reduced right ventricular systolic pressure and hypertrophy in PAH mice.",
+        "Treatment restored mitochondrial membrane potential, ATP production, and cytochrome c oxidase activity in hypoxic PASMCs.",
+        "Kisspeptin-10 normalized elevated mitophagy proteins PINK1, Parkin, and FUNDC1 in PAH lungs.",
+        "In vitro, Kisspeptin-10 directly inhibited hypoxia-induced PASMC proliferation."
+      ],
+      "limitations": "Findings are limited to a single mouse PAH model (SU5416/hypoxia); translational relevance to human PAH patients remains unestablished.",
+      "context": "Kisspeptin/GPR54 signaling is known primarily for reproductive regulation, but this study extends its role to pulmonary vascular biology, consistent with emerging evidence that kisspeptin has vasoprotective and anti-proliferative actions in non-reproductive tissues.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-41887313",
+      "kind": "study",
+      "pmid": "41887313",
+      "doi": "10.1016/j.cbi.2026.112059",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41887313/",
+      "title": "Co-exposure to PS-NPs and HFPO-TA potentiates reproductive toxicity via ferroptosis and SLC1A5-Mediated glutamine deprivation in male mice.",
+      "displayTitle": "Glutathione supplementation reduces nanoplastic-PFAS reproductive toxicity in male mice",
+      "authors": "Wu L et al.",
+      "journal": "Chemico-biological interactions",
+      "publishedDate": "2026-06-01",
+      "addedDate": "2026-06-07",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "This study used male mice and Leydig cell models to examine combined toxicity of polystyrene nanoplastics and HFPO-TA (a PFAS compound). Co-exposure synergistically worsened ferroptosis, glutathione depletion, and spermatogenesis impairment, while glutathione supplementation markedly attenuated these effects.",
+      "keyFindings": [
+        "Co-exposure to PS-NPs and HFPO-TA synergistically impaired testosterone synthesis and spermatogenesis in male mice.",
+        "HFPO-TA bound SLC1A5 glutamine transporter, suppressing glutamine uptake and blocking glutathione biosynthesis.",
+        "Ferroptosis markers GPX4 (down) and ACSL4 (up) were worsened by co-exposure with PS-NPs.",
+        "Glutathione supplementation and ferrostatin-1 both markedly attenuated co-exposure toxicity in Leydig cells."
+      ],
+      "limitations": "Findings rely on a mouse model and in vitro Leydig cells; direct translation to human reproductive health under real-world environmental exposure levels remains unestablished.",
+      "context": "Glutathione's role in protecting against ferroptosis via GPX4 is well established. This study extends prior findings by linking environmental co-contaminant-induced glutathione depletion to male reproductive toxicity through the SLC1A5 transporter axis.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
       "id": "pmid-41865758",
       "kind": "study",
       "pmid": "41865758",
@@ -480,6 +839,36 @@
       ],
       "limitations": "Evidence certainty is rated only low-to-moderate; all included studies are observational, precluding causal inference, and residual confounding cannot be excluded.",
       "context": "Prior individual observational studies reported conflicting evidence on GLP-1RA-associated NAION risk. This meta-analysis extends those findings by pooling the largest available evidence base, suggesting a consistent and statistically robust signal, though certainty of evidence is rated only low-to-moderate.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42245779",
+      "kind": "study",
+      "pmid": "42245779",
+      "doi": "10.21203/rs.3.rs-9520102/v1",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42245779/",
+      "title": "Middle-aged mice treated with GHK-Cu peptide administered intraperitoneally or intranasally show behavioral rescue but divergent hippocampal aging programs.",
+      "displayTitle": "GHK-Cu improves memory in aged mice via divergent molecular pathways by delivery route",
+      "authors": "Mazzola J et al.",
+      "journal": "Research square",
+      "publishedDate": "2026-05-26",
+      "addedDate": "2026-06-07",
+      "peptides": [
+        "GHK-Cu"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "Aged C57BL/6J mice (20–21 months) received GHK-Cu either intraperitoneally (5 days) or intranasally (8 weeks); both routes improved hippocampal-dependent spatial learning, but triggered distinct molecular programs — intranasal suppressed oxidative phosphorylation and mTOR signaling, while intraperitoneal activated DNA repair and stress-response pathways.",
+      "keyFindings": [
+        "Intranasal GHK-Cu improved escape latency across multiple trials in both sexes; intraperitoneal produced only transient improvement in males.",
+        "Intranasal treatment reduced GFAP in both sexes and increased synaptophysin in females; intraperitoneal reduced TGF-β, GFAP, and MCP-1 in males.",
+        "Intranasal GHK-Cu strongly suppressed oxidative phosphorylation (NES −5.44 males, −4.20 females) and MYC target pathways (FDR < 0.0001).",
+        "Intraperitoneal GHK-Cu activated oxidative phosphorylation (NES 4.97), DNA repair (NES 5.58), and MYC targets — indicating acute stress-response engagement."
+      ],
+      "limitations": "This is a preprint study, so findings have not yet undergone full peer review; results are limited to a single inbred mouse strain and may not generalize to human aging.",
+      "context": "GHK-Cu is an endogenous copper-binding peptide known to decline with age and previously associated with anti-inflammatory and regenerative effects. This study extends prior findings by demonstrating that delivery route and exposure duration are critical determinants of the molecular mechanisms underlying cognitive benefit.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
