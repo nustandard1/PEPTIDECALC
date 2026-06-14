@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T09:58:19.168Z",
+  "lastUpdated": "2026-06-14T10:22:04.862Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -122,6 +122,275 @@
       "trialMeta": null
     },
     {
+      "id": "pmid-42256584",
+      "kind": "study",
+      "pmid": "42256584",
+      "doi": "10.1007/s13340-026-00910-9",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42256584/",
+      "title": "Dulaglutide in the era of tirzepatide and semaglutide: reaffirming its role in contemporary cardiometabolic care.",
+      "displayTitle": "Dulaglutide remains relevant alongside semaglutide and tirzepatide in T2D care",
+      "authors": "Samajdar SS et al.",
+      "journal": "Diabetology international",
+      "publishedDate": "2026-07-01",
+      "addedDate": "2026-06-14",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review compares dulaglutide with semaglutide and tirzepatide for type 2 diabetes management, arguing that dulaglutide's unique cardiovascular evidence base, tolerability, and accessibility keep it clinically relevant despite newer agents' superior glycemic and weight-loss efficacy.",
+      "keyFindings": [
+        "REWIND trial: dulaglutide is the only GLP-1 agonist to show significant MACE reduction in a predominantly primary prevention population over 5+ years.",
+        "Semaglutide and tirzepatide deliver superior HbA1c reductions and body weight loss compared to dulaglutide.",
+        "SURPASS-CVOT confirmed tirzepatide's non-inferiority to dulaglutide for cardiovascular outcomes, validating dulaglutide as a robust comparator.",
+        "Dulaglutide's fixed-dose, no-titration regimen supports real-world persistence and accessibility in low- and middle-income countries."
+      ],
+      "limitations": "As a narrative review, it is subject to selection bias in evidence synthesis and does not perform a systematic meta-analysis; conclusions on comparative efficacy rely on indirect trial comparisons.",
+      "context": "Consistent with growing incretin-therapy literature, this review extends prior findings by contextualizing dulaglutide's cardiovascular outcome data against newer dual agonists, suggesting complementary rather than competitive positioning in treatment algorithms.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07644897",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07644897",
+      "url": "https://clinicaltrials.gov/study/NCT07644897",
+      "title": "Thymosin Alpha 1 Combined With Anti-PD-1 Monoclonal Antibody in Elderly Patients With Advanced Melanoma",
+      "displayTitle": "Phase 2 trial tests Thymosin Alpha-1 plus anti-PD-1 in elderly melanoma",
+      "authors": "Sun Yat-sen University",
+      "journal": "ClinicalTrials.gov · Sun Yat-sen University",
+      "publishedDate": "2026-06-12",
+      "addedDate": "2026-06-14",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Trial registration — Phase 2, single-arm (recruiting)",
+      "summary": "This open-label, single-arm Phase 2 trial evaluates Thymosin Alpha-1 combined with toripalimab (anti-PD-1) in patients aged ≥60 with unresectable or metastatic melanoma, targeting immune enhancement and improved checkpoint inhibitor response in an underserved elderly population.",
+      "keyFindings": [
+        "Phase 2, single-arm, open-label; n=55 elderly patients (age ≥60) with advanced melanoma.",
+        "Intervention: Thymosin Alpha-1 1.6mg SC daily days 1–7, then three times/week days 8–21; toripalimab 240mg IV Q3W x4 cycles.",
+        "Primary endpoint: Objective Response Rate (ORR); secondary endpoints include PFS, DOR, OS, and safety.",
+        "Currently recruiting; no results posted."
+      ],
+      "limitations": "No results are yet available; single-arm design without a control group limits causal interpretation of any future efficacy findings.",
+      "context": "Thymosin Alpha-1 is an immunomodulatory peptide previously studied in infections and cancer supportive care. This trial explores whether its T-cell potentiating effects can augment PD-1 blockade efficacy specifically in elderly melanoma patients, a population often underrepresented in immunotherapy trials.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07644897",
+        "phase": "Phase 2",
+        "status": "RECRUITING",
+        "sponsor": "Sun Yat-sen University",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "55",
+        "conditions": [
+          "Melanoma",
+          "Immune-related Adverse Event",
+          "Immune Checkpoint Inhibitor"
+        ],
+        "primaryOutcomes": "Objective Response Rate",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42286992",
+      "kind": "study",
+      "pmid": "42286992",
+      "doi": "10.1080/00325481.2026.2686467",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42286992/",
+      "title": "Evidence-informed guidance for the clinical use of oral semaglutide in obesity management.",
+      "displayTitle": "Practical guidance for using oral semaglutide in obesity management",
+      "authors": "Rubino D et al.",
+      "journal": "Postgraduate medicine",
+      "publishedDate": "2026-06-12",
+      "addedDate": "2026-06-14",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This review synthesizes clinical trial evidence, including the OASIS 4 trial, and expert insights to guide healthcare professionals on incorporating oral semaglutide into obesity management, covering administration requirements, patient counseling, adherence strategies, and adverse event management.",
+      "keyFindings": [
+        "Oral semaglutide produces weight loss comparable to subcutaneous GLP-1 therapies with added cardiometabolic benefits.",
+        "Strict administration conditions are required: empty stomach, ≤120 mL water, 30-minute fast before food or other medications.",
+        "Person-centered discussions before treatment initiation are essential for setting realistic expectations and ensuring adherence.",
+        "Oral semaglutide is now approved for obesity management and cardiovascular risk reduction in adults, beyond type 2 diabetes."
+      ],
+      "limitations": "As a narrative review drawing on selected clinical trials and author clinical opinion, it may reflect publication bias and does not provide a systematic synthesis of all available evidence.",
+      "context": "Oral semaglutide was originally approved for type 2 diabetes; this review extends prior findings by addressing its newer indication for obesity and cardiovascular risk reduction, providing practical clinical guidance consistent with emerging evidence from dedicated obesity trials.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42286576",
+      "kind": "study",
+      "pmid": "42286576",
+      "doi": "10.1186/s13019-026-04214-6",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42286576/",
+      "title": "Boerhaave's syndrome associated with glucagon-like peptide-1 receptor agonist use: a case report.",
+      "displayTitle": "Case report: Boerhaave's syndrome linked to semaglutide reinitiation",
+      "authors": "Aubrey JM et al.",
+      "journal": "Journal of cardiothoracic surgery",
+      "publishedDate": "2026-06-12",
+      "addedDate": "2026-06-14",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "This case report describes the first documented esophageal perforation (Boerhaave's syndrome) associated with GLP-1 receptor agonist use. A woman in her 50s developed transmural esophageal rupture after restarting semaglutide 2.4 mg weekly without dose titration, requiring multiple surgeries over 10 months before recovery.",
+      "keyFindings": [
+        "First reported case of Boerhaave's syndrome associated with GLP-1 RA (semaglutide) use.",
+        "Patient restarted semaglutide at maximum 2.4 mg dose without titration after months off therapy.",
+        "Complications included esophagopleural fistula, necrotizing pneumonia, and abscess requiring thoracotomy.",
+        "Patient recovered fully at 10-month follow-up; permanently advised to discontinue GLP-1 RAs."
+      ],
+      "limitations": "Single case report with no comparator; causal relationship between semaglutide and esophageal perforation cannot be definitively established from one case.",
+      "context": "GLP-1 RAs are known to cause nausea, vomiting, and gastroparesis; Mallory-Weiss tears have been previously reported. This case extends known GLP-1 RA gastrointestinal risk to full-thickness esophageal perforation, a previously undescribed and life-threatening complication.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42286330",
+      "kind": "study",
+      "pmid": "42286330",
+      "doi": "10.1007/s00266-026-05978-x",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42286330/",
+      "title": "Impact of Preoperative Semaglutide Discontinuation Timing on Postoperative Outcomes in Aesthetic Abdominoplasty: A Retrospective Comparative Study.",
+      "displayTitle": "4-week semaglutide stop before abdominoplasty cuts complications to 10%",
+      "authors": "Bruno A et al.",
+      "journal": "Aesthetic plastic surgery",
+      "publishedDate": "2026-06-12",
+      "addedDate": "2026-06-14",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Retrospective cohort study",
+      "summary": "This retrospective study of 80 patients undergoing lipoabdominoplasty compared complication rates by preoperative semaglutide discontinuation timing. Continuing semaglutide until surgery produced a 45% complication rate, while stopping 4 weeks prior reduced complications to 10%, matching semaglutide-naïve controls.",
+      "keyFindings": [
+        "Patients continuing semaglutide until surgery had a 45% complication rate, including wound dehiscence, infection, and seroma.",
+        "2-week discontinuation reduced complications moderately to 30%; 4-week discontinuation brought the rate down to 10%.",
+        "4-week preoperative discontinuation produced outcomes comparable to semaglutide-naïve controls (10% complication rate).",
+        "GI intolerance and prolonged drain duration were more frequent with ongoing semaglutide use; no reoperations or readmissions occurred."
+      ],
+      "limitations": "Retrospective design with only 80 patients limits generalizability; 30-day follow-up may miss longer-term complications, and residual confounding cannot be excluded.",
+      "context": "Concerns about GLP-1 agonist use perioperatively have grown alongside their adoption for weight loss. This study extends prior safety signals by quantifying a dose-response relationship between discontinuation timing and surgical complication risk in aesthetic surgery.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42286047",
+      "kind": "study",
+      "pmid": "42286047",
+      "doi": "10.1038/s41598-026-56002-w",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42286047/",
+      "title": "Real-world and computational identification of herbal candidates associated with adverse event patterns in glucagon-like peptide-1 therapy for obesity.",
+      "displayTitle": "Real-world AE patterns for semaglutide and tirzepatide in obesity analyzed",
+      "authors": "Park J et al.",
+      "journal": "Scientific reports",
+      "publishedDate": "2026-06-12",
+      "addedDate": "2026-06-14",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This cross-sectional pharmacovigilance study analyzed 4,090 obesity-related adverse event reports from the FDA FAERS database (2015–2025) for GLP-1 receptor agonists. Semaglutide showed distinct late-onset AE patterns and strong signals for biliary, pancreatic, renal, and coagulation events, while tirzepatide showed negative signals for several gastrointestinal events.",
+      "keyFindings": [
+        "76% of GLP-1 RA obesity AE reports involved female patients; gastrointestinal events predominated.",
+        "Semaglutide-associated AE pairs showed reporting odds ratios >10 for biliary, pancreatic, renal, and coagulation events.",
+        "Semaglutide had a higher proportion of late-onset cases (≥360 days) compared to other GLP-1 RAs.",
+        "Tirzepatide exhibited negative log-transformed reporting odds ratios for several gastrointestinal events."
+      ],
+      "limitations": "Spontaneous FAERS reporting is subject to underreporting, confounding, and reporting bias; the herb-AE network findings are purely exploratory and computationally generated, requiring experimental validation.",
+      "context": "These findings are consistent with prior pharmacovigilance signals for GLP-1 RAs, particularly gastrointestinal and biliary adverse events. The semaglutide-specific late-onset pattern and tirzepatide's divergent gastrointestinal profile extend prior comparative safety observations between these agents.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42285042",
+      "kind": "study",
+      "pmid": "42285042",
+      "doi": "10.1016/j.medj.2026.101172",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42285042/",
+      "title": "Therapeutic development in MASH: From accelerated approval to cirrhosis trial innovation.",
+      "displayTitle": "Semaglutide and MASH therapeutics: From accelerated approval to cirrhosis trials",
+      "authors": "Dunn W, Alkhouri N",
+      "journal": "Med (New York, N.Y.)",
+      "publishedDate": "2026-06-12",
+      "addedDate": "2026-06-14",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review covers the evolving therapeutic landscape for metabolic-associated steatohepatitis (MASH), including accelerated approvals of resmetirom and semaglutide based on histological endpoints, and emerging trial designs for cirrhosis involving noninvasive biomarkers and combination therapies.",
+      "keyFindings": [
+        "Semaglutide received accelerated approval for MASH based on histological improvement in non-cirrhotic patients.",
+        "Event-driven trial designs are emerging for cirrhosis-stage MASH to capture hard clinical endpoints.",
+        "Noninvasive biomarkers and hybrid endpoints are being integrated to streamline future MASH trials.",
+        "Combination therapies and cardiometabolic risk management are increasingly central to MASH treatment paradigms."
+      ],
+      "limitations": "As a narrative review, it may not systematically capture all available evidence, and conclusions about emerging paradigms are not derived from original data.",
+      "context": "Semaglutide's role in MASH has been building through clinical trial data; its accelerated approval represents a regulatory milestone consistent with prior phase 2 findings showing histological benefit, extending into a broader discussion of how the field is innovating trial design.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT05604586",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT05604586",
+      "url": "https://clinicaltrials.gov/study/NCT05604586",
+      "title": "Assessment of the Impact of N-acetylcysteine Supplementation on Physical Performance",
+      "displayTitle": "NAC supplementation and exercise performance: gene polymorphism modulation tested",
+      "authors": "Poznan University of Life Sciences",
+      "journal": "ClinicalTrials.gov · Poznan University of Life Sciences",
+      "publishedDate": "2026-06-10",
+      "addedDate": "2026-06-14",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Phase NA, RCT (completed, no results posted)",
+      "summary": "This double-blind RCT examined whether 7-day N-acetylcysteine (NAC) supplementation (1200 mg/day) improves endurance exercise performance and oxidative stress markers in trained adults, and whether glutathione-related gene polymorphisms modify supplementation effectiveness.",
+      "keyFindings": [
+        "Double-blind, placebo-controlled design; NAC 1200 mg/day vs. rice flour placebo for 7 days.",
+        "Enrolled 77 endurance-trained adults aged 18–45; primary endpoint was change in time-trial performance.",
+        "Investigated whether MTHFR, GCLC, GCLM, GSTP1, GSS, and CBS gene variants modulate NAC response.",
+        "Trial completed but no results have been posted to the registry as of the registration date."
+      ],
+      "limitations": "No results have been posted; findings and effect sizes remain unknown, so no conclusions about efficacy can be drawn from this registration alone.",
+      "context": "NAC is a glutathione precursor hypothesized to attenuate exercise-induced oxidative stress and support muscle recovery. This trial adds a pharmacogenomics dimension by testing whether glutathione-pathway gene variants predict who benefits most from NAC supplementation.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT05604586",
+        "phase": "NA",
+        "status": "COMPLETED",
+        "sponsor": "Poznan University of Life Sciences",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "77",
+        "conditions": [
+          "Skeletal Muscle Performance",
+          "Gene Polymorphisms"
+        ],
+        "primaryOutcomes": "Assesment of change in results of time trial test",
+        "hasResults": false
+      }
+    },
+    {
       "id": "pmid-42228536",
       "kind": "study",
       "pmid": "42228536",
@@ -150,6 +419,91 @@
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07634991",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07634991",
+      "url": "https://clinicaltrials.gov/study/NCT07634991",
+      "title": "To Evaluate the Efficacy and Safety of N-acetyl Cysteine Administration in Patients With Diabetic Retinopathy",
+      "displayTitle": "Phase 4 NAC trial targets VEGF and glutathione in diabetic retinopathy",
+      "authors": "Ain Shams University",
+      "journal": "ClinicalTrials.gov · Ain Shams University",
+      "publishedDate": "2026-06-09",
+      "addedDate": "2026-06-14",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Phase 4 RCT",
+      "summary": "This Phase 4 RCT evaluates whether oral N-acetylcysteine (NAC) 1200 mg/day for 3 months improves glutathione peroxidase levels and VEGF expression in 76 type 2 diabetic patients with mild-to-moderate diabetic retinopathy, compared to placebo plus standard care.",
+      "keyFindings": [
+        "Phase 4 double-arm RCT; n=76 type 2 diabetic patients with mild-to-moderate retinopathy.",
+        "Intervention: NAC 1200 mg once daily for 3 months vs. matched placebo.",
+        "Primary endpoint: change in glutathione peroxidase levels; secondary endpoints include VEGF, HbA1c, and visual acuity.",
+        "Claimed to be the first RCT evaluating NAC specifically for diabetic retinopathy; currently recruiting."
+      ],
+      "limitations": "This is an active trial registration with no results posted; efficacy and safety conclusions cannot be drawn until trial completion and peer-reviewed publication.",
+      "context": "NAC is a well-established glutathione precursor and antioxidant used in pulmonary and hepatic conditions. Preclinical and observational data suggest oxidative stress and VEGF-driven angiogenesis contribute to diabetic retinopathy, making NAC a plausible candidate, though clinical evidence in this indication is limited.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07634991",
+        "phase": "Phase 4",
+        "status": "RECRUITING",
+        "sponsor": "Ain Shams University",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "76",
+        "conditions": [
+          "Diabetic Retinopathy (DR)"
+        ],
+        "primaryOutcomes": "Changes in glutathione peroxidase levels",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "nct-NCT07635030",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07635030",
+      "url": "https://clinicaltrials.gov/study/NCT07635030",
+      "title": "GABA and GSH in FRDA",
+      "displayTitle": "MRS biomarker study tracks glutathione levels in pediatric Friedreich's Ataxia",
+      "authors": "Children's Hospital of Philadelphia",
+      "journal": "ClinicalTrials.gov · Children's Hospital of Philadelphia",
+      "publishedDate": "2026-06-09",
+      "addedDate": "2026-06-14",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Observational biomarker study",
+      "summary": "This observational study uses magnetic resonance spectroscopy (MRS) to measure GABA and glutathione (GSH) as potential biomarkers in pediatric Friedreich's Ataxia patients (ages 8–16), comparing levels in controls versus patients and tracking longitudinal changes before and after omaveloxolone treatment across three timepoints.",
+      "keyFindings": [
+        "Observational MRS study; n=60 pediatric FRDA patients and controls, enrolling by invitation.",
+        "Primary endpoints: GABA assessment and changes in N-acetylaspartate (NAA) via MRS.",
+        "GSH measured as a secondary biomarker at baseline and at minimum 6-month follow-up intervals.",
+        "Aim 2 tracks glutathione changes longitudinally after omaveloxolone (Nrf2 activator) administration."
+      ],
+      "limitations": "This is a trial registration with no results posted; MRS-derived GSH measurements in pediatric populations carry technical variability and results are not yet available.",
+      "context": "Friedreich's Ataxia involves frataxin deficiency leading to mitochondrial oxidative stress and reduced glutathione. Omaveloxolone, an Nrf2 activator, was FDA-approved for FRDA in 2023; this study seeks neurochemical biomarkers to objectively track treatment response.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07635030",
+        "phase": "",
+        "status": "ENROLLING BY INVITATION",
+        "sponsor": "Children's Hospital of Philadelphia",
+        "studyType": "OBSERVATIONAL",
+        "enrollment": "60",
+        "conditions": [
+          "Friedreich's Ataxia",
+          "FRDA"
+        ],
+        "primaryOutcomes": "GABA Assessment; Changes in NAA",
+        "hasResults": false
+      }
     },
     {
       "id": "pmid-42233942",
@@ -689,6 +1043,36 @@
       ],
       "limitations": "Findings rely on a mouse model and in vitro Leydig cells; direct translation to human reproductive health under real-world environmental exposure levels remains unestablished.",
       "context": "Glutathione's role in protecting against ferroptosis via GPX4 is well established. This study extends prior findings by linking environmental co-contaminant-induced glutathione depletion to male reproductive toxicity through the SLC1A5 transporter axis.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42283548",
+      "kind": "study",
+      "pmid": "42283548",
+      "doi": "10.1167/iovs.67.6.22",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42283548/",
+      "title": "Reparative Outcomes in Corneal Infection: Linking Adjunctive T&#x3b2;4 Treatment to Nerve Regeneration and Visual Function.",
+      "displayTitle": "TB-500 combo therapy restores vision and corneal nerves after bacterial infection",
+      "authors": "Ebrahim AS et al.",
+      "journal": "Investigative ophthalmology & visual science",
+      "publishedDate": "2026-06-01",
+      "addedDate": "2026-06-14",
+      "peptides": [
+        "TB-500"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "In a mouse model of Pseudomonas aeruginosa bacterial keratitis, adjunctive thymosin beta-4 (Tβ4) combined with ciprofloxacin was evaluated for effects on visual function and corneal nerve regeneration. Combination therapy significantly outperformed monotherapies, restoring nerve density, visual acuity, and contrast sensitivity to levels comparable to uninfected controls.",
+      "keyFindings": [
+        "Adjunctive Tβ4 + ciprofloxacin markedly improved visual acuity and contrast sensitivity vs. PBS or monotherapies.",
+        "Combination therapy significantly enhanced corneal sensitivity and nerve regeneration compared to all other treatment groups.",
+        "Nerve density and architecture were restored to levels comparable to uninfected control corneas.",
+        "Tβ4 monotherapy alone did not achieve the reparative outcomes seen with combination treatment."
+      ],
+      "limitations": "Animal-only study using a single inbred mouse strain and one bacterial strain; translation to human corneal infection outcomes requires further clinical investigation.",
+      "context": "Prior studies showed Tβ4 adjunctive therapy reduces bacterial keratitis severity and promotes wound repair. This study extends those findings to corneal nerve regeneration and visual function recovery, two previously unexplored endpoints, consistent with Tβ4's known roles in tissue repair and anti-inflammatory signaling.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -2932,6 +3316,36 @@
       ],
       "limitations": "Rat model may not fully recapitulate human HIV/cART cardiotoxicity; relatively short 9-week treatment duration; mechanisms of tesamorelin's protective effect not fully elucidated.",
       "context": "Tesamorelin is a growth hormone-releasing hormone analogue approved for HIV-associated lipodystrophy. This study extends its potential cardioprotective role by demonstrating prevention of antiretroviral-induced myocardial changes, consistent with growth hormone's known metabolic and cardiovascular effects.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42284324",
+      "kind": "study",
+      "pmid": "42284324",
+      "doi": "10.1371/journal.pone.0351731",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42284324/",
+      "title": "Drug-induced gastric motility disorders: A disproportionality analysis from the FAERS and CVARD databases.",
+      "displayTitle": "Semaglutide shows strongest signal for delayed gastric emptying in FAERS analysis",
+      "authors": "Qian Z, Jiang N",
+      "journal": "PloS one",
+      "publishedDate": "2026-01-01",
+      "addedDate": "2026-06-14",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Pharmacovigilance disproportionality analysis",
+      "summary": "This pharmacovigilance study analyzed over 58 million adverse event reports from FAERS (2004–2025) to identify drugs associated with gastric motility disorders. Semaglutide showed the highest reporting odds ratio for impaired gastric emptying (ROR: 80.27), with findings validated in the Canadian CVARD database.",
+      "keyFindings": [
+        "Semaglutide had the strongest association with impaired gastric emptying (ROR: 80.27; 95% CI: 76.39–84.34), validated in CVARD (ROR: 54.17).",
+        "GLP-1 receptor agonists as a class showed the strongest overall signals for gastric motility disorders among 50 drugs screened.",
+        "20 of 50 screened drugs showed positive signals across all three disproportionality algorithms (ROR, PRR, BCPNN).",
+        "Temporal onset varied widely: trofinetide median 6.6 days vs. immunoglobulin G median 535.1 days."
+      ],
+      "limitations": "Pharmacovigilance databases are subject to reporting bias, confounding by indication, and underreporting, limiting causal inference about drug-induced gastric motility disorders.",
+      "context": "Delayed gastric emptying is a known concern with GLP-1 receptor agonists; this large-scale pharmacovigilance analysis extends prior findings by quantifying the signal magnitude for semaglutide specifically and comparing it systematically across drug classes.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
