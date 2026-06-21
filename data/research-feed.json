@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T10:22:04.862Z",
+  "lastUpdated": "2026-06-21T10:27:30.253Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -27,6 +27,96 @@
       ],
       "limitations": "As a narrative review, findings reflect synthesis of heterogeneous trials with inconsistent outcomes and limited data in non-diabetic or high-risk populations.",
       "context": "This review consolidates emerging evidence that GLP-1RAs provide cerebrovascular protection beyond their established cardiovascular benefits in type 2 diabetes. The findings extend prior cardiovascular outcome trial data by highlighting stroke-specific risk reductions and mechanistic pathways.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42292313",
+      "kind": "study",
+      "pmid": "42292313",
+      "doi": "10.1007/s10616-026-01005-8",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42292313/",
+      "title": "Exogenous Kisspeptin-10 inhibits ovarian cancer progression through targeting the SP1-hTERT-ZEB1 regulatory axis.",
+      "displayTitle": "Kisspeptin-10 inhibits ovarian cancer cell growth via SP1-hTERT-ZEB1 axis",
+      "authors": "Shah H et al.",
+      "journal": "Cytotechnology",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-06-21",
+      "peptides": [
+        "Kisspeptin-10"
+      ],
+      "studyType": "In vitro",
+      "summary": "This study examined Kisspeptin-10 (KP-10) effects on SKOV-3 ovarian cancer cells using in vitro and computational methods. KP-10 dose-dependently suppressed cell proliferation, migration, and invasion (IC₅₀ = 72.28 nM) by modulating the SP1-ZEB1-hTERT transcriptional pathway.",
+      "keyFindings": [
+        "KP-10 inhibited SKOV-3 ovarian cancer cell proliferation, migration, and invasion with an IC₅₀ of 72.28 nM.",
+        "KP-10 downregulated key transcription factors SP1, CDX2, GATA2, FLI1, ZEB1, and hTERT expression.",
+        "KP-10 upregulated tumor-suppressive microRNAs (miR-200, miR-345, miR-577), inhibiting epithelial-mesenchymal transition.",
+        "Bioinformatics revealed multiple SP1, CDX2, GATA2, and FLI1 binding sites in the KISS1 promoter region."
+      ],
+      "limitations": "Study is limited to a single ovarian cancer cell line (SKOV-3) with no in vivo validation, restricting generalizability of findings.",
+      "context": "Kisspeptin and its receptor (KISS1R) are known tumor suppressors in several cancers. This study extends prior findings by mapping a specific SP1-ZEB1-hTERT transcriptional axis through which KP-10 appears to suppress ovarian cancer metastatic phenotypes.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42294355",
+      "kind": "study",
+      "pmid": "42294355",
+      "doi": "10.1016/j.lanepe.2026.101738",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42294355/",
+      "title": "Comparative Effectiveness and Safety of Once-Weekly Injectable Semaglutide Versus Dulaglutide in Individuals with Type 2 Diabetes Managed in UK Primary Care: A Population-Based Cohort Study.",
+      "displayTitle": "Semaglutide outperforms dulaglutide on HbA1c and weight in UK real-world study",
+      "authors": "Ulrich FS et al.",
+      "journal": "The Lancet regional health. Europe",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-06-21",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This population-based cohort study of 6,616 UK primary care patients with type 2 diabetes found that once-weekly semaglutide produced significantly greater 1-year reductions in HbA1c (−0.22 percentage points) and bodyweight (−1.92 kg) compared to dulaglutide, with benefits preserved across trial-eligible and non-eligible patients.",
+      "keyFindings": [
+        "Semaglutide reduced HbA1c by 0.22 percentage points more than dulaglutide (95% CI −0.30 to −0.15) at 1 year.",
+        "Semaglutide users lost 1.92 kg more bodyweight than dulaglutide users (95% CI −2.91 to −0.93 kg).",
+        "Benefits were preserved in the 87.7% of patients not meeting SUSTAIN-7 trial eligibility criteria.",
+        "Early discontinuers had higher gastrointestinal event rates (23.5–26.1 vs. 10.6–13.8 per 100 person-years) than on-treatment patients."
+      ],
+      "limitations": "Observational design cannot fully eliminate confounding despite marginal structural models; early discontinuation rates (~30%) may introduce selection bias in on-treatment analyses.",
+      "context": "These real-world findings are consistent with and extend the SUSTAIN-7 randomized trial, demonstrating that semaglutide's advantages over dulaglutide appear generalizable to the broader, less-selected UK primary care population, including the ~88% who would not have qualified for the trial.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42308439",
+      "kind": "study",
+      "pmid": "42308439",
+      "doi": "10.1212/WNL.0000000000218174",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42308439/",
+      "title": "Semaglutide and Risk of Adult-Onset Seizure: A Target Trial Emulation.",
+      "displayTitle": "Semaglutide linked to 52–56% lower adult-onset seizure risk in diabetics",
+      "authors": "Eun Y et al.",
+      "journal": "Neurology",
+      "publishedDate": "2026-07-14",
+      "addedDate": "2026-06-21",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort — target trial emulation",
+      "summary": "This target trial emulation using real-world data from over 10,000 adults with type 2 diabetes found that semaglutide initiation was associated with significantly lower risk of adult-onset seizure compared with both SGLT2 inhibitors and other glucose-lowering drugs, largely independent of glycemic control or weight loss.",
+      "keyFindings": [
+        "Semaglutide reduced seizure risk vs other glucose-lowering drugs (weighted HR 0.44, 95% CI 0.25–0.79).",
+        "Semaglutide reduced seizure risk vs SGLT2 inhibitors (weighted HR 0.48, 95% CI 0.27–0.85).",
+        "4-year absolute risk differences were −1.78% vs other GLDs and −1.46% vs SGLT2i.",
+        "Mediation via HbA1c and BMI was minimal (≤6.5%), suggesting a direct neurological mechanism."
+      ],
+      "limitations": "Residual confounding cannot be excluded in this observational design; event counts were low and follow-up was relatively short, limiting causal interpretation.",
+      "context": "GLP-1 receptor agonists like semaglutide have shown neuroprotective properties in preclinical models; this large observational study extends those findings to a potential seizure-preventive effect in humans, consistent with emerging evidence of CNS benefits beyond glycemic control.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -148,6 +238,289 @@
       ],
       "limitations": "As a narrative review, it is subject to selection bias in evidence synthesis and does not perform a systematic meta-analysis; conclusions on comparative efficacy rely on indirect trial comparisons.",
       "context": "Consistent with growing incretin-therapy literature, this review extends prior findings by contextualizing dulaglutide's cardiovascular outcome data against newer dual agonists, suggesting complementary rather than competitive positioning in treatment algorithms.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42259343",
+      "kind": "study",
+      "pmid": "42259343",
+      "doi": "10.1016/S0140-6736(26)00802-0",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42259343/",
+      "title": "Elecoglipron, an oral small molecule GLP-1 receptor agonist in adults with type 2 diabetes (SOLSTICE): a multicentre, phase 2b, randomised, placebo-controlled trial.",
+      "displayTitle": "Oral GLP-1 agonist elecoglipron cuts HbA1c up to 1.88% in T2D trial",
+      "authors": "Aroda VR et al.",
+      "journal": "Lancet (London, England)",
+      "publishedDate": "2026-06-20",
+      "addedDate": "2026-06-21",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Randomized controlled trial",
+      "summary": "This phase 2b randomized controlled trial (SOLSTICE) evaluated oral elecoglipron across multiple doses versus placebo and open-label oral semaglutide in 404 adults with type 2 diabetes over 26 weeks. The highest dose (75 mg with every 2-week escalation) reduced HbA1c by 1.88% from baseline versus 0.15% with placebo.",
+      "keyFindings": [
+        "HbA1c reductions ranged from -0.91% (5 mg) to -1.88% (75 mg every 2-week escalation) vs. -0.15% with placebo at 26 weeks.",
+        "Elecoglipron was taken once daily as an oral tablet with no food or fluid restrictions.",
+        "Adverse events (63–87% across doses) were predominantly gastrointestinal: nausea, constipation, diarrhoea, and vomiting.",
+        "Oral semaglutide 14 mg served as an open-label active reference arm; elecoglipron showed a class-consistent safety profile."
+      ],
+      "limitations": "Phase 2b design with 26-week duration limits conclusions about long-term cardiovascular or weight outcomes; semaglutide comparator was open-label, introducing potential bias.",
+      "context": "Elecoglipron is a novel small-molecule oral GLP-1 receptor agonist distinct from peptide-based semaglutide. These findings appear consistent with the glycemic efficacy and GI tolerability profile established by other GLP-1 receptor agonists, extending prior phase 2a data and supporting phase 3 development.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42321010",
+      "kind": "study",
+      "pmid": "42321010",
+      "doi": "10.1113/EP093714",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42321010/",
+      "title": "Mitochondrial peptide MOTS-c suppresses systemic and cardiac inflammasome activation in a diabetic rat model.",
+      "displayTitle": "MOTS-c reduces cardiac inflammasome activation in diabetic rats",
+      "authors": "Mills AR et al.",
+      "journal": "Experimental physiology",
+      "publishedDate": "2026-06-19",
+      "addedDate": "2026-06-21",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Animal model — rat",
+      "summary": "This study examined MOTS-c treatment in a high-fat diet/streptozotocin-induced type 2 diabetic rat model. MOTS-c significantly lowered fasting blood glucose, C-reactive protein, and suppressed NLRP3 inflammasome components in left ventricular tissue, suggesting a cardioprotective anti-inflammatory mechanism.",
+      "keyFindings": [
+        "MOTS-c significantly reduced fasting blood glucose and circulating C-reactive protein in T2DM rats.",
+        "MOTS-c selectively modulated plasma cytokines, including increased IL-10 and decreased IL-1β.",
+        "Cardiac NLRP3, ASC, and cleaved caspase-1 protein levels were reduced in left ventricular tissue after MOTS-c treatment.",
+        "IL-18 and IL-1β correlated with elevated LDL and uric acid, linking inflammasome activity to metabolic markers."
+      ],
+      "limitations": "Animal model only (rat); findings may not translate directly to human diabetic cardiomyopathy, and the study lacks long-term outcome data or dose-response characterization.",
+      "context": "MOTS-c is a mitochondrial-derived peptide previously shown to regulate metabolic and inflammatory pathways. These findings extend prior work by specifically implicating NLRP3 inflammasome suppression as a mechanism underlying MOTS-c's cardioprotective effects in a diabetic context.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42321502",
+      "kind": "study",
+      "pmid": "42321502",
+      "doi": "10.1038/s41366-026-02118-y",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42321502/",
+      "title": "Effect of GLP-1 receptor agonists at doses for obesity management on muscle health: systematic review and meta-analysis of randomized controlled trials (RCTs).",
+      "displayTitle": "GLP-1 agonists improve body composition but cut absolute lean mass by 1.74 kg",
+      "authors": "Laverde LP et al.",
+      "journal": "International journal of obesity (2005)",
+      "publishedDate": "2026-06-19",
+      "addedDate": "2026-06-21",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review & meta-analysis",
+      "summary": "This systematic review and meta-analysis of 7 RCTs (821 patients with obesity) found that GLP-1 receptor agonists significantly increased lean mass as a proportion of total weight (+1.81%) but reduced absolute lean mass (−1.74 kg), with semaglutide showing the largest absolute lean mass loss (−5.44 kg).",
+      "keyFindings": [
+        "GLP-1 RAs increased lean mass proportion of total weight by +1.81% (95% CI: 1.1–2.52).",
+        "Absolute lean mass decreased by −1.74 kg and relative lean mass by −3.06% across GLP-1 RA treatments.",
+        "Semaglutide showed the greatest absolute lean mass reduction at −5.44 kg (95% CI: −7.07 to −3.81).",
+        "Authors conclude lean mass loss should not limit GLP-1 RA use, but exercise and nutrition interventions are recommended."
+      ],
+      "limitations": "Only 7 RCTs with 821 patients included; high heterogeneity (I²=98%) in absolute lean mass outcomes limits confidence in pooled estimates.",
+      "context": "Prior evidence on GLP-1 RA effects on muscle health was mixed; this meta-analysis clarifies that body composition improves proportionally, but absolute lean mass is still lost, consistent with general weight-loss physiology and extending concerns about muscle preservation.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42320716",
+      "kind": "study",
+      "pmid": "42320716",
+      "doi": "10.1016/j.eprac.2026.06.004",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42320716/",
+      "title": "Efficacy of Initiation of Semaglutide versus SGLT2 inhibitors in Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD): A Multicenter Propensity-Matched Real-World Study.",
+      "displayTitle": "Semaglutide cuts MASLD mortality risk by 62% versus SGLT2 inhibitors",
+      "authors": "Khalil I et al.",
+      "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
+      "publishedDate": "2026-06-19",
+      "addedDate": "2026-06-21",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort — propensity-matched",
+      "summary": "This multicenter retrospective propensity-matched study of 55,525 MASLD patients per group found that initiating semaglutide was associated with significantly better outcomes at 1 and 5 years compared to SGLT2 inhibitors, including reductions in all-cause mortality, hospitalization, MACE, and major liver events.",
+      "keyFindings": [
+        "At 1 year, semaglutide reduced all-cause mortality risk by 62% vs. SGLT2is (HR 0.382).",
+        "Major adverse liver outcomes were reduced by 64% at 1 year (HR 0.361) and 51% at 5 years (HR 0.494).",
+        "MACE risk was halved at 1 year (HR 0.502) and reduced by 42% at 5 years (HR 0.584).",
+        "Kidney outcomes showed no difference at 1 year but a 14% risk reduction with semaglutide at 5 years."
+      ],
+      "limitations": "Retrospective design with residual confounding is possible despite propensity matching; outcomes rely on coded administrative data, and treatment adherence or dosing details are unavailable.",
+      "context": "Semaglutide has previously shown liver fat reduction and metabolic benefits; this large real-world study extends those findings by suggesting superior clinical outcomes compared to SGLT2 inhibitors in MASLD, a population lacking approved pharmacotherapy until recently.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42318855",
+      "kind": "study",
+      "pmid": "42318855",
+      "doi": "10.1002/14651858.CD007654.pub6",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42318855/",
+      "title": "Long-term effects of weight-reducing drugs in people with hypertension.",
+      "displayTitle": "Semaglutide and tirzepatide added to weight-drug hypertension review, evidence still weak",
+      "authors": "Spary-Kainz U et al.",
+      "journal": "The Cochrane database of systematic reviews",
+      "publishedDate": "2026-06-19",
+      "addedDate": "2026-06-21",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "This Cochrane systematic review and meta-analysis evaluated long-term weight-reducing drugs in ~13,000 hypertensive adults across 8 RCTs, including newly added trials on semaglutide and tirzepatide. Evidence on mortality and cardiovascular outcomes remains very low certainty, and neither semaglutide nor tirzepatide trials reported data on these critical endpoints.",
+      "keyFindings": [
+        "Two new RCTs on semaglutide (274 participants) and tirzepatide (788 participants) were added to this updated Cochrane review.",
+        "Neither semaglutide nor tirzepatide trials reported outcomes for all-cause mortality, cardiovascular morbidity, SAEs, or AEs in hypertensive subgroups.",
+        "Orlistat probably increases serious adverse events vs. placebo (RR 1.45, 95% CI 1.10–1.91; moderate certainty).",
+        "Overall evidence is insufficient to conclude whether pharmacological weight loss reduces mortality or cardiovascular risk in hypertensive patients."
+      ],
+      "limitations": "Semaglutide and tirzepatide trials included in the review did not report critical outcomes (mortality, CV morbidity, adverse events) for hypertensive participants, severely limiting conclusions about these peptides specifically.",
+      "context": "Semaglutide and tirzepatide have shown cardiovascular benefits in broader populations, but this review highlights that dedicated data for hypertensive subgroups remain sparse, extending prior findings that evidence gaps persist for this specific population.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42316363",
+      "kind": "study",
+      "pmid": "42316363",
+      "doi": "10.1186/s40842-026-00311-6",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42316363/",
+      "title": "Pulmonary adverse events associated with GLP-1 receptor agonists: a systematic review of respiratory safety signals.",
+      "displayTitle": "GLP-1 agonists linked to rare but serious pulmonary events in systematic review",
+      "authors": "Ahuja A et al.",
+      "journal": "Cardiovascular diabetology. Endocrinology reports",
+      "publishedDate": "2026-06-19",
+      "addedDate": "2026-06-21",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review",
+      "summary": "This systematic review of 19 studies synthesized pulmonary adverse events associated with GLP-1 receptor agonists in adults. While upper respiratory infections were common but comparable to controls, rare serious events—including anaphylaxis, eosinophilic pneumonia, aspiration pneumonitis, and ARDS—were identified, alongside a potential reduction in incident pneumonia versus DPP-4 inhibitors.",
+      "keyFindings": [
+        "URTIs were the most common respiratory adverse event (66.7% of reporting studies), occurring at rates comparable to controls (GRADE: moderate certainty).",
+        "GLP-1 RAs associated with 40% lower incident pneumonia vs. DPP-4 inhibitors (HR 0.60, 95% CI 0.58–0.62; GRADE: low certainty).",
+        "Rare serious events included anaphylaxis with bronchospasm (n=4), acute eosinophilic pneumonia (n=1), ARDS (n=2, one fatal), and spontaneous pneumomediastinum (n=1).",
+        "Exendin-4-based agents (exenatide, lixisenatide) showed highest hypersensitivity signals, attributed to their non-human structural origin."
+      ],
+      "limitations": "Evidence certainty is very low for serious events, driven by reliance on case reports and pharmacovigilance data; substantial heterogeneity precluded meta-analysis, limiting quantitative conclusions.",
+      "context": "GLP-1 receptor agonists are well-characterized for gastrointestinal side effects, but pulmonary safety has been less systematically examined. This review extends prior pharmacovigilance signals by formally mapping respiratory adverse events across multiple study designs, though causal inference remains premature.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT06024356",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT06024356",
+      "url": "https://clinicaltrials.gov/study/NCT06024356",
+      "title": "Neoadjuvant Chemoradiotherapy Combined With PD-1 Inhibitor and Thymalfasin for Locally Advanced Mid-low Rectal Cancer",
+      "displayTitle": "Thymalfasin added to chemoradiotherapy and PD-1 inhibitor in rectal cancer",
+      "authors": "Beijing Friendship Hospital",
+      "journal": "ClinicalTrials.gov · Beijing Friendship Hospital",
+      "publishedDate": "2026-06-18",
+      "addedDate": "2026-06-21",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Trial registration — Observational retrospective controlled study, completed (no results posted)",
+      "summary": "This single-center retrospective controlled study at Beijing Friendship Hospital investigated adding thymalfasin (thymosin alpha-1) to neoadjuvant chemoradiotherapy plus tislelizumab in 47 locally advanced mid-low rectal cancer patients, examining pathologic complete response rates, 3-year DFS, and tumor immune microenvironment changes.",
+      "keyFindings": [
+        "Retrospective controlled design; 47 patients split into preoperative Tα1 (n=14), postoperative Tα1 (n=7), and no Tα1 (n=26) groups.",
+        "Primary endpoints: pathologic complete response rate and 3-year disease-free survival.",
+        "Exploratory endpoints include immune markers (CD86, CD163, CD4+T, CD8+T, PD-1) from pre- and post-treatment biopsies.",
+        "No results posted yet despite completed status; trial was observational and retrospective."
+      ],
+      "limitations": "This is a small retrospective observational study with no results posted; findings will carry significant risk of selection bias and cannot establish causality.",
+      "context": "Thymosin alpha-1 is an immunomodulatory peptide with established roles in enhancing T-cell responses. Its combination with checkpoint inhibitors in solid tumors is an emerging area of interest, but robust clinical evidence in rectal cancer remains limited.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT06024356",
+        "phase": "",
+        "status": "COMPLETED",
+        "sponsor": "Beijing Friendship Hospital",
+        "studyType": "OBSERVATIONAL",
+        "enrollment": "47",
+        "conditions": [
+          "Colorectal Neoplasms"
+        ],
+        "primaryOutcomes": "3-y DFS; pathologic complete response",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42320090",
+      "kind": "study",
+      "pmid": "42320090",
+      "doi": "10.1016/j.bioadv.2026.215017",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42320090/",
+      "title": "Hierarchical regulation and mechanism of \"open-hollow-fibrous network\" structures: Osteogenic-angiogenic coupling responses of poly(&#x3b3;-benzyl-L-glutamate) microspheres.",
+      "displayTitle": "GHK-Cu-grafted microspheres boost bone and blood vessel formation in vitro",
+      "authors": "Su J et al.",
+      "journal": "Biomaterials advances",
+      "publishedDate": "2026-06-15",
+      "addedDate": "2026-06-21",
+      "peptides": [
+        "GHK-Cu"
+      ],
+      "studyType": "In vitro",
+      "summary": "Researchers fabricated hollow nanofibrous polypeptide microspheres covalently grafted with GHK-Cu and tested them in cell models. GHK-Cu functionalization significantly enhanced osteogenic gene expression in bone marrow mesenchymal stem cells and stimulated angiogenic tube formation compared to non-functionalized microspheres.",
+      "keyFindings": [
+        "Runx2, OPN, and OCN osteogenic gene expression increased 1.61-, 3.53-, and 2.29-fold with GHK-Cu functionalization.",
+        "GHK-Cu-grafted microspheres stimulated robust angiogenic tube formation in vitro.",
+        "Microspheres averaged 372 µm diameter, suitable for injectable delivery into irregular bone defects.",
+        "Live/Dead and CCK-8 assays confirmed cytocompatibility of the GHK-Cu-functionalized scaffolds."
+      ],
+      "limitations": "Results are limited to in vitro cell assays; no animal model or in vivo bone defect validation was performed in this study.",
+      "context": "GHK-Cu is established as a pro-angiogenic and osteoinductive copper peptide. This study extends prior findings by covalently incorporating GHK-Cu into injectable nanofibrous microspheres, combining structural biomimicry with dual osteogenic-angiogenic bioactivity for bone tissue engineering.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42295795",
+      "kind": "study",
+      "pmid": "42295795",
+      "doi": "10.1158/0008-5472.CAN-25-5547",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42295795/",
+      "title": "Thymosin Alpha-1 Restores Chemotherapy-Induced Antitumor Immunity by Chaperoning a MicroRNA Ligand of TLR7 in Dendritic Cells.",
+      "displayTitle": "Thymosin Alpha-1 boosts chemo-induced antitumor immunity via microRNA-TLR7 axis",
+      "authors": "Wei Y et al.",
+      "journal": "Cancer research",
+      "publishedDate": "2026-06-15",
+      "addedDate": "2026-06-21",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Mechanistic study",
+      "summary": "This study found that chemotherapy reduces circulating thymosin alpha-1 (Tα-1) in cancer patients and mice, impairing dendritic cell activation. Tα-1 acts as a microRNA chaperone protecting miR146a-5p from lysosomal degradation, enabling TLR7-driven dendritic cell maturation and CD8+ T cell antitumor responses.",
+      "keyFindings": [
+        "Chemotherapy reduced circulating Tα-1 levels in patients with multiple cancer types and tumor-bearing mice.",
+        "Tα-1 bound miR146a-5p in dendritic cell endolysosomes, shielding it from RNase A degradation.",
+        "miR146a-5p activated TLR7, licensing DC maturation, lymph node migration, and tumor antigen presentation.",
+        "Therapeutic Tα-1 supplementation synergized with chemotherapy to control established tumors in a TLR7-dependent manner."
+      ],
+      "limitations": "Results are primarily mechanistic in mouse models; direct translation to human antitumor immune responses and clinical outcomes requires further validation in human trials.",
+      "context": "Tα-1 has long been recognized as an immunomodulatory peptide used clinically as an immune adjuvant. These findings extend prior work by identifying a previously unknown mechanism — microRNA chaperoning — through which Tα-1 enhances dendritic cell licensing and antitumor immunity following chemotherapy.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
