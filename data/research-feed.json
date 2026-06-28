@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T10:27:30.253Z",
+  "lastUpdated": "2026-06-28T09:54:56.795Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -238,6 +238,350 @@
       ],
       "limitations": "As a narrative review, it is subject to selection bias in evidence synthesis and does not perform a systematic meta-analysis; conclusions on comparative efficacy rely on indirect trial comparisons.",
       "context": "Consistent with growing incretin-therapy literature, this review extends prior findings by contextualizing dulaglutide's cardiovascular outcome data against newer dual agonists, suggesting complementary rather than competitive positioning in treatment algorithms.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42364709",
+      "kind": "study",
+      "pmid": "42364709",
+      "doi": "10.1016/j.jpag.2026.06.017",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42364709/",
+      "title": "GLP-1 Receptor Agonists in Adolescents: Emerging Endocrine, Reproductive, and Psychosocial Concerns.",
+      "displayTitle": "GLP-1 agonists in adolescents raise bone, reproductive, and eating disorder concerns",
+      "authors": "Haider MA, Javed H",
+      "journal": "Journal of pediatric and adolescent gynecology",
+      "publishedDate": "2026-06-28",
+      "addedDate": "2026-06-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This commentary reviews emerging safety concerns with GLP-1 receptor agonists (including semaglutide) in adolescents, focusing on bone mass acquisition, reproductive outcomes, and eating disorder risk. While clinical trials show significant weight reduction, long-term skeletal, hormonal, and psychological effects in this population remain uncertain.",
+      "keyFindings": [
+        "Trials of liraglutide and semaglutide in adolescents show significant weight reduction without short-term effects on growth or pubertal development.",
+        "Adolescence is a critical window for peak bone mass; rapid pharmacologic weight loss may theoretically impair bone mineral accrual.",
+        "No data exist on reproductive outcomes following adolescent GLP-1 RA exposure; use is not recommended during pregnancy.",
+        "Potent appetite suppression raises concerns about misuse or exacerbation of eating disorders in adolescents."
+      ],
+      "limitations": "This is a commentary rather than a systematic review; conclusions are largely extrapolated from adult data with limited adolescent-specific evidence on long-term outcomes.",
+      "context": "GLP-1 receptor agonists are increasingly prescribed to adolescents, extending beyond adult obesity and T2DM indications. This commentary extends prior adult evidence to highlight adolescent-specific risks, consistent with growing regulatory and clinical interest in age-specific safety monitoring.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42364891",
+      "kind": "study",
+      "pmid": "42364891",
+      "doi": "10.1016/j.cca.2026.121207",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42364891/",
+      "title": "Kisspeptin-10/basal LH ratio improves differentiation of central precocious puberty and premature thelarche.",
+      "displayTitle": "Kisspeptin-10/LH ratio distinguishes central precocious puberty from premature thelarche",
+      "authors": "Banerjee AA et al.",
+      "journal": "Clinica chimica acta; international journal of clinical chemistry",
+      "publishedDate": "2026-06-27",
+      "addedDate": "2026-06-28",
+      "peptides": [
+        "Kisspeptin-10"
+      ],
+      "studyType": "Prospective observational study",
+      "summary": "This prospective study in Indian girls aged 6–9 years evaluated whether kisspeptin-10 (Kp-10), Neurokinin B, and Neuropeptide Y could differentiate idiopathic central precocious puberty (ICPP) from premature thelarche (PT). The composite Kp-10/basal LH ratio (cut-off <4.07 ng/mIU) achieved 72.7% sensitivity and 87.0% specificity, outperforming individual neuropeptide markers.",
+      "keyFindings": [
+        "Kp-10/basal LH ratio <4.07 ng/mIU distinguished ICPP from PT with 72.7% sensitivity, 87.0% specificity, and 78% accuracy.",
+        "Neither Kp-10 nor NKB alone discriminated ICPP from PT, despite both being elevated in early-puberty groups vs. controls.",
+        "All three logistic regression models showed similar AUCs (0.78–0.79); adding bone age or estradiol did not meaningfully improve discrimination.",
+        "Decision curve analysis showed net clinical benefit for the Kp-10/LH ratio over treat-all or treat-none strategies."
+      ],
+      "limitations": "Relatively small sample sizes (ICPP n=33, PT n=23) from a single country limit generalizability, and the study did not validate the cut-off in an independent cohort.",
+      "context": "Kisspeptin is a well-established upstream regulator of GnRH secretion, and elevated Kp-10 has been reported in central precocious puberty. This study extends prior findings by showing that Kp-10 alone is insufficient for diagnosis but that its ratio with basal LH appears to offer clinically actionable discrimination.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42364710",
+      "kind": "study",
+      "pmid": "42364710",
+      "doi": "10.1016/j.molmet.2026.102410",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42364710/",
+      "title": "Chronic semaglutide alters ingestive behavior without impairing taste function in mice.",
+      "displayTitle": "Chronic semaglutide causes weight loss without impairing taste in mice",
+      "authors": "Acosta AA et al.",
+      "journal": "Molecular metabolism",
+      "publishedDate": "2026-06-27",
+      "addedDate": "2026-06-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "Researchers tested whether chronic semaglutide treatment alters taste function in diet-induced obese mice using gustometer tests across five taste modalities. Despite robust weight loss, semaglutide did not impair taste sensitivity or peripheral taste cell biology, suggesting food intake reduction occurs through taste-independent mechanisms.",
+      "keyFindings": [
+        "Chronic semaglutide produced robust weight loss but did not alter lick rates for sweet, bitter, sour, salty, or fatty tastants.",
+        "Sucrose concentration-response curves and EC50 values were similar between semaglutide- and vehicle-treated mice, confirming intact sweet taste sensitivity.",
+        "Semaglutide modestly increased total licking and trial initiation for sucrose, suggesting enhanced motivational engagement, not altered taste perception.",
+        "Taste receptor cell subtypes and taste signaling gene expression in circumvallate papilla were unaffected by semaglutide treatment."
+      ],
+      "limitations": "Results are from an animal model only; translation to humans is uncertain, and the study cannot rule out subtle taste changes not captured by the gustometer paradigm.",
+      "context": "Clinical reports on whether GLP-1R agonists alter taste function have been conflicting. These findings appear consistent with the hypothesis that semaglutide reduces food intake through central motivational or satiety pathways rather than by modifying peripheral taste function.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT04677972",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT04677972",
+      "url": "https://clinicaltrials.gov/study/NCT04677972",
+      "title": "SPI-1005 for the Treatment of Meniere's Disease",
+      "displayTitle": "Phase 3 SPI-1005 (ebselen) trial for Meniere's disease posts results",
+      "authors": "Sound Pharmaceuticals, Incorporated",
+      "journal": "ClinicalTrials.gov · Sound Pharmaceuticals, Incorporated",
+      "publishedDate": "2026-06-26",
+      "addedDate": "2026-06-28",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial — Phase 3 RCT (results posted)",
+      "summary": "A randomized, double-blind, placebo-controlled Phase 3 trial tested SPI-1005 (ebselen), a glutathione peroxidase mimetic, in 254 adults with definite Meniere's disease, followed by an open-label extension. Primary endpoints included safety and changes in low-frequency hearing thresholds.",
+      "keyFindings": [
+        "Phase 3 RCT with open-label extension; n=254 adults with active Meniere's disease symptoms.",
+        "Primary endpoints: treatment-emergent adverse events and change in low-frequency pure tone audiometry thresholds.",
+        "SPI-1005 mimics glutathione peroxidase, targeting oxidative stress implicated in inner ear damage.",
+        "Trial completed and results posted; full outcome data available in the registry."
+      ],
+      "limitations": "Registry-posted results require peer-reviewed publication for full methodological scrutiny; sponsor-run trial warrants independent replication.",
+      "context": "SPI-1005 builds on earlier Phase 2 data suggesting ebselen may reduce hearing loss and tinnitus in Meniere's disease by mimicking glutathione peroxidase activity. This Phase 3 trial represents the most rigorous test of the compound to date.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT04677972",
+        "phase": "Phase 3",
+        "status": "COMPLETED",
+        "sponsor": "Sound Pharmaceuticals, Incorporated",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "254",
+        "conditions": [
+          "Meniere Disease",
+          "Ménière"
+        ],
+        "primaryOutcomes": "Incidence of Treatment-Emergent Adverse Events; Change in Low Frequency Hearing Thresholds Measured by Pure Tone Audiometry",
+        "hasResults": true
+      }
+    },
+    {
+      "id": "pmid-42361988",
+      "kind": "study",
+      "pmid": "42361988",
+      "doi": "10.1016/j.ijcard.2026.134646",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42361988/",
+      "title": "From evidence to practice: Identifying candidates for semaglutide in chronic atherosclerotic disease.",
+      "displayTitle": "Over 54% of real-world coronary patients may qualify for semaglutide",
+      "authors": "Maggioni AP et al.",
+      "journal": "International journal of cardiology",
+      "publishedDate": "2026-06-26",
+      "addedDate": "2026-06-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "Using data from two Italian prevention registries (START and BRING-UP; n=11,807), researchers assessed how many real-world cardiology patients would meet regulatory eligibility criteria for semaglutide based on the SELECT and SOUL trials, finding that 54.3% theoretically qualified.",
+      "keyFindings": [
+        "54.3% of 12,430 coronary artery disease patients met regulatory eligibility criteria for semaglutide.",
+        "42.5% of non-diabetic patients were SELECT-like (overweight/obese with established coronary disease).",
+        "97.9% of diabetic patients were SOUL-like (aged ≥50 with cardiovascular disease).",
+        "623 patients (5%) were excluded due to severe renal impairment or existing GLP-1 receptor agonist use."
+      ],
+      "limitations": "Registry populations are Italian cardiology patients only, limiting generalizability; eligibility was assessed by clinical criteria alone, not full trial inclusion/exclusion criteria.",
+      "context": "SELECT and SOUL trials demonstrated semaglutide reduces atherothrombotic events and cardiovascular mortality in coronary artery disease patients with and without diabetes; this registry analysis extends those findings by estimating real-world treatment eligibility.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42351310",
+      "kind": "study",
+      "pmid": "42351310",
+      "doi": "10.1186/s40842-026-00321-4",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42351310/",
+      "title": "From dual to quintuple agonism for next-generation pharmacology to treat obesity and type 2 diabetes: synergistic incretin and nuclear receptor signaling.",
+      "displayTitle": "GLP-1-GIP-lanifibranor conjugate outperforms semaglutide in obese mice",
+      "authors": "Santulli G",
+      "journal": "Cardiovascular diabetology. Endocrinology reports",
+      "publishedDate": "2026-06-26",
+      "addedDate": "2026-06-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "A unimolecular GLP-1R/GIPR/pan-PPAR agonist conjugate was tested in obese mouse models and produced greater reductions in body weight, adiposity, food intake, and hyperglycemia than semaglutide alone, while avoiding classical PPAR-related adverse effects.",
+      "keyFindings": [
+        "Conjugate reduced body weight, adiposity, food intake, and hyperglycemia more than semaglutide in obese mice.",
+        "PPAR-delta signaling identified as a key mediator of glycemic improvement independent of weight loss.",
+        "Unlike unconjugated lanifibranor, the conjugate did not cause anemia, fluid retention, renal dysfunction, or adipocyte differentiation.",
+        "Receptor-dependent delivery mechanism confirmed, suggesting tissue-restricted PPAR activation limits off-target exposure."
+      ],
+      "limitations": "Findings are limited to obese mouse models, and the authors themselves note substantial translational uncertainties regarding clinical efficacy, safety, and long-term applicability in humans.",
+      "context": "Semaglutide and GLP-1/GIP co-agonists are established metabolic therapies; this study extends prior findings by showing that adding targeted pan-PPAR activation to incretin receptor agonism may provide additive metabolic benefits with an improved safety profile compared to systemic PPAR agonists.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42349896",
+      "kind": "study",
+      "pmid": "42349896",
+      "doi": "10.1113/EP093298",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42349896/",
+      "title": "Circulating mitochondrial-derived microproteins at rest and in response to an acute bout of endurance exercise in individuals with cerebral palsy.",
+      "displayTitle": "MOTS-c and humanin levels appear preserved in cerebral palsy at rest and post-exercise",
+      "authors": "Horwath O et al.",
+      "journal": "Experimental physiology",
+      "publishedDate": "2026-06-25",
+      "addedDate": "2026-06-28",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This study measured circulating mitochondrial-derived microproteins (humanin, MOTS-c, SHMOOSE) in adults with cerebral palsy (CP), TD adults, and TD adolescents at rest and after 45 minutes of frame running. Despite reduced muscle mass and VO2 peak, individuals with CP showed comparable basal MDP levels and similar modest post-exercise responses to TD groups.",
+      "keyFindings": [
+        "Adults with CP had reduced muscle mass and peak oxygen uptake compared to both TD adult and adolescent groups.",
+        "Basal circulating MOTS-c, humanin, and SHMOOSE levels were comparable between CP adults and TD individuals.",
+        "MDP levels showed no or only modest changes after acute endurance exercise across all three groups.",
+        "No associations were found between MDP concentrations and CP subtype or motor impairment severity."
+      ],
+      "limitations": "Small, heterogeneous sample with only modest exercise-induced MDP changes detected, limiting statistical power to detect subtle between-group differences.",
+      "context": "MOTS-c and other mitochondrial-derived microproteins are emerging exercise-responsive signalling peptides; prior work in healthy populations suggests acute exercise can elevate circulating levels. These findings extend prior knowledge by suggesting mitochondrial-derived peptide signalling appears preserved in CP despite compromised muscle and aerobic capacity.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42350760",
+      "kind": "study",
+      "pmid": "42350760",
+      "doi": "10.1007/s42000-026-00801-3",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42350760/",
+      "title": "Papillary thyroid carcinoma discovered in a patient on semaglutide therapy for metabolic syndrome: a case presentation and review of current evidence.",
+      "displayTitle": "Papillary thyroid carcinoma found in semaglutide patient: case report and review",
+      "authors": "Haddadin J et al.",
+      "journal": "Hormones (Athens, Greece)",
+      "publishedDate": "2026-06-25",
+      "addedDate": "2026-06-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 40-year-old man on semaglutide for metabolic syndrome was incidentally found to have a 16 mm papillary thyroid carcinoma detected via CT. The authors review current evidence and conclude no causal link between semaglutide and thyroid cancer is established.",
+      "keyFindings": [
+        "A 16 mm classic papillary thyroid carcinoma was incidentally discovered in a semaglutide-treated patient via chest CT.",
+        "Fine-needle aspiration confirmed Bethesda VI (malignant); total thyroidectomy showed negative margins and no lymph node involvement.",
+        "Authors found reports of papillary thyroid carcinoma during semaglutide use to be exceedingly rare.",
+        "Current human evidence does not support a causal association between semaglutide and thyroid cancer risk."
+      ],
+      "limitations": "Single case report with incidental discovery; no causal inference possible, and prior semaglutide exposure had already been discontinued before diagnosis.",
+      "context": "Concerns about GLP-1 receptor agonists and thyroid cancer — particularly medullary thyroid carcinoma — have been raised in preclinical studies, but human epidemiological data remain inconclusive. This case appears consistent with the prevailing view that semaglutide's thyroid cancer risk in humans is not established.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42349668",
+      "kind": "study",
+      "pmid": "42349668",
+      "doi": "10.1016/j.ejpb.2026.115167",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42349668/",
+      "title": "Hydrophobic ion pairing formed semaglutide designed for oral self-microemulsifying delivery in diabetes treatment.",
+      "displayTitle": "Oral semaglutide nanoformulation lowers blood glucose in diabetic rats",
+      "authors": "Zhang Y et al.",
+      "journal": "European journal of pharmaceutics and biopharmaceutics : official journal of Arbeitsgemeinschaft fur Pharmazeutische Verfahrenstechnik e.V",
+      "publishedDate": "2026-06-25",
+      "addedDate": "2026-06-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "In vitro / Animal model — rat",
+      "summary": "Researchers developed a hydrophobic ion pair complex of semaglutide with sodium docusate loaded into a self-emulsifying drug delivery system (SD@SEDDS) to improve oral bioavailability. In diabetic rats, the 85.55 nm formulation significantly reduced blood glucose and improved lipid profiles with no observed toxicity.",
+      "keyFindings": [
+        "SD@SEDDS produced uniform 85.55 nm particles with high drug loading of 2.64 mg/g and excellent stability.",
+        "Caco-2/HT-29 co-culture studies showed enhanced intestinal permeability and reduced P-glycoprotein-mediated efflux.",
+        "In vivo diabetic rat studies showed significant blood glucose reduction and improved lipid profiles.",
+        "No observable toxicity was detected, suggesting good biocompatibility of the formulation."
+      ],
+      "limitations": "Animal model findings may not translate directly to humans; oral bioavailability was not quantitatively compared against approved oral semaglutide (Rybelsus) in the abstract.",
+      "context": "Oral delivery of GLP-1 receptor agonists like semaglutide remains challenging due to hydrophilicity and enzymatic degradation. This study extends prior work on lipid-based delivery systems by combining hydrophobic ion pairing with SEDDS, consistent with emerging strategies to improve peptide oral bioavailability.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42328738",
+      "kind": "study",
+      "pmid": "42328738",
+      "doi": "10.1039/d6an00455e",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42328738/",
+      "title": "Rapid and harmonized analytical workflow for the determination of peptidic and non-peptidic doping agents in dried and liquid blood matrices.",
+      "displayTitle": "New workflow detects 54 doping agents including BPC-157 and Kisspeptin-10 in blood",
+      "authors": "Mazzarino M et al.",
+      "journal": "The Analyst",
+      "publishedDate": "2026-06-22",
+      "addedDate": "2026-06-28",
+      "peptides": [
+        "BPC-157",
+        "Kisspeptin-10"
+      ],
+      "studyType": "Analytical/method validation study",
+      "summary": "Researchers developed a streamlined LC-HRMS method to detect 54 prohibited peptidic and non-peptidic compounds in dried blood spots, serum, and plasma using a single microextraction step. The method showed satisfactory sensitivity and stability, with key differences in analyte degradation between liquid and dried blood matrices.",
+      "keyFindings": [
+        "Single-step methanol/water microextraction enabled detection of 54 doping agents across dried and liquid blood matrices.",
+        "Kisspeptin-10 degraded extensively in serum and plasma within one week at 4°C and 22°C.",
+        "BPC-157 showed complete degradation only in serum at non-refrigerated temperatures, not in plasma or dried matrices.",
+        "All compounds remained detectable in dried blood matrices for the full study duration, supporting non-refrigerated transport."
+      ],
+      "limitations": "The study is a method validation within a doping-control context; no biological or clinical outcomes are assessed, and real-world athlete sample performance is not reported.",
+      "context": "Dried blood spot sampling has gained traction in anti-doping as a less invasive alternative to venipuncture. This study extends prior small-peptide detection work by harmonizing workflows across multiple blood matrices and demonstrating matrix-dependent stability differences for peptides like BPC-157 and Kisspeptin-10.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42324588",
+      "kind": "study",
+      "pmid": "42324588",
+      "doi": "10.1186/s41232-026-00431-7",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42324588/",
+      "title": "Mitochondrial-derived peptide MOTS-c activates metabolic signaling but blunts reparative function in human mesenchymal stromal cells.",
+      "displayTitle": "MOTS-c activates AMPK but impairs MSC repair function in obesity",
+      "authors": "Xing L et al.",
+      "journal": "Inflammation and regeneration",
+      "publishedDate": "2026-06-22",
+      "addedDate": "2026-06-28",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "In vitro and animal model — mouse",
+      "summary": "This study examined whether MOTS-c could rescue impaired mesenchymal stromal cells (MSCs) from obese donors in vitro and in a mouse renal artery stenosis model. Despite activating AMPK signaling, MOTS-c paradoxically reduced proliferation, increased senescence markers, and failed to improve kidney repair outcomes.",
+      "keyFindings": [
+        "Basal MOTS-c expression was lower in obese MSCs vs. lean MSCs.",
+        "Exogenous MOTS-c activated AMPK but increased senescence genes (p16, p21) and TNF-α in obese MSCs.",
+        "MOTS-c-pretreated obese MSCs failed to improve renal perfusion, fibrosis, or tubular injury in vivo.",
+        "MOTS-c pretreatment also blunted reparative efficacy of lean MSCs, suggesting context-dependent harm."
+      ],
+      "limitations": "Small sample size (n=6/group) and exclusively in vitro plus murine model data limit generalizability to clinical MSC therapy applications.",
+      "context": "MOTS-c is generally understood to improve metabolic function via AMPK activation. These findings challenge the assumption that restoring mitochondrial signaling is sufficient to rescue cell-based therapies, revealing a dissociation between metabolic activation and functional stemness in MSCs.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -3719,6 +4063,36 @@
       ],
       "limitations": "Pharmacovigilance databases are subject to reporting bias, confounding by indication, and underreporting, limiting causal inference about drug-induced gastric motility disorders.",
       "context": "Delayed gastric emptying is a known concern with GLP-1 receptor agonists; this large-scale pharmacovigilance analysis extends prior findings by quantifying the signal magnitude for semaglutide specifically and comparing it systematically across drug classes.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42361026",
+      "kind": "study",
+      "pmid": "42361026",
+      "doi": "10.1371/journal.pone.0348509",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42361026/",
+      "title": "High-yield recombinant production of the semaglutide main chain P29 intermediate using SNAC-tagged enterokinase-cleavable fusion peptides.",
+      "displayTitle": "New recombinant method yields >5 g/L semaglutide precursor at 98% purity",
+      "authors": "Qi Q et al.",
+      "journal": "PloS one",
+      "publishedDate": "2026-01-01",
+      "addedDate": "2026-06-28",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Mechanistic study",
+      "summary": "Researchers developed a recombinant production strategy for P29, a key semaglutide synthesis intermediate, using helical fusion pro-peptides cleaved via nickel-assisted chemical and enterokinase processing. The approach achieved yields exceeding 5 g/L of broth at 98% purity, outperforming previously reported methods.",
+      "keyFindings": [
+        "Semaglutide main chain P29 (Arg34GLP-1 9-37) produced at >5 g/L broth yield.",
+        "Purification reached 98% purity using a 2-step cleavage process.",
+        "Fusion pro-peptides containing GSHHWHHHSSGDDDDK enabled efficient nickel-assisted and enterokinase cleavage.",
+        "Platform offers improved scalability over conventional semaglutide intermediate production approaches."
+      ],
+      "limitations": "Study reports only a production/chemistry platform outcome with no biological efficacy or in vivo validation of the resulting intermediate's functional integrity.",
+      "context": "Industrial semaglutide production has been limited by low yields and high costs using conventional chemical synthesis. This recombinant biosynthetic approach appears to significantly improve manufacturing efficiency, consistent with broader efforts to develop scalable GLP-1 analog production platforms.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
