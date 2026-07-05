@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T09:54:56.795Z",
+  "lastUpdated": "2026-07-05T09:37:54.750Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -117,6 +117,66 @@
       ],
       "limitations": "Residual confounding cannot be excluded in this observational design; event counts were low and follow-up was relatively short, limiting causal interpretation.",
       "context": "GLP-1 receptor agonists like semaglutide have shown neuroprotective properties in preclinical models; this large observational study extends those findings to a potential seizure-preventive effect in humans, consistent with emerging evidence of CNS benefits beyond glycemic control.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42401898",
+      "kind": "study",
+      "pmid": "42401898",
+      "doi": "10.1186/s12890-026-04469-8",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401898/",
+      "title": "Effect of GLP-1RA on blood eosinophil levels in adults: a real-world study.",
+      "displayTitle": "Semaglutide significantly reduces blood eosinophil counts in real-world study",
+      "authors": "Wu Y et al.",
+      "journal": "BMC pulmonary medicine",
+      "publishedDate": "2026-07-04",
+      "addedDate": "2026-07-05",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This retrospective study of 371 adults in Shanghai examined blood eosinophil counts before and after semaglutide treatment. Eosinophil counts dropped significantly from 160 to 110/µL, with greater reductions in non-obese patients and those with higher baseline counts.",
+      "keyFindings": [
+        "Blood eosinophil count fell significantly from 160 to 110/µL after semaglutide treatment (P < 0.001).",
+        "Eosinophil percentage declined from 2.20% to 1.60%; proportion with counts <150/µL rose from 44% to 66%.",
+        "Non-obese patients (BMI <28) showed greater eosinophil reduction than obese patients (-31.58% vs. -21.04%).",
+        "Higher baseline eosinophil count was the only independent predictor of treatment-induced eosinophil reduction."
+      ],
+      "limitations": "Retrospective, single-center design without a control group limits causal inference; confounders such as concurrent medications or dietary changes cannot be excluded.",
+      "context": "Growing evidence suggests GLP-1 receptor agonists may have anti-inflammatory effects beyond glycemic control. This real-world study extends prior interest in GLP-1RAs for eosinophilic airway conditions, appearing consistent with mechanistic hypotheses about GLP-1RA-mediated immune modulation.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42401514",
+      "kind": "study",
+      "pmid": "42401514",
+      "doi": "10.1016/j.dld.2026.06.010",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401514/",
+      "title": "GLP-1 receptor agonists in pediatric obesity.",
+      "displayTitle": "GLP-1 agonists show meaningful efficacy and safety in pediatric obesity",
+      "authors": "Abodi M et al.",
+      "journal": "Digestive and liver disease : official journal of the Italian Society of Gastroenterology and the Italian Association for the Study of the Liver",
+      "publishedDate": "2026-07-04",
+      "addedDate": "2026-07-05",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This review examines GLP-1 receptor agonists, including semaglutide and liraglutide, for treating obesity in children and adolescents. Both agents have demonstrated clinically meaningful weight loss and cardiometabolic benefits in adolescents ≥12 years, earning FDA and EMA approvals, though long-term safety data remain limited.",
+      "keyFindings": [
+        "Liraglutide and semaglutide showed clinically meaningful efficacy in adolescents, leading to FDA and EMA approvals for patients ≥12 years.",
+        "Most common safety signals were gastrointestinal adverse events; no consistent impact on growth or pubertal development reported.",
+        "Preliminary studies suggest complementary roles for GLP-1RAs alongside metabolic bariatric surgery in high-risk pediatric patients.",
+        "Psychosocial risks, economic barriers, and disparities in access remain important considerations for pediatric use."
+      ],
+      "limitations": "As a narrative review, it may be subject to selection bias and does not provide pooled quantitative estimates; long-term pediatric safety data are acknowledged as lacking.",
+      "context": "Extends prior adult obesity evidence to pediatric populations; consistent with emerging approvals for adolescent use, but highlights that long-term pediatric safety and optimal integration into multidisciplinary care models remain areas of active investigation.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -241,6 +301,332 @@
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
+    },
+    {
+      "id": "pmid-42394899",
+      "kind": "study",
+      "pmid": "42394899",
+      "doi": "10.1002/btm2.70144",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42394899/",
+      "title": "PEGylated thymosin &#x3b2;4 is a thiol-site-specific prodrug treating myocardial infarction in vivo.",
+      "displayTitle": "PEGylated thymosin β4 prodrug improves cardiac function after myocardial infarction",
+      "authors": "Peng H et al.",
+      "journal": "Bioengineering & translational medicine",
+      "publishedDate": "2026-07-01",
+      "addedDate": "2026-07-05",
+      "peptides": [
+        "TB-500"
+      ],
+      "studyType": "Animal model — in vivo",
+      "summary": "Researchers developed a thiol-site-specific PEGylated recombinant thymosin β4 (PEG-rTβ4) prodrug and tested it in a myocardial infarction model. PEG-rTβ4 demonstrated extended circulation, reduced myocardial remodeling, restored cardiac function, promoted neoangiogenesis, and inhibited apoptosis via the Akt/Bcl-2/caspase-3 pathway.",
+      "keyFindings": [
+        "Single thiol-site-specific PEGylation of recombinant Tβ4 extended its circulation half-life compared to unmodified peptide.",
+        "PEG-rTβ4 significantly relieved myocardial remodeling and restored cardiac function in an MI model.",
+        "Treatment promoted neoangiogenesis and inhibited cardiomyocyte apoptosis via the Akt/Bcl-2/caspase-3 pathway.",
+        "Prokaryotic expression system enabled abundant, high-purity production of recombinant Tβ4 for drug development."
+      ],
+      "limitations": "The abstract does not specify the animal species, sample sizes, or provide quantitative efficacy data, limiting assessment of effect magnitude and translational relevance.",
+      "context": "Thymosin β4 has been in clinical trials for over a decade for conditions including acute MI, but no approved drug exists. This study extends prior findings on Tβ4's cardioprotective properties by addressing key druggability limitations through PEGylation, consistent with broader efforts to improve peptide therapeutics.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42385164",
+      "kind": "study",
+      "pmid": "42385164",
+      "doi": "10.1249/JSR.0000000000001353",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42385164/",
+      "title": "Effects of Supplementation in Masters Athletes and Older Adults: A Narrative Review.",
+      "displayTitle": "Peptide supplements reviewed for Masters athletes and older adults",
+      "authors": "Nguyen C et al.",
+      "journal": "Current sports medicine reports",
+      "publishedDate": "2026-07-01",
+      "addedDate": "2026-07-05",
+      "peptides": [
+        "TB-500"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review examined common supplements—including collagen, BPC-157, and thymosin-beta 4/TB-500—for improving athletic performance or musculoskeletal health in Masters athletes and adults over 55. It synthesizes available evidence on these peptides in the context of aging and physical performance.",
+      "keyFindings": [
+        "TB-500 and thymosin-beta 4 were among peptides reviewed for musculoskeletal health benefits in older athletes.",
+        "Evidence for peptide supplementation in Masters athletes (55+) appears less well-explored than in younger populations.",
+        "Review covers multiple supplement classes; peptides including BPC-157 and TB-500 are specifically addressed."
+      ],
+      "limitations": "Narrative reviews are subject to selection bias and do not quantitatively synthesize evidence; conclusions about TB-500 efficacy in older adults may be limited by sparse primary literature.",
+      "context": "TB-500 (thymosin beta-500) has been studied for tissue repair and regeneration; this review extends that context to aging athletes, a population underrepresented in peptide research, consistent with growing interest in performance supplementation for older adults.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42212632",
+      "kind": "study",
+      "pmid": "42212632",
+      "doi": "10.1111/jgh.70471",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42212632/",
+      "title": "Regarding IL-15 Plus Thymosin &#x3b1;1 Reduces Senescent Hepatic CD8+ T Cells in Hepatocellular Carcinoma via PI3K/AKT Suppression.",
+      "displayTitle": "Commentary on IL-15 plus Thymosin α1 for CD8+ T-cell senescence in liver cancer",
+      "authors": "Sengul I, Sengul D",
+      "journal": "Journal of gastroenterology and hepatology",
+      "publishedDate": "2026-07-01",
+      "addedDate": "2026-07-05",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This letter critically reappraises a study combining IL-15 and Thymosin α1 to reduce senescent CD8+ T cells in hepatocellular carcinoma, arguing that therapeutic benefit may reflect population replacement by new effectors rather than true phenotypic rejuvenation of senescent cells.",
+      "keyFindings": [
+        "Persistently low Granzyme B in terminally differentiated CD27-CD28- cells suggests efficacy is driven by new effector recruitment, not cellular rejuvenation.",
+        "Thymosin α1 may primarily work via thymic output, while IL-15 expands newly recruited non-senescent effectors.",
+        "PI3K/AKT suppression risks blunting acute metabolic fitness needed for robust immune responses in aged patients.",
+        "Authors call for broader immune landscape assessment beyond the CD8+ compartment for clinical translation."
+      ],
+      "limitations": "This is a letter/commentary, not primary research; conclusions are interpretive and based on reanalysis of another group's data without independent experimental validation.",
+      "context": "Thymosin α1 is known to enhance immune function via thymic pathways and has been studied in cancer and infectious disease contexts; this commentary extends discussion by questioning whether observed benefits in HCC reflect true immunological rejuvenation or compensatory population dynamics.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-41880199",
+      "kind": "study",
+      "pmid": "41880199",
+      "doi": "10.23736/S0022-4707.26.17773-1",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41880199/",
+      "title": "A new era of doping? Use of peptide and peptide-analog drugs in recreational and professional sport and bodybuilding: a critical review.",
+      "displayTitle": "CJC-1295, Ipamorelin, Sermorelin use in sport carries poorly defined risks",
+      "authors": "Coutinho LFD et al.",
+      "journal": "The Journal of sports medicine and physical fitness",
+      "publishedDate": "2026-07-01",
+      "addedDate": "2026-07-05",
+      "peptides": [
+        "CJC-1295",
+        "Ipamorelin",
+        "Sermorelin"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This critical review examines the growing use of peptides including Ipamorelin, CJC-1295, and Sermorelin in competitive and recreational sport. Clinical evidence supporting performance enhancement is limited, while emerging risks include cardiovascular strain, insulin resistance, and psychiatric instability.",
+      "keyFindings": [
+        "Clinical evidence for peptide use in sport is limited; most studies examine therapeutic, not supraphysiological, dosing.",
+        "Potential risks include cardiovascular strain, insulin resistance, dyslipidemia, and psychiatric instability.",
+        "Unregulated supply chains mean products are frequently mislabeled or contaminated.",
+        "WADA detection is challenged by peptides' structural similarity to endogenous hormones and short half-lives."
+      ],
+      "limitations": "As a narrative review, it is subject to selection bias and does not include a systematic search strategy; no primary data are presented.",
+      "context": "Consistent with prior concerns about GHS and GHRH analog misuse, this review extends the discussion by emphasizing the shift from AAS to peptides as performance-enhancing drugs and highlighting a critical gap in prevalence and long-term safety data.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07678073",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07678073",
+      "url": "https://clinicaltrials.gov/study/NCT07678073",
+      "title": "COMPARISON OF THE EFFECTS OF GENERAL ANESTHESIA AND COMBINED SPINAL-EPIDURAL ANESTHESIA ON FERROPTOSIS, HUMANIN, AND MOTS-C LEVELS IN RENAL TRANSPLANTATION",
+      "displayTitle": "Trial compares anesthesia types on MOTS-c and ferroptosis markers in kidney transplant",
+      "authors": "University of Gaziantep",
+      "journal": "ClinicalTrials.gov · University of Gaziantep",
+      "publishedDate": "2026-07-01",
+      "addedDate": "2026-07-05",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Trial registration — Phase NA, prospective controlled",
+      "summary": "This prospective controlled trial in 68 adult living-donor kidney transplant recipients compares sevoflurane general anesthesia versus combined spinal-epidural anesthesia, measuring perioperative changes in serum MOTS-c, humanin, and ferroptosis-related biomarkers to evaluate cytoprotective and graft-outcome effects.",
+      "keyFindings": [
+        "Phase NA, n=68, two-arm prospective controlled design; currently recruiting at University of Gaziantep.",
+        "Primary endpoint: perioperative serum levels of MOTS-c, humanin, and ferroptosis markers (GPX4, MDA, ACSL4, TFRC1, Fe).",
+        "Secondary endpoints include delayed graft function incidence, creatinine, dialysis need, urine output, and hospital stay.",
+        "Blood sampled at two timepoints: pre-induction and pre-extubation; no results posted yet."
+      ],
+      "limitations": "This is an active trial registration with no results posted; findings remain speculative until peer-reviewed data are available.",
+      "context": "MOTS-c is a mitochondrial-derived peptide with emerging evidence of cytoprotective and anti-oxidative stress roles. Its behavior during surgical ischemia-reperfusion injury in kidney transplantation has not previously been reported in a controlled anesthesia-comparison trial.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07678073",
+        "phase": "NA",
+        "status": "RECRUITING",
+        "sponsor": "University of Gaziantep",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "68",
+        "conditions": [
+          "Kidney Disease, End-Stage",
+          "Kidney Transplant",
+          "Kidney",
+          "Kidney Disease",
+          "Renal Transplant"
+        ],
+        "primaryOutcomes": "Serum ferroptosis-related biomarkers (Fe, TFRC1, GPX4, MDA, ACSL4) and mitochondrial-derived peptides (humanin and MOTS-c)",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "nct-NCT07675980",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07675980",
+      "url": "https://clinicaltrials.gov/study/NCT07675980",
+      "title": "Thymosin-α1 for Recurrent Implantation Failure",
+      "displayTitle": "Phase 2/3 RCT tests Thymosin-α1 for recurrent IVF implantation failure",
+      "authors": "Fakih IVF Fertility Center",
+      "journal": "ClinicalTrials.gov · Fakih IVF Fertility Center",
+      "publishedDate": "2026-06-30",
+      "addedDate": "2026-07-05",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Trial registration — Phase 2/3 RCT",
+      "summary": "This placebo-controlled trial at Fakih IVF Fertility Center is evaluating Thymosin-α1 (Tα1) as an immunomodulatory adjunct in 136 women with unexplained recurrent implantation failure (≥2 failed transfers with PGT-a euploid embryos), with live birth rate as the primary endpoint.",
+      "keyFindings": [
+        "Phase 2/3 RCT; n=136 women aged 18–40 with ≥2 failed euploid embryo transfers.",
+        "Tα1 administered from luteal start through 10+6 weeks' gestation vs. placebo.",
+        "Primary endpoint: live birth rate beyond 24 weeks' gestation.",
+        "Claimed to be the first placebo-controlled RCT of Tα1 in RIF with PGT-a tested embryos."
+      ],
+      "limitations": "This is an active trial registration only; no results are available, and efficacy and safety in the reproductive context remain unproven pending trial completion.",
+      "context": "Tα1 is a naturally occurring thymic peptide established in chronic infection and oncology for immune modulation. Observational data link lower maternal Tα1 levels to miscarriage and suggest roles in Th1/Th2 rebalancing and regulatory T-cell promotion, but no prior RCT evidence exists in RIF.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07675980",
+        "phase": "Phase 2/Phase 3",
+        "status": "RECRUITING",
+        "sponsor": "Fakih IVF Fertility Center",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "136",
+        "conditions": [
+          "Recurrent Implantation Faliure"
+        ],
+        "primaryOutcomes": "Live birth more than 24 weeks; Determine whether Tα1 increases live birth versus placebo.",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42379494",
+      "kind": "study",
+      "pmid": "42379494",
+      "doi": "10.1016/j.mce.2026.112854",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42379494/",
+      "title": "The kisspeptin analog C6 elicits greater tachyphylaxis and transcriptional activation than kisspeptin-10 and -54.",
+      "displayTitle": "Kisspeptin analog C6 shows stronger tachyphylaxis and gene activation than Kp-10 or Kp-54",
+      "authors": "Robert V et al.",
+      "journal": "Molecular and cellular endocrinology",
+      "publishedDate": "2026-06-30",
+      "addedDate": "2026-07-05",
+      "peptides": [
+        "Kisspeptin-10"
+      ],
+      "studyType": "In vitro",
+      "summary": "Using HEK293 cells stably expressing the human kisspeptin receptor, researchers compared the in vitro pharmacological profiles of hKp10, hKp54, and synthetic analog C6, finding that C6 produced the most sustained calcium mobilization, greatest tachyphylaxis, and strongest transcriptional responses including upregulation of inflammatory mediators.",
+      "keyFindings": [
+        "C6 produced the most sustained intracellular calcium mobilization, linked to greater depletion of intracellular calcium stores.",
+        "C6 induced the strongest transcriptional response, followed by hKp54 then hKp10, across multiple gene panels.",
+        "Immediate-early genes (IER2, EGR1, KLF10), transcription factors (NR4A1, NR4A2, NFKB1A), and inflammatory mediators (CXCL8, CXCL1, CCL2) were markedly upregulated.",
+        "A second stimulation with low-dose hKp54 increased response, while hKp10 did not show this potentiation."
+      ],
+      "limitations": "Study is limited to a single HEK293 cell overexpression system, which may not reflect endogenous receptor expression levels or physiological tissue contexts.",
+      "context": "Kisspeptin and its receptor are established regulators of reproduction and therapeutic targets in livestock and human medicine. These findings extend prior in vivo comparisons by revealing distinct in vitro pharmacological profiles, suggesting C6's prolonged signaling may carry both efficacy advantages and potential adverse inflammatory effects.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT02603081",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT02603081",
+      "url": "https://clinicaltrials.gov/study/NCT02603081",
+      "title": "Study to Evaluate SPI-1005 in Adults With Meniere's Disease",
+      "displayTitle": "Phase 2 SPI-1005 trial in Meniere's disease posts results",
+      "authors": "Sound Pharmaceuticals, Incorporated",
+      "journal": "ClinicalTrials.gov · Sound Pharmaceuticals, Incorporated",
+      "publishedDate": "2026-06-29",
+      "addedDate": "2026-07-05",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial — Phase 1/2 RCT, completed (results posted)",
+      "summary": "This randomized, double-blind, placebo-controlled Phase 1/2 trial evaluated three dose levels of SPI-1005 (ebselen, a glutathione peroxidase mimic) versus placebo over 21 days in 40 adults with Meniere's disease, assessing effects on vertigo, tinnitus, and sensorineural hearing loss.",
+      "keyFindings": [
+        "Randomized, double-blind, placebo-controlled design; n=40 adults with probable or definite Meniere's disease.",
+        "Three dose levels of oral SPI-1005 tested over 21-day treatment course with follow-up to 28 days post-treatment.",
+        "Primary endpoint was incidence of treatment-emergent adverse events; secondary endpoints included hearing, tinnitus, and vertigo measures.",
+        "Results have been posted to ClinicalTrials.gov; full published analysis not yet available in peer-reviewed literature."
+      ],
+      "limitations": "Results are registry-posted only; peer-reviewed publication with full statistical analysis and clinical interpretation is not yet confirmed.",
+      "context": "Ebselen mimics and induces glutathione peroxidase, an antioxidant enzyme that neutralizes reactive oxygen species implicated in inner ear damage. Prior preclinical and small clinical work suggested GPx-pathway modulation may protect cochlear function.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT02603081",
+        "phase": "Phase 1/Phase 2",
+        "status": "COMPLETED",
+        "sponsor": "Sound Pharmaceuticals, Incorporated",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "40",
+        "conditions": [
+          "Meniere's Disease"
+        ],
+        "primaryOutcomes": "Incidence of of Treatment-Emergent Adverse Events",
+        "hasResults": true
+      }
+    },
+    {
+      "id": "nct-NCT04483973",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT04483973",
+      "url": "https://clinicaltrials.gov/study/NCT04483973",
+      "title": "SPI-1005 Treatment in Severe COVID-19 Patients",
+      "displayTitle": "Phase 2 SPI-1005 (Ebselen) trial in severe COVID-19 posts results",
+      "authors": "Sound Pharmaceuticals, Incorporated",
+      "journal": "ClinicalTrials.gov · Sound Pharmaceuticals, Incorporated",
+      "publishedDate": "2026-06-29",
+      "addedDate": "2026-07-05",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial — Phase 2 RCT, completed (results posted)",
+      "summary": "A randomized, double-blind, placebo-controlled Phase 2 dose-escalation trial evaluated SPI-1005 (ebselen, a glutathione peroxidase mimetic) in 25 hospitalized adults with severe COVID-19 (WHO Ordinal Scale 5–7), with results now posted.",
+      "keyFindings": [
+        "Phase 2 RCT, n=25, multi-center, double-blind, placebo-controlled dose-escalation design.",
+        "Primary endpoint: number of participants with treatment-related adverse events (safety focus).",
+        "Intervention: ebselen, a synthetic glutathione peroxidase mimetic (SPI-1005), vs. matching placebo.",
+        "Trial is completed with results posted on ClinicalTrials.gov."
+      ],
+      "limitations": "Small sample size (n=25) limits statistical power; full peer-reviewed publication of results has not been confirmed.",
+      "context": "Ebselen mimics glutathione peroxidase activity and has been explored for antioxidant and anti-inflammatory effects. Severe COVID-19 is associated with oxidative stress, providing a mechanistic rationale for this intervention.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT04483973",
+        "phase": "Phase 2",
+        "status": "COMPLETED",
+        "sponsor": "Sound Pharmaceuticals, Incorporated",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "25",
+        "conditions": [
+          "Covid19",
+          "Coronavirus",
+          "Coronavirus Infection",
+          "Corona Virus Infection"
+        ],
+        "primaryOutcomes": "Number of Participants With Treatment-related Adverse Events",
+        "hasResults": true
+      }
     },
     {
       "id": "pmid-42364709",
@@ -1790,6 +2176,36 @@
       ],
       "limitations": "Animal-only study using a single inbred mouse strain and one bacterial strain; translation to human corneal infection outcomes requires further clinical investigation.",
       "context": "Prior studies showed Tβ4 adjunctive therapy reduces bacterial keratitis severity and promotes wound repair. This study extends those findings to corneal nerve regeneration and visual function recovery, two previously unexplored endpoints, consistent with Tβ4's known roles in tissue repair and anti-inflammatory signaling.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42369873",
+      "kind": "study",
+      "pmid": "42369873",
+      "doi": "10.1093/pnasnexus/pgag222",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42369873/",
+      "title": "Vanin-1 deficiency enhances host tolerance to influenza infection by modulating cellular redox status.",
+      "displayTitle": "Higher glutathione levels boost survival in lethal influenza mouse model",
+      "authors": "Joo JS et al.",
+      "journal": "PNAS nexus",
+      "publishedDate": "2026-06-01",
+      "addedDate": "2026-07-05",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "This mouse study found that vanin-1 deficiency enhanced survival after lethal influenza infection by elevating cellular glutathione levels and reducing oxidative stress, without changing viral burden or immune responses. Glutathione supplementation also protected wild-type mice, identifying antioxidant modulation as a potential therapeutic strategy.",
+      "keyFindings": [
+        "Vanin-1-deficient mice showed enhanced survival after lethal influenza without changes in viral burden or immune response.",
+        "Vanin-1 deficiency elevated glutathione levels and reduced lipid peroxidation during infection.",
+        "Pharmacological inhibition of glutathione synthesis abolished the survival advantage in vanin-1-deficient mice.",
+        "Glutathione supplementation protected wild-type mice from lethal influenza infection."
+      ],
+      "limitations": "Results are limited to a mouse model; translation to human influenza infection and clinical applicability of glutathione supplementation remain untested.",
+      "context": "Glutathione is a well-established cellular antioxidant; these findings are consistent with prior work linking oxidative stress to influenza severity, and extend it by identifying vanin-1 as an upstream regulator of glutathione-mediated host tolerance.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
