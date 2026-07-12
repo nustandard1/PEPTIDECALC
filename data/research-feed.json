@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T09:37:54.750Z",
+  "lastUpdated": "2026-07-12T09:01:23.017Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -27,6 +27,36 @@
       ],
       "limitations": "As a narrative review, findings reflect synthesis of heterogeneous trials with inconsistent outcomes and limited data in non-diabetic or high-risk populations.",
       "context": "This review consolidates emerging evidence that GLP-1RAs provide cerebrovascular protection beyond their established cardiovascular benefits in type 2 diabetes. The findings extend prior cardiovascular outcome trial data by highlighting stroke-specific risk reductions and mechanistic pathways.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42434480",
+      "kind": "study",
+      "pmid": "42434480",
+      "doi": "10.1016/j.metop.2026.100484",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42434480/",
+      "title": "Direct effects of glucagon-like Peptide-1 receptor agonists on mitochondrial function in human-derived in vitro models: A systematic review and meta-analysis.",
+      "displayTitle": "GLP-1 agonists improve mitochondrial bioenergetics and reduce oxidative stress in vitro",
+      "authors": "Greenblatt ZL et al.",
+      "journal": "Metabolism open",
+      "publishedDate": "2026-09-01",
+      "addedDate": "2026-07-12",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "This systematic review and meta-analysis of 17 human-derived in vitro studies examined whether GLP-1 receptor agonists (including semaglutide) directly affect mitochondrial function. Results showed significantly improved bioenergetics and reduced mitochondrial reactive oxygen species, though overall evidence certainty was very low.",
+      "keyFindings": [
+        "GLP-1 RAs significantly improved mitochondrial bioenergetics (SMD = 1.109, 95% CI: 0.556–1.662, P < 0.001).",
+        "Mitochondrial ROS was significantly reduced after GLP-1 RA treatment (SMD = -3.489, P = 0.034).",
+        "No significant primary effect on mitochondrial membrane potential was observed (P = 0.459).",
+        "Overall evidence certainty was very low due to heterogeneity, methodological limitations, and publication bias."
+      ],
+      "limitations": "Only 11 of 17 studies contributed quantitative data; overall evidence certainty was very low due to substantial heterogeneity, methodological limitations, and publication bias.",
+      "context": "GLP-1 receptor agonists are established treatments for Type 2 Diabetes and obesity. These findings extend prior mechanistic hypotheses by suggesting direct mitochondrial benefits independent of systemic metabolic effects, though in vitro models limit translation to whole-body physiology.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -92,6 +122,36 @@
       "trialMeta": null
     },
     {
+      "id": "pmid-42365860",
+      "kind": "study",
+      "pmid": "42365860",
+      "doi": "10.1016/j.diabres.2026.113400",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42365860/",
+      "title": "GLP-1 receptor agonists in pediatric obesity and diabetes: a systematic review of efficacy, metabolic effects, and safety.",
+      "displayTitle": "Semaglutide shows greatest BMI reduction in adolescents with obesity",
+      "authors": "Soliman AT et al.",
+      "journal": "Diabetes research and clinical practice",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-07-12",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review",
+      "summary": "This systematic review of 7 RCTs and 6 meta-analyses (901 pediatric participants aged 6–18) evaluated GLP-1 receptor agonists for pediatric obesity and type 2 diabetes. Semaglutide 2.4 mg/week produced the largest BMI reductions, while liraglutide and dulaglutide improved HbA1c in youth-onset T2DM.",
+      "keyFindings": [
+        "Semaglutide 2.4 mg/week achieved the greatest BMI reduction among GLP-1 RAs in adolescents with obesity.",
+        "Liraglutide 1.8 mg/day and dulaglutide significantly improved HbA1c vs. placebo in youth-onset T2DM.",
+        "GLP-1 RAs improved insulin resistance and modestly reduced triglycerides; LDL-cholesterol changes were minimal.",
+        "No significant adverse effects on linear growth or pubertal progression were observed; GI events were transient."
+      ],
+      "limitations": "Long-term cardiovascular safety, bone health, and growth outcomes remain unassessed; the evidence base is limited to 901 participants across relatively short trials.",
+      "context": "These findings are consistent with adult data showing semaglutide's superior weight-loss efficacy among GLP-1 RAs, and extend that evidence to pediatric populations. The review adds to growing support for GLP-1 RAs as adjunct therapies beyond metformin in children.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
       "id": "pmid-42308439",
       "kind": "study",
       "pmid": "42308439",
@@ -117,6 +177,277 @@
       ],
       "limitations": "Residual confounding cannot be excluded in this observational design; event counts were low and follow-up was relatively short, limiting causal interpretation.",
       "context": "GLP-1 receptor agonists like semaglutide have shown neuroprotective properties in preclinical models; this large observational study extends those findings to a potential seizure-preventive effect in humans, consistent with emerging evidence of CNS benefits beyond glycemic control.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42436546",
+      "kind": "study",
+      "pmid": "42436546",
+      "doi": "10.1186/s13041-026-01329-8",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42436546/",
+      "title": "Semaglutide alters behaviour and nucleus accumbens oscillatory activity in healthy mice.",
+      "displayTitle": "Semaglutide alters stress, reward behavior, and brain oscillations in healthy mice",
+      "authors": "Mosqueira A et al.",
+      "journal": "Molecular brain",
+      "publishedDate": "2026-07-11",
+      "addedDate": "2026-07-12",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "Daily semaglutide (0.1 mg/kg) was administered to healthy (non-diseased) mice, revealing changes in stress- and reward-related behaviors and altered nucleus accumbens oscillatory activity in delta, theta, and alpha frequency bands after acute dosing.",
+      "keyFindings": [
+        "Daily semaglutide altered behavior in multiple tests related to stress and reward pursuit in healthy mice.",
+        "Acute semaglutide administration changed nucleus accumbens oscillatory activity in delta, theta, and alpha bands.",
+        "Effects were observed in non-diseased brains, establishing a neurobiological baseline for semaglutide's CNS actions."
+      ],
+      "limitations": "Study is limited to healthy mice only; translation to humans is uncertain, and behavioral and electrophysiological mechanisms remain incompletely characterized.",
+      "context": "Semaglutide's metabolic and appetite-suppressing effects are well-documented, but its CNS actions in healthy individuals are less understood. These findings extend prior work by showing GLP-1 receptor activation directly modulates reward-circuit neural dynamics even without underlying metabolic disease.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42435064",
+      "kind": "study",
+      "pmid": "42435064",
+      "doi": "10.1007/s00198-026-08134-y",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42435064/",
+      "title": "Lower fall and femoral fracture risks with semaglutide and tirzepatide compared with DPP-4 inhibitors in older adults with type 2 diabetes.",
+      "displayTitle": "Semaglutide and tirzepatide cut fall and fracture risk ~50% in older diabetics",
+      "authors": "Chen HY et al.",
+      "journal": "Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA",
+      "publishedDate": "2026-07-11",
+      "addedDate": "2026-07-12",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Retrospective cohort study",
+      "summary": "This retrospective cohort study using the TriNetX database compared semaglutide and tirzepatide to DPP-4 inhibitors in adults ≥65 with type 2 diabetes and overweight/obesity. Both GLP-1-based therapies were associated with roughly 50% lower femoral fracture risk and ~34% lower fall risk over one year.",
+      "keyFindings": [
+        "Semaglutide reduced femoral fracture risk by ~51% vs. DPP-4 inhibitors (HR 0.488; 0.3% vs. 0.5%).",
+        "Tirzepatide reduced femoral fracture risk by ~55% vs. DPP-4 inhibitors (HR 0.452; 0.2% vs. 0.4%).",
+        "Fall risk was reduced ~34% with both semaglutide (HR 0.663) and tirzepatide (HR 0.664) vs. DPP-4 inhibitors.",
+        "Fracture reduction was more pronounced in patients with BMI ≥ 30 kg/m²; fall reduction was consistent across subgroups."
+      ],
+      "limitations": "Retrospective design using administrative data limits causal inference; residual confounding cannot be excluded despite propensity score matching, and fracture ascertainment relies on coding accuracy.",
+      "context": "Incretin-based therapies have been explored for musculoskeletal effects beyond glycemic control. These findings are consistent with emerging evidence that GLP-1 receptor agonists may improve balance or muscle function, extending prior smaller studies suggesting reduced fall risk with this drug class.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42434924",
+      "kind": "study",
+      "pmid": "42434924",
+      "doi": "10.1080/03007995.2026.2695047",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42434924/",
+      "title": "Tirzepatide compared with semaglutide in obesity disease: a subpopulation analysis applying Japan Society for the Study of Obesity criteria in the global SURMOUNT-5 trial.",
+      "displayTitle": "Tirzepatide beats semaglutide with 7.2% greater weight loss at 72 weeks",
+      "authors": "Kitamoto T et al.",
+      "journal": "Current medical research and opinion",
+      "publishedDate": "2026-07-11",
+      "addedDate": "2026-07-12",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Randomized controlled trial",
+      "summary": "This subpopulation analysis of the SURMOUNT-5 RCT evaluated tirzepatide vs. semaglutide in 383 participants meeting Japan's obesity disease insurance criteria. At 72 weeks, tirzepatide produced 20.1% body weight reduction versus 12.9% with semaglutide, a statistically significant 7.2-percentage-point difference.",
+      "keyFindings": [
+        "Tirzepatide reduced body weight by 20.1% vs. 12.9% with semaglutide at Week 72 (LSM difference −7.2%, p<.001).",
+        "More tirzepatide participants achieved all weight-loss thresholds: ≥10%, ≥15%, ≥20%, ≥25%, and ≥30%.",
+        "Waist circumference reductions favored tirzepatide from Week 4; BMI reductions from Week 12, sustained through Week 72.",
+        "Safety profiles were consistent with the broader SURMOUNT-5 population; gastrointestinal events were most common in both groups."
+      ],
+      "limitations": "This is a post-hoc subpopulation analysis of a global trial not designed for the Japanese obesity disease criteria, limiting generalizability and statistical power for secondary endpoints.",
+      "context": "Consistent with the overall SURMOUNT-5 findings and prior head-to-head data, tirzepatide (dual GIP/GLP-1 agonist) appears to produce meaningfully greater weight loss than semaglutide (GLP-1 agonist alone). This subgroup analysis extends those findings to a population defined by Japan's lower BMI-based obesity disease criteria.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42432129",
+      "kind": "study",
+      "pmid": "42432129",
+      "doi": "10.1007/164_2026_821",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42432129/",
+      "title": "TAAR1 as a Potential Alternate Molecular Target to GLP-1 for Novel Anti-diabetic, Anti-obesity Medications.",
+      "displayTitle": "TAAR1 receptor may rival GLP-1 agonists like semaglutide for diabetes and obesity",
+      "authors": "Lenham RK et al.",
+      "journal": "Handbook of experimental pharmacology",
+      "publishedDate": "2026-07-11",
+      "addedDate": "2026-07-12",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review examines TAAR1 as an emerging metabolic target, comparing its mechanisms to GLP-1 receptor agonists including semaglutide. Preclinical and clinical evidence suggests TAAR1 activation enhances insulin secretion and modulates reward pathways, with a potentially favorable safety profile.",
+      "keyFindings": [
+        "TAAR1 activation enhances glucose-stimulated insulin secretion, mirroring GLP-1 receptor agonist mechanisms.",
+        "TAAR1 agonism may regulate dopaminergic reward pathways relevant to obesity and addictive eating behaviors.",
+        "Mechanistic overlap with semaglutide exists, but TAAR1 may offer a more favorable metabolic safety profile.",
+        "Metabolic syndrome affects >30% of the global population, driving need for novel therapeutic targets."
+      ],
+      "limitations": "As a narrative review, it is subject to selection bias and does not include systematic evidence synthesis; conclusions about TAAR1 advantages over semaglutide remain largely preclinical.",
+      "context": "Semaglutide and other GLP-1 agonists are established treatments for T2DM and obesity; this review extends prior findings by positioning TAAR1 as a complementary or alternative target with overlapping but distinct mechanisms.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42431294",
+      "kind": "study",
+      "pmid": "42431294",
+      "doi": "10.1016/j.exer.2026.111162",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42431294/",
+      "title": "Understanding the effects of ciprofloxacin on corneal epithelial cells: a study using electric cell-substrate impedance sensing (ECIS) technology.",
+      "displayTitle": "Thymosin Beta-4 partially offsets ciprofloxacin toxicity in corneal cells",
+      "authors": "Banga L et al.",
+      "journal": "Experimental eye research",
+      "publishedDate": "2026-07-10",
+      "addedDate": "2026-07-12",
+      "peptides": [
+        "TB-500"
+      ],
+      "studyType": "In vitro",
+      "summary": "This in vitro study used electric cell-substrate impedance sensing (ECIS) to examine ciprofloxacin's effects on corneal epithelial cells alone and combined with thymosin beta-4 (Tβ4). Ciprofloxacin caused concentration-dependent cytotoxicity and disrupted cell monolayer integrity, while Tβ4 improved wound healing and barrier function but did not fully counteract the antibiotic's damage.",
+      "keyFindings": [
+        "Ciprofloxacin produced biphasic effects: early impedance changes within 24 hours, then significant monolayer disruption.",
+        "Cytotoxic and apoptotic signaling effects were concentration-dependent, confirmed by Western blot.",
+        "Thymosin beta-4 improved wound healing and barrier function but did not fully mitigate ciprofloxacin's disruptive effects.",
+        "Findings caution against ciprofloxacin use where corneal epithelial integrity and wound healing are critical."
+      ],
+      "limitations": "In vitro model only; results may not fully translate to the complex in vivo ocular environment or clinical ciprofloxacin dosing scenarios.",
+      "context": "Thymosin beta-4 has previously shown wound-healing and cytoprotective properties in ocular surface models. This study extends prior findings by demonstrating Tβ4's partial protective role against antibiotic-induced corneal epithelial toxicity, consistent with its known pro-healing mechanisms.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42432542",
+      "kind": "study",
+      "pmid": "42432542",
+      "doi": "10.1186/s12886-026-05122-y",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42432542/",
+      "title": "Partially reversible bilateral non-arteritic anterior ischemic optic neuropathy and branch retinal artery occlusion following semaglutide use. a case report.",
+      "displayTitle": "Semaglutide linked to bilateral vision loss, partially reversing after stopping drug",
+      "authors": "Alsakran WA et al.",
+      "journal": "BMC ophthalmology",
+      "publishedDate": "2026-07-10",
+      "addedDate": "2026-07-12",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 37-year-old obese male developed bilateral non-arteritic anterior ischemic optic neuropathy (NA-AION) and unilateral branch retinal artery occlusion after 11 months of semaglutide use. Visual acuity partially recovered and disc swelling improved markedly within one month of discontinuing the drug.",
+      "keyFindings": [
+        "Patient developed bilateral optic disc swelling and BRAO after 11 months of semaglutide; right eye BCVA dropped to 6/200.",
+        "One month after stopping semaglutide, right eye BCVA improved to 20/30 and left eye to 20/20.",
+        "Bilateral disc swelling showed marked improvement following semaglutide discontinuation, suggesting partial reversibility.",
+        "Case raises concern about semaglutide's potential association with ischemic optic neuropathy in otherwise healthy individuals."
+      ],
+      "limitations": "Single case report with no control; causal attribution cannot be confirmed, and the 37-year-old had obesity which itself carries vascular risk.",
+      "context": "This report extends a growing body of case reports and regulatory signals linking GLP-1 receptor agonists, particularly semaglutide, to NA-AION. It appears consistent with prior reports but adds the co-occurrence of BRAO and notable partial reversibility upon drug discontinuation.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42432224",
+      "kind": "study",
+      "pmid": "42432224",
+      "doi": "10.1038/s44325-026-00146-1",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42432224/",
+      "title": "Semaglutide cardiovascular outcomes align more closely with attained dose than achieved weight loss.",
+      "displayTitle": "Semaglutide cardiovascular benefits tied to dose, not weight loss",
+      "authors": "Murugadoss K et al.",
+      "journal": "NPJ cardiovascular health",
+      "publishedDate": "2026-07-10",
+      "addedDate": "2026-07-12",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "A retrospective U.S. EHR study of 12,519 cardiovascular disease patients found that higher maximum semaglutide dose—not achieved weight loss—was strongly associated with reduced all-cause mortality and composite cardiovascular events over two years.",
+      "keyFindings": [
+        "Higher semaglutide dose reduced all-cause mortality risk by 58% (RR 0.42) and composite CV events by 49% (RR 0.51).",
+        "Achieved weight loss was not significantly associated with mortality (P=0.14) or composite cardiovascular events (P=0.55).",
+        "Weight loss was associated with HbA1c and blood pressure improvements, suggesting metabolic benefits are weight-mediated but CV benefits are not.",
+        "Transcriptomic data showed high GLP1R expression in cardiomyocytes and cardiac endothelial cells, supporting direct cardiac mechanisms."
+      ],
+      "limitations": "Retrospective observational design limits causal inference; residual confounding, channeling bias, and lack of randomization remain important caveats despite propensity matching.",
+      "context": "Prior randomized trials (SELECT, LEADER) established GLP-1 agonist cardiovascular benefits, but debated whether effects were weight-dependent. This large real-world analysis extends prior findings by suggesting direct dose-dependent, weight-independent cardiac mechanisms.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42426564",
+      "kind": "study",
+      "pmid": "42426564",
+      "doi": "10.1111/dom.71094",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42426564/",
+      "title": "Efficacy and Safety of SGLT2 Inhibitors and GLP-1 Receptor Agonists on Ventricular Arrhythmias and Cardiovascular Events: A Disease-Stratified Network Meta-Analysis.",
+      "displayTitle": "Network meta-analysis compares GLP-1 agonists and SGLT2 inhibitors on arrhythmia risk",
+      "authors": "Sun WT et al.",
+      "journal": "Diabetes, obesity & metabolism",
+      "publishedDate": "2026-07-09",
+      "addedDate": "2026-07-12",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Meta-analysis",
+      "summary": "This network meta-analysis of 32 RCTs (140,156 participants) compared SGLT2 inhibitors and GLP-1 receptor agonists on ventricular arrhythmias and cardiovascular outcomes in T2DM and/or heart failure patients. Most agents did not significantly increase arrhythmia risk; semaglutide had a cautionary fracture signal requiring careful interpretation.",
+      "keyFindings": [
+        "Most SGLT2 inhibitors and GLP-1 receptor agonists did not significantly increase ventricular arrhythmia risk.",
+        "Empagliflozin showed an exploratory signal for lower VA risk in T2DM (OR 0.31, 95% CI 0.11–0.86).",
+        "SGLT2 inhibitors consistently reduced hospitalization for heart failure across both T2DM and HF networks.",
+        "A semaglutide fracture signal was identified but must be interpreted cautiously due to non-uniform adverse-event reporting."
+      ],
+      "limitations": "Evidence networks were largely placebo-centered with few closed loops, making between-drug comparisons heavily dependent on the transitivity assumption; adverse-event reporting was non-uniform across trials.",
+      "context": "GLP-1 receptor agonists including semaglutide have established cardiovascular benefits; this analysis extends prior findings by examining arrhythmia endpoints and appears consistent with the generally favorable or neutral cardiovascular safety profile of this drug class.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42419889",
+      "kind": "study",
+      "pmid": "42419889",
+      "doi": "10.1136/bmjopen-2026-120740",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42419889/",
+      "title": "Tesamorelin as an Adjunct to Exercise for Improving Physical Function in HIV (TRIUMPH): a clinical trial protocol.",
+      "displayTitle": "Tesamorelin plus exercise tested in frail older HIV patients — RCT protocol",
+      "authors": "Erlandson KM et al.",
+      "journal": "BMJ open",
+      "publishedDate": "2026-07-08",
+      "addedDate": "2026-07-12",
+      "peptides": [
+        "Tesamorelin"
+      ],
+      "studyType": "Randomized controlled trial (protocol)",
+      "summary": "TRIUMPH is a 100-participant, double-blind RCT examining whether tesamorelin combined with a home-based exercise program improves physical function, muscle quality, and mitochondrial function in frail or pre-frail older adults (50–80 years) living with HIV over 24 weeks, with a 24-week independent exercise extension.",
+      "keyFindings": [
+        "Two-site, double-blind RCT enrolling 100 sedentary, frail or pre-frail older adults with HIV and excess abdominal adiposity.",
+        "Primary endpoints include physical function, muscle content/quality, and quality of life at Weeks 24 and 48.",
+        "Biological endpoints include muscle fat infiltration and mitochondrial function assessed at Week 24.",
+        "24-week intervention phase followed by a 24-week independent exercise extension to assess sustained effects."
+      ],
+      "limitations": "This is a trial protocol, not a results paper; no efficacy or safety outcomes are yet available from this study.",
+      "context": "Tesamorelin is an approved GHRH analogue known to reduce visceral adiposity in HIV. TRIUMPH extends prior work by combining it with exercise to target physical frailty, a growing concern in aging HIV-positive populations.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -468,6 +799,36 @@
         "primaryOutcomes": "Serum ferroptosis-related biomarkers (Fe, TFRC1, GPX4, MDA, ACSL4) and mitochondrial-derived peptides (humanin and MOTS-c)",
         "hasResults": false
       }
+    },
+    {
+      "id": "pmid-42433972",
+      "kind": "study",
+      "pmid": "42433972",
+      "doi": "10.14309/crj.0000000000002232",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42433972/",
+      "title": "D&#xe9;j&#xe0; vu! A Case of Recurrent Metabolic Dysfunction-Associated Steatohepatitis 70 Days After Liver Transplantation.",
+      "displayTitle": "Semaglutide aids rapid MASH recurrence reversal 70 days post-liver transplant",
+      "authors": "Still M et al.",
+      "journal": "ACG case reports journal",
+      "publishedDate": "2026-07-01",
+      "addedDate": "2026-07-12",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 40-year-old woman developed ultra-rapid MASH recurrence with >95% steatohepatitis just 10 weeks after liver transplantation. Multimodal intervention including semaglutide led to histologic improvement, reducing steatosis from >95% to 30% with resolution of ballooning and biochemical normalization.",
+      "keyFindings": [
+        "MASH recurred within 70 days posttransplant, far earlier than the typical months-to-years timeframe.",
+        "Corticosteroid treatment for acute cellular rejection accelerated steatohepatitis progression to >95% within 6 days.",
+        "Multimodal intervention including semaglutide reduced steatosis from >95% to 30% with ballooning resolved.",
+        "Sustained biochemical normalization was achieved, suggesting early metabolic intervention is feasible posttransplant."
+      ],
+      "limitations": "Single case report with no control or comparator; the individual contribution of semaglutide versus other multimodal interventions cannot be determined.",
+      "context": "MASH recurrence post-liver transplant occurs in 11–24% of recipients but rarely this early. This case extends emerging evidence that GLP-1 receptor agonists like semaglutide may benefit MASH, and appears consistent with their known metabolic and hepatoprotective effects, though posttransplant use adds complexity.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
     },
     {
       "id": "nct-NCT07675980",
