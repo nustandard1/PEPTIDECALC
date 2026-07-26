@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T09:05:33.366Z",
+  "lastUpdated": "2026-07-26T09:10:48.688Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -32,6 +32,36 @@
       "trialMeta": null
     },
     {
+      "id": "pmid-42495930",
+      "kind": "study",
+      "pmid": "42495930",
+      "doi": "10.1080/01443615.2026.2701996",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42495930/",
+      "title": "Comparison of lifestyle, surgery, and semaglutide for weight management in endometrial cancer: a prospective observational study.",
+      "displayTitle": "Semaglutide vs. surgery vs. lifestyle for weight loss in endometrial cancer",
+      "authors": "Wei Y et al.",
+      "journal": "Journal of obstetrics and gynaecology : the journal of the Institute of Obstetrics and Gynaecology",
+      "publishedDate": "2026-12-01",
+      "addedDate": "2026-07-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This prospective observational study compared semaglutide, sleeve gastrectomy, and a structured lifestyle program (DEAR) in 53 endometrial cancer patients undergoing fertility-sparing treatment. The DEAR program showed the best 2-year weight maintenance and the highest complete tumor remission rate (85%), while semaglutide achieved 73.9% remission but more frequent weight regain.",
+      "keyFindings": [
+        "Sleeve gastrectomy produced the greatest 1-year BMI reduction vs. semaglutide (difference: 4.04 kg/m²) and DEAR (2.12 kg/m²).",
+        "By 2 years, weight regain occurred in 55.6% of semaglutide patients vs. 14.3% in the DEAR group (p=0.037).",
+        "Complete tumor remission rates: DEAR 85.0%, semaglutide 73.9%, sleeve gastrectomy 60.0%.",
+        "DEAR program showed the most stable metabolic improvements across both time points."
+      ],
+      "limitations": "Very small sample sizes per group (n=10–23) and non-randomized design limit generalizability and introduce substantial selection bias.",
+      "context": "Semaglutide is increasingly used for obesity-related comorbidities in oncology settings. This study extends prior findings on GLP-1 agonists for weight loss by comparing semaglutide directly to surgical and lifestyle interventions in an endometrial cancer population, suggesting lifestyle support may offer more durable metabolic benefits.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
       "id": "pmid-42434480",
       "kind": "study",
       "pmid": "42434480",
@@ -57,6 +87,36 @@
       ],
       "limitations": "Only 11 of 17 studies contributed quantitative data; overall evidence certainty was very low due to substantial heterogeneity, methodological limitations, and publication bias.",
       "context": "GLP-1 receptor agonists are established treatments for Type 2 Diabetes and obesity. These findings extend prior mechanistic hypotheses by suggesting direct mitochondrial benefits independent of systemic metabolic effects, though in vitro models limit translation to whole-body physiology.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42398811",
+      "kind": "study",
+      "pmid": "42398811",
+      "doi": "10.1016/j.trsl.2026.07.001",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42398811/",
+      "title": "GLP-1 receptor agonists in ADPKD: from metabolic rationale to phenotype-enriched translational testing.",
+      "displayTitle": "GLP-1 agonists explored as metabolic candidates for polycystic kidney disease",
+      "authors": "Corr&#xea;a LMA et al.",
+      "journal": "Translational research : the journal of laboratory and clinical medicine",
+      "publishedDate": "2026-09-01",
+      "addedDate": "2026-07-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This review synthesizes mechanistic, human, and trial-design evidence to assess whether GLP-1 receptor agonists, including semaglutide, could address metabolic and adiposity-related pathways driving progression heterogeneity in autosomal dominant polycystic kidney disease (ADPKD), a condition currently limited to vasopressin V2-receptor antagonism.",
+      "keyFindings": [
+        "Metabolic reprogramming, mitochondrial dysfunction, obesity, and visceral adiposity may modify cyst growth and eGFR decline in ADPKD.",
+        "Direct semaglutide data in Pkd1 animal models provide early translational support for GLP-1 receptor agonist use.",
+        "GLP-1 agonists are proposed as orthogonal metabolic candidates, not mechanistic surrogates for tolvaptan.",
+        "The field is at an early translational stage; GLP-1 therapy should not yet be considered a treatment for ADPKD."
+      ],
+      "limitations": "Evidence remains incomplete and largely preclinical or observational; causal and therapeutic certainty for GLP-1 agonists in ADPKD has not been established from clinical trials.",
+      "context": "ADPKD management has been anchored to tolvaptan, but disease progression heterogeneity signals residual unmet need. This review extends prior interest in metabolic modifiers of ADPKD by synthesizing emerging semaglutide preclinical data and framing a phenotype-enriched clinical trial rationale.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -150,6 +210,304 @@
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
+    },
+    {
+      "id": "pmid-42499082",
+      "kind": "study",
+      "pmid": "42499082",
+      "doi": "10.1097/MD.0000000000049916",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42499082/",
+      "title": "Therapeutic role of semaglutide in metabolic dysfunction-associated steatotic liver disease and metabolic dysfunction-associated steatohepatitis: A systematic review and meta-analysis of placebo-controlled trials with GRADE evidence assessment.",
+      "displayTitle": "Semaglutide doubles NASH resolution likelihood but doesn't improve fibrosis",
+      "authors": "Khan S et al.",
+      "journal": "Medicine",
+      "publishedDate": "2026-07-24",
+      "addedDate": "2026-07-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review & meta-analysis",
+      "summary": "This systematic review and meta-analysis of placebo-controlled RCTs evaluated subcutaneous semaglutide in adults with NAFLD/NASH. Semaglutide significantly improved liver enzymes, resolved NASH without fibrosis progression, and produced meaningful metabolic benefits, but did not significantly improve fibrosis stage.",
+      "keyFindings": [
+        "Semaglutide more than doubled NASH resolution without fibrosis progression (RR = 2.14, 95% CI 1.44–3.17).",
+        "AST was significantly reduced (MD = -6.72 U/L) and body weight fell by ~7% versus placebo.",
+        "HbA1c improved substantially (MD = -1.29%) with semaglutide versus placebo.",
+        "Fibrosis stage improvement was not statistically significant (RR = 1.14; P = .67); GI adverse events were more frequent."
+      ],
+      "limitations": "Limited number of eligible RCTs with heterogeneous populations and follow-up durations; fibrosis analysis likely underpowered to detect meaningful differences.",
+      "context": "Semaglutide's GLP-1 receptor agonism has established metabolic and weight-loss benefits; this meta-analysis extends prior single-trial findings by pooling evidence, suggesting consistent histologic benefit for steatohepatitis resolution but uncertainty around antifibrotic effects consistent with the broader GLP-1 agonist literature.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42497473",
+      "kind": "study",
+      "pmid": "42497473",
+      "doi": "10.1016/j.schres.2026.06.025",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42497473/",
+      "title": "Effects of glucagon-like peptide-1 receptor agonists on metabolic outcomes in antipsychotic-treated patients with schizophrenia: A systematic review and meta-analysis.",
+      "displayTitle": "GLP-1 agonists cut weight by 6.5 kg in schizophrenia patients on antipsychotics",
+      "authors": "Sobral MVS et al.",
+      "journal": "Schizophrenia research",
+      "publishedDate": "2026-07-24",
+      "addedDate": "2026-07-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "This systematic review and meta-analysis of 8 randomized clinical trials (523 participants) evaluated GLP-1 receptor agonists in antipsychotic-treated schizophrenia patients, finding significant reductions in body weight, BMI, waist circumference, and HbA1c compared to placebo or standard care.",
+      "keyFindings": [
+        "GLP-1RAs reduced body weight by a mean of 6.47 kg (95% CI: -9.61 to -3.32) vs. placebo/standard care.",
+        "BMI fell by 2.83 units and waist circumference by 5.35 cm; HbA1c dropped by 0.32%.",
+        "Semaglutide showed the largest weight reduction; exenatide's reduction was smaller and non-significant.",
+        "No significant effects on fasting insulin, lipids, or blood pressure; gastrointestinal adverse events more frequent with GLP-1RAs."
+      ],
+      "limitations": "Only 8 trials with 523 participants were available; subgroup analyses by individual agent (including semaglutide) were exploratory and likely underpowered.",
+      "context": "Antipsychotic-induced metabolic dysfunction is a major clinical burden in schizophrenia. These findings are consistent with prior evidence of GLP-1RA efficacy for weight and glycemic control in general populations, and extend it specifically to this high-risk psychiatric group.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07724067",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07724067",
+      "url": "https://clinicaltrials.gov/study/NCT07724067",
+      "title": "GLUT-F Improves MASLD Liver Function",
+      "displayTitle": "Glutathione-containing nutraceutical GLUT-F tested in MASLD crossover trial",
+      "authors": "University of Bari",
+      "journal": "ClinicalTrials.gov · University of Bari",
+      "publishedDate": "2026-07-23",
+      "addedDate": "2026-07-26",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Phase NA, crossover RCT (completed, no results posted)",
+      "summary": "This completed randomized, double-blind, placebo-controlled crossover trial (n=42) evaluated GLUT-F — a formulation combining glutathione, silibinin-enriched silymarin, and vitamin E — versus placebo over two 3-month periods in adults with metabolic dysfunction-associated steatotic liver disease (MASLD).",
+      "keyFindings": [
+        "Crossover design: 42 adults with MASLD received GLUT-F and placebo for 3 months each, separated by 1-month washout.",
+        "Primary endpoint: change in hepatic steatosis grade assessed by ultrasonography and hepatorenal index.",
+        "Secondary endpoints included liver enzymes, HOMA-IR, lipid profile, inflammatory markers, and ¹³C-methacetin breath test function.",
+        "Trial is completed but no results have been posted to the registry."
+      ],
+      "limitations": "No results have been posted; findings from this registry entry cannot be used to draw conclusions about efficacy or safety of GLUT-F or glutathione in MASLD.",
+      "context": "Glutathione's antioxidant properties have been studied in liver disease contexts; GLUT-F combines it with silymarin and vitamin E using Enterosoma® bioavailability technology, representing a novel multi-component nutraceutical approach to MASLD management.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07724067",
+        "phase": "NA",
+        "status": "COMPLETED",
+        "sponsor": "University of Bari",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "42",
+        "conditions": [
+          "MASLD (Metabolic Dysfunction-Associated Steatotic Liver Disease)"
+        ],
+        "primaryOutcomes": "Liver steatosis grade",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42493728",
+      "kind": "study",
+      "pmid": "42493728",
+      "doi": "10.1007/s11739-026-04468-x",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42493728/",
+      "title": "Impact of semaglutide on cognitive function in patients with type 2 diabetes and mild cognitive impairment: a 24-month observational study.",
+      "displayTitle": "Semaglutide linked to improved cognition and less dementia progression in T2DM",
+      "authors": "Cassataro G et al.",
+      "journal": "Internal and emergency medicine",
+      "publishedDate": "2026-07-23",
+      "addedDate": "2026-07-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This 24-month prospective observational study of 72 adults with type 2 diabetes and mild cognitive impairment found that semaglutide treatment was associated with a median +4-point MoCA improvement and zero progression to dementia, compared with a -1.5-point decline and 14 dementia cases in 60 untreated controls.",
+      "keyFindings": [
+        "MoCA scores improved by a median of ~+4 points with semaglutide vs. -1.5 in controls at 24 months (p<0.001).",
+        "No semaglutide-treated patient progressed to dementia versus 14 of 60 controls (p=0.002).",
+        "DSST (processing speed) and BDI (depression) scores also improved significantly with semaglutide.",
+        "Semaglutide independently predicted +4.76-point MoCA improvement in multivariable regression (p<0.001)."
+      ],
+      "limitations": "Non-randomized observational design with a non-matched control cohort limits causal inference; confounding by indication and lifestyle factors cannot be excluded.",
+      "context": "GLP-1 receptor agonists have shown cardiovascular and metabolic benefits, and preclinical data suggest neuroprotective mechanisms. This study extends emerging human evidence that semaglutide may slow neurocognitive decline in high-risk diabetic populations.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42493207",
+      "kind": "study",
+      "pmid": "42493207",
+      "doi": "10.1136/bmjopen-2026-118191",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42493207/",
+      "title": "Semaglutide for prevention of type 2 diabetes in women with postpartum prediabetes after gestational diabetes: protocol for a Belgian multicentre double-blind randomised placebo-controlled trial.",
+      "displayTitle": "Semaglutide RCT targets postpartum prediabetes after gestational diabetes",
+      "authors": "Vanlaer Y et al.",
+      "journal": "BMJ open",
+      "publishedDate": "2026-07-23",
+      "addedDate": "2026-07-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Randomized controlled trial",
+      "summary": "The SERENA trial is a Belgian multicentre RCT testing once-weekly semaglutide 1 mg vs. placebo in 252 women with postpartum prediabetes following gestational diabetes, over 160 weeks of treatment, with T2DM development as the primary outcome.",
+      "keyFindings": [
+        "252 women randomised 1:1 to semaglutide 1 mg subcutaneously once weekly or placebo plus lifestyle intervention.",
+        "Treatment duration is up to 160 weeks (~3 years), with total follow-up of 184 weeks.",
+        "Primary outcome is progression to T2DM per American Diabetes Association criteria.",
+        "Secondary outcomes include normoglycaemia regression, beta-cell function, cardiometabolic risk, and cost-effectiveness."
+      ],
+      "limitations": "This is a protocol paper; no efficacy or safety results are available yet, and findings will not be known until study completion.",
+      "context": "GLP-1 receptor agonists like semaglutide improve glycaemia and reduce T2DM risk in high-risk populations; this trial extends that work to a specific high-risk postpartum population where lifestyle interventions have limited efficacy.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42489869",
+      "kind": "study",
+      "pmid": "42489869",
+      "doi": "10.1007/s40618-026-02989-y",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42489869/",
+      "title": "Advances in proteomics research related to semaglutide: evidence from humans and animals.",
+      "displayTitle": "Semaglutide proteomics review reveals metabolic and multi-tissue pathway changes",
+      "authors": "Jia Q et al.",
+      "journal": "Journal of endocrinological investigation",
+      "publishedDate": "2026-07-23",
+      "addedDate": "2026-07-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review",
+      "summary": "This systematic review synthesized 16 studies examining semaglutide-associated protein expression changes across human, animal, and in vitro models. Recurring proteomic signals included fatty acid metabolism, mitochondrial function, PPAR signaling, and extracellular matrix remodeling across multiple organ systems.",
+      "keyFindings": [
+        "16 studies included: 4 population-based, 12 animal/in vitro; tissues spanned serum, adipose, myocardium, kidney, hippocampus, and skeletal muscle.",
+        "PPAR signaling, oxidative phosphorylation, and fatty acid metabolism were the most frequently identified altered pathways.",
+        "ECM remodeling, complement/inflammatory pathways, and mTORC1 signaling appeared in multiple studies.",
+        "Proteomic changes spanned metabolic, cardiovascular, hepatic, pulmonary, renal, and nervous systems."
+      ],
+      "limitations": "Only 16 studies included, with small sample sizes, high subject heterogeneity, and divergent proteomic platforms, limiting reproducibility and clinical translatability of findings.",
+      "context": "Semaglutide's pleiotropic effects beyond glycemic control are increasingly recognized; this review extends prior mechanistic work by systematically mapping proteomic signatures across tissues, consistent with emerging evidence of broad cardiometabolic and anti-inflammatory actions.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42486853",
+      "kind": "study",
+      "pmid": "42486853",
+      "doi": "10.1038/s41467-026-73370-z",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42486853/",
+      "title": "AI digital pathology as a key tool providing in-depth understanding of the progression and regression of MASH and fibrosis in male mouse models.",
+      "displayTitle": "AI pathology reveals semaglutide's differential effects on MASH liver features in mice",
+      "authors": "Saigal A et al.",
+      "journal": "Nature communications",
+      "publishedDate": "2026-07-22",
+      "addedDate": "2026-07-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "This study used an AI-driven digital pathology pipeline to characterize diet-induced MASH and fibrosis in male mice and evaluate three treatments, including semaglutide (GLP-1RA). AI analysis revealed differential effects of semaglutide on macrosteatosis, microsteatosis, and colocalized fibrosis beyond what standard histology captures.",
+      "keyFindings": [
+        "Semaglutide, resmetirom, and MK-4074 showed differential effects on macrosteatosis, microsteatosis, and colocalized fibrosis.",
+        "AI-digital pathology uncovered previously unknown temporal events in MASH progression emphasizing inflammation-dysmetabolism interplay.",
+        "Granuloma morphometric characteristics showed distinct correlation with fibrosis progression.",
+        "Zone-specific spatial analysis enabled more granular therapeutic assessment than traditional histology alone."
+      ],
+      "limitations": "Results are limited to male mouse models, restricting generalizability to female animals and humans; AI-DP pipeline validation in clinical settings was not assessed.",
+      "context": "Semaglutide (GLP-1RA) has shown efficacy in MASH clinical trials; this study extends prior findings by applying AI-driven spatial pathology to preclinical mouse models, providing finer mechanistic resolution of its hepatic effects.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42486217",
+      "kind": "study",
+      "pmid": "42486217",
+      "doi": "10.1016/j.biopsych.2026.07.010",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42486217/",
+      "title": "Therapeutic Potential of Incretin-Based Therapies for Alcohol Use Disorder - A narrative review of available clinical evidence.",
+      "displayTitle": "GLP-1 receptor agonists show promise for reducing alcohol use disorder",
+      "authors": "Klausen MK, Fink-Jensen A",
+      "journal": "Biological psychiatry",
+      "publishedDate": "2026-07-22",
+      "addedDate": "2026-07-26",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review synthesizes clinical and preclinical evidence on GLP-1 receptor agonists (including semaglutide) as treatments for alcohol use disorder. Three randomized controlled trials, registry studies, and observational data consistently show reduced alcohol consumption, particularly in individuals with overweight or obesity.",
+      "keyFindings": [
+        "Only three RCTs have tested GLP-1RAs in AUD, all showing reductions in alcohol cue brain reactivity and consumption.",
+        "Benefits were most pronounced in individuals with overweight or obesity.",
+        "Large registry studies and target trial emulations consistently associate GLP-1RA use with reduced alcohol intake.",
+        "Proposed mechanisms include modulation of reward circuitry, incentive salience, gastric emptying, and metabolic signaling."
+      ],
+      "limitations": "Evidence base is limited to only three RCTs in AUD; remaining data are largely observational or anecdotal, and long-term randomized trials are still needed.",
+      "context": "Consistent with a growing preclinical and clinical literature, this review extends prior findings suggesting GLP-1RAs reduce addictive behaviors beyond their established metabolic indications, positioning them as a mechanistically novel AUD treatment candidate.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07717866",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07717866",
+      "url": "https://clinicaltrials.gov/study/NCT07717866",
+      "title": "Trifecta Research Study",
+      "displayTitle": "Observational study combines ibogaine, 5-MeO-DMT, and ipamorelin for veteran PTSD",
+      "authors": "Axial Therapeutic Research",
+      "journal": "ClinicalTrials.gov · Axial Therapeutic Research",
+      "publishedDate": "2026-07-21",
+      "addedDate": "2026-07-26",
+      "peptides": [
+        "Ipamorelin"
+      ],
+      "studyType": "Trial registration — Observational, active not recruiting",
+      "summary": "This observational study in ~52 Special Operations Forces veterans with treatment-resistant PTSD and TBI-related cognitive symptoms evaluates a multi-intervention program including ibogaine-magnesium, 5-MeO-DMT, magnetic e-resonance therapy, and physiological supplementation (which includes ipamorelin) on PTSD and cognitive outcomes.",
+      "keyFindings": [
+        "Observational design, n≈52 SOF veterans; active, not recruiting; no results posted yet.",
+        "Ipamorelin is one component of 'Physiological Supplementation,' alongside testosterone, gonadorelin, and nutrients.",
+        "Primary endpoints: PCL-5 PTSD symptom scale and MOS Cognitive Functioning Scale at 3-month follow-up.",
+        "Two sequenced intervention arms differ in order of MeRT vs. ibogaine/5-MeO-DMT, with PS preceding both."
+      ],
+      "limitations": "No results have been posted; ipamorelin is only one component of a multi-drug regimen, making its individual contribution impossible to isolate from this design.",
+      "context": "Ipamorelin, a growth hormone secretagogue, is included as part of a broader endocrine-restoration protocol. Its isolated contribution cannot be assessed here; prior evidence for ipamorelin in PTSD or TBI is minimal.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07717866",
+        "phase": "",
+        "status": "ACTIVE NOT RECRUITING",
+        "sponsor": "Axial Therapeutic Research",
+        "studyType": "OBSERVATIONAL",
+        "enrollment": "52",
+        "conditions": [
+          "PTSD - Post Traumatic Stress Disorder",
+          "Cognitive Dysfunction",
+          "Brain Injury",
+          "Depression - Major Depressive Disorder",
+          "Suicidal Ideation"
+        ],
+        "primaryOutcomes": "PTSD Checklist for Diagnostic and Statistical Manual (DSM)-5 (PCL-5); Medical Outcomes Study Cognitive Functioning Scale (MOS-CF)",
+        "hasResults": false
+      }
     },
     {
       "id": "pmid-42471364",
@@ -1226,6 +1584,37 @@
       ],
       "limitations": "Single case report with no control or comparator; the individual contribution of semaglutide versus other multimodal interventions cannot be determined.",
       "context": "MASH recurrence post-liver transplant occurs in 11–24% of recipients but rarely this early. This case extends emerging evidence that GLP-1 receptor agonists like semaglutide may benefit MASH, and appears consistent with their known metabolic and hepatoprotective effects, though posttransplant use adds complexity.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42487660",
+      "kind": "study",
+      "pmid": "42487660",
+      "doi": "10.1002/ccr3.73183",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42487660/",
+      "title": "Hypersensitivity Reaction to Tirzepatide With Demonstrated Tolerance to Semaglutide: A Case Report.",
+      "displayTitle": "Tirzepatide hypersensitivity resolved by switching to semaglutide",
+      "authors": "Nejat C et al.",
+      "journal": "Clinical case reports",
+      "publishedDate": "2026-07-01",
+      "addedDate": "2026-07-26",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 25-year-old woman developed angioedema and urticaria after her first 10 mg tirzepatide dose, confirmed by positive intradermal testing. She subsequently tolerated semaglutide without recurrence, demonstrating drug-specific rather than class-wide hypersensitivity.",
+      "keyFindings": [
+        "Hypersensitivity emerged at 10 mg tirzepatide after 3 months of uneventful dose escalation from 2.5–7.5 mg.",
+        "Intradermal tirzepatide at 1:10 dilution produced an 8 mm wheal/8 mm flare; percutaneous testing was negative.",
+        "Intradermal semaglutide testing was negative; supervised 0.25 mg subcutaneous challenge was well tolerated.",
+        "Patient successfully continued semaglutide under endocrinology oversight with no recurrence of hypersensitivity."
+      ],
+      "limitations": "Single case report limits generalizability; the specific antigenic determinant (GLP-1 vs. GIP component vs. excipient) causing tirzepatide hypersensitivity was not identified.",
+      "context": "Hypersensitivity to GLP-1 receptor agonists is rarely reported. This case extends prior findings by demonstrating that tirzepatide-specific reactions may not preclude use of other GLP-1RAs, consistent with structurally distinct mechanisms of sensitization.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
