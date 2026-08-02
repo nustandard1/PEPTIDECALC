@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T09:10:48.688Z",
+  "lastUpdated": "2026-08-02T09:08:36.567Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -210,6 +210,381 @@
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
+    },
+    {
+      "id": "pmid-42404628",
+      "kind": "study",
+      "pmid": "42404628",
+      "doi": "10.1016/j.mtbio.2026.103396",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42404628/",
+      "title": "Copper peptide activated cascade catalysis for glucose regulation and hypoxia reversing in infected diabetic wound healing.",
+      "displayTitle": "GHK-Cu hydrogel boosts diabetic wound healing via glucose-to-oxygen cascade",
+      "authors": "Huang ZJ et al.",
+      "journal": "Materials today. Bio",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-02",
+      "peptides": [
+        "GHK-Cu"
+      ],
+      "studyType": "In vitro / preclinical study",
+      "summary": "Researchers designed a GOX-loaded hydrogel incorporating GHK-Cu to simultaneously reduce wound hyperglycemia and reverse hypoxia in diabetic wounds. In vitro and likely preclinical testing showed the system provides antibacterial, antioxidant, tissue repair, and angiogenesis benefits through a copper-catalyzed cascade reaction.",
+      "keyFindings": [
+        "GHK-Cu copper ions catalyze H₂O₂ decomposition (CAT-like reaction), releasing oxygen to reverse wound hypoxia.",
+        "GOX oxidizes glucose, lowering local hyperglycemia and starving microbes without inducing antimicrobial resistance.",
+        "Gel@GHK-Cu/GOX hydrogel demonstrated antibacterial activity, antioxidant capacity, angiogenesis stimulation, and tissue repair promotion.",
+        "The cascade system concurrently addresses two major diabetic wound barriers: hyperglycemia and hypoxia."
+      ],
+      "limitations": "Full in vivo validation details and control group comparisons are not described in the abstract, limiting assessment of translational relevance.",
+      "context": "GHK-Cu is known to promote wound healing, angiogenesis, and anti-inflammatory responses. This study extends prior findings by exploiting GHK-Cu's copper ion chemistry as a catalytic component in a glucose-regulating cascade, a novel mechanistic application.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42542232",
+      "kind": "study",
+      "pmid": "42542232",
+      "doi": "10.1016/j.freeradbiomed.2026.08.002",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42542232/",
+      "title": "Semaglutide ameliorates traumatic sepsis-induced cardiac injury by activating the March5-ACSL4 axis to suppress ferroptosis.",
+      "displayTitle": "Semaglutide protects heart from sepsis injury via March5-ACSL4 ferroptosis pathway",
+      "authors": "Sun B et al.",
+      "journal": "Free radical biology & medicine",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-02",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — rat",
+      "summary": "In a rat model of post-traumatic septic myocardial dysfunction and in primary cardiomyocytes, semaglutide reduced cardiac ferroptosis by upregulating the mitochondrial E3 ubiquitin ligase March5, which in turn suppressed ACSL4-driven lipid peroxidation and iron-dependent cell death.",
+      "keyFindings": [
+        "Semaglutide upregulated March5 and reduced ACSL4 accumulation, attenuating ferroptotic injury in cardiomyocytes.",
+        "siRNA silencing of March5 completely abolished semaglutide's anti-ferroptotic and cytoprotective effects.",
+        "PT-SIMD rat hearts showed elevated ACSL4, reduced GPX4/FSP1, and 4-HNE accumulation, confirming ferroptosis.",
+        "4D-DIA proteomics identified March5 as significantly downregulated in septic myocardial dysfunction."
+      ],
+      "limitations": "Findings are limited to a rat injury model and primary neonatal cardiomyocytes; translation to human septic myocardial dysfunction requires clinical validation.",
+      "context": "GLP-1 receptor agonists like semaglutide have shown cardioprotective properties in prior work, but the mechanism in septic cardiac injury was unclear. This study extends prior findings by linking semaglutide's action to a novel ferroptosis-suppression pathway via mitochondrial ubiquitin ligase March5.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42541759",
+      "kind": "study",
+      "pmid": "42541759",
+      "doi": "10.1093/ejendo/lvag135",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42541759/",
+      "title": "Safety of glucagon-like peptide-1 receptor agonists in neuroendocrine neoplasms.",
+      "displayTitle": "GLP-1 receptor agonists: conflicting evidence on neuroendocrine tumor risk",
+      "authors": "Rajan LT et al.",
+      "journal": "European journal of endocrinology",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-02",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review evaluates GLP-1 receptor expression across endocrine tissues and summarizes preclinical and clinical evidence on GLP-1 receptor agonist use and neuroendocrine neoplasm risk. Available data from retrospective studies, trials, and cancer registries are conflicting and do not support a generalized increase in neuroendocrine neoplasms.",
+      "keyFindings": [
+        "GLP-1 receptors are expressed in both normal endocrine tissues and neuroendocrine tumors, including pancreatic and small intestinal NETs.",
+        "Preclinical studies show GLP-1 agonists have proliferative effects in pancreatic and small intestinal NET cell lines.",
+        "Retrospective studies, RCTs, and cancer registries provide conflicting data; no generalized NEN risk increase confirmed.",
+        "Some epidemiological studies report survival benefits with GLP-1RA use; evidence gaps remain, especially for MEN1 patients."
+      ],
+      "limitations": "Review relies on conflicting retrospective and registry data with no long-term prospective studies using NENs as a primary clinical endpoint; significant evidence gaps remain.",
+      "context": "The black-box warning against GLP-1RAs in medullary thyroid carcinoma and MEN2 stems from rodent C-cell proliferation data. This review extends prior concerns to broader NEN subtypes, finding the clinical evidence remains inconclusive and does not universally support prohibition.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42541628",
+      "kind": "study",
+      "pmid": "42541628",
+      "doi": "10.1007/s11906-026-01380-9",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42541628/",
+      "title": "MASLD and Cardiovascular Risk: Mechanisms and Implications for Clinical Practice.",
+      "displayTitle": "Semaglutide offers dual liver and heart benefits in MASLD review",
+      "authors": "Li S et al.",
+      "journal": "Current hypertension reports",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-02",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review examines the cardiovascular risks associated with metabolic dysfunction-associated steatotic liver disease (MASLD), covering epidemiology, biomarkers, and treatments including semaglutide. It finds that liver fibrosis stage is the strongest predictor of cardiovascular outcomes, and that semaglutide offers combined hepatic and cardiometabolic benefits.",
+      "keyFindings": [
+        "MASLD affects 38% of adults globally; cardiovascular disease is the leading cause of death across all disease stages.",
+        "Liver fibrosis stage is the strongest independent predictor of cardiovascular outcomes, conferring up to a 2.5-fold increase in events.",
+        "Semaglutide and resmetirom offer dual hepatic and cardiometabolic benefits in MASLD patients.",
+        "Whether improving liver disease directly reduces cardiovascular events remains uncertain despite promising therapies."
+      ],
+      "limitations": "As a narrative review, it does not conduct a systematic search or meta-analysis, limiting the strength of conclusions about treatment efficacy and causality.",
+      "context": "Semaglutide's cardiometabolic benefits are well-established in diabetes and obesity; this review extends that context to MASLD, where fibrosis-driven cardiovascular risk is underappreciated and fibrosis-based stratification is absent from standard cardiovascular risk models.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42541373",
+      "kind": "study",
+      "pmid": "42541373",
+      "doi": "10.1177/00333549261464876",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42541373/",
+      "title": "Ability of Adults to Correctly Use Grey Market Peptide Semaglutide GLP-1 Receptor Agonists Acquired Without a Prescription.",
+      "displayTitle": "Untrained adults completed only 44% of steps correctly using grey-market semaglutide",
+      "authors": "Sedensky A et al.",
+      "journal": "Public health reports (Washington, D.C. : 1974)",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-02",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational study",
+      "summary": "This observational study assessed 20 adults' ability to self-administer unprescribed compounded semaglutide using only internet guidance. Participants correctly completed only 44% of 34 required steps, with errors posing risks of incorrect dosing, needle sticks, and infection.",
+      "keyFindings": [
+        "Participants completed only 15 of 34 required steps correctly (mean 44%).",
+        "Errors included those that could cause incorrect dosing, needle sticks, or infections.",
+        "Confidence remained low before and after the demonstration (2.3 vs 1.9 on a 5-point scale; p=.19).",
+        "Grey-market semaglutide websites provided no supplies or injection guidance to purchasers."
+      ],
+      "limitations": "Very small, non-diverse sample (n=20) drawn from a single university setting limits generalizability; results may not reflect broader or more experienced populations.",
+      "context": "This study extends growing safety concerns about compounded and grey-market GLP-1 receptor agonists by quantifying procedural errors in a real-world simulation, consistent with prior regulatory warnings about unsupervised use of compounded semaglutide products.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42487666",
+      "kind": "study",
+      "pmid": "42487666",
+      "doi": "10.1210/jendso/bvag149",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42487666/",
+      "title": "Personalization of incretin therapy: can GLP-1 and GIP receptor polymorphisms influence therapy response?",
+      "displayTitle": "GLP-1 and GIP receptor variants may predict semaglutide and tirzepatide response",
+      "authors": "La Vignera S, Condorelli RA",
+      "journal": "Journal of the Endocrine Society",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-02",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Systematic review",
+      "summary": "This systematic review examines how genetic polymorphisms in GLP1R and GIPR receptors influence therapeutic responses to incretin-based therapies, including semaglutide and tirzepatide, in type 2 diabetes and obesity. Key variants modulate receptor signaling, HbA1c reduction, weight loss, and side-effect risk.",
+      "keyFindings": [
+        "GLP1R variants rs6923761 and rs10305492 alter receptor signaling, affecting HbA1c reduction and weight loss with GLP-1RAs.",
+        "GIPR rs1800437 (Glu354Gln), present in ~20% of Europeans, increases nausea/vomiting risk with tirzepatide (OR 1.83).",
+        "Allele frequencies differ significantly across European, East Asian, and African populations, complicating universal pharmacogenomic guidelines.",
+        "Italian and Mediterranean cohort-specific pharmacogenomic data remain limited, highlighting a gap for precision therapy."
+      ],
+      "limitations": "Literature search extends only through May 2026, Italian-specific genetic data are sparse, and no original clinical trial data were generated, limiting actionable clinical conclusions.",
+      "context": "Interindividual variability in GLP-1RA and dual agonist responses has been a known clinical challenge; this review extends prior findings by systematically linking specific GLP1R and GIPR polymorphisms to differential efficacy and tolerability outcomes, consistent with emerging pharmacogenomics research in this class.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42456704",
+      "kind": "study",
+      "pmid": "42456704",
+      "doi": "10.1016/S2215-0366(26)00172-0",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42456704/",
+      "title": "Association of GLP-1 receptor agonists with alcohol use disorder-related and substance use disorder-related hospital admissions during treatment and after discontinuation: a Swedish register-based within-individual observational study.",
+      "displayTitle": "GLP-1 agonists linked to 39–45% fewer substance use hospitalizations in diabetics",
+      "authors": "Bach P et al.",
+      "journal": "The lancet. Psychiatry",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-02",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort — within-individual",
+      "summary": "This Swedish register-based within-individual study of 167,026 type 2 diabetes patients found that GLP-1 receptor agonist treatment was associated with significantly lower rates of alcohol use disorder and substance use disorder hospitalizations; the protective effect on alcohol use disorder persisted up to 182 days after discontinuation but faded by days 183–364.",
+      "keyFindings": [
+        "GLP-1 exposure associated with 45% lower alcohol use disorder hospitalization rate (RR 0.55, 95% CI 0.43–0.70) vs. unexposed periods.",
+        "GLP-1 exposure associated with 39% lower substance use disorder hospitalization rate (RR 0.61, 95% CI 0.50–0.74).",
+        "Alcohol use disorder rate reduction persisted 1–182 days post-discontinuation (RR 0.70) but not at 183–364 days (RR 1.07).",
+        "DPP-4 inhibitors showed no consistent hospitalization rate reductions, suggesting a GLP-1-specific effect."
+      ],
+      "limitations": "Observational design cannot establish causality; ethnicity data were unavailable; hospitalization is a coarse outcome that may undercount milder substance use events; only type 2 diabetes patients included, limiting generalizability.",
+      "context": "Consistent with prior preclinical and emerging clinical evidence that GLP-1 receptor agonists may reduce cravings and consumption across multiple substances. This study extends prior findings by examining outcomes after discontinuation, a previously unstudied question.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42366332",
+      "kind": "study",
+      "pmid": "42366332",
+      "doi": "10.1007/s40123-026-01425-x",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42366332/",
+      "title": "GLP-1 Receptor Agonists and the Ocular Surface: A Narrative Review of Restoration, Remodeling, and Clinical Implications.",
+      "displayTitle": "GLP-1 agonists may restore ocular surface biology but remodel periocular structure",
+      "authors": "Bair H et al.",
+      "journal": "Ophthalmology and therapy",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-02",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review examines GLP-1 receptor agonist effects on the ocular surface, framing evidence around a proposed 'metabolic surface unit.' Preclinical data suggest lacrimal gland restoration and corneal nerve regeneration, while emerging human data hint at periocular volume loss and structural remodeling.",
+      "keyFindings": [
+        "Liraglutide preclinical studies showed reduced lacrimal gland inflammation, improved tear secretion, corneal epithelial migration, and nerve regeneration.",
+        "Semaglutide in aged mice suggested lacrimal structural rescue by attenuating senescence-associated inflammatory, oxidative, and fibrotic programs.",
+        "Retrospective human diabetic cohorts showed lower rates of dry eye disease and superficial keratitis in GLP-1RA users.",
+        "Oculoplastic studies suggest periocular volume loss, brow descent, and dermatochalasis potentially altering blink mechanics and tear distribution."
+      ],
+      "limitations": "Human evidence is largely observational and retrospective; mechanistic support for periocular remodeling is weaker than for lacrimal-corneal restoration, and no guideline-level evidence exists.",
+      "context": "Most prior ophthalmic reviews of GLP-1RAs focus on posterior segment or neuro-ophthalmic disease; this review extends attention to the anterior/ocular surface, consistent with growing interest in metabolic drug effects on non-traditional target organs.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42345739",
+      "kind": "study",
+      "pmid": "42345739",
+      "doi": "10.1002/oby.70246",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42345739/",
+      "title": "Real-World Effectiveness of Semaglutide and Tirzepatide Compared With Bariatric Surgery.",
+      "displayTitle": "Bariatric surgery outperforms semaglutide and tirzepatide for weight loss at 3 years",
+      "authors": "Brown A et al.",
+      "journal": "Obesity (Silver Spring, Md.)",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-02",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Observational cohort — retrospective",
+      "summary": "This retrospective two-center study of 44,025 adults with BMI ≥35 compared real-world weight loss from semaglutide, tirzepatide, sleeve gastrectomy, and gastric bypass over 3 years. Bariatric surgery produced substantially greater total weight loss than either GLP-1 receptor agonist at all time points.",
+      "keyFindings": [
+        "Gastric bypass achieved ~29.8% total weight loss at 1 year vs. 9.1% for tirzepatide and 5.4% for semaglutide.",
+        "Sleeve gastrectomy produced ~24.4% weight loss at 1 year, roughly 2.5× greater than tirzepatide.",
+        "With 1 year of continuous GLP-1RA use, tirzepatide reached 11.7–11.9% and semaglutide 7.2–8.8% total weight loss.",
+        "Bariatric surgery maintained significantly greater weight loss advantage through all 3 years of follow-up."
+      ],
+      "limitations": "Retrospective two-center design limits generalizability; GLP-1RA discontinuation rates likely reduced medication effectiveness compared to controlled trial conditions.",
+      "context": "Consistent with prior randomized and observational data showing bariatric surgery produces greater weight loss than GLP-1 agonists, this large real-world study extends those findings to tirzepatide and confirms the surgery advantage persists at 3 years.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42339050",
+      "kind": "study",
+      "pmid": "42339050",
+      "doi": "10.3892/br.2026.2165",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42339050/",
+      "title": "Semaglutide and major adverse cardiovascular events in patients with and without DM: A systematic review and meta-analysis.",
+      "displayTitle": "Semaglutide cuts major cardiovascular events by 32% across 25,000 patients",
+      "authors": "Li Y et al.",
+      "journal": "Biomedical reports",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-02",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "This systematic review and meta-analysis of 11 RCTs (25,067 participants) found semaglutide reduced major adverse cardiovascular events by 32% versus placebo or active control, with consistent results across diabetic and non-diabetic populations, though GI adverse effects and limited demographic diversity remain concerns.",
+      "keyFindings": [
+        "Semaglutide reduced major adverse cardiovascular events by 32% (pooled OR=0.68; 95% CI 0.52–0.91) with low heterogeneity.",
+        "Greater cardiovascular benefit was seen in patients with lower body weight, LDL, and total cholesterol.",
+        "GI disorder risk was 47% higher (RR=1.47); gallbladder events were 137% higher (RR=2.37) with semaglutide.",
+        "Seven of 11 trials enrolled ≥75% White patients; no trials included low-income country populations."
+      ],
+      "limitations": "Generalizability is substantially limited by racial homogeneity (≥75% White in 7/11 trials) and complete exclusion of low-income country populations.",
+      "context": "These findings are consistent with and extend prior individual cardiovascular outcome trials (e.g., SUSTAIN-6, SELECT) suggesting GLP-1 receptor agonists provide cardiovascular protection; the pooled estimate across diverse populations and doses strengthens confidence in the effect.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42309121",
+      "kind": "study",
+      "pmid": "42309121",
+      "doi": "10.1016/S2213-8587(26)00030-6",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42309121/",
+      "title": "1-year outcomes of semaglutide, tirzepatide, and sleeve gastrectomy in obesity in type 2 diabetes: a retrospective cohort study.",
+      "displayTitle": "Sleeve gastrectomy outperforms tirzepatide and semaglutide at 1 year in obese T2D patients",
+      "authors": "Leslie DB et al.",
+      "journal": "The lancet. Diabetes & endocrinology",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-02",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Retrospective cohort study",
+      "summary": "This large US retrospective cohort study compared 1-year weight and glycaemic outcomes among 45,093 adults with obesity and type 2 diabetes treated with semaglutide, tirzepatide, or sleeve gastrectomy. Sleeve gastrectomy achieved the highest composite outcome rate (≥20% weight loss + HbA1c <5.7%), followed by tirzepatide, then semaglutide.",
+      "keyFindings": [
+        "Adjusted probability of achieving ≥20% weight loss and HbA1c <5.7%: sleeve gastrectomy 24.0%, tirzepatide 13.2%, semaglutide 3.0%.",
+        "Tirzepatide was over 4× more likely than semaglutide to achieve the composite weight and glycaemic target at 1 year.",
+        "Emergency department visits within 1 year were more frequent after sleeve gastrectomy than after either pharmacological treatment.",
+        "New prescriptions for GERD and nausea occurred in all groups but were most frequent after sleeve gastrectomy."
+      ],
+      "limitations": "Retrospective design with residual confounding; sleeve gastrectomy patients had higher baseline BMI and younger age, potentially inflating surgical outcomes; safety assessment scope was limited.",
+      "context": "These real-world findings are broadly consistent with clinical trial data showing tirzepatide produces greater weight loss than semaglutide, and extend prior work by directly comparing both agents to bariatric surgery in a type 2 diabetes population.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07477275",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07477275",
+      "url": "https://clinicaltrials.gov/study/NCT07477275",
+      "title": "Combination of Oral and Topical Whitening Agents for Reducing Skin Pigmentation",
+      "displayTitle": "Oral plus topical glutathione combination tested for skin dark spots",
+      "authors": "USMARI Research & Innovation Centre",
+      "journal": "ClinicalTrials.gov · USMARI Research & Innovation Centre",
+      "publishedDate": "2026-07-31",
+      "addedDate": "2026-08-02",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Phase NA, completed (no results posted)",
+      "summary": "This completed trial evaluated the safety and efficacy of combined oral glutathione supplementation and topical glutathione serum for reducing skin pigmentation in 68 healthy Malaysian women aged 30–60 with Fitzpatrick skin types III–V.",
+      "keyFindings": [
+        "N=68 healthy women with hyperpigmentation (freckles, solar lentigines, post-inflammatory) enrolled.",
+        "Intervention: combined oral supplement and topical serum containing glutathione.",
+        "Primary endpoints: skin spot reduction and overall skin brightening assessment.",
+        "Trial completed; no results posted to registry."
+      ],
+      "limitations": "No results have been posted to the registry; trial design phase is unspecified and blinding details are unclear, limiting assessment of evidence quality.",
+      "context": "Glutathione is widely used in Asia as an oral and topical skin-brightening agent; it inhibits melanin synthesis via tyrosinase inhibition. Prior small studies suggest modest brightening effects, but robust RCT data combining oral and topical routes remain limited.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07477275",
+        "phase": "NA",
+        "status": "COMPLETED",
+        "sponsor": "USMARI Research & Innovation Centre",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "68",
+        "conditions": [
+          "Dark Spots"
+        ],
+        "primaryOutcomes": "Skin spots assessment; Skin brightening assessment",
+        "hasResults": false
+      }
     },
     {
       "id": "pmid-42499082",
