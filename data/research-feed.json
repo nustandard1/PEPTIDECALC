@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T09:08:36.567Z",
+  "lastUpdated": "2026-08-09T07:47:32.975Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -117,6 +117,303 @@
       ],
       "limitations": "Evidence remains incomplete and largely preclinical or observational; causal and therapeutic certainty for GLP-1 agonists in ADPKD has not been established from clinical trials.",
       "context": "ADPKD management has been anchored to tolvaptan, but disease progression heterogeneity signals residual unmet need. This review extends prior interest in metabolic modifiers of ADPKD by synthesizing emerging semaglutide preclinical data and framing a phenotype-enriched clinical trial rationale.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42550908",
+      "kind": "study",
+      "pmid": "42550908",
+      "doi": "10.1073/pnas.2614476123",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42550908/",
+      "title": "AgRP neurons are required for the weight-lowering effects of GLP-1 receptor agonists in female mice.",
+      "displayTitle": "AgRP neurons are required for semaglutide's weight-loss effects in female mice",
+      "authors": "d'&#xc1;vila M et al.",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "publishedDate": "2026-08-11",
+      "addedDate": "2026-08-09",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "This mouse study found that AgRP neurons in the arcuate nucleus are required for the full weight-lowering effects of GLP-1 receptor agonists, including semaglutide, contrary to the prevailing assumption that these drugs suppress or bypass AgRP activity. Disrupting AgRP circuit integrity reduced GLP-1RA efficacy, with effects varying by sex, diet, and disruption method.",
+      "keyFindings": [
+        "AgRP neuron loss-of-function reduced the full weight-lowering effects of GLP-1RAs in female mice.",
+        "GLP-1RA treatment increased markers of neuronal activation, mitochondrial engagement, and synaptic remodeling in AgRP neurons.",
+        "A glucocorticoid-to-AgRP signaling axis was identified as a key pathway mediating AgRP neuron recruitment.",
+        "The requirement for AgRP neurons varied with sex, diet, and mode of AgRP disruption."
+      ],
+      "limitations": "Findings are from female mice only (sex-dependent effects noted), limiting direct translation to males or humans without further study.",
+      "context": "This study challenges the prevailing assumption that GLP-1 receptor agonists suppress AgRP neuron activity. Instead, it appears GLP-1RAs functionally recruit AgRP neurons to sustain weight loss, revealing an unexpected mechanistic role for these hunger-promoting neurons in pharmacologically induced negative energy balance.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42570682",
+      "kind": "study",
+      "pmid": "42570682",
+      "doi": "10.1016/j.ijpharm.2026.127291",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42570682/",
+      "title": "Microfluidic-assisted formulation of hydrophobic ion pairing-Based solid lipid nanoparticles for semaglutide delivery.",
+      "displayTitle": "Lipid nanoparticles boost oral semaglutide permeability ~6-fold in vitro",
+      "authors": "Arduino I et al.",
+      "journal": "International journal of pharmaceutics",
+      "publishedDate": "2026-08-08",
+      "addedDate": "2026-08-09",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "In vitro",
+      "summary": "Researchers developed solid lipid nanoparticles (SLNs) using hydrophobic ion pairing with the cationic lipid DOTAP to improve oral semaglutide delivery. The optimized formulation achieved near-complete encapsulation, gastrointestinal stability, and a ~6-fold increase in epithelial permeability across Caco-2 monolayers compared to free semaglutide.",
+      "keyFindings": [
+        "Optimal formulation (semaglutide:DOTAP 1:18, 10% w/w) produced particles <300 nm with near-complete encapsulation efficiency.",
+        "F10 formulation showed good stability under simulated gastrointestinal conditions and sustained drug release.",
+        "Apparent permeability through Caco-2 monolayers increased ~6-fold versus free semaglutide.",
+        "Formulation interacted strongly with mucus while retaining ability to diffuse through the mucin network."
+      ],
+      "limitations": "Results are limited to in vitro cell and physicochemical models; no animal pharmacokinetic or bioavailability data are presented to confirm in vivo translation.",
+      "context": "Oral delivery of semaglutide is limited by poor GI stability and low epithelial permeability; this study extends prior lipid nanoparticle and ion-pairing strategies by combining microfluidic manufacturing with DOTAP-mediated complexation, consistent with growing efforts to improve peptide oral bioavailability.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42570075",
+      "kind": "study",
+      "pmid": "42570075",
+      "doi": "10.1007/s10620-026-10171-w",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42570075/",
+      "title": "Impact of GLP-1 Analogue Therapy on Gastrointestinal Outcomes in Patients with Irritable Bowel Syndrome: A Real-World TriNetX Analysis.",
+      "displayTitle": "GLP-1 agonists linked to fewer IBS symptoms in real-world study",
+      "authors": "Khan SA et al.",
+      "journal": "Digestive diseases and sciences",
+      "publishedDate": "2026-08-08",
+      "addedDate": "2026-08-09",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Retrospective cohort study",
+      "summary": "This retrospective cohort study used the TriNetX network to compare GI outcomes in ~6,665 IBS patients who initiated GLP-1 receptor agonists (including semaglutide and tirzepatide) versus matched controls. GLP-1 users showed significantly lower rates of chronic diarrhea, constipation, abdominal pain, and bloating across IBS subtypes.",
+      "keyFindings": [
+        "GLP-1 users had lower chronic diarrhea rates (8.9% vs. 10.6%) and abdominal pain (31.6% vs. 35.8%) versus controls (p<0.001).",
+        "Chronic constipation was also reduced: 19.8% vs. 22.0% in the GLP-1 group versus non-GLP-1 group.",
+        "Abdominal bloating/distension was lower in GLP-1 users: 8.3% vs. 10.9% (p<0.001).",
+        "Benefits were observed in both IBS-D and IBS-C subtypes, especially for abdominal pain and bloating."
+      ],
+      "limitations": "Observational design with ICD-10 coded outcomes limits causal inference; residual confounding and coding inaccuracies in electronic health records may bias results.",
+      "context": "GLP-1 receptor agonists are known to modulate gastrointestinal motility and visceral sensitivity; these findings are consistent with mechanistic hypotheses but extend prior limited evidence into a large real-world IBS population.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42567173",
+      "kind": "study",
+      "pmid": "42567173",
+      "doi": "10.1016/S2213-8587(26)00134-8",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42567173/",
+      "title": "Effect of semaglutide on kidney outcomes in the SELECT, FLOW, and SOUL trials: a prespecified pooled analysis.",
+      "displayTitle": "Semaglutide cuts major kidney outcomes by 16% across 30,000 patients",
+      "authors": "Mann JFE et al.",
+      "journal": "The lancet. Diabetes & endocrinology",
+      "publishedDate": "2026-08-07",
+      "addedDate": "2026-08-09",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Pooled analysis — 3 RCTs",
+      "summary": "A prespecified pooled analysis of participant-level data from three large RCTs (SELECT, FLOW, SOUL; N=30,787) found that semaglutide reduced a composite kidney outcome — including severe eGFR decline, kidney failure, and cardiovascular death — by 16% versus placebo over roughly 3–4 years.",
+      "keyFindings": [
+        "Semaglutide reduced the primary kidney composite (HR 0.84, 95% CI 0.77–0.91) versus placebo across 30,787 participants.",
+        "A narrower kidney-only composite (excluding CV death) was also reduced (HR 0.80, 95% CI 0.69–0.92).",
+        "Benefits were observed regardless of diabetes status, baseline characteristics, or semaglutide dose/route (oral or injectable).",
+        "Serious adverse events were numerically lower with semaglutide; safety profile was consistent with other GLP-1 receptor agonist trials."
+      ],
+      "limitations": "Differences in baseline characteristics, semaglutide dose, and route of administration across the three trials may limit direct comparability; the study was funded by Novo Nordisk.",
+      "context": "This analysis extends prior findings from the individual FLOW trial (which showed semaglutide's renal protection in CKD) to a broader cardio-kidney-metabolic population including people without diabetes, suggesting semaglutide's kidney benefit appears to extend beyond glycaemic or weight-loss effects alone.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07162623",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07162623",
+      "url": "https://clinicaltrials.gov/study/NCT07162623",
+      "title": "Clinical Study to Assess Safety, Efficacy and In-Use Tolerability of Oziva Bioactive Gluta Fizzy Effervescent Tablets on Subjects With Facial Dark Spots Such as Pimple Marks, Sunspots, Age Spots and Uneven Skin Tone",
+      "displayTitle": "Glutathione effervescent tablet RCT targets facial hyperpigmentation in Indian adults",
+      "authors": "NovoBliss Research Pvt Ltd",
+      "journal": "ClinicalTrials.gov · NovoBliss Research Pvt Ltd",
+      "publishedDate": "2026-08-06",
+      "addedDate": "2026-08-09",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial — Phase N/A RCT, completed (no results posted)",
+      "summary": "A randomized, double-blind, placebo-controlled trial in 60 Indian adults (Fitzpatrick types III–VI) evaluating oral glutathione effervescent tablets (Oziva Bioactive Gluta Fizzy) for reducing facial dark spots and uneven skin tone over 12 weeks.",
+      "keyFindings": [
+        "Phase N/A, n=60 (30 per arm), 1:1 randomization to glutathione or placebo effervescent tablet.",
+        "Primary endpoints: change in skin radiance (Glossymeter) and pigmentation (Mexameter MX 18) at weeks 6 and 12.",
+        "Targets South Asian skin tones (Fitzpatrick III–VI), a population underrepresented in depigmentation trials.",
+        "Trial completed; no results posted to ClinicalTrials.gov as of registry date."
+      ],
+      "limitations": "No results have been posted; findings are unavailable for evaluation, and the study was industry-sponsored with a small sample size.",
+      "context": "Oral glutathione has been studied for skin-lightening effects, particularly in Asian populations, with mixed evidence. This trial adds a placebo-controlled design using objective colorimetry in a darker-skinned Indian cohort.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07162623",
+        "phase": "NA",
+        "status": "COMPLETED",
+        "sponsor": "NovoBliss Research Pvt Ltd",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "62",
+        "conditions": [
+          "Hyperpigmentation"
+        ],
+        "primaryOutcomes": "Change in skin radiance measured by Glossymeter (Percent); Change in skin pigmentation and dark spots measured by Mexameter® MX 18 (Percent)",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42562129",
+      "kind": "study",
+      "pmid": "42562129",
+      "doi": "10.1016/j.clindermatol.2026.07.030",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42562129/",
+      "title": "Integrating GLP-1 Receptor Agonists Into Dermatology Practice: Safety and Monitoring Strategies.",
+      "displayTitle": "GLP-1 agonist safety review highlights broad dermatologic adverse effects",
+      "authors": "Narla S, Narla RR",
+      "journal": "Clinics in dermatology",
+      "publishedDate": "2026-08-06",
+      "addedDate": "2026-08-09",
+      "peptides": [
+        "Semaglutide",
+        "Retatrutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review summarizes the safety profile of GLP-1 receptor agonists—including semaglutide and retatrutide—with a focus on dermatologic implications for clinicians. It covers cutaneous adverse events, systemic risks, nutritional concerns, and multidisciplinary monitoring strategies as these drugs expand beyond diabetes and obesity.",
+      "keyFindings": [
+        "Retatrutide achieved up to 24.2% body weight reduction in phase 2 trials with preferential fat over lean mass loss.",
+        "Dermatologic adverse events include alopecia, eczematous eruptions, bullous/pustular dermatoses, acneiform eruptions, hyperhidrosis, and facial volume loss ('Ozempic face').",
+        "Systemic risks include GI intolerance, nutritional deficiencies, gallbladder disease, pancreatitis, lean mass loss, and emerging ophthalmologic and skeletal complications.",
+        "GLP-1RA use in pregnancy remains poorly characterized; guidelines generally recommend discontinuation before conception."
+      ],
+      "limitations": "As a narrative review, it does not conduct systematic searches or meta-analysis, and evidence quality for many dermatologic associations remains limited and largely observational.",
+      "context": "Consistent with growing literature on GLP-1RA side effects, this review extends prior findings by specifically framing safety considerations within dermatologic practice, an area receiving increasing attention as patient use of these agents broadens.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42560457",
+      "kind": "study",
+      "pmid": "42560457",
+      "doi": "10.1007/s40618-026-03006-y",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42560457/",
+      "title": "Analysis of the efficacy and safety of liraglutide, semaglutide, and tirzepatide for the treatment of overweight and obesity: a systematic review and network meta-analysis.",
+      "displayTitle": "Tirzepatide leads weight loss rankings; semaglutide 7.2 mg offers modest gain over 2.4 mg",
+      "authors": "Pa&#x142;ka W et al.",
+      "journal": "Journal of endocrinological investigation",
+      "publishedDate": "2026-08-06",
+      "addedDate": "2026-08-09",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Systematic review & network meta-analysis",
+      "summary": "This network meta-analysis of 24 phase 3 RCTs compared liraglutide, semaglutide, and tirzepatide for weight management in adults with BMI ≥25. Tirzepatide 15 mg ranked highest for weight and waist reduction, while semaglutide 7.2 mg showed only modest and largely non-significant advantages over semaglutide 2.4 mg.",
+      "keyFindings": [
+        "Tirzepatide 15 mg ranked highest for weight and waist circumference reduction across all analyses by P-score.",
+        "Semaglutide 7.2 mg ranked above 2.4 mg for all efficacy endpoints, but significant advantage in body weight change was only in the diabetes subgroup.",
+        "Liraglutide 3.0 mg produced the smallest weight loss among active treatments.",
+        "No significant differences in serious adverse events between treatments; tirzepatide had higher injection site reactions, liraglutide higher discontinuation rates."
+      ],
+      "limitations": "Considerable heterogeneity in efficacy outcomes limits the precision of comparative estimates, and head-to-head trials between semaglutide doses remain sparse.",
+      "context": "Consistent with prior evidence establishing tirzepatide's superior efficacy over GLP-1 monotherapy for obesity. Extends prior findings by incorporating semaglutide 7.2 mg data, suggesting the incremental benefit of the higher dose (~2–3 percentage points) appears modest outside the diabetes subgroup.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT05654922",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT05654922",
+      "url": "https://clinicaltrials.gov/study/NCT05654922",
+      "title": "Study to Evaluate ARINA-1 in the Prevention of Bronchiolitis Obliterans Progression in Participants With Bilateral Lung Transplant",
+      "displayTitle": "Phase 3 trial tests nebulized glutathione to halt lung transplant rejection",
+      "authors": "Renovion, Inc.",
+      "journal": "ClinicalTrials.gov · Renovion, Inc.",
+      "publishedDate": "2026-08-05",
+      "addedDate": "2026-08-09",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Phase 3 RCT",
+      "summary": "This Phase 3 RCT evaluates ARINA-1 — a nebulized combination of reduced glutathione and ascorbic acid — versus standard of care alone in 100 bilateral lung transplant recipients with pre-bronchiolitis obliterans syndrome, aiming to prevent FEV1 decline over 48 weeks.",
+      "keyFindings": [
+        "Phase 3 RCT, n=100, bilateral lung transplant recipients with 10–24% FEV1 decline from post-transplant baseline.",
+        "Intervention: ARINA-1 (150 mg/mL reduced glutathione + 88 mg/mL ascorbic acid) nebulized, added to standard immunosuppression.",
+        "Primary endpoint: percentage change in FEV1 from baseline over 48 weeks.",
+        "Secondary endpoints include quality of life and delay/prevention of augmented immunosuppression use."
+      ],
+      "limitations": "This is an active trial registration only; no results have been posted, so efficacy and safety conclusions cannot yet be drawn.",
+      "context": "Bronchiolitis obliterans syndrome is the leading cause of long-term mortality after lung transplant. Oxidative stress and airway inflammation are implicated mechanisms, making inhaled antioxidants like glutathione a plausible intervention; earlier phase work supported this rationale.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT05654922",
+        "phase": "Phase 3",
+        "status": "RECRUITING",
+        "sponsor": "Renovion, Inc.",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "100",
+        "conditions": [
+          "Pre-Bronchiolitis Obliterans Syndrome"
+        ],
+        "primaryOutcomes": "Percentage change from baseline in FEV1 (%ΔFEV1)",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42549827",
+      "kind": "study",
+      "pmid": "42549827",
+      "doi": "10.1093/ejendo/lvag134",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42549827/",
+      "title": "Chronic subcutaneous kisspeptin-10 stimulates gonadotropin secretion for 12 days in healthy men.",
+      "displayTitle": "Daily 8-hour kisspeptin-10 infusions sustain gonadotropins for 12 days in men",
+      "authors": "Yeung AC et al.",
+      "journal": "European journal of endocrinology",
+      "publishedDate": "2026-08-03",
+      "addedDate": "2026-08-09",
+      "peptides": [
+        "Kisspeptin-10"
+      ],
+      "studyType": "Randomized controlled trial",
+      "summary": "This randomized, placebo-controlled study in 15 healthy men tested acute and chronic subcutaneous kisspeptin-10 administration. Intermittent daily 8-hour infusions (150 nmol/h) over 12 days sustained LH, FSH, and testosterone elevations without receptor desensitization.",
+      "keyFindings": [
+        "Acute subcutaneous kisspeptin-10 dose-dependently increased LH, FSH, and testosterone vs. vehicle (P < .0001).",
+        "Continuous 5-day infusion maintained testosterone but gonadotropin levels fell to vehicle levels, suggesting tachyphylaxis.",
+        "Intermittent 8-h-on/16-h-off dosing sustained LH increases through day 12 (day 1: +1.68; day 12: +1.14 IU/L vs. vehicle −0.16, P = .003).",
+        "Kisspeptin receptor remained functional after 12 days, evidenced by preserved LH response to a 1 nmol/kg bolus."
+      ],
+      "limitations": "Small sample sizes (n = 4–7 per sub-study) limit statistical power and generalizability; study was single-blinded rather than double-blinded.",
+      "context": "Prior work showed kisspeptin acutely stimulates gonadotropin release but continuous administration causes desensitization. These findings extend prior results by demonstrating that an intermittent dosing schedule can circumvent tachyphylaxis and sustain reproductive hormone secretion over nearly two weeks.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -540,6 +837,66 @@
       ],
       "limitations": "Retrospective design with residual confounding; sleeve gastrectomy patients had higher baseline BMI and younger age, potentially inflating surgical outcomes; safety assessment scope was limited.",
       "context": "These real-world findings are broadly consistent with clinical trial data showing tirzepatide produces greater weight loss than semaglutide, and extend prior work by directly comparing both agents to bariatric surgery in a type 2 diabetes population.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42555375",
+      "kind": "study",
+      "pmid": "42555375",
+      "doi": "10.1007/s13205-026-04951-4",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42555375/",
+      "title": "Fabrication and characterization of biocompatible BPC-157 based chitosan hydrogel.",
+      "displayTitle": "BPC-157 chitosan hydrogel shows 98.9% encapsulation and antibacterial activity",
+      "authors": "Arunim et al.",
+      "journal": "3 Biotech",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-09",
+      "peptides": [
+        "BPC-157"
+      ],
+      "studyType": "In vitro",
+      "summary": "Researchers fabricated and characterized a composite hydrogel combining BPC-157 peptide with chitosan, evaluating its physicochemical and biological properties in vitro. The hydrogel achieved near-complete BPC-157 encapsulation (98.9%), released 81.2% of peptide within 24 hours, and demonstrated meaningful antibacterial activity and hemocompatibility.",
+      "keyFindings": [
+        "BPC-157 encapsulation efficiency reached 98.9 ± 0.8%, with 81.2 ± 2.9% released within 24 hours.",
+        "Hydrogel inhibited bacterial growth by up to 45.9% and 65.0% for two tested strains.",
+        "Hemolysis rate was below 5%, meeting accepted hemocompatibility thresholds.",
+        "Material showed injectability, self-healing capability, and adhesiveness alongside a porous structure."
+      ],
+      "limitations": "This is a physicochemical and in vitro characterization study only; no cell-based or animal efficacy data are reported, limiting conclusions about in vivo biological activity.",
+      "context": "BPC-157 has been studied for wound healing and tissue regeneration; incorporating it into a chitosan hydrogel delivery system appears consistent with efforts to extend its local, sustained-release therapeutic potential for biomedical applications.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42564827",
+      "kind": "study",
+      "pmid": "42564827",
+      "doi": "10.1002/osp4.70181",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42564827/",
+      "title": "Role of Oral Glucagon-Like Peptide-1 Receptor Agonists in Weight Management for Individuals With Overweight or Obesity Without Diabetes: A Network Meta-Analysis of Randomized Controlled Trials.",
+      "displayTitle": "Oral semaglutide rivals orforglipron for weight loss in network meta-analysis",
+      "authors": "Kamrul-Hasan ABM et al.",
+      "journal": "Obesity science & practice",
+      "publishedDate": "2026-08-01",
+      "addedDate": "2026-08-09",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Meta-analysis",
+      "summary": "This network meta-analysis of 9 RCTs (n=5,766) evaluated four oral GLP-1 receptor agonists for weight management in adults with overweight or obesity without diabetes. High-dose oral semaglutide and orforglipron produced the greatest weight reductions, with percent body weight changes of approximately -11.6% and -11.8%, respectively.",
+      "keyFindings": [
+        "High-dose oral semaglutide reduced body weight by -11.6% and BMI by -4.7 kg/m², the largest BMI reduction among agents studied.",
+        "High-dose orforglipron produced the greatest absolute weight loss (MD -12.2 kg) and similar percent weight reduction (-11.8%).",
+        "Semaglutide HiD reduced waist circumference the most (MD -10.0 cm); semaglutide LoD ranked highest for achieving ≥15% weight loss.",
+        "All agents except low-dose lotiglipron significantly outperformed placebo; evidence certainty was rated low to moderate."
+      ],
+      "limitations": "Evidence certainty was low to moderate, and no direct head-to-head RCTs between the oral agents exist, limiting robust comparative inference.",
+      "context": "Oral semaglutide's injectable counterpart has well-established weight-loss efficacy; this NMA extends prior findings by comparing oral GLP-1 RAs head-to-head indirectly, suggesting oral semaglutide is competitive with emerging small-molecule oral GLP-1 RAs.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -6034,6 +6391,36 @@
       ],
       "limitations": "Study reports only a production/chemistry platform outcome with no biological efficacy or in vivo validation of the resulting intermediate's functional integrity.",
       "context": "Industrial semaglutide production has been limited by low yields and high costs using conventional chemical synthesis. This recombinant biosynthetic approach appears to significantly improve manufacturing efficiency, consistent with broader efforts to develop scalable GLP-1 analog production platforms.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42564745",
+      "kind": "study",
+      "pmid": "42564745",
+      "doi": "10.1155/crcc/4896065",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42564745/",
+      "title": "Diagnostic and Management Pitfalls of SGLT2 Inhibitor-Associated Ketoacidosis in the ICU: Lessons Following Cardiac Surgery and GLP-1 Agonist Interaction.",
+      "displayTitle": "Case report: semaglutide linked to SGLT2i ketoacidosis in ICU",
+      "authors": "P&#xe9;rez APG et al.",
+      "journal": "Case reports in critical care",
+      "publishedDate": "2026-01-01",
+      "addedDate": "2026-08-09",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "Two male patients with Type 2 diabetes developed SGLT2i-associated ketoacidosis under different stressors: one after cardiac surgery and one after adding semaglutide to their regimen. Both presented with high anion gap acidosis and near-normal glucose, requiring IV insulin and glucose supplementation.",
+      "keyFindings": [
+        "Both patients developed euglycemic DKA (glucose <200 mg/dL) with high anion gap and ketonuria.",
+        "One case was triggered by CABG surgery; the second followed addition of semaglutide to SGLT2i therapy.",
+        "Management required IV insulin protocols plus glucose supplementation to reverse ketosis.",
+        "Authors emphasize preoperative SGLT2i suspension protocols and vigilance when combining with GLP-1 agonists."
+      ],
+      "limitations": "Only two cases are reported, limiting generalizability; a causal role for semaglutide cannot be confirmed from case reports alone.",
+      "context": "SGLT2i-associated euglycemic DKA is an established but underrecognized complication. This report extends prior concerns by highlighting semaglutide co-administration as a potential precipitating factor, consistent with GLP-1 agonists reducing carbohydrate intake and masking hyperglycemic DKA triggers.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
