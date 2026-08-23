@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T07:26:10.830Z",
+  "lastUpdated": "2026-08-23T07:27:30.695Z",
   "entries": [
     {
       "id": "pmid-41999297",
@@ -87,6 +87,38 @@
       ],
       "limitations": "Study is limited to stability characterization and computational binding predictions; no functional GLP-1R activation or in vivo efficacy data are reported.",
       "context": "Semaglutide is an established GLP-1R agonist widely used for diabetes and obesity; this work extends prior peptide-stapling strategies by applying lactam constraints and non-natural amino acids to a semaglutide-derived scaffold to address metabolic instability, a known limitation of native GLP-1 peptides.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42630988",
+      "kind": "study",
+      "pmid": "42630988",
+      "doi": "10.1016/j.isci.2026.117174",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42630988/",
+      "title": "Comparative effects of semaglutide tirzepatide and retatrutide on renal fibrosis in UUO and aged mice.",
+      "displayTitle": "Retatrutide shows strongest anti-fibrotic renal effects vs. semaglutide, tirzepatide",
+      "authors": "Ding M et al.",
+      "journal": "iScience",
+      "publishedDate": "2026-09-18",
+      "addedDate": "2026-08-23",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide",
+        "Retatrutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "This study compared semaglutide, tirzepatide, and retatrutide for anti-fibrotic and anti-inflammatory effects in non-diabetic kidney disease using HK-2 cells and two mouse models (UUO and aging). Retatrutide demonstrated the greatest efficacy at tested doses, with distinct signaling pathways driving each drug's renoprotective actions.",
+      "keyFindings": [
+        "Retatrutide showed the greatest anti-fibrotic efficacy at tested doses across both UUO and aging mouse models.",
+        "Semaglutide's effects in UUO were linked to PI3K-AKT inhibition; tirzepatide added PPAR pathway activation.",
+        "Retatrutide uniquely inhibited both PI3K-AKT and NF-κB pathways concurrently in the UUO model.",
+        "In the aging model, all three drugs were associated with mitigation of G/M cell cycle arrest."
+      ],
+      "limitations": "Animal and cell models only; doses may not directly translate to clinical use, and non-diabetic renal fibrosis findings require validation in human studies.",
+      "context": "GLP-1 receptor agonists have shown renoprotective effects in diabetic nephropathy; this study extends prior findings to non-diabetic renal fibrosis and suggests retatrutide's dual/triple agonism may confer broader pathway inhibition than semaglutide or tirzepatide alone.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -207,6 +239,350 @@
       ],
       "limitations": "Biopsy as reference standard introduces sampling variability; both centers are likely tertiary referral centers, which may limit generalizability to broader MASH populations.",
       "context": "Semaglutide has emerging evidence for benefit in MASH with fibrosis; accurate noninvasive patient selection is a recognized barrier. This study extends prior work by proposing imaging-based criteria that appear to broaden eligible treatment populations without sacrificing diagnostic performance.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42629417",
+      "kind": "study",
+      "pmid": "42629417",
+      "doi": "10.1007/s00210-026-05813-9",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42629417/",
+      "title": "Psychiatric and eye disorders associated with use of glucagon-like peptide 1 receptor agonists (GLP-1 RAs).",
+      "displayTitle": "Semaglutide linked to higher eye disorder and suicidality signals in pharmacovigilance data",
+      "authors": "Ammendolia I et al.",
+      "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+      "publishedDate": "2026-08-22",
+      "addedDate": "2026-08-23",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Pharmacovigilance / disproportionality analysis",
+      "summary": "This pharmacovigilance study analyzed spontaneous adverse reaction reports from the EudraVigilance database (2020–2025) for semaglutide, liraglutide, and dulaglutide, finding disproportionate signals for eye disorders and suicidal ideation with semaglutide and liraglutide compared to dulaglutide.",
+      "keyFindings": [
+        "Eye disorders reported more frequently with semaglutide vs. liraglutide (ROR 2.67) and vs. dulaglutide (ROR 1.89).",
+        "Suicidal ideation disproportionately reported with semaglutide (ROR 6.49) and liraglutide (ROR 8.61) vs. dulaglutide.",
+        "Authors urge caution prescribing GLP-1 RAs to patients with ophthalmic or neuropsychiatric vulnerability.",
+        "No causal relationship established; findings highlight need for further research and vigilance."
+      ],
+      "limitations": "Spontaneous reporting databases are subject to reporting bias, confounding, and cannot establish causality; dulaglutide serves as comparator but differs in indication prevalence.",
+      "context": "Regulatory agencies have previously investigated but not confirmed a causal link between GLP-1 RAs and suicidality. This study extends that discussion using real-world spontaneous reporting data and adds eye disorder signals as an emerging safety concern consistent with recent case reports.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07780721",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07780721",
+      "url": "https://clinicaltrials.gov/study/NCT07780721",
+      "title": "Study of Adebrelimab Combined With Thymalfasin and Chemotherapy for Neoadjuvant Treatment of Esophageal Cancer",
+      "displayTitle": "Phase 2 trial adds Thymosin Alpha-1 to immunotherapy neoadjuvant regimen for esophageal cancer",
+      "authors": "The Affiliated Hospital of Putian University",
+      "journal": "ClinicalTrials.gov · The Affiliated Hospital of Putian University",
+      "publishedDate": "2026-08-21",
+      "addedDate": "2026-08-23",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Trial registration — Phase 2, single-arm",
+      "summary": "This single-arm, multicenter Phase 2 trial in China is evaluating adebrelimab (PD-L1 inhibitor) combined with thymalfasin (Thymosin Alpha-1) and nab-paclitaxel/platinum chemotherapy as neoadjuvant therapy in 31 patients with resectable esophageal squamous cell carcinoma, measuring pathologic complete response rate as the primary endpoint.",
+      "keyFindings": [
+        "Phase 2, single-arm, multicenter trial; n=31 resectable esophageal squamous cell carcinoma patients.",
+        "Thymalfasin 1.6 mg SC twice weekly added to adebrelimab 1200 mg IV Q3W plus nab-paclitaxel/cisplatin or carboplatin.",
+        "Primary endpoint: pathologic complete response (pCR) rate after 2–3 neoadjuvant cycles before surgical resection.",
+        "Status: not yet recruiting; no results available."
+      ],
+      "limitations": "This is a registry entry for a not-yet-recruiting trial; no results are available, and the small single-arm design limits generalizability.",
+      "context": "Thymosin Alpha-1 is an immunomodulatory peptide previously studied as an adjunct to cancer and antiviral therapies to enhance T-cell function. This trial explores whether its immune-boosting properties can augment checkpoint inhibitor plus chemotherapy neoadjuvant efficacy in esophageal squamous cell carcinoma.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07780721",
+        "phase": "Phase 2",
+        "status": "NOT YET RECRUITING",
+        "sponsor": "The Affiliated Hospital of Putian University",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "31",
+        "conditions": [
+          "Esophageal Cancer"
+        ],
+        "primaryOutcomes": "Pathologic Complete Response (pCR) Rate",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42619489",
+      "kind": "study",
+      "pmid": "42619489",
+      "doi": "10.1515/jbcpp-2026-0178",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42619489/",
+      "title": "Protective and restorative effects of hexarelin on MPTP-induced lung injury in mice.",
+      "displayTitle": "Hexarelin reduces MPTP-induced lung injury in mice via antioxidant and anti-inflammatory effects",
+      "authors": "Celikoglu O et al.",
+      "journal": "Journal of basic and clinical physiology and pharmacology",
+      "publishedDate": "2026-08-21",
+      "addedDate": "2026-08-23",
+      "peptides": [
+        "Hexarelin"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "This mouse study examined hexarelin's effects against MPTP-induced pulmonary injury, assessing oxidative stress, inflammation, and apoptosis. Both pre- and post-treatment with hexarelin (10 µg/kg) significantly reduced lung damage, with post-treatment showing greater recovery across all measured markers.",
+      "keyFindings": [
+        "MPTP caused severe lung injury with significantly increased Caspase-3 (p<0.001) and IL-6 (p=0.002) and reduced SOD (p<0.001).",
+        "Both hexarelin regimens significantly reduced histopathological damage and improved immunohistochemical markers (p<0.05).",
+        "Post-treatment outperformed pre-treatment, with lower apoptotic (p=0.005) and inflammatory (p=0.050) markers and higher SOD (p=0.007).",
+        "Hexarelin mitigated alveolar wall thickening, edema, hyperemia, and inflammatory infiltration induced by MPTP."
+      ],
+      "limitations": "Animal-only study using a single MPTP dose and small group sizes (n=10); findings may not translate directly to human pulmonary pathology or clinical settings.",
+      "context": "Hexarelin, a synthetic growth hormone secretagogue, has previously shown cytoprotective effects in cardiac and other tissues. This study extends those findings to pulmonary protection, consistent with its known receptor-mediated anti-inflammatory and antioxidant mechanisms.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42627907",
+      "kind": "study",
+      "pmid": "42627907",
+      "doi": "10.1126/sciadv.aed3119",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42627907/",
+      "title": "A multi-functional oral small molecule targeting energy and lipid metabolism to treat obesity and related metabolic disorders.",
+      "displayTitle": "TOFA small molecule enhances semaglutide and tirzepatide effects on obesity",
+      "authors": "Lee JY et al.",
+      "journal": "Science advances",
+      "publishedDate": "2026-08-21",
+      "addedDate": "2026-08-23",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Preclinical mechanistic study",
+      "summary": "Researchers tested TOFA (5-tetradecyloxy-2-furoic acid), an oral small molecule targeting ACC1/2 and PPARα/δ, against obesity and metabolic disorders. TOFA acted more than additively with semaglutide and tirzepatide to improve obesity, dyslipidemia, and insulin resistance without affecting food intake or muscle mass.",
+      "keyFindings": [
+        "TOFA inhibits ACC1/2 and activates PPARα/δ, promoting energy expenditure and rebalancing lipid synthesis.",
+        "TOFA alleviated obesity, abnormal glucose homeostasis, and fatty liver without reducing food intake or muscle mass.",
+        "TOFA combined with semaglutide or tirzepatide produced more-than-additive improvements in obesity and insulin resistance.",
+        "Unlike current incretin-based therapies, TOFA did not cause gastrointestinal side effects or muscle wasting in the model."
+      ],
+      "limitations": "The study appears preclinical; translation to humans is unconfirmed, and long-term safety and efficacy data in clinical populations are lacking.",
+      "context": "Semaglutide and tirzepatide are established incretin-based therapies that reduce food intake but carry risks of GI side effects and muscle loss. This study extends prior findings by suggesting complementary metabolic targeting via lipid synthesis inhibition may potentiate incretin efficacy.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42627215",
+      "kind": "study",
+      "pmid": "42627215",
+      "doi": "10.1093/ibd/izag167",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42627215/",
+      "title": "GLP-1 receptor agonist therapy is associated with increased symptomatic remission in ulcerative colitis: a matched cohort study.",
+      "displayTitle": "Semaglutide linked to 66.7% UC remission rate at 12 weeks",
+      "authors": "Alqinai B et al.",
+      "journal": "Inflammatory bowel diseases",
+      "publishedDate": "2026-08-21",
+      "addedDate": "2026-08-23",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This retrospective matched cohort study examined GLP-1 receptor agonists (liraglutide or semaglutide) in 150 UC patients versus 150 matched controls. GLP-1 RA use was strongly associated with symptomatic remission at 12 weeks (66.7% vs 25.3%), with semaglutide outperforming liraglutide.",
+      "keyFindings": [
+        "GLP-1 RA use associated with 66.7% remission at 12 weeks vs 25.3% in controls (adjusted OR 5.90).",
+        "Mean partial Mayo scores dropped from 5.8 to 2.1 in GLP-1 RA group vs 4.6 in controls at 12 weeks.",
+        "Semaglutide showed higher remission than liraglutide (72.5% vs 60%; OR 1.77).",
+        "Endoscopic remission was higher in GLP-1 RA subset (58% vs 38%)."
+      ],
+      "limitations": "Retrospective, single-center design limits generalizability; confounding from concurrent UC therapies or metabolic comorbidities cannot be fully excluded despite matching.",
+      "context": "Emerging preclinical and observational data suggest GLP-1 receptor agonists may have anti-inflammatory effects beyond metabolic control. This matched cohort study extends that hypothesis to UC, suggesting a potential adjunctive therapeutic role in patients with metabolic comorbidities.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42624955",
+      "kind": "study",
+      "pmid": "42624955",
+      "doi": "10.1007/s11920-026-01709-w",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42624955/",
+      "title": "GLP-1 and dual GIP/GLP-1 receptor agonists' psychopharmacology and putative neuropsychiatric associated effects: a Bradford Hill-informed, systematic, evaluation.",
+      "displayTitle": "GLP-1 and GIP/GLP-1 receptor agonists linked to neuropsychiatric effects — review",
+      "authors": "Schifano F et al.",
+      "journal": "Current psychiatry reports",
+      "publishedDate": "2026-08-21",
+      "addedDate": "2026-08-23",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Systematic review",
+      "summary": "This systematic review applied Bradford Hill causal criteria to evaluate evidence linking GLP-1 and dual GIP/GLP-1 receptor agonists to neuropsychiatric outcomes including depression, anxiety, suicidality, reward behavior, cognition, and ocular disturbances. Evidence supports biological plausibility but is insufficient to establish causality for most outcomes.",
+      "keyFindings": [
+        "Bradford Hill analysis found biological plausibility for GLP-1 RA links to psychopathological disorders but no confirmed causality.",
+        "Neuropsychiatric signals identified include depression, anxiety, suicidality, reward-related behavior, and cognitive effects.",
+        "Evidence was drawn from receptor pharmacology, preclinical data, RCTs, observational studies, and pharmacovigilance reports.",
+        "Authors call for prospective, mechanism-informed clinical studies to resolve causality questions."
+      ],
+      "limitations": "Review relies partly on pharmacovigilance and observational data subject to confounding; causality could not be established for most neuropsychiatric outcomes.",
+      "context": "Post-marketing surveillance has raised neuropsychiatric safety signals for GLP-1 receptor agonists; this review extends prior pharmacovigilance work by systematically applying Bradford Hill criteria, consistent with growing regulatory and scientific scrutiny of CNS effects.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42619529",
+      "kind": "study",
+      "pmid": "42619529",
+      "doi": "10.1093/asj/sjag169",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42619529/",
+      "title": "The Regenerative Potential of GHK-Cu in Aesthetic Medicine.",
+      "displayTitle": "GHK-Cu shows regenerative promise in aesthetic medicine, but clinical evidence is thin",
+      "authors": "Mokhtar J et al.",
+      "journal": "Aesthetic surgery journal",
+      "publishedDate": "2026-08-20",
+      "addedDate": "2026-08-23",
+      "peptides": [
+        "GHK-Cu"
+      ],
+      "studyType": "Systematic review",
+      "summary": "This systematic review (PRISMA-compliant) evaluated GHK-Cu across 20 studies (18 preclinical, 2 RCTs) for aesthetic applications. Preclinical data consistently showed enhanced collagen synthesis, anti-inflammatory effects, and angiogenesis; limited clinical trials reported reduced wrinkle depth and improved patient satisfaction after laser resurfacing.",
+      "keyFindings": [
+        "GHK-Cu enhanced type I collagen and glycosaminoglycan synthesis and promoted angiogenesis in preclinical models.",
+        "Anti-inflammatory effects included suppression of TGF-β and IL-6 across preclinical studies.",
+        "Two RCTs showed reduced wrinkle volume/depth and improved patient satisfaction after laser resurfacing.",
+        "Microneedle and liposomal delivery systems markedly improved GHK-Cu transdermal bioavailability and efficacy."
+      ],
+      "limitations": "Only 2 RCTs were included among 20 studies; high methodological variability across preclinical models limits the strength of conclusions and translation to clinical practice.",
+      "context": "GHK-Cu is a naturally occurring copper-binding tripeptide with well-documented wound-healing and antioxidant properties in preclinical literature. This review extends prior findings into aesthetic medicine but confirms the persistent translational gap between robust preclinical data and limited, standardized clinical evidence.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42624612",
+      "kind": "study",
+      "pmid": "42624612",
+      "doi": "10.1136/bmjment-2026-302828",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42624612/",
+      "title": "Cognitive signs and symptoms in people with a psychiatric diagnosis on semaglutide: a retrospective cohort study of 13&#x2009;007&#x2009;patients in the USA.",
+      "displayTitle": "Semaglutide linked to 25% fewer cognitive symptoms in psychiatric patients",
+      "authors": "De Giorgi R et al.",
+      "journal": "BMJ mental health",
+      "publishedDate": "2026-08-20",
+      "addedDate": "2026-08-23",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Retrospective cohort study",
+      "summary": "This retrospective cohort study analyzed 13,007 US adults with psychiatric diagnoses, comparing semaglutide initiators to those on other antidiabetic drugs or no treatment. Semaglutide was associated with significantly lower clinician-rated cognitive symptom scores over 12 months, particularly for memory and in major depression.",
+      "keyFindings": [
+        "Semaglutide users had a mean cognitive score of 11.14 vs 14.91 with no treatment (MR 0.75, p=0.00002).",
+        "Cognitive benefits were significant vs glipizide and empagliflozin, but not significantly different from sitagliptin.",
+        "Associations were strongest for memory and broader cognitive functions across psychiatric diagnoses.",
+        "Effects were consistently significant only in major depression; trends were similar for psychosis and bipolar disorder."
+      ],
+      "limitations": "Retrospective, observational design using EHR data prevents causal inference; residual confounding, indication bias, and reliance on clinician-recorded cognitive assessments are key limitations.",
+      "context": "Prior work has suggested cognitive benefits of GLP-1 receptor agonists like semaglutide in diabetes and obesity populations. This study extends those findings to psychiatric populations, though causality cannot be established from observational EHR data.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42623313",
+      "kind": "study",
+      "pmid": "42623313",
+      "doi": "10.1152/ajpendo.00113.2026",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42623313/",
+      "title": "A noninvasiveC-mannitol breath test to monitor semaglutide treatment-induced delayed oral-cecal transit in mice.",
+      "displayTitle": "Non-invasive breath test monitors semaglutide-delayed gut transit in mice",
+      "authors": "Vieira DE et al.",
+      "journal": "American journal of physiology. Endocrinology and metabolism",
+      "publishedDate": "2026-08-20",
+      "addedDate": "2026-08-23",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "Researchers developed a 13C-mannitol breath test to non-invasively measure oral-cecal transit time in mice, then applied it to detect semaglutide-induced delayed gastrointestinal transit. The method uses exhaled 13CO₂ from cecal microbial metabolism, allowing longitudinal, stress-free measurements in freely moving animals.",
+      "keyFindings": [
+        "13C-labeled mannitol is metabolized by cecal microbiota, producing measurable 13CO₂ in exhaled breath.",
+        "Indirect calorimetry combined with real-time 13C/12C ratio measurement enables highly granular, non-invasive OCTT tracking.",
+        "The technique is performed in unrestrained, freely moving mice, supporting longitudinal and high-throughput study designs.",
+        "Method avoids invasiveness, anesthesia, radioactive tracers, and stress-related confounds of existing transit measurement approaches."
+      ],
+      "limitations": "Preclinical mouse model only; direct validation against established gold-standard OCTT methods and clinical translatability remain to be formally demonstrated.",
+      "context": "GLP-1 receptor agonists like semaglutide are well-documented to delay gastrointestinal transit, contributing to common GI side effects. This study extends prior work by offering a reproducible, translatable tool to quantify this pharmacologic effect without terminal or invasive procedures.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42611943",
+      "kind": "study",
+      "pmid": "42611943",
+      "doi": "10.7554/eLife.87615",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42611943/",
+      "title": "MOTS-c is a mitochondrial-encoded interferon-linked host defense peptide.",
+      "displayTitle": "MOTS-c identified as first mitochondrial-encoded host defense peptide with antibacterial activity",
+      "authors": "Rice MC et al.",
+      "journal": "eLife",
+      "publishedDate": "2026-08-18",
+      "addedDate": "2026-08-23",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Mechanistic study",
+      "summary": "Researchers demonstrated that MOTS-c, a mitochondrial-encoded peptide, functions as a host defense peptide with direct antibacterial activity against MRSA and immunomodulatory effects on monocytes and macrophages. In a mouse peritonitis model, MOTS-c fully neutralized MRSA infectivity, and in human monocytes it reprogrammed differentiation toward enhanced bacterial clearance.",
+      "keyFindings": [
+        "MOTS-c directly targeted and killed MRSA by disrupting bacterial membranes via its hydrophobic and cationic domains.",
+        "MOTS-c fully neutralized MRSA infectivity in a mouse model of acute peritonitis.",
+        "IFN-γ, LPS, and differentiation signals each induced endogenous MOTS-c expression in human monocytes.",
+        "Exogenous MOTS-c reprogrammed mouse monocytes into macrophages with enhanced bacterial clearance and distinct IFN-related transcriptomic signatures."
+      ],
+      "limitations": "Findings rely primarily on mouse peritonitis models and in vitro human monocyte systems; clinical relevance in human infection settings has not yet been established.",
+      "context": "MOTS-c was previously known as a mitochondrial-derived peptide regulating metabolism and stress responses. These findings extend prior knowledge by establishing MOTS-c as a first-in-class mitochondrial-encoded host defense peptide, consistent with its evolutionary origin from proto-mitochondrial bacteria.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42606759",
+      "kind": "study",
+      "pmid": "42606759",
+      "doi": "10.1186/s43556-026-00539-9",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42606759/",
+      "title": "Recombinant human Thymosin &#x3b2;4 ameliorates experimental colitis and intestinal fibrosis through suppression of mineralocorticoid receptor signaling.",
+      "displayTitle": "Thymosin β4 reduces colitis and intestinal fibrosis via mineralocorticoid receptor suppression",
+      "authors": "Zhao TR et al.",
+      "journal": "Molecular biomedicine",
+      "publishedDate": "2026-08-17",
+      "addedDate": "2026-08-23",
+      "peptides": [
+        "TB-500"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "This study examined recombinant human Thymosin β4 (rhTβ4) in DSS-induced mouse colitis models and Tmsb4x-knockout mice. Oral rhTβ4 improved survival, reduced gut inflammation and collagen deposition, and mechanistically suppressed mineralocorticoid receptor (NR3C2) signaling.",
+      "keyFindings": [
+        "TMSB4X gene was downregulated in colonic tissues of IBD patients compared to healthy controls.",
+        "Tmsb4x-knockout mice showed markedly increased susceptibility to DSS-induced colitis.",
+        "Oral rhTβ4 improved survival, reduced body weight loss, epithelial injury, and inflammatory cytokines in colitis models.",
+        "rhTβ4 attenuated intestinal fibrosis, reducing fibrosis markers and collagen I deposition via MR signaling suppression."
+      ],
+      "limitations": "Results are based on mouse DSS-colitis models and in vitro reporter assays; direct clinical translation to human IBD requires further validation in human trials.",
+      "context": "Thymosin β4 (TB-500) has established roles in tissue repair and immune regulation across multiple organ systems. These findings extend prior work by identifying a specific mechanistic pathway (mineralocorticoid receptor signaling) and demonstrating protective effects in an IBD context, consistent with Tβ4's broadly anti-inflammatory and pro-repair profile.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -6097,410 +6473,6 @@
         "primaryOutcomes": "Progression to severe dengue/critical dengue; All-cause mortality within 30 days",
         "hasResults": false
       }
-    },
-    {
-      "id": "pmid-41859865",
-      "kind": "study",
-      "pmid": "41859865",
-      "doi": "10.1039/d6cp00567e",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41859865/",
-      "title": "Carbonless amino acids and a carbonless GHK peptide.",
-      "displayTitle": "Computational study replaces carbon atoms with boron-nitrogen in GHK peptide",
-      "authors": "Skurski P, Anusiewicz I",
-      "journal": "Physical chemistry chemical physics : PCCP",
-      "publishedDate": "2026-04-16",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "GHK-Cu"
-      ],
-      "studyType": "Computational chemistry — in silico",
-      "summary": "Computational chemistry calculations explored replacing all carbon atoms in GHK peptide with boron-nitrogen pairs. The carbonless analogue (cGHK) showed greater conformational flexibility and bound Cu(II) 6.24 kcal/mol more strongly than natural GHK under aqueous conditions.",
-      "keyFindings": [
-        "Carbonless GHK (cGHK) exhibited broader conformational landscape than natural GHK in aqueous conditions",
-        "cGHK bound Cu(II) with 6.24 kcal/mol stronger stabilization than natural GHK at 298 K",
-        "DFT calculations identified unique low-energy carbonless analogues of glycine, histidine, and lysine"
-      ],
-      "limitations": "Purely computational study with no experimental synthesis or biological validation of the proposed carbonless peptide structures.",
-      "context": "GHK is known for copper-binding properties important in wound healing and tissue repair. This theoretical study explores whether carbon-free molecular scaffolds could retain or enhance these binding characteristics through systematic boron-nitrogen substitution.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-41997403",
-      "kind": "study",
-      "pmid": "41997403",
-      "doi": "10.1016/j.ejphar.2026.178880",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41997403/",
-      "title": "Glycyl-L-histidyl-L-lysine-Cu2(GHK-Cu) Attenuates CuSOor LPS induced-inflammation in Zebrafish larvae model.",
-      "displayTitle": "GHK-Cu suppresses inflammation and oxidative stress in zebrafish larvae",
-      "authors": "Hu J et al.",
-      "journal": "European journal of pharmacology",
-      "publishedDate": "2026-04-15",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "GHK-Cu"
-      ],
-      "studyType": "Animal model — zebrafish",
-      "summary": "GHK-Cu was tested in zebrafish larvae exposed to copper sulfate or LPS. The peptide reduced immune cell migration, decreased pro-inflammatory cytokines, lowered oxidative stress markers, and downregulated the JAK1 pathway.",
-      "keyFindings": [
-        "GHK-Cu decreased neutrophil and macrophage migration to inflammation sites",
-        "Suppressed pro-inflammatory cytokines (TNF-α, IL-1β, IL-6) and increased anti-inflammatory IL-10",
-        "Reduced nitric oxide and reactive oxygen species while improving SOD activity",
-        "Downregulated JAK1 signaling pathway"
-      ],
-      "limitations": "Zebrafish larvae model may not fully recapitulate mammalian inflammatory responses; no mammalian validation provided.",
-      "context": "GHK-Cu is widely used in cosmetics for anti-aging and tissue repair, but its anti-inflammatory mechanisms have been less characterized. This study extends prior findings by demonstrating anti-inflammatory effects through cytokine modulation and JAK1 pathway inhibition in an in vivo model.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-41966639",
-      "kind": "study",
-      "pmid": "41966639",
-      "doi": "10.1007/s40279-026-02437-0",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41966639/",
-      "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance.",
-      "displayTitle": "Review examines safety gaps in approved and unapproved peptides for sports injuries",
-      "authors": "Mendias CL, Awan TM",
-      "journal": "Sports medicine (Auckland, N.Z.)",
-      "publishedDate": "2026-04-12",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "BPC-157",
-        "TB-500",
-        "GHK-Cu",
-        "CJC-1295",
-        "Ipamorelin",
-        "Sermorelin",
-        "Tesamorelin",
-        "MOTS-c"
-      ],
-      "studyType": "Narrative review",
-      "summary": "Narrative review of peptides marketed for musculoskeletal injury recovery and athletic performance, covering pharmacological mechanisms, safety profiles, and regulatory status. Authors emphasize that many unapproved peptides show promise in animal models but lack rigorous human safety data.",
-      "keyFindings": [
-        "Many unapproved peptides demonstrate favorable tissue repair and metabolic outcomes in animal models",
-        "Rigorous human safety data are scarce for unapproved peptides, with potential for serious patient harm",
-        "A 'gray market' of unapproved compounds operates largely outside regulatory oversight",
-        "Social media amplifies placebo effects associated with peptide use"
-      ],
-      "limitations": "As a narrative rather than systematic review, study selection may not be exhaustive and synthesis is subject to author interpretation.",
-      "context": "This review synthesizes current knowledge on peptides increasingly used in sports medicine, highlighting the gap between animal research and human clinical evidence. It addresses the growing direct-to-consumer market for peptides that lack formal regulatory approval.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT07050173",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT07050173",
-      "url": "https://clinicaltrials.gov/study/NCT07050173",
-      "title": "Monitoring Patients With Repetitive Head Impact With Gamma-glutamylcysteine Supplementation",
-      "displayTitle": "Phase 1 trial tests gamma-glutamylcysteine precursor for brain glutathione in repetitive head injury",
-      "authors": "Pravat Mandal",
-      "journal": "ClinicalTrials.gov · Pravat Mandal",
-      "publishedDate": "2026-04-09",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "Trial registration — Phase 1",
-      "summary": "This 30-participant trial evaluates whether oral gamma-glutamylcysteine (400mg twice daily) can increase brain and blood glutathione levels in retired athletes and military personnel with repetitive head impacts, measured by MR spectroscopy and cognitive testing.",
-      "keyFindings": [
-        "Phase 1 trial in 30 retired NFL players and Navy SEALs with repetitive head impact history",
-        "Intervention: 800mg/day oral gamma-glutamylcysteine, a glutathione precursor peptide",
-        "Primary endpoints: brain glutathione by MR spectroscopy and blood glutathione levels",
-        "Currently recruiting; no results posted yet"
-      ],
-      "limitations": "This is an early-stage trial registration with no published results; efficacy of gamma-glutamylcysteine for neuroprotection remains unproven.",
-      "context": "Glutathione is the brain's primary antioxidant and cannot cross the blood-brain barrier directly. This trial tests whether gamma-glutamylcysteine, a precursor dipeptide, can increase brain glutathione to address oxidative stress from repetitive head trauma.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT07050173",
-        "phase": "Phase 1",
-        "status": "RECRUITING",
-        "sponsor": "Pravat Mandal",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "30",
-        "conditions": [
-          "Repetitive Head Impacts"
-        ],
-        "primaryOutcomes": "Changes in brain glutathione levels (mM) in people with Repetitive Head Injury (RHI) using Magnetic Resonance Spectroscopy in pre and post supplementation.; Changes in baseline blood glutathione levels (µmol/l) in people with RHI due to GGC supplementation.",
-        "hasResults": false
-      }
-    },
-    {
-      "id": "nct-NCT07064005",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT07064005",
-      "url": "https://clinicaltrials.gov/study/NCT07064005",
-      "title": "Enrichment of Glutathione Using Gamma-glutamylcysteine Supplementation in Parkinson's Disease Patients.",
-      "displayTitle": "Phase 1 trial tests gamma-glutamylcysteine supplementation to boost brain glutathione in Parkinson's",
-      "authors": "Pravat Mandal",
-      "journal": "ClinicalTrials.gov · Pravat Mandal",
-      "publishedDate": "2026-04-09",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "Trial registration — Phase 1",
-      "summary": "This first-in-human trial examines whether oral gamma-glutamylcysteine (GGC) supplementation can raise brain and blood glutathione levels in early Parkinson's disease patients over 12 months, measured by MR spectroscopy, with secondary assessments of motor function, cognition, and gut microbiome.",
-      "keyFindings": [
-        "Phase 1, n=12 early PD patients, 400 mg GGC twice daily for 12 months",
-        "Primary endpoint: brain glutathione levels (mM) via MR spectroscopy at baseline vs. 12 months",
-        "Secondary endpoints include brain iron, motor function, cognitive skills, and gut microbiome changes",
-        "Currently recruiting; no results posted yet"
-      ],
-      "limitations": "Small pilot study (n=12) with no results yet. Trial registration does not demonstrate efficacy; MR spectroscopy can measure glutathione but clinical benefit remains unproven.",
-      "context": "Glutathione depletion is implicated in Parkinson's disease pathophysiology. This trial tests a precursor strategy to directly raise brain glutathione, an approach previously explored with N-acetylcysteine. GGC is a more direct glutathione precursor than NAC, potentially offering greater CNS bioavailability.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT07064005",
-        "phase": "Phase 1",
-        "status": "RECRUITING",
-        "sponsor": "Pravat Mandal",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "12",
-        "conditions": [
-          "Parkinsons Disease (PD)"
-        ],
-        "primaryOutcomes": "Changes in brain glutathione levels (mM) in people with Parkinson's Disease using Magnetic Resonance Spectroscopy compared to post-supplementation with GGC.; Changes in brain iron levels (ppb) in people with Parkinson's Disease using Magnetic Resonance Imaging between pre and post GGC supplementation.",
-        "hasResults": false
-      }
-    },
-    {
-      "id": "pmid-41945630",
-      "kind": "study",
-      "pmid": "41945630",
-      "doi": "10.20945/2359-4292-2026-0031",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41945630/",
-      "title": "Are serum MOTS-c levels and MOTS-c m.1382A>C polymorphism related to polycystic ovary syndrome?",
-      "displayTitle": "MOTS-c levels similar in adolescents with and without PCOS",
-      "authors": "Filibeli BE et al.",
-      "journal": "Archives of endocrinology and metabolism",
-      "publishedDate": "2026-04-07",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "MOTS-c"
-      ],
-      "studyType": "Observational case-control study",
-      "summary": "This case-control study compared serum MOTS-c levels and m.1382A>C polymorphism in 121 adolescents with PCOS versus 125 healthy controls. MOTS-c levels were slightly but not significantly elevated in PCOS, and all participants had wild-type genotype.",
-      "keyFindings": [
-        "Mean MOTS-c levels higher in PCOS group but difference not statistically significant (p=0.059)",
-        "No significant association between MOTS-c levels and anthropometric or metabolic parameters in PCOS group",
-        "All 246 participants had wild-type (A/A) genotype for m.1382A>C polymorphism",
-        "Findings suggest MOTS-c may have minor involvement in PCOS pathophysiology"
-      ],
-      "limitations": "All participants had the same genotype, preventing analysis of polymorphism effects; trend toward higher MOTS-c in PCOS (p=0.059) may warrant larger studies.",
-      "context": "MOTS-c is known to improve insulin sensitivity and metabolic function. This study extends MOTS-c research to adolescent PCOS, a condition associated with insulin resistance, but found no significant differences in peptide levels or genetic polymorphism between affected and healthy adolescents.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-41742019",
-      "kind": "study",
-      "pmid": "41742019",
-      "doi": "10.1021/acs.jproteome.5c01063",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41742019/",
-      "title": "Comparative Proteomic Analysis of the Secretome of Control and BRAF/MEK Inhibitor-Resistant Melanoma Cells.",
-      "displayTitle": "Melanoma cells resistant to BRAF/MEK inhibitors secrete thymosin beta-4",
-      "authors": "Simiczyjew A et al.",
-      "journal": "Journal of proteome research",
-      "publishedDate": "2026-04-03",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "TB-500"
-      ],
-      "studyType": "In vitro proteomics",
-      "summary": "Proteomic analysis of melanoma cells resistant to vemurafenib and cobimetinib identified thymosin beta-4 among proteins secreted in significantly higher amounts compared to non-resistant cells, suggesting potential roles in drug resistance and tumor microenvironment modification.",
-      "keyFindings": [
-        "Thymosin beta-4 secretion significantly elevated in BRAF/MEK inhibitor-resistant melanoma cells versus controls",
-        "Resistant cells' secretome enriched in proteins related to cancer progression, adhesion, cytoskeleton, and matrix organization",
-        "Secreted proteins may promote pro-tumor niche formation in the microenvironment",
-        "Thymosin beta-4 identified as potential biomarker or therapeutic target in treatment-resistant melanoma"
-      ],
-      "limitations": "Study limited to in vitro cell culture models; functional consequences of elevated thymosin beta-4 secretion and its specific role in resistance mechanisms were not directly tested.",
-      "context": "Thymosin beta-4 is known to regulate actin dynamics and has been implicated in cancer cell migration and metastasis. This study extends those findings by linking elevated TB-4 secretion specifically to acquired resistance against targeted melanoma therapies.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-41887933",
-      "kind": "study",
-      "pmid": "41887933",
-      "doi": "10.1080/08923973.2026.2641686",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41887933/",
-      "title": "Thymosin &#x3b1;1 improves the outcomes of patients with hepatitis B virus-related acute-on-chronic liver failure by restoring immune balance.",
-      "displayTitle": "Thymosin alpha-1 boosts 90-day survival in HBV liver failure by rebalancing immunity",
-      "authors": "Li ZH et al.",
-      "journal": "Immunopharmacology and immunotoxicology",
-      "publishedDate": "2026-04-01",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Thymosin Alpha-1"
-      ],
-      "studyType": "Randomized controlled trial",
-      "summary": "Open-label RCT in 73 HBV-related acute-on-chronic liver failure patients found thymosin alpha-1 plus standard therapy increased 90-day transplant-free survival by reducing regulatory T cells and moderating late-stage hyperinflammation without suppressing early immune activation.",
-      "keyFindings": [
-        "Thymosin alpha-1 significantly increased 90-day transplant-free survival versus standard therapy alone",
-        "Treatment reduced regulatory T cell frequencies at weeks 4-8, particularly CD226+ Treg subsets",
-        "Moderated late-stage hyperinflammatory response while preserving early immune activation",
-        "Survivors showed higher baseline effector T cells and pro-inflammatory cytokines than non-survivors"
-      ],
-      "limitations": "Open-label design without blinding may introduce bias; mechanism-of-action endpoints were exploratory rather than pre-specified primary outcomes.",
-      "context": "Thymosin alpha-1 is known to have immunomodulatory effects in severe infection and liver disease. This study extends prior survival observations by demonstrating specific T-cell and cytokine mechanisms—particularly Treg reduction and inflammation moderation—that appear to underlie the clinical benefit in HBV-related acute-on-chronic liver failure.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-41654147",
-      "kind": "study",
-      "pmid": "41654147",
-      "doi": "10.1016/j.freeradbiomed.2026.01.064",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41654147/",
-      "title": "MOTS-c attenuates cardiac dysfunction following high altitude exposure by promoting mitophagy.",
-      "displayTitle": "MOTS-c rescues persistent cardiac dysfunction after high-altitude exposure via mitophagy",
-      "authors": "Feng Z et al.",
-      "journal": "Free radical biology & medicine",
-      "publishedDate": "2026-04-01",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "MOTS-c"
-      ],
-      "studyType": "Animal model — mouse",
-      "summary": "Mice exposed to simulated 6000-m altitude for 10 days showed persistent cardiac dysfunction during de-acclimatization at lower altitude. Exogenous MOTS-c supplementation restored cardiac function by activating the Pink1/Parkin mitophagy pathway and improving mitochondrial quality.",
-      "keyFindings": [
-        "Cardiac dysfunction induced by 10-day high-altitude exposure persisted throughout 10-day de-acclimatization at lower altitude",
-        "MOTS-c supplementation during de-acclimatization alleviated cardiac dysfunction and mitochondrial dysfunction",
-        "MOTS-c promoted mitophagy via Pink1/Parkin pathway; silencing Pink1 abolished protective effects",
-        "Reduced circulating MOTS-c levels observed in patients with high altitude heart disease and acute coronary syndrome"
-      ],
-      "limitations": "Animal model findings may not fully translate to human high-altitude cardiac pathology; optimal MOTS-c dosing and timing for human application remain unknown.",
-      "context": "MOTS-c is a mitochondrial-derived peptide previously shown to improve metabolic and mitochondrial function. This study extends those findings by demonstrating a specific role in cardiac de-acclimatization after hypoxic stress and identifies Pink1/Parkin-mediated mitophagy as the mechanism.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT07505745",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT07505745",
-      "url": "https://clinicaltrials.gov/study/NCT07505745",
-      "title": "MOTS-c for Improving Insulin Sensitivity in Adults With Prediabetes and Overweight/Obesity",
-      "displayTitle": "Phase 2 MOTS-c trial for insulin sensitivity in prediabetes begins recruitment",
-      "authors": "Hudson Biotech",
-      "journal": "ClinicalTrials.gov · Hudson Biotech",
-      "publishedDate": "2026-04-01",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "MOTS-c"
-      ],
-      "studyType": "Trial registration — Phase 2 RCT",
-      "summary": "Hudson Biotech is enrolling 120 adults with prediabetes and overweight/obesity into a 12-week randomized, placebo-controlled Phase 2 trial testing whether subcutaneous MOTS-c, a mitochondrial-derived peptide, improves insulin sensitivity measured by oral glucose tolerance testing.",
-      "keyFindings": [
-        "Phase 2, randomized 1:1 to MOTS-c vs placebo, n=120, 12-week treatment period",
-        "Primary endpoint: change in OGTT-derived insulin sensitivity (Matsuda Index) from baseline",
-        "Secondary endpoints include HbA1c, fasting glucose, lipids, body weight, and waist circumference",
-        "Currently recruiting; results not yet available"
-      ],
-      "limitations": "Trial is in active recruitment; no efficacy or safety data are yet available. Registry entry does not provide dosing details or planned injection frequency.",
-      "context": "MOTS-c is a mitochondrial-encoded peptide reported in preclinical models to activate AMPK in skeletal muscle and improve insulin sensitivity. This is the first registered human trial testing MOTS-c for metabolic endpoints in a prediabetes population.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT07505745",
-        "phase": "Phase 2",
-        "status": "RECRUITING",
-        "sponsor": "Hudson Biotech",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "120",
-        "conditions": [
-          "Prediabetes",
-          "Insulin Resistance",
-          "Overweight/Obesity"
-        ],
-        "primaryOutcomes": "Change from baseline in OGTT-derived insulin sensitivity (Matsuda Index); Incidence of treatment-emergent adverse events (TEAEs)",
-        "hasResults": false
-      }
-    },
-    {
-      "id": "pmid-41952615",
-      "kind": "study",
-      "pmid": "41952615",
-      "doi": "10.1002/mrd.70093",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41952615/",
-      "title": "Kisspeptin-10 Promotes Hormone Secretion, Ovarian Follicles Development and Fecundity via PI3K/AKT/ERK Signal Pathway in Mice.",
-      "displayTitle": "Kisspeptin-10 boosts ovarian function and fertility via PI3K/AKT/ERK pathway in mice",
-      "authors": "Suocheng W et al.",
-      "journal": "Molecular reproduction and development",
-      "publishedDate": "2026-04-01",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Kisspeptin-10"
-      ],
-      "studyType": "Animal model — mouse",
-      "summary": "Kisspeptin-10 treatment in mice enhanced follicular granulosa cell proliferation, reduced apoptosis and autophagy, promoted ovarian follicle development, and increased progesterone and estradiol secretion. Effects were mediated through PI3K/AKT/ERK signaling, with 10 μg/g showing optimal efficacy.",
-      "keyFindings": [
-        "KP-10 increased granulosa cell proliferation while decreasing apoptosis and autophagy rates (p < 0.05)",
-        "Secondary follicle number, diameter, and wall thickness significantly increased with KP-10 treatment (p < 0.05)",
-        "Serum progesterone and estradiol concentrations were notably elevated versus control (p < 0.05)",
-        "Optimal dose of 10 μg/g KP-10 activated PI3K/AKT/ERK pathway genes and proteins"
-      ],
-      "limitations": "Mouse model may not fully translate to human reproductive physiology; optimal dosing and long-term safety in humans remain unknown.",
-      "context": "Kisspeptin-10 is known to regulate reproductive hormone secretion through hypothalamic-pituitary-gonadal axis. This study extends prior findings by demonstrating direct ovarian effects via PI3K/AKT/ERK signaling in both cultured cells and intact animals.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-41782211",
-      "kind": "study",
-      "pmid": "41782211",
-      "doi": "10.1111/apha.70188",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41782211/",
-      "title": "Kisspeptin Restores Placental mTOR Signaling and Improves Glucose Homeostasis Mediators Disrupted by Maternal Hypothyroidism in Rats.",
-      "displayTitle": "Kisspeptin-10 restores placental mTOR signaling disrupted by maternal hypothyroidism in rats",
-      "authors": "Santos BR et al.",
-      "journal": "Acta physiologica (Oxford, England)",
-      "publishedDate": "2026-04-01",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Kisspeptin-10"
-      ],
-      "studyType": "Animal model — rat",
-      "summary": "In pregnant rats with propylthiouracil-induced hypothyroidism, kisspeptin-10 treatment starting on gestational day 8 restored placental mTOR signaling and normalized glucose transporter expression, though it did not prevent fetal growth restriction or improve maternal glucose intolerance.",
-      "keyFindings": [
-        "Maternal hypothyroidism reduced fetal/placental weights and caused glucose intolerance with decreased insulin and HDL levels",
-        "Kisspeptin-10 restored placental AKT/mTOR expression and attenuated Glut1 dysregulation caused by hypothyroidism",
-        "Kisspeptin-10 upregulated placental IGF1/IGF1R axis but did not prevent feto-placental growth restriction",
-        "Treatment improved placental molecular markers without reversing maternal glucose homeostasis deficits"
-      ],
-      "limitations": "Kisspeptin-10 improved placental molecular markers but failed to prevent growth restriction or maternal metabolic dysfunction, indicating limited functional rescue in this model.",
-      "context": "This extends prior findings that kisspeptin can improve feto-placental development in hypothyroid rats. The restoration of placental mTOR signaling is notable given its known role in nutrient sensing and fetal growth, though the lack of phenotypic rescue suggests molecular changes alone may be insufficient.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
     }
   ]
 }
