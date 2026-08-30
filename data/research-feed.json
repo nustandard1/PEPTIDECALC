@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-08-23T07:27:30.695Z",
+  "lastUpdated": "2026-08-30T12:29:16.641Z",
   "entries": [
+    {
+      "id": "pmid-42610532",
+      "kind": "study",
+      "pmid": "42610532",
+      "doi": "10.1080/17482631.2026.2717809",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42610532/",
+      "title": "Hunger pain and its reduction; qualitative insight from people with schizophrenia on semaglutide.",
+      "displayTitle": "Semaglutide relieves 'hunger pain' in schizophrenia patients on antipsychotics",
+      "authors": "Rasmussen BS et al.",
+      "journal": "International journal of qualitative studies on health and well-being",
+      "publishedDate": "2026-12-31",
+      "addedDate": "2026-08-30",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Qualitative interview study",
+      "summary": "This qualitative study interviewed 11 people with schizophrenia who used semaglutide as part of an RCT, exploring their experiences of hunger and eating habits. Semaglutide largely relieved a severe, antipsychotic-induced hunger state termed 'hunger pain,' though some negative effects of reduced appetite were also identified.",
+      "keyFindings": [
+        "A distinct 'hunger pain' phenomenon was identified: extreme hunger, inability to achieve satiety, and food preoccupation linked to antipsychotics.",
+        "Semaglutide-induced hunger reduction was experienced as liberating by most participants.",
+        "Reduced hunger also carried negative effects, highlighting the need for individualized assessment before treatment.",
+        "Antipsychotic-induced hunger pain appeared to reinforce maladaptive coping styles around eating."
+      ],
+      "limitations": "Very small sample (n=11), single qualitative study with no control group, and interviews conducted up to 1.5 years post-treatment, introducing recall bias.",
+      "context": "Weight gain and disordered eating are well-documented burdens for people on antipsychotics. This study extends prior quantitative findings by capturing subjective patient experiences of semaglutide's appetite-suppressing effects in this vulnerable population.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
     {
       "id": "pmid-41999297",
       "kind": "study",
@@ -244,6 +274,321 @@
       "trialMeta": null
     },
     {
+      "id": "pmid-42667535",
+      "kind": "study",
+      "pmid": "42667535",
+      "doi": "10.1007/s12010-026-05885-6",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42667535/",
+      "title": "Efficient Expression of Small Molecule Bioactive Peptides in Bacillus licheniformis.",
+      "displayTitle": "BPC-157 expressed in bacteria protects rat stomach from ulcers",
+      "authors": "Zhang H et al.",
+      "journal": "Applied biochemistry and biotechnology",
+      "publishedDate": "2026-08-29",
+      "addedDate": "2026-08-30",
+      "peptides": [
+        "BPC-157"
+      ],
+      "studyType": "Animal model — rat",
+      "summary": "Researchers expressed BPC-157 as fusion proteins in Bacillus licheniformis and tested their efficacy in a rat ethanol-induced gastric ulcer model. Both fusion proteins showed strong gastroprotective and therapeutic activity, with ulcer inhibition rates of 75–85%.",
+      "keyFindings": [
+        "Optimized fermentation conditions boosted BPC-157 fusion protein expression ~3-fold over basal medium.",
+        "Ulcer inhibition rates ranged from 75.3–82.9% (protective) and 80.4–84.6% (therapeutic) in rats.",
+        "Treatment reduced mucosal inflammation and stimulated glandular repair on histology.",
+        "ELISA confirmed significant downregulation of TNF-α, IL-1β, and IL-6 in gastric tissue."
+      ],
+      "limitations": "Animal-only study using a single acute ulcer model; no direct comparison to synthetically produced BPC-157 or established clinical treatments.",
+      "context": "BPC-157 is consistently associated with gastroprotective effects in rodent models, consistent with prior findings showing reduced ulceration and anti-inflammatory activity. This study extends prior work by demonstrating a viable bacterial biosynthesis strategy for producing BPC-157.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42668312",
+      "kind": "study",
+      "pmid": "42668312",
+      "doi": "10.1038/s41366-026-02189-x",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42668312/",
+      "title": "Effects of subcutaneous semaglutide on weight loss and inflammatory markers in adults with overweight or obesity without diabetes: a systematic review and meta-analysis.",
+      "displayTitle": "Subcutaneous semaglutide cuts body weight ~12% and CRP ~41% in non-diabetic obesity",
+      "authors": "Milluzzo A et al.",
+      "journal": "International journal of obesity (2005)",
+      "publishedDate": "2026-08-29",
+      "addedDate": "2026-08-30",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "This systematic review and meta-analysis of 9 RCTs (6,239 participants) evaluated subcutaneous semaglutide versus placebo in adults with overweight or obesity without diabetes, finding significant reductions in body weight, waist circumference, and the inflammatory marker CRP, with no significant increase in serious adverse events.",
+      "keyFindings": [
+        "Semaglutide reduced percentage body weight by 12.04% versus placebo (95% CI: −13.08 to −11.00).",
+        "Waist circumference decreased by 9.36 cm versus placebo (95% CI: −10.27 to −8.45).",
+        "CRP fell by 40.90% versus placebo, suggesting meaningful anti-inflammatory effects.",
+        "Serious adverse event risk did not differ significantly from placebo (RR 1.12, p = 0.55)."
+      ],
+      "limitations": "Meta-analysis pooled heterogeneous trial designs and dose regimens; longer-term efficacy and safety data beyond trial durations remain limited.",
+      "context": "These findings are consistent with prior phase 3 STEP trial data and extend them by quantifying inflammatory marker reductions. The inclusion of the high-dose STEP UP trial (7.2 mg) suggests dose-dependent weight loss potential beyond currently approved doses.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42667964",
+      "kind": "study",
+      "pmid": "42667964",
+      "doi": "10.1016/j.bcp.2026.118405",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42667964/",
+      "title": "Drug failure in diabetic kidney disease: translational barriers, target validation and trial de-risking strategies.",
+      "displayTitle": "Review: Why DKD drugs fail and how semaglutide succeeded",
+      "authors": "Hu H et al.",
+      "journal": "Biochemical pharmacology",
+      "publishedDate": "2026-08-29",
+      "addedDate": "2026-08-30",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review analyzes translational failures and successes in diabetic kidney disease drug development, comparing successful agents—including semaglutide—with failed programs to identify recurring vulnerabilities and propose a de-risking framework for future trials.",
+      "keyFindings": [
+        "DKD development has shifted from glucose/blood-pressure control toward disease-modifying agents including GLP-1 receptor agonists like semaglutide.",
+        "Many mechanistically promising agents failed due to poor target validation, animal-to-human translation gaps, or safety constraints.",
+        "Recurring failures involve biomarker signals that did not translate into durable hard kidney outcomes.",
+        "Proposed de-risking framework emphasizes human tissue evidence, renal cell-specific validation, and adaptive trial design."
+      ],
+      "limitations": "As a narrative review, conclusions reflect author interpretation; semaglutide is one of several comparators rather than the sole focus, limiting depth of peptide-specific analysis.",
+      "context": "Semaglutide's successful DKD development path is contrasted here with multiple failed programs, consistent with recent trial data supporting GLP-1 receptor agonists as disease-modifying agents in diabetic kidney disease.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT03937882",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT03937882",
+      "url": "https://clinicaltrials.gov/study/NCT03937882",
+      "title": "Assessment of the Safety and Efficacy of RGN-259 Ophthalmic Solutions for Dry Eye Syndrome: ARISE-3",
+      "displayTitle": "Phase 3 Thymosin Beta-4 eye drop trial for dry eye posts results",
+      "authors": "ReGenTree, LLC",
+      "journal": "ClinicalTrials.gov · ReGenTree, LLC",
+      "publishedDate": "2026-08-28",
+      "addedDate": "2026-08-30",
+      "peptides": [
+        "TB-500"
+      ],
+      "studyType": "Trial — Phase 3 RCT, completed (results posted)",
+      "summary": "ARISE-3 is a completed Phase 3 randomized controlled trial comparing RGN-259 (Thymosin beta-4 ophthalmic solution) to placebo in 700 dry eye patients, administered four times daily for 14 days, assessing both corneal staining and patient-reported ocular discomfort.",
+      "keyFindings": [
+        "Phase 3 RCT, n=700, placebo-controlled, 14-day treatment course with QID dosing.",
+        "Primary endpoints: inferior corneal staining and ocular discomfort score changes at Day 15.",
+        "Results have been posted to ClinicalTrials.gov; trial is fully completed.",
+        "RGN-259 is preservative-free and contains Thymosin beta-4 as sole active ingredient."
+      ],
+      "limitations": "Results are posted but not yet peer-reviewed in a published journal; registry-reported outcomes require independent validation before clinical conclusions can be drawn.",
+      "context": "ARISE-3 follows earlier ARISE-1 and ARISE-2 Phase 2/3 trials of RGN-259 for dry eye, which showed mixed but encouraging signals for Thymosin beta-4's tissue-repair and anti-inflammatory properties in ocular surface disease.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT03937882",
+        "phase": "Phase 3",
+        "status": "COMPLETED",
+        "sponsor": "ReGenTree, LLC",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "700",
+        "conditions": [
+          "Dry Eye Syndromes",
+          "Dry Eye"
+        ],
+        "primaryOutcomes": "Change From Baseline in Inferior Corneal Staining Change From Pre-CAE®(Controlled Adverse Environment) to Post-CAE® at Day 15 (Visit 4) Using the Ora Calibra® Scale; Change From Baseline in Ocular Discomfort at Day 15 (Visit 4) Pre-CAE® Using the Ora Calibra® Ocular Discomfort & 4-Symptom Questionnaire",
+        "hasResults": true
+      }
+    },
+    {
+      "id": "pmid-42663669",
+      "kind": "study",
+      "pmid": "42663669",
+      "doi": "10.1007/s00535-026-02507-0",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42663669/",
+      "title": "Semaglutide in Japanese participants with metabolic dysfunction-associated steatohepatitis: a subgroup analysis of the ESSENCE trial.",
+      "displayTitle": "Semaglutide resolves MASH in 63% of Japanese patients at 72 weeks",
+      "authors": "Nakajima A et al.",
+      "journal": "Journal of gastroenterology",
+      "publishedDate": "2026-08-28",
+      "addedDate": "2026-08-30",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Randomized controlled trial — subgroup analysis",
+      "summary": "This subgroup analysis of the phase 3 ESSENCE trial examined semaglutide 2.4 mg weekly versus placebo in 116 Japanese participants with biopsy-confirmed MASH and liver fibrosis stage 2–3. Steatohepatitis resolution without fibrosis worsening was achieved in 63.1% of semaglutide-treated Japanese participants versus 36.8% on placebo.",
+      "keyFindings": [
+        "63.1% of Japanese participants on semaglutide achieved steatohepatitis resolution vs. 36.8% on placebo (EDP: 26.65, 95% CI: 7.43–45.86).",
+        "Fibrosis improvement without steatohepatitis worsening occurred in 36.5% (semaglutide) vs. 28.9% (placebo); CI included zero.",
+        "Japanese participants were older and had lower BMI than the overall trial population, but these factors did not meaningfully affect efficacy or safety.",
+        "Semaglutide was well tolerated in the Japanese subgroup, consistent with the overall ESSENCE adverse event profile."
+      ],
+      "limitations": "Subgroup of only 116 participants limits statistical power; the fibrosis endpoint confidence interval crossed zero, indicating uncertainty about that outcome in Japanese patients.",
+      "context": "The overall ESSENCE part 1 results previously demonstrated semaglutide's efficacy in MASH; this subgroup analysis extends those findings to a Japanese population, which is consistent with prior data suggesting GLP-1 receptor agonists benefit MASH across diverse ethnicities.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42647645",
+      "kind": "study",
+      "pmid": "42647645",
+      "doi": "10.1126/sciadv.aeh4670",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42647645/",
+      "title": "IDE-mediated GLP-1 degradation as the basis for designing long-acting and CNS-stable GLP-1 receptor agonists.",
+      "displayTitle": "D-amino acid Semaglutide analog resists IDE degradation, extends glucose-lowering in mice",
+      "authors": "Zhang L et al.",
+      "journal": "Science advances",
+      "publishedDate": "2026-08-28",
+      "addedDate": "2026-08-30",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "Researchers identified insulin-degrading enzyme (IDE) as a novel GLP-1-degrading protease and engineered D-amino acid substitutions into GLP-1 and Semaglutide to resist it. The resulting D-Ser-Semaglutide showed enhanced stability across multiple tissues and prolonged glucose-lowering effects in mice.",
+      "keyFindings": [
+        "IDE cleaves GLP-1 at two sites and represents a major mechanism regulating glucose control, independent of insulin degradation.",
+        "D-amino acid substitutions at IDE cleavage sites enhanced peptide stability in plasma, liver, intestinal secretomes, peritoneal fluid, and CNS.",
+        "D-Ser-Semaglutide showed prolonged plasma retention and sustained glucose-lowering effects in mice.",
+        "IDE knockdown and intracerebral D-Ser-Semaglutide injection confirmed IDE's physiological role in CNS GLP-1 degradation."
+      ],
+      "limitations": "Findings are based on mouse models and in vitro secretome assays; translation to human pharmacokinetics and CNS therapeutic outcomes has not been demonstrated.",
+      "context": "GLP-1 degradation has been primarily attributed to DPP-4; this study extends prior knowledge by identifying IDE as an additional tissue-resident protease regulating GLP-1 metabolism, particularly in the CNS, and provides a rational analog-design strategy to overcome it.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42641753",
+      "kind": "study",
+      "pmid": "42641753",
+      "doi": "10.1016/j.ejphar.2026.179277",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42641753/",
+      "title": "Thymosin &#x3b1;-1 in Cancer Therapy: Immunomodulatory Mechanisms, Clinical Applications, and Translational Perspectives.",
+      "displayTitle": "Thymosin α-1 reviewed as immunomodulatory agent in cancer therapy",
+      "authors": "Chuang SC et al.",
+      "journal": "European journal of pharmacology",
+      "publishedDate": "2026-08-25",
+      "addedDate": "2026-08-30",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review summarizes the immunomodulatory mechanisms and clinical evidence for Thymosin α-1 (Tα1) in oncology, covering its effects on T-cells, NK cells, dendritic cells, and the tumor microenvironment, as well as its potential to enhance chemotherapy, radiotherapy, and immune checkpoint inhibitors.",
+      "keyFindings": [
+        "Tα1 promotes Th1 polarization, T-cell maturation, NK cell activity, and dendritic cell function to support antitumor immunity.",
+        "Preclinical and clinical data suggest Tα1 may improve immune infiltration in immunologically 'cold' tumors.",
+        "Clinical studies in NSCLC, hepatocellular carcinoma, and metastatic melanoma report a favorable safety profile with potential therapeutic benefits.",
+        "Tα1 may help mitigate immune-related adverse events associated with checkpoint inhibitor therapy."
+      ],
+      "limitations": "Available clinical evidence is described as limited and heterogeneous, and no meta-analytic synthesis was performed, restricting the strength of conclusions.",
+      "context": "Tα1 has been studied for decades as a thymic immunomodulator; this review extends prior findings by situating Tα1 within modern combination immunotherapy strategies and addressing its role in modulating the tumor microenvironment.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42640735",
+      "kind": "study",
+      "pmid": "42640735",
+      "doi": "10.1556/2060.2026.00863",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42640735/",
+      "title": "Mitochondrial-derived peptides (MDPs) activated by physical exercise as therapeutic targets for&#xa0;metabolic disorders: A systematic review.",
+      "displayTitle": "Exercise may boost MOTS-c and humanin levels, aiding metabolic health",
+      "authors": "Ayubi N et al.",
+      "journal": "Physiology international",
+      "publishedDate": "2026-08-25",
+      "addedDate": "2026-08-30",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Systematic review",
+      "summary": "This systematic review of 9 studies (2016–2025) examined how physical exercise affects mitochondrial-derived peptides (MDPs), including MOTS-c and humanin. Most studies reported a trend toward increased MDP levels post-exercise, potentially linked to improved insulin sensitivity and cellular energy metabolism.",
+      "keyFindings": [
+        "9 of 435 identified studies met inclusion criteria; most reported increased MDP levels after exercise.",
+        "Exercise-induced MDP elevation was associated with improved insulin sensitivity and energy metabolism efficiency.",
+        "Evidence is preliminary, with significant variation in study design, populations, and exercise protocols.",
+        "Authors call for controlled clinical trials and longitudinal studies to confirm MDPs as therapeutic targets."
+      ],
+      "limitations": "Only 9 studies were included, with heterogeneous designs and limited human data, making firm conclusions about exercise-induced MDP changes premature.",
+      "context": "MOTS-c has previously been shown to regulate glucose metabolism and insulin sensitivity in preclinical models. This review extends prior findings by suggesting exercise may be a physiological stimulus for MDP synthesis, consistent with mitochondria-dependent signaling pathways.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42635865",
+      "kind": "study",
+      "pmid": "42635865",
+      "doi": "10.1007/s11916-026-01542-z",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42635865/",
+      "title": "Peptides in Regenerative Medicine: A Comprehensive Review of Clinical Applications in Tissue Repair and Chronic Pain Management.",
+      "displayTitle": "Review: BPC-157, TB-500, GHK-Cu assessed for chronic pain and tissue repair",
+      "authors": "Luansritisakul C et al.",
+      "journal": "Current pain and headache reports",
+      "publishedDate": "2026-08-24",
+      "addedDate": "2026-08-30",
+      "peptides": [
+        "BPC-157",
+        "TB-500",
+        "GHK-Cu"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review synthesizes preclinical and clinical evidence on regenerative peptides — including BPC-157, TB-4/TB-500, and GHK-Cu — for chronic pain management and tissue repair, evaluating mechanisms, safety, and regulatory status. Authors conclude therapeutic potential exists but human clinical evidence remains limited and most peptides lack FDA approval.",
+      "keyFindings": [
+        "Regenerative peptides like BPC-157, TB-500, and GHK-Cu show promise for tissue repair and chronic pain via distinct mechanisms.",
+        "Most reviewed peptides remain unapproved by the FDA; clinical human evidence is limited.",
+        "Conventional chronic pain management often fails to achieve durable outcomes, motivating interest in peptide-based alternatives.",
+        "Authors call for careful clinical judgment and ongoing evaluation before adopting these therapies."
+      ],
+      "limitations": "As a narrative review, it is subject to selection bias and does not apply systematic search or meta-analytic methods; human clinical evidence for most peptides remains sparse.",
+      "context": "Consistent with a growing body of preclinical literature on BPC-157, TB-500, and GHK-Cu, this review extends prior findings by contextualizing them within chronic pain management, while highlighting the gap between animal model results and human clinical validation.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42633878",
+      "kind": "study",
+      "pmid": "42633878",
+      "doi": "10.1016/j.ejphar.2026.179261",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42633878/",
+      "title": "MOTS-c in sepsis-induced cardiomyopathy: Mechanisms and translational potential.",
+      "displayTitle": "MOTS-c reviewed as potential therapeutic target in sepsis-induced cardiomyopathy",
+      "authors": "Zhao Z et al.",
+      "journal": "European journal of pharmacology",
+      "publishedDate": "2026-08-23",
+      "addedDate": "2026-08-30",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review examines the biological mechanisms of MOTS-c, a mitochondrial-derived microprotein, and its potential relevance to sepsis-induced cardiomyopathy (SICM), evaluating direct SICM evidence versus findings extrapolated from other disease models. The authors conclude MOTS-c is plausible but insufficiently validated for SICM specifically.",
+      "keyFindings": [
+        "MOTS-c modulates AMPK-related energy metabolism, antioxidant responses, inflammation, and mitochondrial quality control — all relevant to SICM pathology.",
+        "Direct SICM-specific evidence for MOTS-c is limited; key proposed mechanisms derive primarily from non-SICM cardiovascular and metabolic models.",
+        "MOTS-c shows exploratory potential as an adjunctive biomarker and therapeutic candidate, but biomarker specificity and pharmacokinetics under septic conditions remain poorly defined.",
+        "Translational relevance of MOTS-c in SICM will require disease-specific mechanistic and pharmacological validation."
+      ],
+      "limitations": "Review is narrative rather than systematic; direct SICM-specific experimental evidence for MOTS-c is acknowledged to be scarce, limiting strength of conclusions.",
+      "context": "MOTS-c has previously been studied in metabolic, cardiovascular, and inflammatory contexts. This review extends that work by systematically mapping known MOTS-c biology onto SICM pathophysiology, while cautioning that most supporting evidence is indirect.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
       "id": "pmid-42629417",
       "kind": "study",
       "pmid": "42629417",
@@ -433,6 +778,36 @@
       ],
       "limitations": "Review relies partly on pharmacovigilance and observational data subject to confounding; causality could not be established for most neuropsychiatric outcomes.",
       "context": "Post-marketing surveillance has raised neuropsychiatric safety signals for GLP-1 receptor agonists; this review extends prior pharmacovigilance work by systematically applying Bradford Hill criteria, consistent with growing regulatory and scientific scrutiny of CNS effects.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42653505",
+      "kind": "study",
+      "pmid": "42653505",
+      "doi": "10.3390/ijms27167507",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42653505/",
+      "title": "Glutathione Biology in Neurodegenerative and Metabolic Diseases: Molecular Mechanisms, Pathophysiological Roles, and Therapeutic Perspectives.",
+      "displayTitle": "Glutathione's roles in neurodegeneration and metabolic disease reviewed",
+      "authors": "Gromadzka G et al.",
+      "journal": "International journal of molecular sciences",
+      "publishedDate": "2026-08-21",
+      "addedDate": "2026-08-30",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This comprehensive review examines the molecular mechanisms governing glutathione synthesis, recycling, and signaling, and how disruptions in glutathione homeostasis contribute to Parkinson's, Alzheimer's, Huntington's, multiple sclerosis, Wilson's disease, type 2 diabetes, and nonalcoholic fatty liver disease, alongside current therapeutic strategies to restore glutathione balance.",
+      "keyFindings": [
+        "Glutathione regulates redox signaling, mitochondrial function, protein S-glutathionylation, and immunity beyond classical antioxidant defense.",
+        "Disrupted glutathione homeostasis interacts with mitochondrial dysfunction, chronic inflammation, and metabolic stress across multiple neurodegenerative and metabolic diseases.",
+        "Therapeutic approaches include glutathione supplementation, precursor supplementation, Nrf2/Keap1 pathway modulation, dietary interventions, and lifestyle changes.",
+        "Clinical evidence remains insufficient due to bioavailability challenges, tissue specificity, disease variability, and underpowered trials."
+      ],
+      "limitations": "As a narrative review, it does not perform systematic evidence synthesis, and conclusions on therapeutic efficacy are limited by the acknowledged absence of adequately powered clinical trials.",
+      "context": "Glutathione depletion is a well-established feature of neurodegenerative diseases; this review extends prior findings by integrating redox signaling mechanisms, S-glutathionylation, and metabolic disease contexts, and calls for precision medicine approaches to identify responders to glutathione-targeted therapies.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -6077,402 +6452,6 @@
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
-    },
-    {
-      "id": "pmid-42160466",
-      "kind": "study",
-      "pmid": "42160466",
-      "doi": "10.2106/JBJS.RVW.26.00027",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42160466/",
-      "title": "Injectable Peptides in Sports Medicine: A Structured Narrative Review of Evidence, Safety, and Antidoping Implications.",
-      "displayTitle": "Injectable peptides in sports medicine: mostly experimental, one class with solid evidence",
-      "authors": "Villegas Meza AD et al.",
-      "journal": "JBJS reviews",
-      "publishedDate": "2026-05-01",
-      "addedDate": "2026-05-24",
-      "peptides": [
-        "CJC-1295",
-        "Ipamorelin",
-        "Tesamorelin",
-        "Semaglutide"
-      ],
-      "studyType": "Narrative review",
-      "summary": "This structured narrative review (2020–2025) examined injectable peptides relevant to orthopaedics and sports medicine across five functional classes, finding that GLP-1 receptor agonists like semaglutide are the only class with reproducible randomized evidence of benefit, while growth hormone secretagogues and regenerative peptides remain investigational with unresolved safety and antidoping concerns.",
-      "keyFindings": [
-        "Semaglutide (GLP-1 agonist) is the only injectable peptide class with reproducible RCT evidence for knee osteoarthritis symptom improvement, primarily via weight loss.",
-        "Structural cartilage modification from any injectable peptide class remains unproven in human studies.",
-        "CJC-1295, ipamorelin, and tesamorelin remain investigational with uncertain safety profiles and widespread antidoping restrictions.",
-        "Collagen-derived injectables showed only preliminary postoperative benefits in small, single-center prospective studies."
-      ],
-      "limitations": "As a narrative review (Level V evidence), it is subject to selection bias and does not include a formal meta-analysis or systematic synthesis of effect sizes.",
-      "context": "This review is consistent with the broader understanding that GLP-1 agonists have the strongest clinical evidence base among injectable peptides, while growth hormone axis secretagogues like CJC-1295 and ipamorelin are widely used off-label despite limited human trial data. It extends prior findings by explicitly contextualizing antidoping and product quality risks for sports medicine clinicians.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-41588687",
-      "kind": "study",
-      "pmid": "41588687",
-      "doi": "10.1002/rcm.70039",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41588687/",
-      "title": "In Vitro Metabolism and Analytical Characterization of SLU-PP-332 and SLU-PP-915: Novel Pan-ERR Agonists With Doping Potential.",
-      "displayTitle": "SLU-PP-332 metabolites mapped for sports doping detection",
-      "authors": "M&#xf6;ller T et al.",
-      "journal": "Rapid communications in mass spectrometry : RCM",
-      "publishedDate": "2026-04-30",
-      "addedDate": "2026-05-10",
-      "peptides": [
-        "SLU-PP-332"
-      ],
-      "studyType": "In vitro",
-      "summary": "Researchers characterized the in vitro metabolism of two pan-ERR agonists, SLU-PP-332 and SLU-PP-915, using human liver fractions and LC-HRMS/MS to support anti-doping testing. Nine metabolites were identified for SLU-PP-332 and seven for SLU-PP-915.",
-      "keyFindings": [
-        "SLU-PP-332 produced 9 metabolites: 6 Phase-I and 3 Phase-II conjugates in human liver S9/microsome systems.",
-        "SLU-PP-915 yielded 7 Phase-I metabolites only, with no Phase-II conjugates detected.",
-        "Three SLU-PP-915 metabolites were confirmed via chemical synthesis and NMR spectroscopy.",
-        "Findings aim to enable detection of illicit use of these exercise-mimetic compounds in sports drug testing."
-      ],
-      "limitations": "Study is limited to in vitro metabolic models (S9 fraction and microsomes); in vivo metabolism and actual pharmacokinetics in humans remain uncharacterized.",
-      "context": "SLU-PP-332 and SLU-PP-915 are emerging exercise mimetics targeting estrogen-related receptors; this metabolic profiling work extends early pharmacological characterization toward anti-doping surveillance, consistent with growing interest in ERR agonists as performance-enhancing agents.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42047624",
-      "kind": "study",
-      "pmid": "42047624",
-      "doi": "10.1002/cmdc.202501023",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42047624/",
-      "title": "Copper(II)-Tripeptide Complexes as Potential Skin Healing Agents: Synthesis, Characterization, and Wound Repair Ability.",
-      "displayTitle": "Novel copper-tripeptide complexes show wound-healing activity in cell assay",
-      "authors": "Aguilar L et al.",
-      "journal": "ChemMedChem",
-      "publishedDate": "2026-04-28",
-      "addedDate": "2026-05-10",
-      "peptides": [
-        "GHK-Cu"
-      ],
-      "studyType": "In vitro",
-      "summary": "Researchers synthesized and characterized four copper(II)-tripeptide complexes (CuGGI, CuAAA, CuFGG, CuVYV) and tested their wound-healing potential in a scratch assay using MRC-5 fibroblast cells. CuAAA and CuVYV promoted cell migration and showed no cytotoxicity at effective doses.",
-      "keyFindings": [
-        "CuAAA and CuVYV promoted wound closure by inducing cell migration in MRC-5 fibroblasts.",
-        "All four complexes were redox-active; CuVYV showed the most accessible Cu(III)/Cu(II) transition.",
-        "CuVYV formed a 1:1 complex via double deprotonation; CuGGI, CuAAA, CuFGG formed 1:2 complexes.",
-        "None of the compounds were cytotoxic at wound-repair-effective doses."
-      ],
-      "limitations": "Results are limited to a single in vitro scratch assay model; no animal or ex vivo skin data are presented, limiting translational conclusions.",
-      "context": "GHK-Cu is the best-known copper-tripeptide complex with established skin-repair and anti-inflammatory activity. This study extends the concept to novel tripeptide ligands, consistent with prior findings that copper coordination enhances peptide wound-healing properties.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42034831",
-      "kind": "study",
-      "pmid": "42034831",
-      "doi": "10.1038/s41366-026-02088-1",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42034831/",
-      "title": "GLP-1 agonists and changes in body mass and composition in adults with overweight or obesity with or without type 2 diabetes mellitus: a systematic review and meta-analysis.",
-      "displayTitle": "GLP-1 agonists reduce body weight up to 9% primarily through fat loss",
-      "authors": "Sawicka-Gutaj N et al.",
-      "journal": "International journal of obesity (2005)",
-      "publishedDate": "2026-04-25",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Systematic review and meta-analysis",
-      "summary": "This systematic review and meta-analysis of 36 studies found that GLP-1 receptor agonists consistently reduced body weight, BMI, and waist circumference in adults with overweight or obesity. Weight loss at 3 months averaged 9%, with predominant fat mass reduction and relative preservation of lean tissue.",
-      "keyFindings": [
-        "At 3 months, mean body weight decreased by approximately 9% with marked reductions in fat mass and visceral adipose tissue",
-        "At 6 months, weight reduction averaged 5% with semaglutide, liraglutide, and exenatide showing comparable effects",
-        "At 12 months, weight loss persisted at around 4% with variability between agents",
-        "Fat mass decline predominated across all time points while lean body mass remained largely preserved"
-      ],
-      "limitations": "Heterogeneity between studies and variability in outcome measurement methods; subgroup analyses by drug type may be limited by different study populations and protocols.",
-      "context": "This meta-analysis confirms GLP-1 agonists' established efficacy for weight loss and extends prior findings by quantifying body composition changes across multiple agents and timepoints. The preferential fat loss with lean mass preservation supports the metabolic benefits observed in prior trials.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42033237",
-      "kind": "study",
-      "pmid": "42033237",
-      "doi": "10.1093/ajhp/zxag121",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42033237/",
-      "title": "Cardiovascular outcomes of glucagon-like peptide-1 receptor agonists: A systematic review.",
-      "displayTitle": "GLP-1 agonists reduce major cardiovascular events across multiple patient populations",
-      "authors": "Bihelek N et al.",
-      "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
-      "publishedDate": "2026-04-25",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Semaglutide",
-        "Tirzepatide"
-      ],
-      "studyType": "Systematic review",
-      "summary": "Systematic review of 12 cardiovascular outcome trials found GLP-1 receptor agonists consistently reduce major adverse cardiovascular events in type 2 diabetes patients, with emerging benefits in obesity/atherosclerotic disease and heart failure populations.",
-      "keyFindings": [
-        "GLP-1 agonists showed consistent MACE reduction in type 2 diabetes patients across 10 trials",
-        "Semaglutide lowered MACE risk in overweight/obesity patients with atherosclerotic disease but without diabetes",
-        "Tirzepatide reduced heart failure events and cardiovascular death in obesity with HFpEF patients",
-        "Gastrointestinal adverse events commonly led to treatment discontinuation across trials"
-      ],
-      "limitations": "Effect on cardiovascular and all-cause mortality remains uncertain except for liraglutide; heterogeneous patient populations and follow-up durations across included trials.",
-      "context": "This review consolidates cardiovascular outcome data for GLP-1 receptor agonists, extending evidence beyond their established benefits in type 2 diabetes to include cardiovascular protection in non-diabetic obesity and heart failure populations.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42030208",
-      "kind": "study",
-      "pmid": "42030208",
-      "doi": "10.1159/000552104",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42030208/",
-      "title": "Real-World Comparison of Short-Term Adverse Events, Treatment Persistence, and Efficacy of Semaglutide and Tirzepatide: A Nationwide Multicenter Study.",
-      "displayTitle": "Tirzepatide achieves greater weight loss than semaglutide in real-world obesity treatment",
-      "authors": "Hep&#x15f;en S et al.",
-      "journal": "Obesity facts",
-      "publishedDate": "2026-04-24",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Semaglutide",
-        "Tirzepatide"
-      ],
-      "studyType": "Observational cohort",
-      "summary": "This nationwide multicenter study of 2,549 patients with obesity compared semaglutide and tirzepatide over 6 months. Both showed similar overall adverse event rates (~51%), but tirzepatide produced greater weight loss (14.4% vs 12.6%).",
-      "keyFindings": [
-        "Median weight loss at 6 months: 14.4% with tirzepatide vs 12.6% with semaglutide",
-        "Overall adverse event rates similar (~51% both groups), predominantly gastrointestinal",
-        "Tirzepatide showed higher rates of musculoskeletal and allergic reactions",
-        "Treatment discontinuation rates comparable except for pancreatic events (more with semaglutide)"
-      ],
-      "limitations": "Observational design without randomization; short 6-month follow-up period limits assessment of long-term safety and durability of weight loss.",
-      "context": "This large real-world study confirms trial findings that tirzepatide produces modestly greater weight loss than semaglutide. The similar tolerability profiles and treatment persistence rates support both as effective obesity treatments, extending randomized trial data to routine clinical practice.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42026662",
-      "kind": "study",
-      "pmid": "42026662",
-      "doi": "10.1186/s40842-026-00290-8",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42026662/",
-      "title": "Efficacy and safety of semaglutide injection in Indian patients with type 2 diabetes mellitus inadequately controlled on metformin: a phase 3, randomized, active-controlled trial (SIZE-DM study).",
-      "displayTitle": "Generic semaglutide matches branded version for glucose control in Indian T2DM patients",
-      "authors": "Kapoor N et al.",
-      "journal": "Cardiovascular diabetology. Endocrinology reports",
-      "publishedDate": "2026-04-24",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Randomized controlled trial",
-      "summary": "This phase 3 trial in 320 Indian adults with type 2 diabetes on metformin compared generic versus branded semaglutide over 24 weeks. Both achieved identical 2.2% HbA1c reductions with similar safety profiles, establishing non-inferiority of the generic formulation.",
-      "keyFindings": [
-        "Both generic and branded semaglutide reduced HbA1c by mean 2.20% at 24 weeks",
-        "86.62% of participants achieved target HbA1c below 7.0%",
-        "Body weight and glucose reductions were comparable between treatment arms",
-        "Safety profiles similar with predominantly mild-to-moderate adverse events; no treatment-related serious adverse events"
-      ],
-      "limitations": "Twenty-four-week duration may not capture long-term cardiovascular or renal outcomes that have been demonstrated with branded semaglutide in dedicated outcomes trials.",
-      "context": "This non-inferiority trial extends semaglutide evidence to Indian populations and establishes bioequivalence for a generic formulation. The efficacy findings are consistent with prior semaglutide trials showing robust HbA1c reductions of 1.5–2.5%, supporting access to GLP-1 therapy in resource-limited settings.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42029362",
-      "kind": "study",
-      "pmid": "42029362",
-      "doi": "10.1016/j.hrthm.2026.03.1940",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42029362/",
-      "title": "Glucagon-like peptide-1 and atrial fibrillation incidence: Associations independent of weight loss.",
-      "displayTitle": "GLP-1 therapy cuts atrial fibrillation risk 33% independent of weight loss",
-      "authors": "Palmisano T et al.",
-      "journal": "Heart rhythm",
-      "publishedDate": "2026-04-23",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Observational cohort",
-      "summary": "A retrospective cohort study of 12,812 patients found GLP-1 receptor agonists reduced atrial fibrillation incidence by 33% and mortality by 66% compared to matched controls, with benefits persisting even in patients who gained weight, suggesting antiarrhythmic effects independent of metabolic changes.",
-      "keyFindings": [
-        "GLP-1 use reduced AF risk by 33% (HR 0.67) and mortality by 66% (HR 0.34) versus controls",
-        "AF protection persisted across all weight change groups, including patients who gained weight",
-        "Only semaglutide showed statistically significant AF risk reduction among GLP-1 agents tested",
-        "AF risk reduction appeared after 24 months of continuous GLP-1 use"
-      ],
-      "limitations": "Single-center retrospective design with AF ascertainment via manual chart review; residual confounding possible despite propensity matching.",
-      "context": "Prior studies have linked GLP-1 therapy to reduced AF incidence, but effects were assumed to be mediated primarily through weight loss. This study extends those findings by demonstrating AF protection independent of weight changes, suggesting direct antiarrhythmic mechanisms beyond metabolic effects.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42023428",
-      "kind": "study",
-      "pmid": "42023428",
-      "doi": "10.1111/dom.70769",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42023428/",
-      "title": "Efficacy, Safety and PK of Once-Daily Oral Semaglutide 25&#x2009;mg for Obesity With and Without Type 2 Diabetes in Comparison With Subcutaneous Semaglutide 2.4&#x2009;mg: A Model-Informed Drug Development Approach.",
-      "displayTitle": "Oral semaglutide 25 mg matches subcutaneous 2.4 mg exposure and weight loss",
-      "authors": "Overgaard RV et al.",
-      "journal": "Diabetes, obesity & metabolism",
-      "publishedDate": "2026-04-23",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Model-informed drug development",
-      "summary": "Model-informed drug development analysis compared once-daily oral semaglutide 25 mg to once-weekly subcutaneous 2.4 mg using pharmacokinetic modeling and simulated trials. Oral formulation achieved similar exposure levels and predicted weight reductions of 7.8–16.3% depending on diabetes status.",
-      "keyFindings": [
-        "82.2% of participants on oral 25 mg achieved exposure levels matching subcutaneous 2.4 mg formulation",
-        "Simulated weight reduction with oral 25 mg: 9.4% in people with T2D, 16.3% without T2D",
-        "Exposure-response modeling supported regulatory approval without direct comparative trial"
-      ],
-      "limitations": "Efficacy estimates derived from simulated rather than actual trials; no direct comparative study between oral 25 mg and subcutaneous 2.4 mg formulations was conducted.",
-      "context": "This extends semaglutide's approved formulations by establishing bioequivalence between high-dose oral and subcutaneous formulations through modeling rather than direct head-to-head trials, consistent with established exposure-response relationships for GLP-1 receptor agonists.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42020128",
-      "kind": "study",
-      "pmid": "42020128",
-      "doi": "10.1136/bmjopen-2026-116911",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020128/",
-      "title": "LEAN mass Preservation with Resistance Exercise and Protein during semaglutide and tirzepatide therapy (LEAN-PREP study): a protocol for a randomised controlled trial.",
-      "displayTitle": "Trial to test resistance training and protein for muscle preservation during GLP-1 therapy",
-      "authors": "Alawadhi AA et al.",
-      "journal": "BMJ open",
-      "publishedDate": "2026-04-22",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Semaglutide",
-        "Tirzepatide"
-      ],
-      "studyType": "Randomized controlled trial protocol",
-      "summary": "The LEAN-PREP trial will randomize 232 adults with obesity in Kuwait to resistance exercise, protein supplementation, both, or neither alongside semaglutide or tirzepatide treatment to determine whether these interventions preserve muscle mass over 6 months.",
-      "keyFindings": [
-        "232 participants will be randomized 1:1:1:1 to control, exercise, protein, or combined interventions with GLP-1 therapy",
-        "Primary outcome is quadriceps cross-sectional area measured by MRI at 6 months",
-        "Interventions include home-based resistance training 3×/week and protein supplementation targeting 1.6 g/kg/day",
-        "Secondary outcomes include liver fat, body composition, strength, physical function, and metabolic markers"
-      ],
-      "limitations": "This is a protocol publication describing planned methods; no efficacy or safety data are yet available from the trial itself.",
-      "context": "GLP-1 receptor agonists produce substantial weight loss but also significant lean mass reduction, raising sarcopenia concerns. This trial addresses a recognized clinical need to preserve muscle during pharmacological weight loss, particularly relevant in Kuwait where muscle weakness prevalence is high in people with type 2 diabetes.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT04428008",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT04428008",
-      "url": "https://clinicaltrials.gov/study/NCT04428008",
-      "title": "Thymosin Alpha 1 to Prevent COVID-19 Infection in Renal Dialysis Patients",
-      "displayTitle": "Phase 2 thymosin alpha-1 COVID-19 prevention trial in dialysis patients posts results",
-      "authors": "William B. Ershler, MD",
-      "journal": "ClinicalTrials.gov · William B. Ershler, MD",
-      "publishedDate": "2026-04-21",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Thymosin Alpha-1"
-      ],
-      "studyType": "Trial — Phase 2, completed (results posted)",
-      "summary": "This Phase 2 RCT tested whether thymosin alpha-1 (ZADAXIN) could prevent COVID-19 infection in 189 hemodialysis patients at high risk. The trial has completed and results are now posted on ClinicalTrials.gov.",
-      "keyFindings": [
-        "Phase 2, n=189 hemodialysis patients, completed with results posted",
-        "Intervention: thymosin alpha-1 (28-amino acid synthetic peptide) vs. no treatment",
-        "Primary endpoint: number of participants with COVID-19 infection",
-        "Target population: end-stage renal disease patients on chronic hemodialysis"
-      ],
-      "limitations": "Results are posted on registry but not yet peer-reviewed. Trial was conducted in a specific high-risk population, limiting generalizability.",
-      "context": "Thymosin alpha-1 is an immune modulator previously studied in SARS, sepsis, and hepatitis B. This trial tested its prophylactic use in a vulnerable population during the COVID-19 pandemic.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT04428008",
-        "phase": "Phase 2",
-        "status": "COMPLETED",
-        "sponsor": "William B. Ershler, MD",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "189",
-        "conditions": [
-          "COVID-19"
-        ],
-        "primaryOutcomes": "Number of Participants With COVID-19 Infection",
-        "hasResults": true
-      }
-    },
-    {
-      "id": "nct-NCT07543458",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT07543458",
-      "url": "https://clinicaltrials.gov/study/NCT07543458",
-      "title": "Therapeutics for Moderate and Severe Dengue",
-      "displayTitle": "Phase 3 platform trial tests N-acetylcysteine and dexamethasone for severe dengue",
-      "authors": "Oxford University Clinical Research Unit, Vietnam",
-      "journal": "ClinicalTrials.gov · Oxford University Clinical Research Unit, Vietnam",
-      "publishedDate": "2026-04-21",
-      "addedDate": "2026-04-26",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "Trial registration — Phase 3 factorial RCT",
-      "summary": "This large factorial trial will evaluate host-directed therapies in 8,800 patients hospitalized with moderate-to-severe dengue. Participants may receive N-acetylcysteine (a glutathione precursor), dexamethasone, or matched controls, with primary endpoints of progression to severe disease and 30-day mortality.",
-      "keyFindings": [
-        "Phase 3, n=8,800, factorial design allowing multiple intervention comparisons within one trial",
-        "N-acetylcysteine given as 100 mg/kg/day continuous infusion for 4 days to protect liver function",
-        "Dexamethasone dose-adjusted by age/weight, 4-day course to modulate inflammatory response",
-        "Primary endpoints: progression to severe/critical dengue and all-cause mortality at 30 days"
-      ],
-      "limitations": "Trial has not yet begun recruitment; results will not be available for several years. Efficacy and safety remain unproven.",
-      "context": "N-acetylcysteine is a glutathione precursor typically used for acetaminophen overdose; this trial tests whether antioxidant protection can prevent dengue-related liver injury and vascular leak. Prior small studies suggested benefit, but large-scale evidence in dengue is lacking.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT07543458",
-        "phase": "Phase 3",
-        "status": "NOT YET RECRUITING",
-        "sponsor": "Oxford University Clinical Research Unit, Vietnam",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "8800",
-        "conditions": [
-          "Dengue",
-          "Severe Dengue",
-          "Mosquito-Borne Diseases",
-          "Vector Borne Diseases",
-          "Arbovirus Infections",
-          "Flavivirus Infections",
-          "RNA Virus Infections",
-          "Hemorrhagic Fever"
-        ],
-        "primaryOutcomes": "Progression to severe dengue/critical dengue; All-cause mortality within 30 days",
-        "hasResults": false
-      }
     }
   ]
 }
