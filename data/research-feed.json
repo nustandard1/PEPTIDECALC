@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T11:32:39.854Z",
+  "lastUpdated": "2026-09-13T12:30:08.298Z",
   "entries": [
     {
       "id": "pmid-42610532",
@@ -152,6 +152,37 @@
       "trialMeta": null
     },
     {
+      "id": "pmid-42707648",
+      "kind": "study",
+      "pmid": "42707648",
+      "doi": "10.1002/osp4.70188",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42707648/",
+      "title": "A Systematic Review and Meta-Analysis of Malnutrition and Metabolic Failure in High-Potency Incretin Therapy.",
+      "displayTitle": "Meta-analysis: Incretin therapy may underreport nutritional risks in obesity trials",
+      "authors": "Ampofo E et al.",
+      "journal": "Obesity science & practice",
+      "publishedDate": "2026-10-01",
+      "addedDate": "2026-09-13",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "This PRISMA-compliant meta-analysis of 19 randomized trials from SURMOUNT, STEP, SCALE, and OASIS programs quantified nutritional and body composition consequences of high-potency incretin therapy, finding that standard adverse event reporting substantially underestimates true malnutrition risk.",
+      "keyFindings": [
+        "Daily energy intake declined 24–39.2% across drug classes, with model-estimated deficits reaching 1,200 kcal/day.",
+        "Tirzepatide 15 mg reduced fat-free mass by 1.60 kg, representing 2.80% of total body weight.",
+        "Low lymphocyte counts (<910/µL) occurred in 2.90% of active-therapy participants vs. 1.77% on placebo, nearly double.",
+        "Investigator-reported malnutrition was only 0.12%, suggesting significant under-detection of nutritional risk."
+      ],
+      "limitations": "Pooled analysis relies on trial-reported data, which may itself underascertain nutritional outcomes; malnutrition definitions and laboratory reporting varied across trials.",
+      "context": "Concerns about lean mass loss and nutritional adequacy with GLP-1/GIP receptor agonists have been growing; this meta-analysis extends prior findings by quantifying the gap between formally reported malnutrition rates and objective laboratory markers of nutritional deterioration.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
       "id": "pmid-42630988",
       "kind": "study",
       "pmid": "42630988",
@@ -182,6 +213,320 @@
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
+    },
+    {
+      "id": "pmid-42730869",
+      "kind": "study",
+      "pmid": "42730869",
+      "doi": "10.1007/s40265-026-02365-3",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42730869/",
+      "title": "GLP-1 Receptor Agonists and Musculoskeletal Outcomes: A Systematic Literature Review and Meta-Analysis.",
+      "displayTitle": "GLP-1 agonists linked to lean mass loss, not bone or joint harm",
+      "authors": "Beaudart C et al.",
+      "journal": "Drugs",
+      "publishedDate": "2026-09-12",
+      "addedDate": "2026-09-13",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Systematic review & meta-analysis",
+      "summary": "This systematic review and meta-analysis of 60 studies (1.25 million individuals) examined GLP-1 receptor agonists' effects on musculoskeletal outcomes. GLP-1 RAs significantly reduced lean body mass/fat-free mass (SMD 0.52), but showed no significant effects on bone mineral density, fractures, or WOMAC joint outcomes.",
+      "keyFindings": [
+        "GLP-1 RAs significantly decreased lean body mass/fat-free mass (SMD 0.52, 95% CI −0.8 to −0.23) across 28 studies.",
+        "The lean mass reduction was driven mainly by liraglutide and semaglutide versus placebo comparisons.",
+        "No significant effects on bone mineral density or fracture risk were observed in meta-analytical models.",
+        "No significant changes in WOMAC pain, physical function, or stiffness were detected for joint outcomes."
+      ],
+      "limitations": "Evidence certainty was rated low by GRADE, and high heterogeneity (I² = 88%) limits confidence in the lean mass findings; muscle function and strength data were insufficient for meta-analysis.",
+      "context": "Concerns about muscle loss with GLP-1 RAs have grown as these drugs achieve substantial weight reduction. This review extends prior findings by confirming lean mass decreases appear largely attributable to overall weight loss, consistent with earlier smaller analyses, while reassuringly finding no bone or joint harm signals.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42726152",
+      "kind": "study",
+      "pmid": "42726152",
+      "doi": "10.1007/s12012-026-10185-w",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42726152/",
+      "title": "Maternal Kisspeptin-10 Treatment Partially Rescues Fetal and Postnatal Cardiac Programming Disrupted by Maternal Hypothyroidism.",
+      "displayTitle": "Kisspeptin-10 partially rescues heart development disrupted by maternal hypothyroidism",
+      "authors": "Barbosa EM et al.",
+      "journal": "Cardiovascular toxicology",
+      "publishedDate": "2026-09-11",
+      "addedDate": "2026-09-13",
+      "peptides": [
+        "Kisspeptin-10"
+      ],
+      "studyType": "Animal model — rat",
+      "summary": "In a rat model of maternal hypothyroidism induced by propylthiouracil, maternal kisspeptin-10 (Kp10) treatment partially restored fetal and postnatal cardiac development, improving cardiomyocyte proliferation, apoptotic balance, and angiogenic markers, though it also elevated oxidative and ER stress markers in fetal hearts.",
+      "keyFindings": [
+        "Maternal hypothyroidism reduced fetal and postnatal body and heart mass and impaired cardiomyocyte proliferation.",
+        "Kp10 restored cardiomyocyte proliferation and nuclear density and improved Bax/Bcl2 apoptotic balance postnatally.",
+        "Kp10 positively modulated angiogenic markers (Vegf, Ang2, Flk1) in offspring hearts.",
+        "Kp10 increased fetal redox (8-OHdG) and ER stress (Grp78, Chop) markers, but reduced postnatal Chop in both sexes."
+      ],
+      "limitations": "Animal-only study in a single rat strain; findings may not translate directly to human maternal hypothyroidism or cardiac outcomes.",
+      "context": "Kisspeptin-10 has previously been shown to improve feto-placental development in hypothyroid rats; these findings extend prior work by demonstrating Kp10 also partially rescues cardiac programming, while revealing a potential trade-off with increased fetal oxidative and ER stress.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42728029",
+      "kind": "study",
+      "pmid": "42728029",
+      "doi": "10.1136/gutjnl-2026-340031",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42728029/",
+      "title": "International expert panel review for the use of resmetirom and semaglutide in the management of MASH-related fibrosis: clinical practice update.",
+      "displayTitle": "Expert panel issues clinical guidance on semaglutide for MASH fibrosis",
+      "authors": "Mironova M et al.",
+      "journal": "Gut",
+      "publishedDate": "2026-09-11",
+      "addedDate": "2026-09-13",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "An international expert panel reviewed phase III trial data and FDA label information to produce practical clinical guidance on using semaglutide (and resmetirom) for metabolic dysfunction-associated steatohepatitis (MASH) with significant fibrosis (F2–F3). The review covers diagnosis, treatment selection, monitoring, and criteria for switching or combining therapies.",
+      "keyFindings": [
+        "FDA conditionally approved semaglutide (Wegovy) for MASH with significant fibrosis (F2–F3) without cirrhosis — a first.",
+        "Semaglutide acts as a GLP-1 receptor agonist with broad metabolic effects complementary to resmetirom's liver-directed mechanism.",
+        "Panel provides recommendations for individualising therapy by patient phenotype and managing patients already on GLP-1 RAs.",
+        "Framework defines response, non-response, and criteria for switching or combining semaglutide and resmetirom."
+      ],
+      "limitations": "As an expert panel consensus review, recommendations reflect panel opinion and may carry inherent bias; long-term outcomes data are acknowledged to be still emerging.",
+      "context": "Semaglutide's GLP-1 receptor agonism has shown metabolic and hepatic benefits in prior trials; this review extends prior findings by integrating phase III MASH-specific data into a structured clinical practice framework.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42727920",
+      "kind": "study",
+      "pmid": "42727920",
+      "doi": "10.1016/j.bj.2026.101037",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42727920/",
+      "title": "Structural Overview of GLP-1 Analogs.",
+      "displayTitle": "Structural features driving GLP-1 analog design and pharmacokinetics reviewed",
+      "authors": "van der Velden WJC et al.",
+      "journal": "Biomedical journal",
+      "publishedDate": "2026-09-11",
+      "addedDate": "2026-09-13",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review examines how structural modifications to GLP-1 analogs — including N-terminal changes, lipidation, and backbone elements — govern receptor binding, DPP-4 resistance, half-life, and signaling bias, synthesizing the rational design principles behind agents like semaglutide.",
+      "keyFindings": [
+        "N-terminal modifications confer resistance to DPP-4 degradation, extending peptide stability.",
+        "Lipidation and albumin-binding strategies increase circulating half-life, underpinning long-acting agents like semaglutide.",
+        "Structural variation modulates signaling bias between G protein pathways and β-arrestin recruitment.",
+        "Emerging multi-receptor agonists and computational tools are advancing next-generation incretin therapeutics."
+      ],
+      "limitations": "As a narrative review, it is subject to selection bias in literature coverage and does not provide systematic or quantitative synthesis of evidence.",
+      "context": "Consistent with established pharmacology, this review synthesizes known structure-activity relationships for GLP-1 analogs and extends them by highlighting signaling bias and multi-receptor agonism as emerging design frontiers.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42727623",
+      "kind": "study",
+      "pmid": "42727623",
+      "doi": "10.1016/j.mce.2026.112917",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42727623/",
+      "title": "Metabolic Effects of a GLP-1 Analog Combined with Aerobic Training in Ovariectomized Rats.",
+      "displayTitle": "Semaglutide plus aerobic exercise improves metabolism in menopause rat model",
+      "authors": "Selau B et al.",
+      "journal": "Molecular and cellular endocrinology",
+      "publishedDate": "2026-09-11",
+      "addedDate": "2026-09-13",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — rat",
+      "summary": "This study examined semaglutide alone, aerobic treadmill exercise alone, and their combination in ovariectomized female Wistar rats over four weeks. Both interventions improved glycemic and lipid markers, with the combination further increasing gastrocnemius glycogen and AMPK expression while reducing hepatic triglycerides and subcutaneous fat.",
+      "keyFindings": [
+        "Semaglutide reduced body weight, subcutaneous white adipose tissue mass, serum glucose, and triglycerides vs. saline controls.",
+        "Exercise decreased total and LDL cholesterol and liver triglycerides while increasing liver mass and glycogen.",
+        "Combined semaglutide + exercise amplified gastrocnemius glycogen and AMPK expression in both gastrocnemius and liver.",
+        "The combination reduced HDL levels, a potentially unfavorable effect warranting further investigation."
+      ],
+      "limitations": "Animal-only study using ovariectomy as a menopause proxy; four-week duration and weekly dosing may not reflect clinical regimens or longer-term menopausal physiology.",
+      "context": "Semaglutide's metabolic benefits are well-established in obesity and type 2 diabetes models; this study extends prior findings by exploring its interaction with aerobic exercise specifically in an ovariectomy-based menopause model, consistent with evidence that GLP-1 agonists and exercise engage partially overlapping but distinct pathways.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42727208",
+      "kind": "study",
+      "pmid": "42727208",
+      "doi": "10.1016/j.knee.2026.104639",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42727208/",
+      "title": "Postoperative outcomes after total knee arthroplasty in type 2 diabetes mellitus patients receiving semaglutide versus tirzepatide: a propensity score-matched national research network analysis.",
+      "displayTitle": "Semaglutide and tirzepatide show similar safety after knee replacement surgery",
+      "authors": "Wu KA et al.",
+      "journal": "The Knee",
+      "publishedDate": "2026-09-11",
+      "addedDate": "2026-09-13",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Retrospective cohort — propensity-matched",
+      "summary": "This retrospective propensity-matched study compared 90- and 180-day postoperative outcomes in 830 type 2 diabetes patients on semaglutide versus tirzepatide undergoing total knee arthroplasty. No statistically significant differences were found in medical complications, surgical complications, or healthcare utilization between the two agents.",
+      "keyFindings": [
+        "No significant difference in 90-day medical complications between semaglutide and tirzepatide (OR 1.122, 95% CI 0.736–1.710).",
+        "180-day surgical complications were statistically similar between groups (OR 1.632, 95% CI 0.845–3.152).",
+        "Emergency department visits and readmissions were comparable at both 90 and 180 days.",
+        "Individual events including MI, stroke, sepsis, DVT, and revision surgery showed no significant differences."
+      ],
+      "limitations": "Retrospective design with low event counts for several outcomes limits statistical precision; residual confounding from unmeasured variables cannot be excluded.",
+      "context": "As GLP-1 and dual GIP/GLP-1 agonists are increasingly used perioperatively, their comparative safety profiles are of growing interest. These findings appear consistent with emerging evidence suggesting GLP-1 class agents do not substantially differ in short-term surgical risk.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42726191",
+      "kind": "study",
+      "pmid": "42726191",
+      "doi": "10.1007/s42000-026-00826-8",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42726191/",
+      "title": "Improvement of small fiber neuropathy assessed by corneal confocal microscopy following semaglutide treatment: a case report and literature review.",
+      "displayTitle": "Semaglutide linked to small nerve fiber regeneration in diabetic neuropathy",
+      "authors": "Anastasiou IA et al.",
+      "journal": "Hormones (Athens, Greece)",
+      "publishedDate": "2026-09-11",
+      "addedDate": "2026-09-13",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report with literature review",
+      "summary": "A 57-year-old man with type 2 diabetes and small fiber neuropathy showed improvement in all corneal nerve parameters via confocal microscopy after 6 months of semaglutide, despite no change in standard neuropathy scores (NSS, NDS, VPT).",
+      "keyFindings": [
+        "Corneal confocal microscopy showed improvement across all small fiber nerve parameters after 6 months of semaglutide.",
+        "Standard neuropathy scores (NSS, NDS) and vibration perception threshold (22V) remained unchanged despite CCM improvement.",
+        "BMI and HbA1c improved alongside corneal nerve changes, making metabolic vs. direct neuroprotective effects unclear.",
+        "Authors propose semaglutide may promote early small fiber regeneration in diabetic peripheral neuropathy."
+      ],
+      "limitations": "Single case report with no control, and metabolic improvements confound attribution of nerve fiber changes directly to semaglutide.",
+      "context": "No pharmacological agent has been proven to reverse diabetic peripheral neuropathy. This case extends emerging interest in GLP-1 receptor agonists as potential neuroprotective agents, consistent with preclinical and early observational data suggesting neurotrophic or anti-inflammatory effects.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42712263",
+      "kind": "study",
+      "pmid": "42712263",
+      "doi": "10.1002/adhm.71569",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42712263/",
+      "title": "Water-Soluble, Enzyme-Degradable, and Hydrolyzable STAR Particles for Enhanced Drug Delivery to Skin.",
+      "displayTitle": "Biodegradable STAR particles boost GHK-Cu skin delivery up to 37-fold",
+      "authors": "Sadeqi A et al.",
+      "journal": "Advanced healthcare materials",
+      "publishedDate": "2026-09-09",
+      "addedDate": "2026-09-13",
+      "peptides": [
+        "GHK-Cu"
+      ],
+      "studyType": "In vitro / ex vivo study",
+      "summary": "Researchers developed biodegradable polymer STAR particles (micro-needle arrays) from PVA, cellulose acetate, and polylactic acid to enhance transdermal drug delivery in porcine skin ex vivo. Skin treatment increased intradermal delivery of copper tripeptide-1 (GHK-Cu) and other drugs by up to 37-fold compared to untreated skin.",
+      "keyFindings": [
+        "Biodegradable STAR particles (PVA, cellulose acetate, PLA) successfully punctured porcine skin, confirmed by gentian violet staining.",
+        "Copper tripeptide-1 (GHK-Cu) delivered via PLA STAR particles showed significantly enhanced intradermal penetration.",
+        "Overall drug delivery increased up to 37-fold depending on drug type, particle material, and application duration.",
+        "Polymer STAR particles address safety and environmental concerns of prior ceramic/metal versions while maintaining efficacy."
+      ],
+      "limitations": "Results are from porcine skin ex vivo only; no in vivo efficacy, pharmacokinetic, or safety data in living subjects are reported.",
+      "context": "GHK-Cu is a copper-binding tripeptide with known skin regenerative and anti-inflammatory properties; topical delivery is typically limited by the stratum corneum barrier. This study extends prior work on microneedle-based delivery by demonstrating that biodegradable STAR particles can substantially enhance GHK-Cu skin penetration.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42713852",
+      "kind": "study",
+      "pmid": "42713852",
+      "doi": "10.1002/14651858.CD014610.pub2",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42713852/",
+      "title": "Thymosin-&#x251;1 for people with chronic hepatitis B.",
+      "displayTitle": "Thymosin Alpha-1 shows uncertain benefit for chronic hepatitis B",
+      "authors": "Naing C et al.",
+      "journal": "The Cochrane database of systematic reviews",
+      "publishedDate": "2026-09-09",
+      "addedDate": "2026-09-13",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Systematic review / Meta-analysis",
+      "summary": "This Cochrane systematic review and meta-analysis pooled 10 RCTs (1,349 participants) evaluating Thymosin Alpha-1 in chronic hepatitis B. Results suggest possible reductions in mortality and adverse events, but evidence certainty is very low to low across all outcomes.",
+      "keyFindings": [
+        "Thymosin Alpha-1 may reduce all-cause mortality (RR 0.53, 95% CI 0.29–0.96), but evidence is very low certainty.",
+        "Serious adverse events may be reduced (RR 0.72, 95% CI 0.53–0.99; low-certainty evidence across 5 studies).",
+        "Non-serious adverse events may be reduced (RR 0.47, 95% CI 0.27–0.83), though evidence certainty is very low.",
+        "Effect on HBV-related morbidity, histological improvement, and quality of life remains very uncertain."
+      ],
+      "limitations": "Evidence certainty is very low to low for all outcomes due to high or unclear risk of bias, imprecision (wide CIs), and substantial heterogeneity in some outcomes; no ongoing trials were identified.",
+      "context": "Thymosin Alpha-1 has known immunomodulatory and antiviral properties; prior individual RCTs showed inconsistent results for chronic HBV. This review extends that work by pooling available trials but confirms that the evidence base remains insufficient to draw firm conclusions.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT04740580",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT04740580",
+      "url": "https://clinicaltrials.gov/study/NCT04740580",
+      "title": "Glutathione, Brain Metabolism and Inflammation in Alzheimer's Disease",
+      "displayTitle": "GlyNAC supplementation tested in amyloid-confirmed Alzheimer's patients",
+      "authors": "Baylor College of Medicine",
+      "journal": "ClinicalTrials.gov · Baylor College of Medicine",
+      "publishedDate": "2026-09-09",
+      "addedDate": "2026-09-13",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Early Phase 1 RCT",
+      "summary": "This randomized Phase 1 trial evaluates 24 weeks of GlyNAC (glycine + N-acetylcysteine) versus alanine placebo in 52 adults with confirmed Alzheimer's disease, measuring effects on cognition, brain glucose uptake, glutathione levels, oxidative stress, and neuroinflammation.",
+      "keyFindings": [
+        "Early Phase 1 RCT, n=52, active not recruiting; amyloid-PET positivity required for enrollment.",
+        "Primary endpoints: cognition and brain glucose uptake (FDG-PET) at 12 and 24 weeks.",
+        "TSPO-PET imaging used to assess neuroinflammation before and after supplementation.",
+        "GlyNAC targets GSH deficiency, mitochondrial dysfunction, and insulin resistance linked to AD."
+      ],
+      "limitations": "No results have been posted; findings from this trial registration alone cannot be taken as evidence of efficacy or safety in Alzheimer's disease.",
+      "context": "Prior research by this group showed GlyNAC corrects glutathione deficiency and improves mitochondrial function in older adults; this trial extends that work to a clinically confirmed Alzheimer's population using advanced neuroimaging endpoints.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT04740580",
+        "phase": "EARLY Phase 1",
+        "status": "ACTIVE NOT RECRUITING",
+        "sponsor": "Baylor College of Medicine",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "52",
+        "conditions": [
+          "Alzheimer Disease"
+        ],
+        "primaryOutcomes": "Cognition; Brain glucose uptake",
+        "hasResults": false
+      }
     },
     {
       "id": "nct-NCT03493178",
@@ -6051,398 +6396,6 @@
       ],
       "limitations": "As a narrative review without formal quality assessment, it may be subject to selection bias, and conclusions reflect the authors' synthesis rather than a systematic evidence appraisal.",
       "context": "BPC-157 has a substantial preclinical literature suggesting cytoprotective and regenerative effects across multiple organ systems. This review extends prior concerns about translational gaps by systematically framing them as pharmaceutical science deficiencies rather than questions of biological activity.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42202436",
-      "kind": "study",
-      "pmid": "42202436",
-      "doi": "10.1016/j.bbrc.2026.153997",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42202436/",
-      "title": "Preconditioning and supplementation with glutathione ameliorates oxidative stress, mitochondrial dysfunction, and restores metabolic imbalance in insulin-resistant myotubes.",
-      "displayTitle": "Glutathione supplementation partially restores metabolism in insulin-resistant muscle cells",
-      "authors": "Save SN et al.",
-      "journal": "Biochemical and biophysical research communications",
-      "publishedDate": "2026-05-20",
-      "addedDate": "2026-05-31",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "In vitro",
-      "summary": "This in vitro study tested whether glutathione (GSH) preconditioning and supplementation (0.1 and 1 mM) could counteract palmitic acid-induced insulin resistance in L6 skeletal myotubes. At 1 mM, GSH partially restored multiple metabolic imbalances including TCA cycle intermediates, nucleotides, amino acids, and phospholipid intermediates.",
-      "keyFindings": [
-        "1 mM GSH supplementation partially restored nucleotide levels (UMP, adenosine, AMP) disrupted by palmitic acid-induced lipotoxicity.",
-        "GSH at 1 mM rescued levels of GSH metabolism intermediates (glutamine, pyroglutamate) and TCA cycle intermediates (citrate).",
-        "Phospholipid intermediates (o-phosphocholine, choline), amino acids (proline, aspartate, threonine), and glycerol were partially restored by 1 mM GSH.",
-        "Metabolic perturbations were identified using 1H NMR spectroscopy, revealing broad pathway involvement in lipotoxicity."
-      ],
-      "limitations": "Results are limited to a single in vitro cell line (L6 myotubes); findings may not translate to in vivo or human insulin resistance without further validation.",
-      "context": "GSH deficiency is well-documented in insulin-resistant states, and dietary GSH supplementation has been associated with improved insulin sensitivity. This study extends prior findings by mapping specific metabolic pathways restored by GSH in a skeletal muscle lipotoxicity model.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT03226821",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT03226821",
-      "url": "https://clinicaltrials.gov/study/NCT03226821",
-      "title": "Body Composition and Adipose Tissue in HIV",
-      "displayTitle": "Tesamorelin for HIV lipodystrophy hepatic fat posts results after early termination",
-      "authors": "Columbia University",
-      "journal": "ClinicalTrials.gov · Columbia University",
-      "publishedDate": "2026-05-19",
-      "addedDate": "2026-05-24",
-      "peptides": [
-        "Tesamorelin"
-      ],
-      "studyType": "Trial — Phase 4, terminated (results posted)",
-      "summary": "This Phase 4 single-arm trial evaluated daily tesamorelin 2 mg subcutaneous injection in HIV-infected patients with lipodystrophy and central adiposity, measuring hepatic lipid content, body composition, and metabolic parameters at 6 and 12 months. The trial was terminated early with only 6 enrolled participants.",
-      "keyFindings": [
-        "Trial terminated early; only 6 of planned participants enrolled, severely limiting statistical power.",
-        "Primary endpoint: hepatic lipid content measured at baseline, 6, and 12 months post-treatment.",
-        "Secondary measures included adipose tissue biopsy, metabolic rate, and insulin sensitivity assessments.",
-        "Results have been posted despite early termination; conclusions should be interpreted with extreme caution given tiny sample."
-      ],
-      "limitations": "Trial was terminated after enrolling only 6 participants; posted results are underpowered and cannot support meaningful efficacy or safety conclusions.",
-      "context": "Tesamorelin is FDA-approved for reducing visceral adiposity in HIV lipodystrophy. This trial extended that work by specifically targeting hepatic lipid content, an understudied complication linked to cardiovascular risk in HIV patients with central adiposity.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT03226821",
-        "phase": "Phase 4",
-        "status": "TERMINATED",
-        "sponsor": "Columbia University",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "6",
-        "conditions": [
-          "HIV Lipodystrophy Syndrome",
-          "Growth Hormone Deficiency",
-          "Body Composition"
-        ],
-        "primaryOutcomes": "Hepatic Lipid Content",
-        "hasResults": true
-      }
-    },
-    {
-      "id": "pmid-42153537",
-      "kind": "study",
-      "pmid": "42153537",
-      "doi": "10.1080/15548627.2026.2677180",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42153537/",
-      "title": "MOTS-c, a mitochondrial-derived peptide, ameliorates lysosomal membrane permeability and improves survival of soft tissue transplantation.",
-      "displayTitle": "MOTS-c improves ischemic flap survival by stabilizing lysosomal membranes",
-      "authors": "Shi J et al.",
-      "journal": "Autophagy",
-      "publishedDate": "2026-05-19",
-      "addedDate": "2026-05-24",
-      "peptides": [
-        "MOTS-c"
-      ],
-      "studyType": "Animal model — rat",
-      "summary": "This study examined MOTS-c, a mitochondrial-derived peptide, in a rat ischemic skin flap model. MOTS-c improved blood flow, reduced lysosomal membrane permeabilization, suppressed endothelial pyroptosis, and enhanced autophagy via inhibition of PLA2G4A through the MAPK1-MAPK3-NF-κB signaling axis.",
-      "keyFindings": [
-        "MOTS-c improved blood flow perfusion and enhanced angiogenesis and collagen remodeling in ischemic flaps.",
-        "MOTS-c reduced endothelial pyroptosis and lysosomal membrane permeabilization (LMP) in ischemic tissue.",
-        "Mechanistically, MOTS-c suppressed PLA2G4A phosphorylation via the MAPK1-MAPK3-NF-κB cascade to restore homeostasis.",
-        "AAV-mediated PLA2G4A overexpression confirmed MOTS-c's protective effects operate through the PLA2G4A-LMP axis."
-      ],
-      "limitations": "Results are from an animal model only; clinical translation to human reconstructive surgery outcomes has not been evaluated.",
-      "context": "MOTS-c is known to reduce ROS and support mitochondrial function; this study extends prior findings by linking MOTS-c to lysosomal integrity and suggesting a novel therapeutic role in reconstructive surgery for ischemic tissue.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT07595705",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT07595705",
-      "url": "https://clinicaltrials.gov/study/NCT07595705",
-      "title": "Gingival Hyperpigmentation Treatment",
-      "displayTitle": "Phase 2 trial tests glutathione injections for gingival hyperpigmentation",
-      "authors": "Cairo University",
-      "journal": "ClinicalTrials.gov · Cairo University",
-      "publishedDate": "2026-05-19",
-      "addedDate": "2026-05-24",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "Trial registration — Phase 2 RCT",
-      "summary": "This Phase 2 RCT at Cairo University evaluates intradermal vitamin C plus glutathione injections versus conventional scalpel surgery for treating gingival hyperpigmentation in 30 adult patients with physiologic melanin-related pigmentation.",
-      "keyFindings": [
-        "Phase 2, n=30, recruiting; comparing glutathione+vitamin C injection vs. surgical scalpel depigmentation.",
-        "Primary endpoint: degree of gingival pigmentation assessed by Takashi index and Gingival Pigmentation Index.",
-        "Glutathione mechanism: inhibits tyrosinase and melanosome transfer from melanocytes to keratinocytes.",
-        "Patients with Dummett-Bolden pigmentation scores 1–3 are eligible; systemically healthy adults only."
-      ],
-      "limitations": "This is an active trial registration with no results posted; evidence of efficacy or safety for this indication remains unpublished.",
-      "context": "Glutathione's antimelanogenic properties are established in dermatology for skin lightening; this trial is among the first to test its injectable use specifically in gingival tissue as an alternative to surgical depigmentation.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT07595705",
-        "phase": "Phase 2",
-        "status": "RECRUITING",
-        "sponsor": "Cairo University",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "30",
-        "conditions": [
-          "Gingival Pigmentation",
-          "Depigmentation",
-          "Vitamin C",
-          "Glutathione"
-        ],
-        "primaryOutcomes": "Degree of gingival pigmentation by Takashi index (Hanioka et al., 2005); Degree of gingival pigmentation by Gingival pigmentation index (Kumar et al., 2013)",
-        "hasResults": false
-      }
-    },
-    {
-      "id": "nct-NCT06554717",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT06554717",
-      "url": "https://clinicaltrials.gov/study/NCT06554717",
-      "title": "Tesamorelin as an Adjunct to Exercise for Improving Physical Function in HIV",
-      "displayTitle": "Phase 2 trial tests tesamorelin plus exercise for physical function in aging HIV",
-      "authors": "Massachusetts General Hospital",
-      "journal": "ClinicalTrials.gov · Massachusetts General Hospital",
-      "publishedDate": "2026-05-15",
-      "addedDate": "2026-05-17",
-      "peptides": [
-        "Tesamorelin"
-      ],
-      "studyType": "Trial registration — Phase 2 RCT",
-      "summary": "This Phase 2 RCT is evaluating whether tesamorelin (1.28 mg/day SC) combined with a home-based exercise program improves physical function and muscle health in 100 sedentary, frail adults aged 50–80 living with HIV, compared to placebo plus exercise over 24 weeks.",
-      "keyFindings": [
-        "Phase 2 RCT; n=100; randomized, placebo-controlled, 24-week intervention plus 24-week off-drug follow-up.",
-        "Primary endpoint: change in Repeated Chair Stand Time, a validated measure of lower-body functional strength.",
-        "All participants receive supervised home-based exercise; tesamorelin vs. placebo added on top.",
-        "Secondary outcomes include muscle mass/quality, quality of life, exercise adherence, and durability of effects post-treatment."
-      ],
-      "limitations": "Trial is actively recruiting; no results are available, and registry entries do not constitute evidence of efficacy or safety.",
-      "context": "Tesamorelin is FDA-approved for HIV-associated lipodystrophy and has shown muscle mass benefits in prior studies, but its effects on physical performance and strength in aging, frail people with HIV have not been previously evaluated.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT06554717",
-        "phase": "Phase 2",
-        "status": "RECRUITING",
-        "sponsor": "Massachusetts General Hospital",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "100",
-        "conditions": [
-          "HIV-1-infection",
-          "Frailty",
-          "Impaired Physical Function",
-          "Abdominal Obesity",
-          "Aging"
-        ],
-        "primaryOutcomes": "Change in Repeated Chair Stand Time",
-        "hasResults": false
-      }
-    },
-    {
-      "id": "pmid-42139091",
-      "kind": "study",
-      "pmid": "42139091",
-      "doi": "10.1093/cid/ciag121",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42139091/",
-      "title": "Differing Presentations of Excess Visceral Abdominal Fat in People Living With HIV: Two Clinical Cases Highlighting Distinct Therapeutic Pathways With Tesamorelin and Glucagon-Like Peptide-1 Receptor Agonists.",
-      "displayTitle": "Tesamorelin targets visceral fat in HIV patients beyond BMI-based treatment",
-      "authors": "Beach R et al.",
-      "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
-      "publishedDate": "2026-05-15",
-      "addedDate": "2026-05-17",
-      "peptides": [
-        "Tesamorelin"
-      ],
-      "studyType": "Case report",
-      "summary": "Two case reports describe HIV-positive adults with excess visceral abdominal fat treated with tesamorelin and/or GLP-1 receptor agonists. Tesamorelin provided selective visceral fat reduction and improved lipid levels and well-being, particularly in a non-obese patient where weight-based therapies would be inadequate.",
-      "keyFindings": [
-        "Non-obese HIV patient (BMI 27 kg/m²) treated with tesamorelin showed marked reductions in waist circumference and improved lipid levels.",
-        "Obese HIV patient on GLP-1 agonist had fluctuating weight and persistent visceral fat due to intermittent medication access.",
-        "Adding tesamorelin to the obese patient's regimen provided more targeted visceral adiposity reduction.",
-        "EVAF in HIV can persist regardless of BMI category, supporting fat-distribution-based treatment decisions."
-      ],
-      "limitations": "Only two cases reported, limiting generalizability; no controlled comparison or long-term follow-up data provided.",
-      "context": "Tesamorelin is FDA-approved for HIV-associated lipodystrophy and has consistently shown selective visceral fat reduction in PLWH. These cases extend prior findings by illustrating its utility across different obesity phenotypes and as a complement to GLP-1 therapies.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42140745",
-      "kind": "study",
-      "pmid": "42140745",
-      "doi": "10.1111/obr.70161",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42140745/",
-      "title": "Effects of Semaglutide on Dumping Syndrome and Reactive Hypoglycemia After Bariatric Surgery: A Systematic Review and Meta-Analysis.",
-      "displayTitle": "Semaglutide significantly reduces dumping syndrome and hypoglycemia post-bariatric surgery",
-      "authors": "Eisa N, Barood O",
-      "journal": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
-      "publishedDate": "2026-05-15",
-      "addedDate": "2026-05-17",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Systematic review and meta-analysis",
-      "summary": "This systematic review and meta-analysis of 7 studies (337 patients) evaluated semaglutide for dumping syndrome and reactive hypoglycemia after bariatric surgery, finding significant improvements in symptom scores, hypoglycemic episode frequency, quality of life, and glycemic variability.",
-      "keyFindings": [
-        "Dumping symptom scores improved significantly (SMD -1.18; 95% CI -1.64 to -0.72; p<0.001).",
-        "Hypoglycemic episodes reduced significantly (SMD -0.85; 95% CI -1.22 to -0.48; p<0.001).",
-        "Quality of life improved (SMD 0.73) and glycemic variability decreased (SMD -0.71).",
-        "GI adverse events were common but rarely caused treatment discontinuation."
-      ],
-      "limitations": "Only 7 studies with 337 total patients were included, comprising heterogeneous study designs (RCTs, cohort studies, one case series), limiting the strength of conclusions.",
-      "context": "Semaglutide, as a GLP-1 receptor agonist, appears to modulate gastric emptying and insulin secretion, consistent with prior mechanistic rationale for its use in post-bariatric complications. These findings extend limited prior evidence by pooling data across RCTs and observational studies.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42138385",
-      "kind": "study",
-      "pmid": "42138385",
-      "doi": "10.1097/QAD.0000000000004544",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42138385/",
-      "title": "Impact of semaglutide on liver fibrosis score in people with HIV: findings from the CNICS cohort.",
-      "displayTitle": "Semaglutide linked to reduced liver fibrosis scores in HIV patients",
-      "authors": "Ma J et al.",
-      "journal": "AIDS (London, England)",
-      "publishedDate": "2026-05-15",
-      "addedDate": "2026-05-17",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Observational cohort",
-      "summary": "This observational cohort study examined 1,850 people with HIV initiating semaglutide across 10 US clinical sites. Semaglutide was associated with significant reductions in FIB-4 liver fibrosis scores, particularly in those with moderate-to-advanced fibrosis at baseline.",
-      "keyFindings": [
-        "Semaglutide reduced FIB-4 scores in patients with moderate-to-advanced fibrosis (FIB-4 ≥1.3; ΔFIB-4: -0.11, P<0.01).",
-        "Greatest reductions occurred in advanced fibrosis group (FIB-4 >2.67; ΔFIB-4: -0.64, P<0.001).",
-        "No significant FIB-4 reduction was observed in patients with low baseline fibrosis (FIB-4 <1.3).",
-        "Mean treatment duration was 218 days; most patients had multiple cardiometabolic comorbidities."
-      ],
-      "limitations": "Pre/post quasi-experimental design without a randomized control group limits causal inference; confounding by indication and unmeasured variables cannot be excluded.",
-      "context": "GLP-1 receptor agonists like semaglutide have shown promise for MASLD and liver fibrosis in the general population. These findings extend that evidence to people with HIV, a population with heightened metabolic and liver disease burden, appearing consistent with broader anti-fibrotic and metabolic benefits.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-41759565",
-      "kind": "study",
-      "pmid": "41759565",
-      "doi": "10.1016/j.amjcard.2026.02.030",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41759565/",
-      "title": "CagriSema Versus Semaglutide Monotherapy or Placebo for Obesity: A Systematic Review and Meta-Analysis of Randomized Controlled Trials with GRADE Assessment.",
-      "displayTitle": "CagriSema beats semaglutide alone: 11 kg greater weight loss in meta-analysis",
-      "authors": "Gadelmawla AF et al.",
-      "journal": "The American journal of cardiology",
-      "publishedDate": "2026-05-15",
-      "addedDate": "2026-05-17",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Systematic review and meta-analysis",
-      "summary": "This systematic review and meta-analysis of 4 RCTs (n=4,419) compared the dual therapy CagriSema (semaglutide + cagrilintide) against semaglutide monotherapy or placebo in people with obesity. CagriSema produced significantly greater weight loss, waist circumference reduction, and blood pressure lowering, but with more gastrointestinal adverse events.",
-      "keyFindings": [
-        "CagriSema reduced percent weight loss with a large effect size (Cohen's d: -1.38; 95% CI: -1.84 to -0.91).",
-        "CagriSema achieved ~11 kg greater absolute weight loss and 9.41 cm greater waist circumference reduction vs. comparators.",
-        "Systolic blood pressure was reduced by an additional 7.06 mmHg with CagriSema.",
-        "Gastrointestinal adverse events were 32% more frequent with CagriSema (RR: 1.32)."
-      ],
-      "limitations": "High heterogeneity across trials (I² = 94.8%) limits the precision of pooled estimates, and longer-term safety and efficacy data beyond current trial durations are lacking.",
-      "context": "Semaglutide is an established GLP-1 receptor agonist for obesity and type 2 diabetes. Adding cagrilintide (an amylin analog) appears to extend weight-loss efficacy beyond semaglutide alone, consistent with the hypothesis that dual receptor targeting enhances metabolic outcomes.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT07586865",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT07586865",
-      "url": "https://clinicaltrials.gov/study/NCT07586865",
-      "title": "Recombinant Human Thymosin Beta 4 for Injection(NL005) for Acute Myocardial Infarction",
-      "displayTitle": "Phase 2 trial tests recombinant thymosin beta 4 for heart attack repair",
-      "authors": "Beijing Northland Biotech. Co., Ltd.",
-      "journal": "ClinicalTrials.gov · Beijing Northland Biotech. Co., Ltd.",
-      "publishedDate": "2026-05-14",
-      "addedDate": "2026-05-17",
-      "peptides": [
-        "TB-500"
-      ],
-      "studyType": "Trial registration — Phase 2 RCT",
-      "summary": "This Phase IIc multicenter, randomized, double-blind, placebo-controlled trial evaluates two IV doses of recombinant human thymosin beta 4 (NL005) versus placebo in 189 anterior STEMI patients treated with primary PCI, measuring infarct size reduction by cardiac MRI at 90 days.",
-      "keyFindings": [
-        "Phase IIc RCT; n=189 randomized 1:1:1 to NL005 10 µg/kg, 20 µg/kg, or placebo IV for 7 days post-PCI.",
-        "Primary endpoint: absolute and relative myocardial infarct size by CMR at Day 90.",
-        "Eligibility restricted to first anterior STEMI from LAD occlusion with no collateral supply.",
-        "Extended follow-up through Day 360; trial not yet recruiting as of May 2026."
-      ],
-      "limitations": "Trial has not yet begun recruiting; no results are available, and registration alone provides no evidence of clinical efficacy or safety.",
-      "context": "Thymosin beta 4 (TB-500) has shown cardioprotective and regenerative effects in preclinical myocardial injury models, promoting cardiomyocyte survival and angiogenesis. This is among the first formal Phase 2 trials evaluating a recombinant Tβ4 formulation in human AMI patients.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT07586865",
-        "phase": "Phase 2",
-        "status": "NOT YET RECRUITING",
-        "sponsor": "Beijing Northland Biotech. Co., Ltd.",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "189",
-        "conditions": [
-          "Acute Myocardial Infarction (AMI)",
-          "Acute Myocardial Infarction of Anterior Wall",
-          "Acute Myocardial Infarction With ST Elevation",
-          "Acute Myocardial Infarction of Left Ventricle",
-          "Acute Myocardial Infarction With ST Segment Elevation"
-        ],
-        "primaryOutcomes": "Myocardial Infarct Size (absolute) at Day 90; Myocardial Infarct Size (relative) at Day 90",
-        "hasResults": false
-      }
-    },
-    {
-      "id": "pmid-42133988",
-      "kind": "study",
-      "pmid": "42133988",
-      "doi": "10.1021/jacs.6c01289",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42133988/",
-      "title": "Glucagon-Like Peptide-1 Receptor Agonists Inhibit the Initiation of Toxic Amyloid-&#x3b2;42 Aggregation.",
-      "displayTitle": "Semaglutide and tirzepatide block toxic amyloid-β42 aggregation initiation",
-      "authors": "Fallot LB et al.",
-      "journal": "Journal of the American Chemical Society",
-      "publishedDate": "2026-05-14",
-      "addedDate": "2026-05-17",
-      "peptides": [
-        "Semaglutide",
-        "Tirzepatide"
-      ],
-      "studyType": "In vitro",
-      "summary": "Researchers tested five FDA-approved GLP-1 receptor agonists for direct effects on amyloid-β42 aggregation in vitro. Semaglutide, tirzepatide, and liraglutide all inhibited Aβ aggregation by targeting primary nucleation, with submicromolar IC values, providing molecular-level insight into potential Alzheimer's disease mechanisms.",
-      "keyFindings": [
-        "Semaglutide and tirzepatide inhibited Aβ42 primary nucleation with submicromolar IC values.",
-        "Liraglutide showed the strongest primary nucleation suppression plus modest secondary nucleation inhibition.",
-        "Liraglutide significantly reduced fibril maturity, increased tortuosity, and attenuated fibril self-replication.",
-        "Semaglutide- and tirzepatide-associated fibrils had morphology and templating efficiency similar to unmodified fibrils."
-      ],
-      "limitations": "Results are from an in vitro cell-free system, so direct translation to physiologically relevant brain concentrations and in vivo Alzheimer's disease pathology remains uncertain.",
-      "context": "Preclinical and clinical evidence suggests GLP-1RAs protect against neuroinflammation and neurodegeneration; this study extends prior findings by demonstrating direct, mechanistically distinct inhibition of Aβ42 aggregation steps by specific GLP-1RAs.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
