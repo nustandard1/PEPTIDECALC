@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T12:30:08.298Z",
+  "lastUpdated": "2026-09-20T11:58:11.577Z",
   "entries": [
     {
       "id": "pmid-42610532",
@@ -183,6 +183,188 @@
       "trialMeta": null
     },
     {
+      "id": "pmid-42751099",
+      "kind": "study",
+      "pmid": "42751099",
+      "doi": "10.1210/jcemcr/luag260",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42751099/",
+      "title": "Sustained weight loss exceeding 100&#x2005;kg with sequential incretin-based therapy in Prader-Willi syndrome.",
+      "displayTitle": "Sequential incretin therapy drives 109 kg loss in Prader-Willi syndrome",
+      "authors": "Yovera-Aldana M et al.",
+      "journal": "JCEM case reports",
+      "publishedDate": "2026-10-01",
+      "addedDate": "2026-09-20",
+      "peptides": [
+        "Semaglutide",
+        "Retatrutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 29-year-old man with genetically confirmed Prader-Willi syndrome and severe obesity (185 kg, BMI 59.7) received sequential incretin-based therapy starting with retatrutide, then oral semaglutide, then dulaglutide, achieving 58.8% total body weight loss (−108.7 kg) and diabetes remission at 18 months.",
+      "keyFindings": [
+        "Total weight loss of 108.7 kg (58.8% of body weight) achieved over 18 months with sequential incretin therapy.",
+        "HbA1c fell from 8.3% to 4.9%, consistent with full diabetes remission off all glucose-lowering medications.",
+        "Retatrutide (1–12 mg weekly, clinical trial) initiated the sequence; oral semaglutide and dulaglutide continued after retatrutide unavailability.",
+        "Only mild, transient gastrointestinal side effects occurred during dose escalation; no serious adverse events reported."
+      ],
+      "limitations": "Single patient case report with no control or comparator; contributions of diet, exercise, and sequential agents cannot be individually disentangled.",
+      "context": "Durable weight loss in Prader-Willi syndrome is notoriously difficult to achieve; this case extends emerging evidence that potent incretin-based agents may overcome the hyperphagia-driven obesity characteristic of the syndrome, consistent with early reports of GLP-1/GIP/glucagon receptor agonism in severe genetic obesity.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42751094",
+      "kind": "study",
+      "pmid": "42751094",
+      "doi": "10.1210/jcemcr/luag261",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42751094/",
+      "title": "Postmenopausal bleeding associated with semaglutide: a diagnostic challenge.",
+      "displayTitle": "Case report: semaglutide linked to postmenopausal vaginal bleeding",
+      "authors": "Prasad S et al.",
+      "journal": "JCEM case reports",
+      "publishedDate": "2026-10-01",
+      "addedDate": "2026-09-20",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 58-year-old postmenopausal woman developed new-onset vaginal bleeding six weeks after starting semaglutide, with hemoglobin dropping from 12.9 to 10.8 g/dL. Malignancy and structural pathology were excluded; bleeding resolved within five weeks of discontinuation, suggesting a probable drug-related adverse effect.",
+      "keyFindings": [
+        "Vaginal bleeding began six weeks after semaglutide initiation, coinciding with dose escalation to 0.5 mg weekly.",
+        "Hemoglobin fell from 12.9 to 10.8 g/dL; endometrial malignancy, structural pathology, and coagulopathy were excluded.",
+        "Naranjo Adverse Drug Reaction Probability Scale score of 6 rated the association as 'probable'.",
+        "Bleeding resolved completely within five weeks of semaglutide discontinuation; hormonal status remained consistently postmenopausal throughout."
+      ],
+      "limitations": "Single case report; causality cannot be definitively established, and the proposed mechanism of adipose-mediated estrogen metabolism disruption remains speculative.",
+      "context": "GLP-1 receptor agonists are well-studied for metabolic effects, but gynecological adverse effects have not been systematically described. This case extends the safety profile of semaglutide by proposing that rapid adipose loss may transiently alter peripheral estrogen metabolism.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42750924",
+      "kind": "study",
+      "pmid": "42750924",
+      "doi": "10.1210/jcemcr/luag274",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42750924/",
+      "title": "Glucagon-like peptide-1 receptor agonists as adjunctive therapy in refractory hypertriglyceridemia following recurrent pancreatitis.",
+      "displayTitle": "Semaglutide normalizes triglycerides after 6 pancreatitis episodes despite safety concerns",
+      "authors": "Miura D et al.",
+      "journal": "JCEM case reports",
+      "publishedDate": "2026-10-01",
+      "addedDate": "2026-09-20",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 39-year-old man with refractory hypertriglyceridemia (peak 2329 mg/dL) and 6 prior pancreatitis episodes was cautiously started on semaglutide, achieving sustained triglyceride normalization to 213 mg/dL, weight loss, glycemic improvement, and no pancreatitis recurrence.",
+      "keyFindings": [
+        "Triglycerides fell from a peak of 2329 mg/dL to 213 mg/dL following semaglutide initiation.",
+        "No pancreatitis recurrence occurred despite historical safety concerns about GLP-1 agonists in prior pancreatitis.",
+        "Patient achieved insulin cessation, hypoglycemia resolution, and improved liver elastography parameters.",
+        "Semaglutide succeeded where maximal conventional therapy (statins, fibrates, omega-3s) had failed."
+      ],
+      "limitations": "Single case report in one patient; findings cannot be generalized without larger controlled studies in patients with prior pancreatitis.",
+      "context": "GLP-1 receptor agonists have historically been used cautiously or avoided in patients with prior pancreatitis. This case appears to challenge that contraindication, consistent with emerging evidence that semaglutide's metabolic benefits may outweigh risks in carefully selected, treatment-resistant patients under multidisciplinary care.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42702341",
+      "kind": "study",
+      "pmid": "42702341",
+      "doi": "10.1016/j.phrs.2026.108440",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42702341/",
+      "title": "HIF-1 plays a dual regulatory role in hippocampal neuronal PANoptosis in Alzheimer's disease via the HK2/VDAC1/NLRP3 axis and RIPK3 signaling.",
+      "displayTitle": "Semaglutide reduces Alzheimer's neuronal death via HIF-1 reprogramming in mice",
+      "authors": "Wang S et al.",
+      "journal": "Pharmacological research",
+      "publishedDate": "2026-10-01",
+      "addedDate": "2026-09-20",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "This study investigated PANoptosis (combined pyroptosis, apoptosis, necroptosis) as a mechanism of hippocampal neuronal loss in an AD mouse model, finding that semaglutide mitigates this cell death by reprogramming HIF-1's dual regulatory role through GLP-1R-AMPK signaling.",
+      "keyFindings": [
+        "PANoptosis is a key driver of hippocampal neuronal loss in an AD mouse model.",
+        "HIF-1 acts as a double-edged sword: activating the pro-death HK2/VDAC1/NLRP3 axis while suppressing RIPK3.",
+        "Semaglutide reprograms HIF-1's dual role via GLP-1R-AMPK signaling, reducing hippocampal neuronal PANoptosis.",
+        "Findings suggest semaglutide may be a therapeutic candidate for Alzheimer's disease."
+      ],
+      "limitations": "Study is limited to a mouse AD model; translation to human Alzheimer's disease remains unestablished and requires clinical investigation.",
+      "context": "GLP-1 receptor agonists including semaglutide have shown neuroprotective effects in prior preclinical AD studies. This work extends those findings by identifying a specific PANoptosis-HIF-1 mechanism through which semaglutide may act.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42626264",
+      "kind": "study",
+      "pmid": "42626264",
+      "doi": "10.5662/wjm.119385",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42626264/",
+      "title": "Glucagon-like receptor-1 agonists and impotence: A meta-analysis.",
+      "displayTitle": "GLP-1 agonists improve erectile dysfunction and testosterone in men",
+      "authors": "Mirghani HO, AlQurashi AM",
+      "journal": "World journal of methodology",
+      "publishedDate": "2026-09-20",
+      "addedDate": "2026-09-20",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Meta-analysis",
+      "summary": "This meta-analysis of 7 studies (237 males) examined the association between GLP-1 agonist therapy and erectile dysfunction. GLP-1 agonists significantly improved ED scores and increased total testosterone, SHBG, and FSH, with no significant effects on free testosterone or LH.",
+      "keyFindings": [
+        "GLP-1 agonists significantly improved erectile dysfunction scores (MD = 2.73, 95% CI: 1.64–3.83).",
+        "Total testosterone increased significantly (MD = 73.04, 95% CI: 16.91–129.17).",
+        "SHBG and FSH also increased significantly; free testosterone and LH were unchanged.",
+        "Only 7 studies with 237 males met inclusion criteria, limiting statistical power."
+      ],
+      "limitations": "Very small pooled sample (237 males across 7 studies) severely limits generalizability; larger randomized controlled trials are explicitly acknowledged as needed.",
+      "context": "Concerns about GLP-1 agonists and sexual dysfunction have emerged from post-marketing surveillance. This meta-analysis appears to suggest that GLP-1 agonist therapy may actually benefit erectile function and hormonal markers in men, consistent with expected improvements from weight loss and metabolic improvements.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42763059",
+      "kind": "study",
+      "pmid": "42763059",
+      "doi": "10.1016/j.taap.2026.118045",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42763059/",
+      "title": "Reprogramming NADhomeostasis and FOXO3a-Nrf2 signaling mitigates bleomycin-driven pulmonary fibrosis.",
+      "displayTitle": "Semaglutide plus nicotinic acid reduces pulmonary fibrosis in rats",
+      "authors": "Mo'men M et al.",
+      "journal": "Toxicology and applied pharmacology",
+      "publishedDate": "2026-09-19",
+      "addedDate": "2026-09-20",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — rat",
+      "summary": "In a bleomycin-induced rat model of pulmonary fibrosis, combining semaglutide (a GLP-1 receptor agonist) with nicotinic acid produced broader protection than semaglutide alone, restoring NAD/SIRT1-FOXO3a-Nrf2 signaling and suppressing inflammatory and fibrotic markers over 21 days.",
+      "keyFindings": [
+        "Bleomycin depleted NAD+ and SIRT1, suppressed FOXO3a, and activated TGF-β/SMAD and NF-κB pathways in rat lungs.",
+        "SEMA+NA combination restored NAD/SIRT1-FOXO3a-Nrf2 pathway readouts more fully than semaglutide alone.",
+        "SEMA+NA more effectively suppressed inflammatory cytokines and collagen deposition vs. semaglutide monotherapy.",
+        "Exploratory HSA and Bliss interaction analyses suggested enhanced fixed-dose effects but were not confirmatory of pharmacological synergy."
+      ],
+      "limitations": "Animal-only study with no dose-response matrix, no lung-function testing, and exploratory synergy metrics that the authors explicitly caution are not definitive, limiting translational relevance.",
+      "context": "Semaglutide has shown anti-inflammatory and antifibrotic activity in preclinical models; this study extends prior findings by suggesting NAD+ metabolic support via nicotinic acid may amplify semaglutide's protective effects in pulmonary fibrosis.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
       "id": "pmid-42630988",
       "kind": "study",
       "pmid": "42630988",
@@ -210,6 +392,140 @@
       ],
       "limitations": "Animal and cell models only; doses may not directly translate to clinical use, and non-diabetic renal fibrosis findings require validation in human studies.",
       "context": "GLP-1 receptor agonists have shown renoprotective effects in diabetic nephropathy; this study extends prior findings to non-diabetic renal fibrosis and suggests retatrutide's dual/triple agonism may confer broader pathway inhibition than semaglutide or tirzepatide alone.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42758352",
+      "kind": "study",
+      "pmid": "42758352",
+      "doi": "10.1007/s10735-026-10976-z",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42758352/",
+      "title": "Histopathological and immunohistochemical characterization of MPTP-associated pancreatic injury and its attenuation by Hexarelin in mice.",
+      "displayTitle": "Hexarelin attenuates MPTP-induced pancreatic injury in mice",
+      "authors": "&#x15e;ahin M et al.",
+      "journal": "Journal of molecular histology",
+      "publishedDate": "2026-09-18",
+      "addedDate": "2026-09-20",
+      "peptides": [
+        "Hexarelin"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "This mouse study investigated pancreatic damage caused by MPTP (a Parkinson's disease model neurotoxin) and whether Hexarelin could reduce that damage. Hexarelin treatment attenuated pancreatic inflammation, apoptosis markers, and islet degeneration, while partially preserving insulin and amylin immunoreactivity.",
+      "keyFindings": [
+        "MPTP caused acinar degeneration, islet damage, and increased CD11b, CD68, IL-1β, TNF-α, and caspase-3 immunoreactivity in pancreatic tissue.",
+        "MPTP reduced insulin and amylin immunoreactivity and increased β-amyloid immunoreactivity in pancreatic islets.",
+        "Hexarelin (both pre- and post-treatment) attenuated these histopathological and immunohistochemical changes, though improvement varied by marker.",
+        "Post-Hexarelin results require cautious interpretation due to absence of a time-matched post-MPTP vehicle control group."
+      ],
+      "limitations": "Absence of a sequence- and time-matched post-MPTP vehicle control prevents full separation of Hexarelin effects from natural temporal recovery after MPTP administration.",
+      "context": "Hexarelin is a growth hormone secretagogue with known cardioprotective and anti-inflammatory properties. This study extends prior findings by suggesting Hexarelin may also protect peripheral organs, specifically the pancreas, from neuroinflammatory-model toxin-induced injury.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42760621",
+      "kind": "study",
+      "pmid": "42760621",
+      "doi": "10.1177/10600280261486055",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42760621/",
+      "title": "Orforglipron: An Oral GLP-1 Receptor Agonist for Obesity Treatment.",
+      "displayTitle": "Oral GLP-1 agonist orforglipron cuts weight 7–11% vs placebo",
+      "authors": "Wietholter JP, Terpening CM",
+      "journal": "The Annals of pharmacotherapy",
+      "publishedDate": "2026-09-18",
+      "addedDate": "2026-09-20",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review synthesized phase 1–3 clinical trial data on orforglipron, a newly approved oral GLP-1 receptor agonist for obesity, finding placebo-adjusted weight reductions of 7.1%–10.6% with primarily gastrointestinal adverse events.",
+      "keyFindings": [
+        "Orforglipron achieved 7.1%–10.6% placebo-adjusted weight reduction across four phase 2/3 trials.",
+        "Efficacy appears comparable to semaglutide but less than tirzepatide and potentially greater than liraglutide.",
+        "Adverse events were primarily gastrointestinal, consistent with other GLP-1 receptor agonists.",
+        "Orforglipron requires no strict oral administration parameters, offering a practical advantage over injectable alternatives."
+      ],
+      "limitations": "Review is limited to available phase 2/3 data; long-term outcomes and effects on obesity-related comorbidities remain insufficiently characterized for full comparative assessment.",
+      "context": "Orforglipron extends the GLP-1 receptor agonist class into a non-peptide oral format; its efficacy appears consistent with semaglutide in weight loss but falls short of tirzepatide's dual GIP/GLP-1 mechanism, aligning with expectations from the broader GLP-1 literature.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT05339529",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT05339529",
+      "url": "https://clinicaltrials.gov/study/NCT05339529",
+      "title": "Protective Effect of Thymosin α1 Against Negative Immune Dysregulation and Organ Dysfunction After Acute Aortic Dissection Surgery (PANDA II)",
+      "displayTitle": "Thymosin Alpha-1 vs. standard care in 600 aortic dissection surgery patients",
+      "authors": "Nanjing Medical University",
+      "journal": "ClinicalTrials.gov · Nanjing Medical University",
+      "publishedDate": "2026-09-14",
+      "addedDate": "2026-09-20",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Trial registration — Interventional, completed (no results posted)",
+      "summary": "PANDA II is a completed interventional trial testing whether thymosin alpha-1 (1.6 mg subcutaneously every 12 hours for ≥5 days) reduces organ dysfunction burden in 600 patients undergoing emergency surgery for acute aortic syndrome, compared to standard care without placebo.",
+      "keyFindings": [
+        "Large trial: 600 patients with acute aortic syndrome (Type A dissection) enrolled at Nanjing Medical University.",
+        "Primary endpoint: 7-day mean daily SOFA score assessing postoperative organ dysfunction burden.",
+        "Intervention: thymosin alpha-1 1.6 mg subcutaneous injection every 12 hours during ICU admission (minimum 5 days).",
+        "Trial is completed but no results have been posted to ClinicalTrials.gov as of registration date."
+      ],
+      "limitations": "No results have been posted; efficacy and safety data are unavailable, and the open-label design (no placebo) introduces potential bias.",
+      "context": "Thymosin alpha-1 is an immunomodulatory peptide previously studied in sepsis and critical illness. PANDA II extends this work to the high-mortality setting of acute aortic dissection surgery, where SIRS and MODS drive early postoperative deaths.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT05339529",
+        "phase": "NA",
+        "status": "COMPLETED",
+        "sponsor": "Nanjing Medical University",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "600",
+        "conditions": [
+          "Acute Aortic Syndrome",
+          "Aortic Dissection Type A"
+        ],
+        "primaryOutcomes": "7-day postoperative organ dysfunction burden assessed by mean daily SOFA score",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42734848",
+      "kind": "study",
+      "pmid": "42734848",
+      "doi": "10.1007/s10863-026-10136-8",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42734848/",
+      "title": "Mitokines as bioenergetic stress signals in cardiovascular disease: mitochondrial communication, endocrine adaptation, and translational implications.",
+      "displayTitle": "MOTS-c and mitokines reviewed as cardiovascular stress signals",
+      "authors": "Kurian GA",
+      "journal": "Journal of bioenergetics and biomembranes",
+      "publishedDate": "2026-09-14",
+      "addedDate": "2026-09-20",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review examines how mitokines — including the mitochondrial-derived peptide MOTS-c and Humanin — signal mitochondrial stress systemically and their roles in cardiovascular disease. It evaluates their potential as biomarkers and therapeutic targets while proposing a 'mitokine code' framework linking identity, timing, and disease context.",
+      "keyFindings": [
+        "MOTS-c and Humanin are mitochondrial-derived peptides reviewed alongside nuclear-encoded mitokines FGF21 and GDF15.",
+        "Transient mitokine responses may support metabolic flexibility and cytoprotection; persistent elevations associate with adverse cardiovascular phenotypes.",
+        "Sustained mitokine signaling is not established as inherently maladaptive; major mechanistic uncertainties remain, especially for mitochondrial-derived peptides.",
+        "A proposed 'mitokine code' framework integrates identity, temporal dynamics, and disease context to interpret mitochondrial stress signaling."
+      ],
+      "limitations": "As a narrative review, it does not perform systematic evidence synthesis; mechanistic uncertainties for MOTS-c are explicitly acknowledged, limiting translational conclusions.",
+      "context": "MOTS-c has previously been shown to improve metabolic function and reduce inflammation in preclinical models. This review extends that context by situating MOTS-c within a broader cardiovascular mitokine signaling framework, consistent with emerging interest in mitochondrial-derived peptides as therapeutic targets.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -6083,319 +6399,6 @@
       ],
       "limitations": "Very small sample size (n=6 per group) and a single dose tested; no dose-response data and no clinical translation established.",
       "context": "These findings are consistent with prior research showing BPC-157's cytoprotective effects across multiple tissues, extending its known anti-inflammatory, anti-oxidative, and angiogenic properties to peripheral limb ischemia-reperfusion injury.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42060879",
-      "kind": "study",
-      "pmid": "42060879",
-      "doi": "10.1212/WNL.0000000000214864",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42060879/",
-      "title": "Glucagon-like Peptide-1 Receptor Agonists and Risk of Nonarteritic Anterior Ischemic Optic Neuropathy: Systematic Review and Meta-Analysis.",
-      "displayTitle": "Semaglutide linked to 2.5x higher NAION risk in meta-analysis",
-      "authors": "Dhivagaran T et al.",
-      "journal": "Neurology",
-      "publishedDate": "2026-05-26",
-      "addedDate": "2026-05-10",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Systematic review and meta-analysis",
-      "summary": "This systematic review and Bayesian meta-analysis pooled 5 observational studies (1.59 million patients) to assess whether GLP-1 receptor agonists, particularly semaglutide, increase risk of nonarteritic anterior ischemic optic neuropathy (NAION). Semaglutide users had a 2.52-fold higher NAION risk versus non-GLP-1RA users, with 99.9% posterior probability of increased risk.",
-      "keyFindings": [
-        "Semaglutide associated with RR 2.52 (95% CrI 1.56–4.72) for NAION vs. non-GLP-1RA users.",
-        "Association was stronger in diabetic patients: RR 2.41 (95% CrI 1.57–4.10), P(RR>1) 99.9%.",
-        "Incidence of NAION among semaglutide users was 118 per 100,000 (95% CrI 32–451).",
-        "Leave-one-out sensitivity analyses consistently supported the primary findings."
-      ],
-      "limitations": "Evidence certainty is rated only low-to-moderate; all included studies are observational, precluding causal inference, and residual confounding cannot be excluded.",
-      "context": "Prior individual observational studies reported conflicting evidence on GLP-1RA-associated NAION risk. This meta-analysis extends those findings by pooling the largest available evidence base, suggesting a consistent and statistically robust signal, though certainty of evidence is rated only low-to-moderate.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42245779",
-      "kind": "study",
-      "pmid": "42245779",
-      "doi": "10.21203/rs.3.rs-9520102/v1",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42245779/",
-      "title": "Middle-aged mice treated with GHK-Cu peptide administered intraperitoneally or intranasally show behavioral rescue but divergent hippocampal aging programs.",
-      "displayTitle": "GHK-Cu improves memory in aged mice via divergent molecular pathways by delivery route",
-      "authors": "Mazzola J et al.",
-      "journal": "Research square",
-      "publishedDate": "2026-05-26",
-      "addedDate": "2026-06-07",
-      "peptides": [
-        "GHK-Cu"
-      ],
-      "studyType": "Animal model — mouse",
-      "summary": "Aged C57BL/6J mice (20–21 months) received GHK-Cu either intraperitoneally (5 days) or intranasally (8 weeks); both routes improved hippocampal-dependent spatial learning, but triggered distinct molecular programs — intranasal suppressed oxidative phosphorylation and mTOR signaling, while intraperitoneal activated DNA repair and stress-response pathways.",
-      "keyFindings": [
-        "Intranasal GHK-Cu improved escape latency across multiple trials in both sexes; intraperitoneal produced only transient improvement in males.",
-        "Intranasal treatment reduced GFAP in both sexes and increased synaptophysin in females; intraperitoneal reduced TGF-β, GFAP, and MCP-1 in males.",
-        "Intranasal GHK-Cu strongly suppressed oxidative phosphorylation (NES −5.44 males, −4.20 females) and MYC target pathways (FDR < 0.0001).",
-        "Intraperitoneal GHK-Cu activated oxidative phosphorylation (NES 4.97), DNA repair (NES 5.58), and MYC targets — indicating acute stress-response engagement."
-      ],
-      "limitations": "This is a preprint study, so findings have not yet undergone full peer review; results are limited to a single inbred mouse strain and may not generalize to human aging.",
-      "context": "GHK-Cu is an endogenous copper-binding peptide known to decline with age and previously associated with anti-inflammatory and regenerative effects. This study extends prior findings by demonstrating that delivery route and exposure duration are critical determinants of the molecular mechanisms underlying cognitive benefit.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-41894894",
-      "kind": "study",
-      "pmid": "41894894",
-      "doi": "10.1016/j.chroma.2026.466909",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41894894/",
-      "title": "Benchmarking size-exclusion chromatography columns for the analysis of therapeutic peptides and model oligonucleotides.",
-      "displayTitle": "SEC column benchmarking for semaglutide and peptide analysis optimized",
-      "authors": "Buff M et al.",
-      "journal": "Journal of chromatography. A",
-      "publishedDate": "2026-05-24",
-      "addedDate": "2026-05-24",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Analytical methods study",
-      "summary": "Eleven size-exclusion chromatography columns were systematically evaluated for analyzing therapeutic peptides, including semaglutide and liraglutide, under varied mobile phase conditions. A phosphate-based mobile phase with 20% isopropanol was identified as optimal for hydrophobic peptides like semaglutide, balancing chromatographic efficiency with preservation of non-covalent aggregates.",
-      "keyFindings": [
-        "A prototype SEC column achieved a reduced plate height near 1, markedly better than typical SEC performance (h = 2–3).",
-        "30% acetonitrile with 0.1% TFA provided best performance for linear, macrocyclic, disulfide-constrained, and lipid-conjugated peptides.",
-        "For semaglutide and liraglutide, phosphate mobile phase with 20% isopropanol was proposed to limit denaturation and characterize aggregates.",
-        "Columns with pore sizes ≥100 Å performed best; UP-SW2000, Biozen dSEC-1, and BioCore SEC-120 yielded top results."
-      ],
-      "limitations": "This is a purely analytical/chromatographic benchmarking study with no biological model; findings are limited to in vitro chromatographic performance and do not address pharmacological or clinical relevance.",
-      "context": "Semaglutide's hydrophobic, lipid-conjugated structure poses known analytical challenges. This study extends prior SEC methodology work by systematically identifying column and mobile phase conditions that preserve semaglutide's native aggregation state during characterization.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42174244",
-      "kind": "study",
-      "pmid": "42174244",
-      "doi": "10.1007/s11695-026-08748-5",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42174244/",
-      "title": "Early Adjuvant Treatment with Semaglutide After Sleeve Gastrectomy in Patients with Class II-III Obesity: A Prospective Non-Randomized Controlled Study.",
-      "displayTitle": "Semaglutide after sleeve gastrectomy boosts 12-month weight loss by ~4%",
-      "authors": "Huang YS et al.",
-      "journal": "Obesity surgery",
-      "publishedDate": "2026-05-23",
-      "addedDate": "2026-05-24",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Prospective non-randomized controlled study",
-      "summary": "This prospective non-randomized controlled study of 103 patients with class II-III obesity examined early adjunctive semaglutide (months 1–6 post-op) after laparoscopic sleeve gastrectomy. At 12 months, the semaglutide group achieved significantly greater total weight loss (35.1% vs. 30.7%) and excess weight loss (86.4% vs. 76.9%) compared to surgery alone.",
-      "keyFindings": [
-        "%TWL at 12 months was significantly greater with semaglutide: -35.1% vs. -30.7% (P=0.002).",
-        "%EWL at 12 months favored semaglutide: 86.4% vs. 76.9% (P=0.026).",
-        "At 6 months, %TWL was also significantly greater in the semaglutide group (P<0.001).",
-        "Exploratory analyses suggested greater lean mass preservation and visceral fat reduction with semaglutide."
-      ],
-      "limitations": "Non-randomized, single-center design with only 103 participants limits causal inference and generalizability; propensity score adjustment partially but not fully addresses baseline confounding.",
-      "context": "Combining GLP-1 receptor agonists with bariatric surgery is an emerging strategy; this study extends prior hypothesis-generating work by showing early short-term adjunctive semaglutide appears to amplify weight loss outcomes after sleeve gastrectomy.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT06340633",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT06340633",
-      "url": "https://clinicaltrials.gov/study/NCT06340633",
-      "title": "SPI-1005 in Adults Receiving Cochlear Implant",
-      "displayTitle": "Phase 2 trial tests SPI-1005 to protect hearing after cochlear implant",
-      "authors": "Sound Pharmaceuticals, Incorporated",
-      "journal": "ClinicalTrials.gov · Sound Pharmaceuticals, Incorporated",
-      "publishedDate": "2026-05-22",
-      "addedDate": "2026-05-24",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "Trial registration — Phase 2 RCT",
-      "summary": "This Phase 2 randomized placebo-controlled trial evaluates SPI-1005 (ebselen, a glutathione peroxidase mimetic) in 40 adults receiving a MED-EL cochlear implant, starting 2 days before surgery and continuing for 6 months, to assess safety and effects on hearing, tinnitus, and vertigo outcomes.",
-      "keyFindings": [
-        "Phase 2 RCT, n=40, randomized to SPI-1005 or placebo for 6 months perioperatively.",
-        "Primary endpoint: incidence of treatment-emergent adverse events (safety/tolerability focus).",
-        "Secondary endpoints include hearing thresholds, word recognition, speech discrimination, tinnitus, and vertigo.",
-        "Currently recruiting adults with moderate-to-profound sensorineural hearing loss scheduled for cochlear implantation."
-      ],
-      "limitations": "This is an active trial registration with no results posted; no conclusions about efficacy or safety can be drawn at this stage.",
-      "context": "SPI-1005 (ebselen) mimics glutathione peroxidase to reduce oxidative cochlear injury. Prior Sound Pharmaceuticals trials explored ebselen for noise-induced and drug-induced hearing loss; this is among the first trials targeting cochlear implant-related trauma.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT06340633",
-        "phase": "Phase 2",
-        "status": "RECRUITING",
-        "sponsor": "Sound Pharmaceuticals, Incorporated",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "40",
-        "conditions": [
-          "Hearing Loss",
-          "Cochlear Trauma"
-        ],
-        "primaryOutcomes": "Number of Participants with Treatment Emergent Adverse Events (TEAE)",
-        "hasResults": false
-      }
-    },
-    {
-      "id": "pmid-42174253",
-      "kind": "study",
-      "pmid": "42174253",
-      "doi": "10.1038/s41591-026-04416-4",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42174253/",
-      "title": "Semaglutide versus placebo in individuals with poor weight loss after bariatric surgery: a double-blinded, randomized, placebo-controlled trial.",
-      "displayTitle": "Semaglutide cuts post-bariatric weight by 18% vs. placebo gain in RCT",
-      "authors": "Stanley C et al.",
-      "journal": "Nature medicine",
-      "publishedDate": "2026-05-22",
-      "addedDate": "2026-05-24",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Randomized controlled trial",
-      "summary": "This 68-week double-blind RCT (BARI-STEP) tested semaglutide 2.4 mg weekly in 70 adults with suboptimal weight loss after gastric bypass or sleeve gastrectomy. Semaglutide produced an 18% body weight reduction versus a 0.4% gain with placebo, a difference of ~19 percentage points.",
-      "keyFindings": [
-        "Mean weight loss was 18.0% with semaglutide vs. +0.4% weight gain with placebo at 68 weeks.",
-        "Adjusted treatment difference was −19.18% (95% CI −23.4 to −14.8; P < 0.001).",
-        "Semaglutide also improved metabolic parameters and quality of life versus placebo.",
-        "Adverse events matched semaglutide's known safety profile; no treatment-related deaths occurred."
-      ],
-      "limitations": "Relatively small sample (n = 70; ITT n = 63) and single-trial evidence; generalizability may be limited given 83% female enrollment and single-center or limited-site design.",
-      "context": "Semaglutide 2.4 mg is established for obesity management in non-surgical populations; this trial extends prior findings by demonstrating substantial efficacy and acceptable safety specifically in patients with suboptimal bariatric surgery outcomes, a population with limited pharmacological options.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42174184",
-      "kind": "study",
-      "pmid": "42174184",
-      "doi": "10.1038/s42255-026-01534-8",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42174184/",
-      "title": "Semaglutide drives weight loss through cAMP-dependent mechanisms in GLP1R-expressing hindbrain neurons.",
-      "displayTitle": "Semaglutide drives weight loss via cAMP signaling in hindbrain neurons",
-      "authors": "Gao C et al.",
-      "journal": "Nature metabolism",
-      "publishedDate": "2026-05-22",
-      "addedDate": "2026-05-24",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Mechanistic study",
-      "summary": "This study examined the intracellular signaling mechanisms by which semaglutide drives weight loss in GLP1R-expressing neurons of the area postrema (AP) in mice. Semaglutide activated both Gs- and Gq-dependent pathways, with cAMP signaling through Gs being essential — disrupting it abolished semaglutide-induced weight loss.",
-      "keyFindings": [
-        "Semaglutide engages both Gs- and Gq-dependent signaling in area postrema GLP1R-expressing neurons.",
-        "Semaglutide drives graded cAMP increases in AP neurons via the Gs pathway.",
-        "PDE4 inhibition enhances and sustains semaglutide-induced cAMP responses in AP neurons.",
-        "Disrupting Gs or cAMP signaling in AP neurons abolishes semaglutide-induced weight loss and brain-wide activation."
-      ],
-      "limitations": "Mechanistic findings are preclinical; direct translation of specific intracellular signaling pathways to human obesity therapy remains to be established.",
-      "context": "Prior work established GLP1R agonists act centrally to suppress appetite, with the area postrema as a key brain site. This study extends those findings by systematically mapping the intracellular signaling architecture — specifically cAMP and calcium — through which semaglutide exerts its weight-loss effects.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42166398",
-      "kind": "study",
-      "pmid": "42166398",
-      "doi": "10.1159/000552202",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42166398/",
-      "title": "Elevated Serum Nardilysin Is Inversely Associated with Cardiovascular Disease in Kidney Transplant Recipients.",
-      "displayTitle": "Higher MOTS-c and nardilysin levels found in kidney transplant recipients",
-      "authors": "S&#x105;czek A et al.",
-      "journal": "Kidney & blood pressure research",
-      "publishedDate": "2026-05-21",
-      "addedDate": "2026-05-24",
-      "peptides": [
-        "MOTS-c"
-      ],
-      "studyType": "Observational cohort",
-      "summary": "This observational cohort study measured serum MOTS-c and nardilysin (NRDc) in 118 kidney transplant recipients and 32 controls, finding both peptides significantly elevated in transplant patients, with higher NRDc independently associated with lower odds of prevalent cardiovascular disease.",
-      "keyFindings": [
-        "MOTS-c was significantly higher in kidney transplant recipients vs. controls (178 vs. 142 ng/mL, P=0.014).",
-        "Higher ln-NRDc was independently associated with lower odds of cardiovascular disease (OR 0.59, 95% CI 0.34–0.97).",
-        "MOTS-c showed a non-significant trend toward lower allograft loss risk (adj. sHR 0.50, P=0.08).",
-        "Neither MOTS-c nor NRDc were associated with all-cause mortality or eGFR decline over ~29 months."
-      ],
-      "limitations": "Relatively small sample (118 KTRs, 32 controls), cross-sectional CV disease assessment, and short median follow-up (~29 months) limit causal inference and detection of incident events.",
-      "context": "MOTS-c is a mitochondria-derived peptide with emerging roles in metabolic and inflammatory regulation; this study extends prior findings into kidney transplant recipients, a population with high cardiometabolic burden, though MOTS-c showed no significant associations with cardiometabolic features here.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42159865",
-      "kind": "study",
-      "pmid": "42159865",
-      "doi": "10.1007/s43440-026-00870-6",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42159865/",
-      "title": "Kisspeptin-10 regulates glycosaminoglycan and decorin content in human cardiac fibroblast cultures.",
-      "displayTitle": "Kisspeptin-10 boosts glycosaminoglycan and decorin in cardiac fibroblasts",
-      "authors": "Radwa&#x144;ska P et al.",
-      "journal": "Pharmacological reports : PR",
-      "publishedDate": "2026-05-20",
-      "addedDate": "2026-05-24",
-      "peptides": [
-        "Kisspeptin-10"
-      ],
-      "studyType": "In vitro",
-      "summary": "This in vitro study examined kisspeptin-10 (KiSS-10) effects on extracellular matrix components in human cardiac fibroblast cultures. KiSS-10 dose-dependently increased glycosaminoglycan content and decorin secretion, with the glycosaminoglycan effect mediated via GPR54 and FAK signalling but not phospholipase C.",
-      "keyFindings": [
-        "KiSS-10 caused a dose-dependent increase in glycosaminoglycan content in both cells and culture medium.",
-        "The glycosaminoglycan-stimulatory effect was abolished by GPR54 blocker (peptide 234) or FAK inhibitor 14.",
-        "Phospholipase C inhibition (D609) did not alter KiSS-10-induced glycosaminoglycan changes, excluding PLC involvement.",
-        "KiSS-10 increased decorin secretion but not decorin gene expression, suggesting post-transcriptional regulation."
-      ],
-      "limitations": "Cell line-based study with no in vivo validation; findings may not reflect complex cardiac fibroblast behaviour in intact myocardial tissue.",
-      "context": "Kisspeptin-10 is known primarily for neuroendocrine roles, but emerging evidence suggests cardiovascular functions. This study extends prior findings by identifying a novel role for KiSS-10 in cardiac ECM remodelling via GPR54/FAK signalling in human cardiac fibroblasts.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42198317",
-      "kind": "study",
-      "pmid": "42198317",
-      "doi": "10.3390/pharmaceutics18050625",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42198317/",
-      "title": "BPC-157 as an Investigational Peptide Therapeutic: Biopharmaceutical Challenges, Formulation Strategies, and Translational Development Barriers.",
-      "displayTitle": "BPC-157 lacks validated formulations and pharmacokinetics, review finds",
-      "authors": "Mateescu DM et al.",
-      "journal": "Pharmaceutics",
-      "publishedDate": "2026-05-20",
-      "addedDate": "2026-05-31",
-      "peptides": [
-        "BPC-157"
-      ],
-      "studyType": "Narrative review",
-      "summary": "This narrative review critically evaluates BPC-157's pharmaceutical development status, concluding that despite 30+ years of preclinical data showing biological activity, no approved formulation, validated dosing regimen, or completed Phase II trial exists, and fundamental biopharmaceutical characterization remains absent.",
-      "keyFindings": [
-        "Preclinical ADME studies confirm a sub-30-minute plasma half-life, yet biological effects persist for hours to days.",
-        "Intramuscular bioavailability ranges from 14–51% depending on species; human PK remains critically undercharacterized.",
-        "Available clinical data cover fewer than 30 subjects across three uncontrolled pilot studies with no standardized formulations.",
-        "No BCS classification, permeability data, or formal excipient compatibility studies exist for BPC-157."
-      ],
-      "limitations": "As a narrative review without formal quality assessment, it may be subject to selection bias, and conclusions reflect the authors' synthesis rather than a systematic evidence appraisal.",
-      "context": "BPC-157 has a substantial preclinical literature suggesting cytoprotective and regenerative effects across multiple organ systems. This review extends prior concerns about translational gaps by systematically framing them as pharmaceutical science deficiencies rather than questions of biological activity.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
