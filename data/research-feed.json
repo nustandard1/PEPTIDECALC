@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T11:58:11.577Z",
+  "lastUpdated": "2026-09-27T12:37:47.934Z",
   "entries": [
     {
       "id": "pmid-42610532",
@@ -147,6 +147,36 @@
       ],
       "limitations": "As a narrative review without systematic search methodology or meta-analytic synthesis, it may be subject to selection bias in the studies and methods discussed.",
       "context": "As semaglutide adoption expands for type 2 diabetes and obesity, reliable bioanalytical methods are increasingly critical for pharmacokinetic studies, quality control, and regulatory compliance. This review consolidates existing methodological knowledge, consistent with the broader analytical chemistry literature on GLP-1 receptor agonists.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42789307",
+      "kind": "study",
+      "pmid": "42789307",
+      "doi": "10.1073/pnas.2618845123",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42789307/",
+      "title": "An RNA thermogenic therapy to preserve lean mass and enhance metabolic health during GLP-1 weight loss.",
+      "displayTitle": "ZFP423-targeting ASO plus semaglutide boosts fat loss while preserving lean mass",
+      "authors": "Thorne AK et al.",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "publishedDate": "2026-10-06",
+      "addedDate": "2026-09-27",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Animal model — mouse",
+      "summary": "In lean and obese mice, antisense oligonucleotides (ASOs) targeting the thermogenesis repressor ZFP423 induced adipose beiging and improved metabolic health; combined with semaglutide, the ASO achieved greater weight and fat loss than either treatment alone while preserving lean mass.",
+      "keyFindings": [
+        "Weekly ASO treatment induced white adipose beiging, raising body temperature and oxygen consumption in mice.",
+        "ASO monotherapy improved glucose homeostasis, insulin sensitivity, lipid metabolism, and hepatic steatosis.",
+        "ASO plus semaglutide produced greater weight and fat loss than either monotherapy alone.",
+        "Lean mass was preserved with combination therapy, addressing a key limitation of GLP-1RA treatment."
+      ],
+      "limitations": "Results are from mouse models only; translation to human physiology, safety, and lean-mass preservation has not been demonstrated.",
+      "context": "GLP-1 receptor agonists like semaglutide cause significant lean mass loss alongside fat loss, a recognized clinical concern. These findings are consistent with the hypothesis that pairing appetite suppression with pharmacologic thermogenesis activation could yield metabolically healthier weight loss.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -304,6 +334,274 @@
       "trialMeta": null
     },
     {
+      "id": "pmid-42734721",
+      "kind": "study",
+      "pmid": "42734721",
+      "doi": "10.1007/s12471-026-02074-2",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42734721/",
+      "title": "DUTCH weight control in atrial fibrillation study (DUTCH-WAIST) : Design and rationale of a&#xa0;randomised controlled trial.",
+      "displayTitle": "Semaglutide tested for rhythm control in obese atrial fibrillation patients",
+      "authors": "Voorhout L et al.",
+      "journal": "Netherlands heart journal : monthly journal of the Netherlands Society of Cardiology and the Netherlands Heart Foundation",
+      "publishedDate": "2026-10-01",
+      "addedDate": "2026-09-27",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Randomised controlled trial",
+      "summary": "The DUTCH-WAIST trial is a multicentre, double-blind, randomised, placebo-controlled study evaluating semaglutide 2.4 mg weekly versus placebo, added to lifestyle intervention, in overweight adults with first-detected persistent atrial fibrillation scheduled for electrical cardioversion over one year.",
+      "keyFindings": [
+        "Trial targets adults with BMI >30 kg/m² (or >27 with comorbidity) and first-detected persistent AF within 6 months.",
+        "Co-primary outcomes include hierarchical rhythm status at one year and a composite of AF persistence, ablation, arrhythmic death, or serious drug adverse events.",
+        "Semaglutide 2.4 mg once weekly is tested as an adjunct to combined lifestyle intervention and standard AF care.",
+        "Study rationale: weight loss may reverse atrial structural and electrical remodelling, improving rhythm control."
+      ],
+      "limitations": "This is a protocol/design paper with no outcome data yet; results depend on trial completion and adequate weight-loss separation between arms.",
+      "context": "Obesity is an established driver of atrial remodelling and AF progression. Semaglutide has demonstrated significant weight loss in cardiovascular populations; this trial extends prior findings by directly assessing whether GLP-1-mediated weight reduction translates to improved AF rhythm control.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42733032",
+      "kind": "study",
+      "pmid": "42733032",
+      "doi": "10.1007/s12471-026-02073-3",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42733032/",
+      "title": "Effects of GLP-1 receptor agonists on body weight and cardiovascular outcomes: a&#xa0;review.",
+      "displayTitle": "GLP-1 receptor agonists reduce MACE, mortality, and heart-failure hospitalizations",
+      "authors": "van Maren SJF et al.",
+      "journal": "Netherlands heart journal : monthly journal of the Netherlands Society of Cardiology and the Netherlands Heart Foundation",
+      "publishedDate": "2026-10-01",
+      "addedDate": "2026-09-27",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review synthesizes evidence on GLP-1 receptor agonists' effects on body weight and cardiovascular outcomes, covering large outcome trials in type 2 diabetes and, notably, semaglutide's SELECT trial in non-diabetic overweight/obese patients, finding consistent reductions in major adverse cardiovascular events and mortality.",
+      "keyFindings": [
+        "GLP-1RAs consistently reduce MACE, all-cause mortality, and heart-failure hospitalizations in large cardiovascular outcome trials.",
+        "Semaglutide (SELECT trial) demonstrated significant cardiovascular risk reduction in overweight/obese patients without diabetes.",
+        "Cardiovascular benefits appear partly independent of weight loss, suggesting direct pleiotropic mechanisms.",
+        "GLP-1RAs influence multiple pathways: insulin secretion, appetite suppression, lipid metabolism, anti-inflammatory, and hemodynamic effects."
+      ],
+      "limitations": "As a narrative review, it is subject to selection bias in literature inclusion and does not provide pooled quantitative estimates as a meta-analysis would.",
+      "context": "Consistent with a growing body of evidence, this review extends prior findings by highlighting that semaglutide's cardiovascular benefits in non-diabetic populations (SELECT trial) appear partly weight-loss independent, broadening the potential patient population for GLP-1RA-based cardiovascular prevention.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42800499",
+      "kind": "study",
+      "pmid": "42800499",
+      "doi": "10.1016/j.yrtph.2026.106252",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42800499/",
+      "title": "Suitability of the ICH S1B(R1) Weight-of-Evidence Framework to Evaluate Glucagon-Like Protein-1 Receptor Agonist (GLP-1RA) Carcinogenicity Risk.",
+      "displayTitle": "Rodent thyroid tumors from GLP-1RAs deemed not relevant to humans",
+      "authors": "Roach KA et al.",
+      "journal": "Regulatory toxicology and pharmacology : RTP",
+      "publishedDate": "2026-09-26",
+      "addedDate": "2026-09-27",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Regulatory review",
+      "summary": "This regulatory analysis applied the ICH S1B(R1) weight-of-evidence framework to seven approved GLP-1 receptor agonists, including semaglutide and tirzepatide, to evaluate whether rodent thyroid C-cell tumors signal human carcinogenicity risk. Across all six evidence domains, the framework supported concluding that GLP-1RA-induced rat tumors occur via a mechanism not relevant to humans.",
+      "keyFindings": [
+        "All seven approved GLP-1RAs consistently increased thyroid C-cell tumors in chronic rodent bioassays.",
+        "Species differences in GLP-1 receptor biology indicate the rodent tumorigenic mechanism is human-irrelevant.",
+        "ICH S1B(R1) weight-of-evidence analysis across six domains supported a human-irrelevant classification for all agents.",
+        "Future 2-year rat carcinogenicity studies are unlikely to add regulatory value for this drug class."
+      ],
+      "limitations": "This is a regulatory framework application rather than an experimental study, so conclusions depend on the quality and completeness of previously published preclinical and mechanistic data.",
+      "context": "GLP-1RAs carry a boxed warning for medullary thyroid carcinoma based on rodent data. This analysis extends prior mechanistic arguments about species differences in GLP-1R expression in thyroid C-cells, applying a formal regulatory framework to systematically conclude human irrelevance across the entire approved drug class.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42791433",
+      "kind": "study",
+      "pmid": "42791433",
+      "doi": "10.1007/s40265-026-02380-4",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42791433/",
+      "title": "GLP-1 Receptor Agonists in Heart Failure: A Systematic Review and Meta-analysis with Phenotype-Specific Effects and Dual Analytical Frameworks.",
+      "displayTitle": "GLP-1 agonists cut heart failure hospitalizations by 52% in HFpEF patients",
+      "authors": "Yuan Y et al.",
+      "journal": "Drugs",
+      "publishedDate": "2026-09-26",
+      "addedDate": "2026-09-27",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "This systematic review and meta-analysis of 14 trials (15,882 HF patients) evaluated GLP-1 receptor agonists across heart failure phenotypes, finding significant cardiovascular and HF-related benefits in HFpEF—especially in overweight/obese patients—but limited evidence of benefit in HFrEF.",
+      "keyFindings": [
+        "In HFpEF, GLP-1 RAs reduced MACE by 21% (HR 0.79), HHF by 52% (HR 0.48), and all-cause mortality by 25% (HR 0.75).",
+        "In HFrEF, no significant reductions in HHF, MACE, or all-cause mortality; only cardiovascular death was reduced (HR 0.71).",
+        "Semaglutide specifically benefited overweight/obese HFpEF patients, reducing HHF and the composite of CV death or worsening HF.",
+        "Trial-level analyses showed cardiovascular benefits mainly in CVOT HF subgroups: MACE reduced (HR 0.82), MI reduced (HR 0.84)."
+      ],
+      "limitations": "Phenotype-based analyses relied on a pragmatic ejection fraction threshold of 40%, and pooling across heterogeneous trial designs and populations may limit interpretability of subgroup findings.",
+      "context": "GLP-1 RAs are established for cardiovascular risk reduction in T2D, but their role in heart failure has been uncertain and phenotype-dependent. This meta-analysis extends prior findings by systematically demonstrating HFpEF-specific benefits and the limited evidence base in HFrEF.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42791222",
+      "kind": "study",
+      "pmid": "42791222",
+      "doi": "10.1093/joneph/aajag252",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42791222/",
+      "title": "Renal AA amyloidosis associated with severe obesity: improvement in kidney function and proteinuria following semaglutide-associated weight loss.",
+      "displayTitle": "Semaglutide-driven weight loss improves kidney function in obesity-related AA amyloidosis",
+      "authors": "Atay I et al.",
+      "journal": "Journal of nephrology",
+      "publishedDate": "2026-09-26",
+      "addedDate": "2026-09-27",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 47-year-old man with obesity-related renal AA amyloidosis and near end-stage kidney disease was treated with semaglutide as part of weight management. After 47 kg of weight loss, eGFR doubled, proteinuria decreased substantially, and serum amyloid A normalized.",
+      "keyFindings": [
+        "eGFR improved from 15 to 32 mL/min/1.73 m² following 47 kg weight loss on semaglutide.",
+        "UACR declined from 3.4 g/g to 1.0 g/g after treatment.",
+        "Serum amyloid A fell from 80 mg/L to <10 mg/L, with improved CRP and ESR.",
+        "No autoimmune, infectious, hereditary, malignant, or monoclonal cause for AA amyloidosis was identified."
+      ],
+      "limitations": "Single case report; causality between semaglutide, weight loss, inflammation reduction, and renal improvement cannot be established, and weight loss alone may account for all observed benefits.",
+      "context": "Severe obesity is increasingly recognized as a potential inflammatory driver of AA amyloidosis via chronically elevated SAA. This case extends prior findings by suggesting semaglutide-associated weight loss may reduce obesity-driven systemic inflammation sufficiently to improve renal amyloid-related dysfunction.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42788915",
+      "kind": "study",
+      "pmid": "42788915",
+      "doi": "10.1016/j.jaccas.2026.110528",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42788915/",
+      "title": "Glucagon-Like Peptide-1 Agonist Effects on Weight Loss and Heart Failure Hemodynamics.",
+      "displayTitle": "Semaglutide cuts pulmonary artery pressure 10 mmHg in heart failure case",
+      "authors": "Alvarado A et al.",
+      "journal": "JACC. Case reports",
+      "publishedDate": "2026-09-25",
+      "addedDate": "2026-09-27",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "This case report describes an 82-year-old man with heart failure and recurrent decompensation who, after CardioMEMS implantation and initiation of semaglutide, achieved 20-pound weight loss, improved symptoms, and a 10 mmHg reduction in mean pulmonary artery pressure.",
+      "keyFindings": [
+        "Semaglutide initiation led to 20-pound weight loss in an 82-year-old with NYHA class III heart failure.",
+        "Mean pulmonary artery pressure decreased by 10 mmHg following semaglutide therapy.",
+        "Improved congestion and functional status were observed alongside hemodynamic improvements.",
+        "Authors caution that reduced-EF populations require careful patient selection given mixed trial data."
+      ],
+      "limitations": "Single case report in one elderly patient; no control or comparison group, limiting generalizability to broader heart failure populations.",
+      "context": "GLP-1 receptor agonists have shown metabolic benefits and emerging cardioprotective signals in trials, but evidence in heart failure with reduced ejection fraction remains mixed. This case extends prior findings by pairing real-time hemodynamic monitoring with GLP-1 therapy to document pressure changes.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07304440",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07304440",
+      "url": "https://clinicaltrials.gov/study/NCT07304440",
+      "title": "Adia Med of Winter Park LLC Autism Spectrum Disorder Research Study",
+      "displayTitle": "Phase 1 glutathione plus stem cells trial recruiting children with autism",
+      "authors": "Adia Med of Winter Park LLC",
+      "journal": "ClinicalTrials.gov · Adia Med of Winter Park LLC",
+      "publishedDate": "2026-09-22",
+      "addedDate": "2026-09-27",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial registration — Phase 1 RCT",
+      "summary": "This 12-month randomized Phase 1 trial in 100 children (ages 3–12) with confirmed ASD tests whether monthly IV umbilical cord blood-derived stem cells/exosomes plus IV glutathione improves autism symptoms more than IV glutathione alone, using the ATEC score as primary endpoint.",
+      "keyFindings": [
+        "Phase 1, n=100, randomized, active-comparator controlled; recruiting as of 2026.",
+        "Primary endpoint: change in total ATEC score from baseline to Month 6.",
+        "Glutathione-only arm may crossover to receive stem cell product if stable.",
+        "Notable: participants pay a $12,000 study fee, raising significant ethical concerns."
+      ],
+      "limitations": "No results are posted; this is a registry entry only. The $12,000 participant fee and single-sponsor design raise serious ethical and methodological concerns that limit interpretability of future findings.",
+      "context": "IV glutathione has been explored in ASD based on evidence of oxidative stress dysregulation in affected children, but robust controlled trial data supporting efficacy remain lacking. This trial is unusual in combining glutathione with an allogeneic stem cell/exosome product.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07304440",
+        "phase": "Phase 1",
+        "status": "RECRUITING",
+        "sponsor": "Adia Med of Winter Park LLC",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "100",
+        "conditions": [
+          "Autism Spectrum Disorder",
+          "Autism",
+          "ASD",
+          "Autism Spectrum Disorder (ASD)"
+        ],
+        "primaryOutcomes": "Change from Baseline in Total Autism Treatment Evaluation Checklist (ATEC) Score at Month 6",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "nct-NCT03459287",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT03459287",
+      "url": "https://clinicaltrials.gov/study/NCT03459287",
+      "title": "Study to Evaluate the Efficacy & Safety of the INTERCEPT Blood System for RBCs in Complex Cardiac Surgery Patients",
+      "displayTitle": "Phase 3 INTERCEPT RBC system trial in cardiac surgery posts results",
+      "authors": "Cerus Corporation",
+      "journal": "ClinicalTrials.gov · Cerus Corporation",
+      "publishedDate": "2026-09-22",
+      "addedDate": "2026-09-27",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial — Phase 3 RCT, completed (results posted)",
+      "summary": "This completed Phase 3 double-blind RCT evaluated the INTERCEPT Blood System for pathogen-inactivated RBC transfusions versus conventional RBCs in 581 complex cardiac surgery patients, with renal impairment and safety as primary endpoints.",
+      "keyFindings": [
+        "Phase 3, multicenter, double-blind, non-inferiority RCT; n=581 complex cardiac surgery patients.",
+        "Primary endpoint: incidence of renal impairment (serum creatinine-based) through Day 30 post-surgery.",
+        "Secondary endpoint: related adverse events including transfusion reactions compared between arms.",
+        "Results posted; trial completed as of registry status."
+      ],
+      "limitations": "Registry results posting does not substitute for peer-reviewed publication; full outcome data and statistical details require the published clinical report.",
+      "context": "The INTERCEPT Blood System uses a pathogen-inactivation process; glutathione is a component of the RBC storage solution used in the system. This trial represents a pivotal dataset for regulatory assessment of treated RBC safety in high-risk surgical patients.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT03459287",
+        "phase": "Phase 3",
+        "status": "COMPLETED",
+        "sponsor": "Cerus Corporation",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "581",
+        "conditions": [
+          "Anemia"
+        ],
+        "primaryOutcomes": "Percentage of Patients Who Have Received at Least One Study Transfusion With a Diagnosis of Renal Impairment Defined as:; Percentage of Patients With Related Adverse Events",
+        "hasResults": true
+      }
+    },
+    {
       "id": "pmid-42626264",
       "kind": "study",
       "pmid": "42626264",
@@ -360,6 +658,66 @@
       ],
       "limitations": "Animal-only study with no dose-response matrix, no lung-function testing, and exploratory synergy metrics that the authors explicitly caution are not definitive, limiting translational relevance.",
       "context": "Semaglutide has shown anti-inflammatory and antifibrotic activity in preclinical models; this study extends prior findings by suggesting NAD+ metabolic support via nicotinic acid may amplify semaglutide's protective effects in pulmonary fibrosis.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42794771",
+      "kind": "study",
+      "pmid": "42794771",
+      "doi": "10.3390/ijms27188344",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42794771/",
+      "title": "BPC 157 in Rodent Ischemia-Reperfusion Injury: A Critical Review of Preclinical Evidence.",
+      "displayTitle": "BPC-157 shows preclinical IRI protection but evidence remains preliminary",
+      "authors": "Demirta&#x15f; H",
+      "journal": "International journal of molecular sciences",
+      "publishedDate": "2026-09-19",
+      "addedDate": "2026-09-27",
+      "peptides": [
+        "BPC-157"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This critical review evaluates rodent preclinical studies of BPC-157 in ischemia-reperfusion injury (IRI) across multiple organ systems. BPC-157 was associated with reduced oxidative stress, modulated nitric oxide responses, and tissue protection, but heterogeneous methods and short observation periods limit conclusions.",
+      "keyFindings": [
+        "BPC-157 attenuated oxidative injury, inflammatory/apoptotic markers, and modulated VEGF/VEGFR2-Akt-eNOS signaling in rodent IRI models.",
+        "Organ-specific protection was observed in skeletal muscle, hippocampal, intestinal/colonic, and hepatic IRI models.",
+        "Distant-organ injury following limb IRI was also attenuated with BPC-157 administration.",
+        "Evidence base is heterogeneous; independent replication, dose-response studies, and human trials are required before clinical translation."
+      ],
+      "limitations": "Meta-analysis was not performed due to substantial heterogeneity in organ systems, doses, routes, timing, and outcome measures; no human IRI data are available.",
+      "context": "Consistent with prior preclinical findings, BPC-157 appears to exert cytoprotective and vascular-modulatory effects across diverse injury models. This review extends prior work by systematically organizing IRI-specific evidence and explicitly identifying methodological gaps requiring resolution.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42797537",
+      "kind": "study",
+      "pmid": "42797537",
+      "doi": "10.3390/ph19091492",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42797537/",
+      "title": "Clinical Applications and Evidence Landscape of Thymosin Alpha 1 as an Immunomodulatory Adjunct in Cancer Care: A Scoping Review.",
+      "displayTitle": "Thymosin Alpha-1 as cancer immunotherapy adjunct: scoping review of 26 studies",
+      "authors": "Kim SD et al.",
+      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "publishedDate": "2026-09-19",
+      "addedDate": "2026-09-27",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Scoping review",
+      "summary": "This scoping review mapped 26 clinical publications (2016–2026) evaluating Thymosin Alpha-1 (Tα1) as an adjunctive immunomodulatory therapy across multiple cancer types. Most studies were retrospective and conducted in China; several reported favorable immune, clinical, or treatment-tolerance signals, but heterogeneity and inconsistent safety reporting limit conclusions.",
+      "keyFindings": [
+        "26 clinical publications included; retrospective observational studies and case reports predominated, mostly from China.",
+        "Hepatobiliary, thoracic, and gastrointestinal cancers were the most frequently studied cancer clusters.",
+        "Tα1 (commonly 1.6 mg subcutaneously) was used adjunctively with chemotherapy, radiotherapy, targeted therapy, and immune checkpoint inhibitors.",
+        "Favorable immune and treatment-tolerance signals were reported, but heterogeneity limited comparability; one case described severe multisystem immune-related toxicity."
+      ],
+      "limitations": "Evidence base is dominated by retrospective observational studies and case reports, mostly from a single country, limiting generalizability and causal inference.",
+      "context": "Tα1 has long been investigated for immunomodulatory properties in infectious disease and cancer contexts. This review extends prior work by systematically mapping the current clinical evidence landscape, highlighting a predominance of low-level evidence and gaps in prospective, controlled trial data.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -453,6 +811,36 @@
       ],
       "limitations": "Review is limited to available phase 2/3 data; long-term outcomes and effects on obesity-related comorbidities remain insufficiently characterized for full comparative assessment.",
       "context": "Orforglipron extends the GLP-1 receptor agonist class into a non-peptide oral format; its efficacy appears consistent with semaglutide in weight loss but falls short of tirzepatide's dual GIP/GLP-1 mechanism, aligning with expectations from the broader GLP-1 literature.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42783811",
+      "kind": "study",
+      "pmid": "42783811",
+      "doi": "10.3390/metabo16090686",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42783811/",
+      "title": "Enzymatic Stability and Comparative Effects of Kisspeptin-14, Kisspeptin-13 and Kisspeptin-10 on Beta-Cell Function, Glucose Homeostasis and Appetite Regulation.",
+      "displayTitle": "Kisspeptin-13 shows most favorable metabolic profile among kisspeptin isoforms",
+      "authors": "Spratt JA et al.",
+      "journal": "Metabolites",
+      "publishedDate": "2026-09-17",
+      "addedDate": "2026-09-27",
+      "peptides": [
+        "Kisspeptin-10"
+      ],
+      "studyType": "In vitro and animal model — mouse",
+      "summary": "This study compared enzymatic stability and metabolic effects of KP-14, KP-13, and KP-10 in beta-cell models and mice. KP-13 emerged as the most promising isoform, enhancing beta-cell proliferation, protecting against apoptosis, suppressing appetite, and avoiding the glucose-elevating effects seen with other isoforms.",
+      "keyFindings": [
+        "KP-14 resisted plasma degradation; KP-13 and KP-10 underwent N-terminal proteolysis, with KP-13 generating KP-10 as a fragment.",
+        "KP-13 significantly enhanced beta-cell proliferation and protected against cytokine-induced apoptosis, outperforming exenatide in proliferative effects.",
+        "All isoforms elevated circulating glucose acutely; KP-14 and KP-10 impaired glucose tolerance, but KP-13 did not.",
+        "KP-13 and especially KP-10 suppressed food intake, supporting appetite-regulating potential of kisspeptin isoforms."
+      ],
+      "limitations": "Study uses healthy male and female mice and a single beta-cell line, limiting direct translation to diabetic human physiology; no long-term dosing or pharmacokinetic data in vivo.",
+      "context": "Kisspeptin peptides have been increasingly recognized as metabolic regulators beyond their reproductive roles. These findings extend prior work by directly comparing isoforms, suggesting KP-13 may offer a more favorable metabolic profile than the more commonly studied KP-10.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -6036,369 +6424,6 @@
       ],
       "limitations": "As a narrative review, it does not systematically synthesize evidence; details of the semaglutide trial failures (e.g., sample sizes, endpoints) are not provided in the abstract.",
       "context": "Semaglutide had been a candidate for Alzheimer's disease repurposing given metabolic and neuroprotective hypotheses; this review's report of trial failure is a notable setback consistent with broader challenges of repurposing metabolic agents for neurodegeneration.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42210892",
-      "kind": "study",
-      "pmid": "42210892",
-      "doi": "10.1097/DSS.0000000000005172",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42210892/",
-      "title": "Targeting Inflammation and Fibrosis in Lipedema: The Potential Role of Glucagon-like Peptide-1 Receptor Agonist Therapies.",
-      "displayTitle": "GLP-1 receptor agonists show early promise in lipedema management",
-      "authors": "Mohseni Y et al.",
-      "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
-      "publishedDate": "2026-06-01",
-      "addedDate": "2026-05-31",
-      "peptides": [
-        "Semaglutide",
-        "Tirzepatide"
-      ],
-      "studyType": "Narrative review",
-      "summary": "This narrative review evaluated the potential role of GLP-1 receptor agonists, including tirzepatide, in managing lipedema. Only 13 publications were identified, with one small uncontrolled case series of 5 patients showing pain and limb volume improvements with exenatide.",
-      "keyFindings": [
-        "Only 13 publications found; just 2 specifically evaluated GLP-1 RAs in lipedema.",
-        "One case series of 5 patients on exenatide reported improvements in pain and limb volume.",
-        "Tirzepatide may influence inflammatory and fibrotic pathways relevant to lipedema.",
-        "GLP-1 RAs not yet proven to directly alter lipedema progression; may serve as adjunctive therapy."
-      ],
-      "limitations": "Evidence base is extremely sparse; the only direct patient data comes from a single uncontrolled case series of just 5 patients, precluding any efficacy conclusions.",
-      "context": "Lipedema lacks effective medical therapies, with liposuction remaining standard of care. This review extends emerging interest in GLP-1 RAs beyond metabolic disease into fibroinflammatory fat disorders, consistent with their known anti-inflammatory and weight-reduction effects.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42210891",
-      "kind": "study",
-      "pmid": "42210891",
-      "doi": "10.1097/DSS.0000000000005176",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42210891/",
-      "title": "The Role of Glucagon-Like Peptide-1 Receptor Agonists in Hair Loss: Clinical Evidence and Proposed Mechanisms.",
-      "displayTitle": "GLP-1 agonists linked to hair loss, but may help inflammatory alopecia",
-      "authors": "Zarabian N et al.",
-      "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
-      "publishedDate": "2026-06-01",
-      "addedDate": "2026-05-31",
-      "peptides": [
-        "Semaglutide",
-        "Tirzepatide"
-      ],
-      "studyType": "Scoping review",
-      "summary": "This scoping review evaluated the association between GLP-1 receptor agonists (semaglutide, tirzepatide) and alopecia using PubMed literature through April 2026. Evidence suggests these drugs are associated with telogen effluvium and androgenic alopecia, while potentially improving inflammatory alopecia in metabolically dysfunctional patients.",
-      "keyFindings": [
-        "GLP-1RAs are associated with telogen effluvium and androgenic alopecia, especially with tirzepatide and semaglutide.",
-        "Hair loss risk appears higher with longer use, greater weight loss, and higher doses.",
-        "Proposed mechanisms include weight loss-related changes, altered dermal white adipose tissue, and hormonal influences.",
-        "Smaller body of evidence suggests GLP-1RAs may improve inflammatory alopecia in patients with metabolic dysfunction."
-      ],
-      "limitations": "Evidence is conflicting and largely observational; causal mechanisms remain unclear and relative contributions of proposed pathways have not been established.",
-      "context": "As GLP-1 receptor agonists expand beyond diabetes into weight management, dermatologic side effects are increasingly reported. This review extends prior safety signals by systematically cataloguing alopecia associations and proposing mechanistic explanations, consistent with emerging pharmacovigilance concerns.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42210885",
-      "kind": "study",
-      "pmid": "42210885",
-      "doi": "10.1097/DSS.0000000000005162",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42210885/",
-      "title": "GLPs Significantly Decrease the Risk of Postoperative Surgical Complications: A TriNetX Retrospective Cohort Study.",
-      "displayTitle": "Semaglutide and tirzepatide linked to fewer post-surgical complications",
-      "authors": "Vu M et al.",
-      "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
-      "publishedDate": "2026-06-01",
-      "addedDate": "2026-05-31",
-      "peptides": [
-        "Semaglutide",
-        "Tirzepatide"
-      ],
-      "studyType": "Retrospective cohort study",
-      "summary": "This retrospective cohort study using the TriNetX database evaluated GLP-1 receptor agonist use in patients undergoing Mohs surgery or wide local excisions for skin cancer. GLP users showed significantly reduced one-month risk of wound infection, disruption, hematoma, and other postoperative inflammatory complications, with semaglutide and tirzepatide showing the greatest reductions.",
-      "keyFindings": [
-        "GLP-1 receptor agonist use was associated with significantly reduced risk of infection after a procedure.",
-        "Wound disruption, hematoma, skin/subcutaneous tissue infection, and other complications were all significantly reduced.",
-        "Semaglutide and tirzepatide demonstrated the greatest individual reductions in postoperative complications among all GLPs studied.",
-        "Findings support perioperative safety and a potential wound-healing benefit of GLP-1 agonists in dermatologic surgery."
-      ],
-      "limitations": "Retrospective design limits causal inference; residual confounding from unmeasured variables (e.g., diabetes control, obesity severity) may influence results despite demographic and comorbidity adjustment.",
-      "context": "GLP-1 receptor agonists have previously shown anti-inflammatory and wound-healing properties in preclinical models. This study extends those findings to a clinical surgical setting, suggesting semaglutide and tirzepatide may confer meaningful perioperative benefits in skin cancer surgery patients.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42180166",
-      "kind": "study",
-      "pmid": "42180166",
-      "doi": "10.1007/s40200-026-01942-3",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42180166/",
-      "title": "Cagrilintide and CagriSema for weight reduction and metabolic risk modification in overweight or obesity: a systematic review and meta-analysis.",
-      "displayTitle": "CagriSema cuts body weight ~6% in meta-analysis of 5,023 adults",
-      "authors": "Rao H et al.",
-      "journal": "Journal of diabetes and metabolic disorders",
-      "publishedDate": "2026-06-01",
-      "addedDate": "2026-05-31",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Systematic review and meta-analysis",
-      "summary": "This systematic review and meta-analysis pooled four randomized controlled trials (n=5,023) evaluating cagrilintide alone or combined with semaglutide (CagriSema) in overweight/obese adults, finding both regimens produced clinically meaningful weight loss versus placebo with acceptable tolerability.",
-      "keyFindings": [
-        "Cagrilintide alone reduced body weight by 6.08% versus placebo (95% CI: −8.02 to −4.14%).",
-        "CagriSema reduced body weight by 5.98% versus placebo (95% CI: −10.64 to −1.32%).",
-        "CagriSema significantly reduced waist circumference and HbA1c; cagrilintide alone modestly improved blood pressure.",
-        "Adverse events were more frequent with active treatment, but discontinuation rates were comparable to placebo."
-      ],
-      "limitations": "Only four trials were pooled, limiting statistical power; heterogeneity in trial duration and dosing may affect the precision of the combined estimates.",
-      "context": "Semaglutide is an established GLP-1 receptor agonist for weight management; combining it with cagrilintide, a long-acting amylin analogue, appears to extend cardiometabolic benefits. These findings are consistent with prior individual trials suggesting additive effects on weight and glycemic control.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-41955717",
-      "kind": "study",
-      "pmid": "41955717",
-      "doi": "10.1016/j.npep.2026.102611",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41955717/",
-      "title": "Kisspeptin-10 attenuates pulmonary arterial hypertension via restoration of mitochondrial function in pulmonary artery smooth muscle cells.",
-      "displayTitle": "Kisspeptin-10 reduces pulmonary arterial hypertension by restoring mitochondrial function",
-      "authors": "Huang S et al.",
-      "journal": "Neuropeptides",
-      "publishedDate": "2026-06-01",
-      "addedDate": "2026-06-07",
-      "peptides": [
-        "Kisspeptin-10"
-      ],
-      "studyType": "Animal model — mouse",
-      "summary": "This study investigated Kisspeptin-10 in a mouse model of pulmonary arterial hypertension (SU5416/hypoxia), finding it significantly reduced right ventricular pressure, hypertrophy, and vascular remodeling by restoring mitochondrial function and normalizing excessive mitophagy in pulmonary artery smooth muscle cells.",
-      "keyFindings": [
-        "Kisspeptin-10 via GPR54 markedly reduced right ventricular systolic pressure and hypertrophy in PAH mice.",
-        "Treatment restored mitochondrial membrane potential, ATP production, and cytochrome c oxidase activity in hypoxic PASMCs.",
-        "Kisspeptin-10 normalized elevated mitophagy proteins PINK1, Parkin, and FUNDC1 in PAH lungs.",
-        "In vitro, Kisspeptin-10 directly inhibited hypoxia-induced PASMC proliferation."
-      ],
-      "limitations": "Findings are limited to a single mouse PAH model (SU5416/hypoxia); translational relevance to human PAH patients remains unestablished.",
-      "context": "Kisspeptin/GPR54 signaling is known primarily for reproductive regulation, but this study extends its role to pulmonary vascular biology, consistent with emerging evidence that kisspeptin has vasoprotective and anti-proliferative actions in non-reproductive tissues.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-41887313",
-      "kind": "study",
-      "pmid": "41887313",
-      "doi": "10.1016/j.cbi.2026.112059",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41887313/",
-      "title": "Co-exposure to PS-NPs and HFPO-TA potentiates reproductive toxicity via ferroptosis and SLC1A5-Mediated glutamine deprivation in male mice.",
-      "displayTitle": "Glutathione supplementation reduces nanoplastic-PFAS reproductive toxicity in male mice",
-      "authors": "Wu L et al.",
-      "journal": "Chemico-biological interactions",
-      "publishedDate": "2026-06-01",
-      "addedDate": "2026-06-07",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "Animal model — mouse",
-      "summary": "This study used male mice and Leydig cell models to examine combined toxicity of polystyrene nanoplastics and HFPO-TA (a PFAS compound). Co-exposure synergistically worsened ferroptosis, glutathione depletion, and spermatogenesis impairment, while glutathione supplementation markedly attenuated these effects.",
-      "keyFindings": [
-        "Co-exposure to PS-NPs and HFPO-TA synergistically impaired testosterone synthesis and spermatogenesis in male mice.",
-        "HFPO-TA bound SLC1A5 glutamine transporter, suppressing glutamine uptake and blocking glutathione biosynthesis.",
-        "Ferroptosis markers GPX4 (down) and ACSL4 (up) were worsened by co-exposure with PS-NPs.",
-        "Glutathione supplementation and ferrostatin-1 both markedly attenuated co-exposure toxicity in Leydig cells."
-      ],
-      "limitations": "Findings rely on a mouse model and in vitro Leydig cells; direct translation to human reproductive health under real-world environmental exposure levels remains unestablished.",
-      "context": "Glutathione's role in protecting against ferroptosis via GPX4 is well established. This study extends prior findings by linking environmental co-contaminant-induced glutathione depletion to male reproductive toxicity through the SLC1A5 transporter axis.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42283548",
-      "kind": "study",
-      "pmid": "42283548",
-      "doi": "10.1167/iovs.67.6.22",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42283548/",
-      "title": "Reparative Outcomes in Corneal Infection: Linking Adjunctive T&#x3b2;4 Treatment to Nerve Regeneration and Visual Function.",
-      "displayTitle": "TB-500 combo therapy restores vision and corneal nerves after bacterial infection",
-      "authors": "Ebrahim AS et al.",
-      "journal": "Investigative ophthalmology & visual science",
-      "publishedDate": "2026-06-01",
-      "addedDate": "2026-06-14",
-      "peptides": [
-        "TB-500"
-      ],
-      "studyType": "Animal model — mouse",
-      "summary": "In a mouse model of Pseudomonas aeruginosa bacterial keratitis, adjunctive thymosin beta-4 (Tβ4) combined with ciprofloxacin was evaluated for effects on visual function and corneal nerve regeneration. Combination therapy significantly outperformed monotherapies, restoring nerve density, visual acuity, and contrast sensitivity to levels comparable to uninfected controls.",
-      "keyFindings": [
-        "Adjunctive Tβ4 + ciprofloxacin markedly improved visual acuity and contrast sensitivity vs. PBS or monotherapies.",
-        "Combination therapy significantly enhanced corneal sensitivity and nerve regeneration compared to all other treatment groups.",
-        "Nerve density and architecture were restored to levels comparable to uninfected control corneas.",
-        "Tβ4 monotherapy alone did not achieve the reparative outcomes seen with combination treatment."
-      ],
-      "limitations": "Animal-only study using a single inbred mouse strain and one bacterial strain; translation to human corneal infection outcomes requires further clinical investigation.",
-      "context": "Prior studies showed Tβ4 adjunctive therapy reduces bacterial keratitis severity and promotes wound repair. This study extends those findings to corneal nerve regeneration and visual function recovery, two previously unexplored endpoints, consistent with Tβ4's known roles in tissue repair and anti-inflammatory signaling.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42369873",
-      "kind": "study",
-      "pmid": "42369873",
-      "doi": "10.1093/pnasnexus/pgag222",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42369873/",
-      "title": "Vanin-1 deficiency enhances host tolerance to influenza infection by modulating cellular redox status.",
-      "displayTitle": "Higher glutathione levels boost survival in lethal influenza mouse model",
-      "authors": "Joo JS et al.",
-      "journal": "PNAS nexus",
-      "publishedDate": "2026-06-01",
-      "addedDate": "2026-07-05",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "Animal model — mouse",
-      "summary": "This mouse study found that vanin-1 deficiency enhanced survival after lethal influenza infection by elevating cellular glutathione levels and reducing oxidative stress, without changing viral burden or immune responses. Glutathione supplementation also protected wild-type mice, identifying antioxidant modulation as a potential therapeutic strategy.",
-      "keyFindings": [
-        "Vanin-1-deficient mice showed enhanced survival after lethal influenza without changes in viral burden or immune response.",
-        "Vanin-1 deficiency elevated glutathione levels and reduced lipid peroxidation during infection.",
-        "Pharmacological inhibition of glutathione synthesis abolished the survival advantage in vanin-1-deficient mice.",
-        "Glutathione supplementation protected wild-type mice from lethal influenza infection."
-      ],
-      "limitations": "Results are limited to a mouse model; translation to human influenza infection and clinical applicability of glutathione supplementation remain untested.",
-      "context": "Glutathione is a well-established cellular antioxidant; these findings are consistent with prior work linking oxidative stress to influenza severity, and extend it by identifying vanin-1 as an upstream regulator of glutathione-mediated host tolerance.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-41865758",
-      "kind": "study",
-      "pmid": "41865758",
-      "doi": "10.1016/S0140-6736(26)00459-9",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41865758/",
-      "title": "Efficacy and safety of oral semaglutide 14 mg (flexible dose) in early-stage symptomatic Alzheimer's disease (evoke and evoke+): two phase 3, randomised, placebo-controlled trials.",
-      "displayTitle": "Oral semaglutide fails to slow Alzheimer's progression in phase 3 trials",
-      "authors": "Cummings JL et al.",
-      "journal": "Lancet (London, England)",
-      "publishedDate": "2026-05-30",
-      "addedDate": "2026-05-31",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Randomized controlled trial",
-      "summary": "Two large phase 3 RCTs (evoke and evoke+) tested oral semaglutide 14 mg vs. placebo over 104 weeks in 3,808 adults with amyloid-confirmed early Alzheimer's disease. Semaglutide showed no significant difference from placebo on the primary cognitive/functional endpoint (CDR-SB), and both trials were discontinued due to negative outcomes.",
-      "keyFindings": [
-        "No significant difference in CDR-SB change at week 104: estimated difference −0.08 (95% CI −0.35 to 0.20, p=0.57) in evoke and 0.10 (−0.17 to 0.38, p=0.46) in evoke+.",
-        "3,808 participants randomized across 566 sites in 40 countries; mean age 72.2 years, mean baseline CDR-SB 3.7.",
-        "Treatment-emergent adverse events occurred in 91.2% of semaglutide recipients vs. 84.8% of placebo recipients.",
-        "Safety and tolerability profile of semaglutide was consistent with its established profile in other indications."
-      ],
-      "limitations": "Both trials were industry-funded (Novo Nordisk), and the very small proportion of evoke+ participants with small vessel pathology (2.8%) limits conclusions for that subgroup; also, the flexible-dose design may have limited drug exposure.",
-      "context": "Prior observational and animal studies suggested GLP-1 receptor agonists might reduce dementia risk, motivating these trials. The evoke/evoke+ results contradict that hypothesis for early symptomatic Alzheimer's disease, extending prior work by providing the first large-scale phase 3 evidence against clinical benefit in this population.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42215399",
-      "kind": "study",
-      "pmid": "42215399",
-      "doi": "10.1016/j.disamonth.2026.102150",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42215399/",
-      "title": "GLP-1 receptor agonists for weight management and potential thromboembolic risk reduction in high risk population with cancer, diabetes, cardiovascular disease: A systematic review.",
-      "displayTitle": "GLP-1 agonists cut cardiovascular risk but thromboembolic evidence remains limited",
-      "authors": "Parekh RS et al.",
-      "journal": "Disease-a-month : DM",
-      "publishedDate": "2026-05-29",
-      "addedDate": "2026-05-31",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Systematic review",
-      "summary": "This systematic review (8 studies, PRISMA 2020) examined GLP-1 receptor agonists—including semaglutide—for weight loss and thromboembolic risk reduction in high-risk populations. GLP-1RAs produced significant weight loss and reduced major cardiovascular events, but direct evidence for venous thromboembolism reduction was sparse and non-significant.",
-      "keyFindings": [
-        "Semaglutide achieved up to 15.2% weight loss vs 2.6% in controls (p < 0.0001).",
-        "Cardiovascular outcome trials showed hazard ratios of 0.80 and 0.74 for major cardiovascular events.",
-        "Direct VTE data was limited; one study showed fewer events (1 vs 3) without statistical significance.",
-        "Serious adverse events were similar or lower in GLP-1RA groups (33.4% vs 36.4%)."
-      ],
-      "limitations": "Only 8 studies were included, direct VTE reporting was minimal across trials, and no meta-analysis was performed, limiting quantitative synthesis.",
-      "context": "Consistent with established evidence that semaglutide and other GLP-1RAs reduce weight and cardiovascular risk; this review extends prior findings by attempting to characterize thromboembolic outcomes, an area where data appear insufficient to draw firm conclusions.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42213650",
-      "kind": "study",
-      "pmid": "42213650",
-      "doi": "10.1152/ajprenal.00109.2026",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42213650/",
-      "title": "Transcriptomics of S3 segment in mice: response to type 1 diabetes, SGLT1/2 inhibition, or GLP1 receptor agonism.",
-      "displayTitle": "Semaglutide restores 25% of diabetic kidney gene changes in mice",
-      "authors": "Kim YC et al.",
-      "journal": "American journal of physiology. Renal physiology",
-      "publishedDate": "2026-05-29",
-      "addedDate": "2026-05-31",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Animal model — mouse",
-      "summary": "This mouse study used laser-capture transcriptomics to examine gene expression in kidney S3 segments from diabetic Akita mice treated with SGLT2 inhibitor dapagliflozin, SGLT1 knockout, or GLP1R agonist semaglutide. Semaglutide restored the most differentially expressed genes (25%) and reduced cellular stress and proliferation pathways in diabetic kidneys.",
-      "keyFindings": [
-        "Semaglutide restored 25% of diabetes-induced differentially expressed genes in kidney S3 segments, outperforming SGLT2i (12%) and Sglt1-KO (18%).",
-        "GLP1R agonism reduced cellular stress response and proliferation in diabetic S3 segments, associated with restored kidney SGLT1 membrane expression.",
-        "SGLT2i and diabetes shared ~34% overlapping gene direction changes; combined SGLT2i/Sglt1-KO was not synergistic.",
-        "A subset of diabetes-sensitive genes unresponsive to all three interventions was identified as potential new therapeutic targets."
-      ],
-      "limitations": "Study used only male mice of a single diabetic strain (Akita), limiting generalizability to females, other diabetes models, and humans.",
-      "context": "GLP1R agonists are known to provide renoprotective effects in diabetic kidney disease; these findings extend prior work by identifying specific transcriptomic pathways in the S3 proximal tubule segment that semaglutide modulates, consistent with stress-reduction and metabolic restoration mechanisms.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42204242",
-      "kind": "study",
-      "pmid": "42204242",
-      "doi": "10.1038/s41598-026-55449-1",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42204242/",
-      "title": "Protective effects of BPC 157 in rats with experimentally induced lower extremity ischemia-reperfusion injury.",
-      "displayTitle": "BPC-157 reduces oxidative stress and apoptosis in rat limb ischemia-reperfusion",
-      "authors": "Y&#x131;ld&#x131;r&#x131;m AK et al.",
-      "journal": "Scientific reports",
-      "publishedDate": "2026-05-28",
-      "addedDate": "2026-05-31",
-      "peptides": [
-        "BPC-157"
-      ],
-      "studyType": "Animal model — rat",
-      "summary": "This rat study evaluated BPC-157 (20 µg/kg IP) in a lower limb ischemia-reperfusion model using aortic clamping. BPC-157 significantly reduced oxidative stress markers, downregulated pro-apoptotic genes, lowered IL-6 inflammation, and partially restored VEGF expression and muscle architecture.",
-      "keyFindings": [
-        "BPC-157 reduced MDA and TOS while restoring SOD and TAS antioxidant levels after I/R injury.",
-        "Pro-apoptotic markers p53, Bax, and Caspase-3 were downregulated; Bcl-2 was significantly upregulated by BPC-157.",
-        "IL-6 and Caspase-3 immunoreactivity were reduced, and VEGF expression was partially restored in treated rats.",
-        "Histology confirmed improved skeletal muscle architecture and reduced collagen deposition with BPC-157 treatment."
-      ],
-      "limitations": "Very small sample size (n=6 per group) and a single dose tested; no dose-response data and no clinical translation established.",
-      "context": "These findings are consistent with prior research showing BPC-157's cytoprotective effects across multiple tissues, extending its known anti-inflammatory, anti-oxidative, and angiogenic properties to peripheral limb ischemia-reperfusion injury.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
