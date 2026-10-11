@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T12:59:25.935Z",
+  "lastUpdated": "2026-10-11T13:40:45.613Z",
   "entries": [
     {
       "id": "pmid-42610532",
@@ -122,6 +122,37 @@
       "trialMeta": null
     },
     {
+      "id": "pmid-42840232",
+      "kind": "study",
+      "pmid": "42840232",
+      "doi": "10.1007/s40200-026-02087-z",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42840232/",
+      "title": "Cardiovascular outcomes with tirzepatide versus semaglutide in type 2 diabetes.",
+      "displayTitle": "Tirzepatide linked to lower CV events and mortality than semaglutide in T2D",
+      "authors": "Al-Nusair M et al.",
+      "journal": "Journal of diabetes and metabolic disorders",
+      "publishedDate": "2026-12-01",
+      "addedDate": "2026-10-11",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This large real-world propensity-matched observational study compared cardiovascular outcomes in 271,685 tirzepatide and 271,685 semaglutide users with type 2 diabetes. Tirzepatide was associated with lower rates of a composite cardiovascular outcome and all-cause mortality.",
+      "keyFindings": [
+        "Composite CV outcome (MI, stroke, heart failure) was lower with tirzepatide vs. semaglutide (4.6% vs. 5.5%; HR 0.94).",
+        "All-cause mortality was lower with tirzepatide (0.6% vs. 0.9%; HR 0.80, 95% CI 0.74–0.84).",
+        "Absolute risk difference for the composite outcome was −0.9%, suggesting a modest but potentially meaningful benefit.",
+        "Results held after one-to-one propensity score matching to control for confounding covariates."
+      ],
+      "limitations": "Observational design using real-world claims data cannot establish causality; residual confounding and differences in treatment duration or adherence may bias results despite propensity matching.",
+      "context": "Tirzepatide was previously shown non-inferior to dulaglutide for CV risk; semaglutide has established CV benefit (SUSTAIN-6, SELECT). This study extends prior findings by suggesting tirzepatide may offer incremental cardioprotection over semaglutide, consistent with its greater metabolic efficacy.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
       "id": "pmid-42664897",
       "kind": "study",
       "pmid": "42664897",
@@ -177,6 +208,352 @@
       ],
       "limitations": "Semaglutide's potential is discussed as emerging evidence within a broader review, not as a primary focus; specific clinical trial data in PWH are limited.",
       "context": "Semaglutide's role here is as a proposed intervention for ART-associated weight gain; this extends emerging interest in GLP-1 agonists for metabolic complications in HIV, consistent with broader evidence of semaglutide reducing visceral fat in obesity.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42857401",
+      "kind": "study",
+      "pmid": "42857401",
+      "doi": "10.1210/jendso/bvag224",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42857401/",
+      "title": "Current review of glucagon-like peptide 1 receptor agonists and risk of nonarteritic anterior ischemic optic neuropathy.",
+      "displayTitle": "GLP-1 agonists linked to 1.2–4.3x higher NAION risk, review finds",
+      "authors": "Ruan F et al.",
+      "journal": "Journal of the Endocrine Society",
+      "publishedDate": "2026-11-01",
+      "addedDate": "2026-10-11",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This structured review synthesizes clinical, epidemiologic, and mechanistic evidence linking GLP-1 receptor agonists (including semaglutide and tirzepatide) to nonarteritic anterior ischemic optic neuropathy (NAION), a sudden, irreversible vision loss. Across health records, registries, and pharmacovigilance data, GLP-1RAs show a statistically significant but low absolute-incidence association with NAION.",
+      "keyFindings": [
+        "GLP-1RAs are associated with NAION with relative risk estimates ranging from 1.2 to 4.3 across multiple data sources.",
+        "Absolute incidence of NAION with GLP-1RA use remains very low across electronic health records and national registries.",
+        "Small cup-to-disc ratio ('disc-at-risk') is the strongest anatomical predictor of NAION susceptibility.",
+        "The association is currently considered a safety signal, not a contraindication; ophthalmology screening may be warranted."
+      ],
+      "limitations": "As a narrative review, it cannot establish causality; included studies vary in design and may carry confounding by indication, as GLP-1RA users often have comorbidities that independently raise NAION risk.",
+      "context": "Prior case reports and pharmacovigilance signals raised concern about semaglutide and NAION; this review extends those findings by systematically incorporating epidemiologic data, registry analyses, and proposed vascular mechanisms, providing the first comprehensive risk-benefit framework for clinical decision-making.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42857939",
+      "kind": "study",
+      "pmid": "42857939",
+      "doi": "10.1210/clinem/dgag423",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42857939/",
+      "title": "Preconception incretin therapy reduces pregnancy and cardiometabolic outcomes in polycystic ovary syndrome.",
+      "displayTitle": "Preconception GLP-1/GIP therapy cuts adverse pregnancy outcomes 62% in PCOS",
+      "authors": "Henney AE et al.",
+      "journal": "The Journal of clinical endocrinology and metabolism",
+      "publishedDate": "2026-10-10",
+      "addedDate": "2026-10-11",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Observational cohort — target trial emulation",
+      "summary": "This target trial emulation using a large federated health network compared preconception GLP-1/GIP receptor agonists (including semaglutide and tirzepatide) versus metformin in 48,126 women with PCOS. Incretin therapy was associated with substantially lower risks of composite adverse pregnancy outcomes, major cardiovascular events, and type 2 diabetes.",
+      "keyFindings": [
+        "Preconception GLP-1/GIP RA use associated with 62% lower risk of composite adverse pregnancy outcomes (HR 0.38, 95% CI 0.34–0.41).",
+        "Major adverse cardiovascular events (MACE) risk was 12% lower (HR 0.88, 95% CI 0.81–0.95).",
+        "Type 2 diabetes risk was 69% lower (HR 0.31, 95% CI 0.30–0.33) vs. metformin.",
+        "Authors caution findings do not support GLP-1/GIP RA use during gestation; only preconception use was studied."
+      ],
+      "limitations": "Observational design with propensity score matching cannot fully exclude confounding; in-pregnancy safety and efficacy were not evaluated, limiting clinical translation.",
+      "context": "GLP-1 receptor agonists are established for weight and glycemic management; their role in PCOS is an active area of interest. This large study extends prior smaller findings by suggesting preconception metabolic optimization with incretins may improve reproductive and cardiometabolic outcomes compared with metformin.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42858539",
+      "kind": "study",
+      "pmid": "42858539",
+      "doi": "10.1016/j.jacadv.2026.103311",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42858539/",
+      "title": "Cardiovascular Risk in SELECT-Eligible MI Patients With Overweight or Obesity: The Western Denmark Heart Registry.",
+      "displayTitle": "1 in 10 post-MI overweight patients hits MACE within 5 years",
+      "authors": "Hansen MK et al.",
+      "journal": "JACC. Advances",
+      "publishedDate": "2026-10-09",
+      "addedDate": "2026-10-11",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This observational cohort study applied SELECT trial eligibility criteria to 10,768 first-time MI patients (no diabetes, BMI ≥27) in the Western Denmark Heart Registry (2010–2021), finding substantial 5-year cardiovascular risk and estimating that semaglutide could postpone a 5% MACE incidence threshold by 12 months.",
+      "keyFindings": [
+        "5-year MACE incidence was 10.7% in SELECT-eligible first-time MI patients with overweight/obesity and no diabetes.",
+        "5-year second MI incidence was 5.9% and all-cause death was 10.3% in the same population.",
+        "Semaglutide treatment was estimated to postpone 5% MACE incidence by approximately 12 months in a scenario analysis.",
+        "Median age at first MI was 65 years for SELECT-eligible patients vs. 69 years for normal-weight comparators."
+      ],
+      "limitations": "Preventive potential estimates are assumption-dependent scenario analyses extrapolated from trial data, not directly observed outcomes, limiting causal inference.",
+      "context": "The SELECT trial demonstrated that semaglutide reduced MACE in overweight/obese patients with cardiovascular disease but no diabetes. This registry study extends those findings by quantifying real-world cardiovascular burden in a SELECT-eligible post-MI population, consistent with the trial's rationale for treatment.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42855378",
+      "kind": "study",
+      "pmid": "42855378",
+      "doi": "10.1016/j.disamonth.2026.102231",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42855378/",
+      "title": "Status Of GLP-1 drugs and their application in treating substance use disorders: A systematic review.",
+      "displayTitle": "GLP-1 drugs, including semaglutide, show promise against substance use disorders",
+      "authors": "Inban P et al.",
+      "journal": "Disease-a-month : DM",
+      "publishedDate": "2026-10-09",
+      "addedDate": "2026-10-11",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review",
+      "summary": "This PRISMA-guided systematic review of 11 studies evaluated GLP-1 receptor agonists for substance use disorders. Across alcohol, tobacco, and opioid use disorders, GLP-1RAs consistently reduced substance-related outcomes, with semaglutide specifically reducing tobacco use disorder risk by 32% (HR 0.68).",
+      "keyFindings": [
+        "Semaglutide reduced tobacco use disorder risk (HR 0.68; 95% CI 0.63–0.74).",
+        "GLP-1RAs reduced opioid overdose risk substantially (HR 0.32–0.58).",
+        "Alcohol use disorder hospitalization risk dropped (aHR 0.64–0.72); RCT results were contradictory.",
+        "Composite SUD mortality (HR 0.50) and suicidal ideation (HR 0.75) were also lower with GLP-1RAs."
+      ],
+      "limitations": "Only 11 studies met inclusion criteria; most were observational with moderate bias, and RCTs produced contradictory results, limiting causal conclusions.",
+      "context": "GLP-1RAs are increasingly studied beyond metabolic indications; this review extends prior findings suggesting neurobiological reward-pathway effects may reduce addictive behaviors, consistent with emerging observational and preclinical evidence.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42854065",
+      "kind": "study",
+      "pmid": "42854065",
+      "doi": "10.1097/MD.0000000000051019",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42854065/",
+      "title": "Short-term clinical efficacy and recorded adverse events of semaglutide combined with dapagliflozin in patients with type 2 diabetes mellitus and chronic kidney disease.",
+      "displayTitle": "Semaglutide plus dapagliflozin improves glycemia and kidney markers in T2DM-CKD",
+      "authors": "Gong C et al.",
+      "journal": "Medicine",
+      "publishedDate": "2026-10-09",
+      "addedDate": "2026-10-11",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Observational cohort",
+      "summary": "This retrospective observational study of 126 patients with type 2 diabetes and chronic kidney disease compared 8 weeks of semaglutide, dapagliflozin, or their combination. The combination group showed greater reductions in blood glucose, renal function markers, and inflammatory markers than either monotherapy alone.",
+      "keyFindings": [
+        "Combination therapy produced greater reductions in HbA1c, fasting glucose, and postprandial glucose than either monotherapy after 8 weeks.",
+        "Renal markers (BUN, serum creatinine, 24-hour urinary protein) declined more in the combination group than monotherapy groups.",
+        "Inflammatory markers (IL-6, hsCRP, ESR) were more reduced with combination therapy than with either drug alone.",
+        "No increase in recorded adverse events was observed with the combination regimen over 8 weeks."
+      ],
+      "limitations": "Retrospective design, modest sample (42 per group), only 8-week follow-up, and non-randomized allocation preclude conclusions about long-term renal benefit or safety equivalence.",
+      "context": "GLP-1 receptor agonists like semaglutide and SGLT2 inhibitors like dapagliflozin have independently shown cardiorenal benefits; this study appears consistent with additive effects when combined, extending prior mechanistic rationale to a real-world T2DM-CKD population.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07866118",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07866118",
+      "url": "https://clinicaltrials.gov/study/NCT07866118",
+      "title": "Thymalfasin for Immune Recovery in Adults With Sepsis",
+      "displayTitle": "Thymosin Alpha-1 tested for immune recovery in sepsis-related immunosuppression",
+      "authors": "Shanghai Zhongshan Hospital",
+      "journal": "ClinicalTrials.gov · Shanghai Zhongshan Hospital",
+      "publishedDate": "2026-10-08",
+      "addedDate": "2026-10-11",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Trial registration — Phase NA, RCT (exploratory)",
+      "summary": "This single-center RCT at Shanghai's Zhongshan Hospital will randomize 60 ICU sepsis patients with confirmed immunosuppression to thymalfasin 1.6 mg subcutaneously twice daily for 7 days versus standard care, measuring monocyte HLA-DR expression as the primary immune recovery endpoint through Day 90.",
+      "keyFindings": [
+        "Phase: exploratory RCT; n=60; 1:1 randomization; single-center; currently recruiting.",
+        "Primary endpoint: change in monocyte HLA-DR expression from baseline to Day 7 by flow cytometry.",
+        "Intervention: thymalfasin 1.6 mg SC twice daily for 7 days added to standard sepsis care.",
+        "Secondary endpoints include T-cell/NK-cell phenotypes, organ dysfunction, and 90-day survival (exploratory)."
+      ],
+      "limitations": "No results are available; the trial is exploratory, not powered for survival endpoints, and is limited to a single center with an open-label design for clinicians.",
+      "context": "Thymosin alpha-1 has prior evidence supporting immunostimulatory effects in sepsis-related immunosuppression; this trial adds structured immunophenotyping methodology and HLA-DR as a validated biomarker endpoint, building on earlier smaller studies.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07866118",
+        "phase": "NA",
+        "status": "RECRUITING",
+        "sponsor": "Shanghai Zhongshan Hospital",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "60",
+        "conditions": [
+          "Sepsis",
+          "Immunosuppression"
+        ],
+        "primaryOutcomes": "Change From Baseline in Monocyte HLA-DR Expression at Day 7",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42850299",
+      "kind": "study",
+      "pmid": "42850299",
+      "doi": "10.1007/s00464-026-13505-x",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42850299/",
+      "title": "The impact of semaglutide initiated six months after laparoscopic sleeve gastrectomy on long-term weight loss and metabolic outcomes: single-center preliminary study.",
+      "displayTitle": "Semaglutide after sleeve gastrectomy boosts weight loss at 24 months",
+      "authors": "Jeske P et al.",
+      "journal": "Surgical endoscopy",
+      "publishedDate": "2026-10-08",
+      "addedDate": "2026-10-11",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Retrospective observational study",
+      "summary": "This retrospective single-center study of 88 patients evaluated adjunctive semaglutide initiated 6 months post-laparoscopic sleeve gastrectomy (LSG) versus standard follow-up alone. At 12 and 24 months, the semaglutide group achieved significantly greater weight loss and improved cardiometabolic markers including HDL, total cholesterol, and triglycerides.",
+      "keyFindings": [
+        "At 12 months, semaglutide patients had significantly lower BMI, body weight, and greater %TWL and %EWL versus controls.",
+        "Benefits persisted at 24 months with significantly greater weight loss in the semaglutide group.",
+        "Semaglutide group showed higher HDL cholesterol and lower total cholesterol and triglycerides at 24 months.",
+        "No significant differences existed between groups at 6 months, before semaglutide initiation."
+      ],
+      "limitations": "Retrospective single-center design with only 88 patients and no randomization limits generalizability and introduces selection bias.",
+      "context": "Evidence for GLP-1 receptor agonists after bariatric surgery is limited but growing. These findings are consistent with prior smaller reports suggesting semaglutide can address suboptimal weight loss post-bariatric surgery and extend metabolic benefits beyond surgery alone.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42848200",
+      "kind": "study",
+      "pmid": "42848200",
+      "doi": "10.1080/1744666X.2026.2747225",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42848200/",
+      "title": "The therapeutic potential of GLP-1 receptor agonists in central nervous system diseases: immune cell modulation and neuroinflammation.",
+      "displayTitle": "GLP-1 agonists show preclinical promise for neuroinflammation in CNS diseases",
+      "authors": "Wang Z et al.",
+      "journal": "Expert review of clinical immunology",
+      "publishedDate": "2026-10-08",
+      "addedDate": "2026-10-11",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review synthesizes 2016–2026 preclinical evidence on GLP-1 receptor agonists—including semaglutide, exenatide, liraglutide, and dulaglutide—as potential treatments for CNS diseases, focusing on their modulation of peripheral and central immune cells to reduce neuroinflammation.",
+      "keyFindings": [
+        "GLP-1RAs appear to modulate neutrophils, monocytes/macrophages, T lymphocytes, microglia, and astrocytes to alleviate neuroinflammation.",
+        "Semaglutide, exenatide, liraglutide, and dulaglutide all show preclinical therapeutic potential across multiple CNS disease models.",
+        "Most mechanistic evidence remains preclinical; clinical efficacy for CNS indications has not yet been established.",
+        "Future research must distinguish direct CNS effects from peripheral metabolic effects and identify appropriate patient populations."
+      ],
+      "limitations": "Review covers only 2016–2026 literature; conclusions are limited by the predominantly preclinical evidence base, with no established clinical efficacy for CNS indications.",
+      "context": "Consistent with growing interest in GLP-1RA repurposing beyond metabolic disease, this review extends prior findings by systematically cataloguing immune-cell-specific mechanisms through which these agents may curb neuroinflammation across diverse CNS conditions.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42847871",
+      "kind": "study",
+      "pmid": "42847871",
+      "doi": "10.17235/reed.2026.12187/2026",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42847871/",
+      "title": "Ischemic colitis associated with oral semaglutide with recurrence upon rechallenge.",
+      "displayTitle": "Case report: oral semaglutide linked to recurrent ischemic colitis",
+      "authors": "Aranda Rojas S et al.",
+      "journal": "Revista espanola de enfermedades digestivas",
+      "publishedDate": "2026-10-08",
+      "addedDate": "2026-10-11",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 46-year-old woman on oral semaglutide (Rybelsus) for weight loss experienced three episodes of abdominal pain and rectal bleeding, with the third episode after drug reintroduction confirming ischemic colitis by CT, endoscopy, and histopathology. Symptoms resolved completely after permanent discontinuation.",
+      "keyFindings": [
+        "Three episodes of hematochezia and abdominal pain were temporally associated with oral semaglutide exposure.",
+        "Ischemic colitis was confirmed via CT, rectosigmoidoscopy, and histopathology after rechallenge.",
+        "Symptoms resolved completely and permanently after semaglutide was discontinued.",
+        "Recurrence upon rechallenge supports a probable causal link between semaglutide and ischemic colitis."
+      ],
+      "limitations": "Single case report with no control comparison; causality cannot be definitively established, and patient-specific risk factors may have contributed.",
+      "context": "Ischemic colitis associated with GLP-1 receptor agonists is exceedingly rare; this case extends the sparse existing literature and is notable for the rechallenge confirmation, strengthening the causal inference.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42854645",
+      "kind": "study",
+      "pmid": "42854645",
+      "doi": "10.1016/j.tice.2026.104036",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42854645/",
+      "title": "Lysine-Proline-Valine attenuates oxidized low-density lipoprotein-induced foam cell formation and inflammatory responses in RAW264.7 macrophages.",
+      "displayTitle": "KPV tripeptide suppresses foam cell formation and inflammation in macrophages",
+      "authors": "Bai JS et al.",
+      "journal": "Tissue & cell",
+      "publishedDate": "2026-10-07",
+      "addedDate": "2026-10-11",
+      "peptides": [
+        "KPV"
+      ],
+      "studyType": "In vitro",
+      "summary": "This in vitro study examined whether the α-MSH-derived tripeptide KPV (Lysine-Proline-Valine) could protect RAW264.7 macrophages from oxidized LDL-induced damage. KPV significantly reduced lipid accumulation, foam cell formation, and inflammatory signaling without causing cytotoxicity.",
+      "keyFindings": [
+        "KPV significantly reduced oxLDL-induced lipid accumulation and foam cell formation in RAW264.7 macrophages.",
+        "KPV lowered intracellular ROS levels and suppressed downstream p38 MAPK and NF-κB activation.",
+        "KPV inhibited NLRP3 inflammasome assembly, reducing ASC speck formation, caspase-1 cleavage, and IL-1β maturation.",
+        "KPV attenuated inflammatory responses without inducing cytotoxicity in macrophages."
+      ],
+      "limitations": "Results are limited to a single murine macrophage cell line (RAW264.7) with no animal or human validation, limiting translational conclusions.",
+      "context": "KPV is a C-terminal fragment of α-MSH with known anti-inflammatory properties, previously studied in gut inflammation and wound healing models. These findings extend prior work by implicating NLRP3 inflammasome suppression and ROS reduction as mechanisms relevant to atherosclerosis.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42856761",
+      "kind": "study",
+      "pmid": "42856761",
+      "doi": "10.1177/15563316261492267",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42856761/",
+      "title": "GLP-1 Receptor Agonists Are Associated With Lower Early Revision Risk Compared to Bariatric Surgery Following Total Hip Arthroplasty: A Retrospective Cohort Study.",
+      "displayTitle": "GLP-1 agonists linked to fewer THA complications than bariatric surgery",
+      "authors": "Brahmbhatt S et al.",
+      "journal": "HSS journal : the musculoskeletal journal of Hospital for Special Surgery",
+      "publishedDate": "2026-10-07",
+      "addedDate": "2026-10-11",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Retrospective cohort study",
+      "summary": "This retrospective cohort study compared 6,877 THA patients on GLP-1 receptor agonists to 3,960 with prior bariatric surgery, using propensity-score matching. GLP-1 RA users showed lower rates of revision, periprosthetic joint infection, ED visits, readmission, wound dehiscence, and dislocation at both 90-day and mid-term follow-up.",
+      "keyFindings": [
+        "Within 90 days, GLP-1 RA cohort had lower risks of revision, PJI, ED visits, readmission, wound dehiscence, and dislocation vs. bariatric surgery.",
+        "At 91 days to 1 year, GLP-1 RA patients continued to show lower risks of PJI, readmission, and all-cause revision.",
+        "Study included 6,877 GLP-1 RA users and 3,960 bariatric surgery patients, balanced via propensity-score matching.",
+        "Findings suggest GLP-1 RAs may be a safer pre-THA weight optimization strategy than bariatric surgery."
+      ],
+      "limitations": "Retrospective design limits causal inference; residual confounding possible despite propensity-score matching; GLP-1 RA class was analyzed collectively, not by individual agent.",
+      "context": "Obesity increases THA complication risk, and bariatric surgery has been the traditional intervention. This study extends emerging evidence that GLP-1 RAs may offer comparable or superior perioperative risk reduction, consistent with growing interest in their preoperative use.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -5976,418 +6353,6 @@
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
-    },
-    {
-      "id": "nct-NCT06024356",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT06024356",
-      "url": "https://clinicaltrials.gov/study/NCT06024356",
-      "title": "Neoadjuvant Chemoradiotherapy Combined With PD-1 Inhibitor and Thymalfasin for Locally Advanced Mid-low Rectal Cancer",
-      "displayTitle": "Thymalfasin added to chemoradiotherapy and PD-1 inhibitor in rectal cancer",
-      "authors": "Beijing Friendship Hospital",
-      "journal": "ClinicalTrials.gov · Beijing Friendship Hospital",
-      "publishedDate": "2026-06-18",
-      "addedDate": "2026-06-21",
-      "peptides": [
-        "Thymosin Alpha-1"
-      ],
-      "studyType": "Trial registration — Observational retrospective controlled study, completed (no results posted)",
-      "summary": "This single-center retrospective controlled study at Beijing Friendship Hospital investigated adding thymalfasin (thymosin alpha-1) to neoadjuvant chemoradiotherapy plus tislelizumab in 47 locally advanced mid-low rectal cancer patients, examining pathologic complete response rates, 3-year DFS, and tumor immune microenvironment changes.",
-      "keyFindings": [
-        "Retrospective controlled design; 47 patients split into preoperative Tα1 (n=14), postoperative Tα1 (n=7), and no Tα1 (n=26) groups.",
-        "Primary endpoints: pathologic complete response rate and 3-year disease-free survival.",
-        "Exploratory endpoints include immune markers (CD86, CD163, CD4+T, CD8+T, PD-1) from pre- and post-treatment biopsies.",
-        "No results posted yet despite completed status; trial was observational and retrospective."
-      ],
-      "limitations": "This is a small retrospective observational study with no results posted; findings will carry significant risk of selection bias and cannot establish causality.",
-      "context": "Thymosin alpha-1 is an immunomodulatory peptide with established roles in enhancing T-cell responses. Its combination with checkpoint inhibitors in solid tumors is an emerging area of interest, but robust clinical evidence in rectal cancer remains limited.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT06024356",
-        "phase": "",
-        "status": "COMPLETED",
-        "sponsor": "Beijing Friendship Hospital",
-        "studyType": "OBSERVATIONAL",
-        "enrollment": "47",
-        "conditions": [
-          "Colorectal Neoplasms"
-        ],
-        "primaryOutcomes": "3-y DFS; pathologic complete response",
-        "hasResults": false
-      }
-    },
-    {
-      "id": "pmid-42320090",
-      "kind": "study",
-      "pmid": "42320090",
-      "doi": "10.1016/j.bioadv.2026.215017",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42320090/",
-      "title": "Hierarchical regulation and mechanism of \"open-hollow-fibrous network\" structures: Osteogenic-angiogenic coupling responses of poly(&#x3b3;-benzyl-L-glutamate) microspheres.",
-      "displayTitle": "GHK-Cu-grafted microspheres boost bone and blood vessel formation in vitro",
-      "authors": "Su J et al.",
-      "journal": "Biomaterials advances",
-      "publishedDate": "2026-06-15",
-      "addedDate": "2026-06-21",
-      "peptides": [
-        "GHK-Cu"
-      ],
-      "studyType": "In vitro",
-      "summary": "Researchers fabricated hollow nanofibrous polypeptide microspheres covalently grafted with GHK-Cu and tested them in cell models. GHK-Cu functionalization significantly enhanced osteogenic gene expression in bone marrow mesenchymal stem cells and stimulated angiogenic tube formation compared to non-functionalized microspheres.",
-      "keyFindings": [
-        "Runx2, OPN, and OCN osteogenic gene expression increased 1.61-, 3.53-, and 2.29-fold with GHK-Cu functionalization.",
-        "GHK-Cu-grafted microspheres stimulated robust angiogenic tube formation in vitro.",
-        "Microspheres averaged 372 µm diameter, suitable for injectable delivery into irregular bone defects.",
-        "Live/Dead and CCK-8 assays confirmed cytocompatibility of the GHK-Cu-functionalized scaffolds."
-      ],
-      "limitations": "Results are limited to in vitro cell assays; no animal model or in vivo bone defect validation was performed in this study.",
-      "context": "GHK-Cu is established as a pro-angiogenic and osteoinductive copper peptide. This study extends prior findings by covalently incorporating GHK-Cu into injectable nanofibrous microspheres, combining structural biomimicry with dual osteogenic-angiogenic bioactivity for bone tissue engineering.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42295795",
-      "kind": "study",
-      "pmid": "42295795",
-      "doi": "10.1158/0008-5472.CAN-25-5547",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42295795/",
-      "title": "Thymosin Alpha-1 Restores Chemotherapy-Induced Antitumor Immunity by Chaperoning a MicroRNA Ligand of TLR7 in Dendritic Cells.",
-      "displayTitle": "Thymosin Alpha-1 boosts chemo-induced antitumor immunity via microRNA-TLR7 axis",
-      "authors": "Wei Y et al.",
-      "journal": "Cancer research",
-      "publishedDate": "2026-06-15",
-      "addedDate": "2026-06-21",
-      "peptides": [
-        "Thymosin Alpha-1"
-      ],
-      "studyType": "Mechanistic study",
-      "summary": "This study found that chemotherapy reduces circulating thymosin alpha-1 (Tα-1) in cancer patients and mice, impairing dendritic cell activation. Tα-1 acts as a microRNA chaperone protecting miR146a-5p from lysosomal degradation, enabling TLR7-driven dendritic cell maturation and CD8+ T cell antitumor responses.",
-      "keyFindings": [
-        "Chemotherapy reduced circulating Tα-1 levels in patients with multiple cancer types and tumor-bearing mice.",
-        "Tα-1 bound miR146a-5p in dendritic cell endolysosomes, shielding it from RNase A degradation.",
-        "miR146a-5p activated TLR7, licensing DC maturation, lymph node migration, and tumor antigen presentation.",
-        "Therapeutic Tα-1 supplementation synergized with chemotherapy to control established tumors in a TLR7-dependent manner."
-      ],
-      "limitations": "Results are primarily mechanistic in mouse models; direct translation to human antitumor immune responses and clinical outcomes requires further validation in human trials.",
-      "context": "Tα-1 has long been recognized as an immunomodulatory peptide used clinically as an immune adjuvant. These findings extend prior work by identifying a previously unknown mechanism — microRNA chaperoning — through which Tα-1 enhances dendritic cell licensing and antitumor immunity following chemotherapy.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT07644897",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT07644897",
-      "url": "https://clinicaltrials.gov/study/NCT07644897",
-      "title": "Thymosin Alpha 1 Combined With Anti-PD-1 Monoclonal Antibody in Elderly Patients With Advanced Melanoma",
-      "displayTitle": "Phase 2 trial tests Thymosin Alpha-1 plus anti-PD-1 in elderly melanoma",
-      "authors": "Sun Yat-sen University",
-      "journal": "ClinicalTrials.gov · Sun Yat-sen University",
-      "publishedDate": "2026-06-12",
-      "addedDate": "2026-06-14",
-      "peptides": [
-        "Thymosin Alpha-1"
-      ],
-      "studyType": "Trial registration — Phase 2, single-arm (recruiting)",
-      "summary": "This open-label, single-arm Phase 2 trial evaluates Thymosin Alpha-1 combined with toripalimab (anti-PD-1) in patients aged ≥60 with unresectable or metastatic melanoma, targeting immune enhancement and improved checkpoint inhibitor response in an underserved elderly population.",
-      "keyFindings": [
-        "Phase 2, single-arm, open-label; n=55 elderly patients (age ≥60) with advanced melanoma.",
-        "Intervention: Thymosin Alpha-1 1.6mg SC daily days 1–7, then three times/week days 8–21; toripalimab 240mg IV Q3W x4 cycles.",
-        "Primary endpoint: Objective Response Rate (ORR); secondary endpoints include PFS, DOR, OS, and safety.",
-        "Currently recruiting; no results posted."
-      ],
-      "limitations": "No results are yet available; single-arm design without a control group limits causal interpretation of any future efficacy findings.",
-      "context": "Thymosin Alpha-1 is an immunomodulatory peptide previously studied in infections and cancer supportive care. This trial explores whether its T-cell potentiating effects can augment PD-1 blockade efficacy specifically in elderly melanoma patients, a population often underrepresented in immunotherapy trials.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT07644897",
-        "phase": "Phase 2",
-        "status": "RECRUITING",
-        "sponsor": "Sun Yat-sen University",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "55",
-        "conditions": [
-          "Melanoma",
-          "Immune-related Adverse Event",
-          "Immune Checkpoint Inhibitor"
-        ],
-        "primaryOutcomes": "Objective Response Rate",
-        "hasResults": false
-      }
-    },
-    {
-      "id": "pmid-42286992",
-      "kind": "study",
-      "pmid": "42286992",
-      "doi": "10.1080/00325481.2026.2686467",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42286992/",
-      "title": "Evidence-informed guidance for the clinical use of oral semaglutide in obesity management.",
-      "displayTitle": "Practical guidance for using oral semaglutide in obesity management",
-      "authors": "Rubino D et al.",
-      "journal": "Postgraduate medicine",
-      "publishedDate": "2026-06-12",
-      "addedDate": "2026-06-14",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Narrative review",
-      "summary": "This review synthesizes clinical trial evidence, including the OASIS 4 trial, and expert insights to guide healthcare professionals on incorporating oral semaglutide into obesity management, covering administration requirements, patient counseling, adherence strategies, and adverse event management.",
-      "keyFindings": [
-        "Oral semaglutide produces weight loss comparable to subcutaneous GLP-1 therapies with added cardiometabolic benefits.",
-        "Strict administration conditions are required: empty stomach, ≤120 mL water, 30-minute fast before food or other medications.",
-        "Person-centered discussions before treatment initiation are essential for setting realistic expectations and ensuring adherence.",
-        "Oral semaglutide is now approved for obesity management and cardiovascular risk reduction in adults, beyond type 2 diabetes."
-      ],
-      "limitations": "As a narrative review drawing on selected clinical trials and author clinical opinion, it may reflect publication bias and does not provide a systematic synthesis of all available evidence.",
-      "context": "Oral semaglutide was originally approved for type 2 diabetes; this review extends prior findings by addressing its newer indication for obesity and cardiovascular risk reduction, providing practical clinical guidance consistent with emerging evidence from dedicated obesity trials.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42286576",
-      "kind": "study",
-      "pmid": "42286576",
-      "doi": "10.1186/s13019-026-04214-6",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42286576/",
-      "title": "Boerhaave's syndrome associated with glucagon-like peptide-1 receptor agonist use: a case report.",
-      "displayTitle": "Case report: Boerhaave's syndrome linked to semaglutide reinitiation",
-      "authors": "Aubrey JM et al.",
-      "journal": "Journal of cardiothoracic surgery",
-      "publishedDate": "2026-06-12",
-      "addedDate": "2026-06-14",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Case report",
-      "summary": "This case report describes the first documented esophageal perforation (Boerhaave's syndrome) associated with GLP-1 receptor agonist use. A woman in her 50s developed transmural esophageal rupture after restarting semaglutide 2.4 mg weekly without dose titration, requiring multiple surgeries over 10 months before recovery.",
-      "keyFindings": [
-        "First reported case of Boerhaave's syndrome associated with GLP-1 RA (semaglutide) use.",
-        "Patient restarted semaglutide at maximum 2.4 mg dose without titration after months off therapy.",
-        "Complications included esophagopleural fistula, necrotizing pneumonia, and abscess requiring thoracotomy.",
-        "Patient recovered fully at 10-month follow-up; permanently advised to discontinue GLP-1 RAs."
-      ],
-      "limitations": "Single case report with no comparator; causal relationship between semaglutide and esophageal perforation cannot be definitively established from one case.",
-      "context": "GLP-1 RAs are known to cause nausea, vomiting, and gastroparesis; Mallory-Weiss tears have been previously reported. This case extends known GLP-1 RA gastrointestinal risk to full-thickness esophageal perforation, a previously undescribed and life-threatening complication.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42286330",
-      "kind": "study",
-      "pmid": "42286330",
-      "doi": "10.1007/s00266-026-05978-x",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42286330/",
-      "title": "Impact of Preoperative Semaglutide Discontinuation Timing on Postoperative Outcomes in Aesthetic Abdominoplasty: A Retrospective Comparative Study.",
-      "displayTitle": "4-week semaglutide stop before abdominoplasty cuts complications to 10%",
-      "authors": "Bruno A et al.",
-      "journal": "Aesthetic plastic surgery",
-      "publishedDate": "2026-06-12",
-      "addedDate": "2026-06-14",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Retrospective cohort study",
-      "summary": "This retrospective study of 80 patients undergoing lipoabdominoplasty compared complication rates by preoperative semaglutide discontinuation timing. Continuing semaglutide until surgery produced a 45% complication rate, while stopping 4 weeks prior reduced complications to 10%, matching semaglutide-naïve controls.",
-      "keyFindings": [
-        "Patients continuing semaglutide until surgery had a 45% complication rate, including wound dehiscence, infection, and seroma.",
-        "2-week discontinuation reduced complications moderately to 30%; 4-week discontinuation brought the rate down to 10%.",
-        "4-week preoperative discontinuation produced outcomes comparable to semaglutide-naïve controls (10% complication rate).",
-        "GI intolerance and prolonged drain duration were more frequent with ongoing semaglutide use; no reoperations or readmissions occurred."
-      ],
-      "limitations": "Retrospective design with only 80 patients limits generalizability; 30-day follow-up may miss longer-term complications, and residual confounding cannot be excluded.",
-      "context": "Concerns about GLP-1 agonist use perioperatively have grown alongside their adoption for weight loss. This study extends prior safety signals by quantifying a dose-response relationship between discontinuation timing and surgical complication risk in aesthetic surgery.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42286047",
-      "kind": "study",
-      "pmid": "42286047",
-      "doi": "10.1038/s41598-026-56002-w",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42286047/",
-      "title": "Real-world and computational identification of herbal candidates associated with adverse event patterns in glucagon-like peptide-1 therapy for obesity.",
-      "displayTitle": "Real-world AE patterns for semaglutide and tirzepatide in obesity analyzed",
-      "authors": "Park J et al.",
-      "journal": "Scientific reports",
-      "publishedDate": "2026-06-12",
-      "addedDate": "2026-06-14",
-      "peptides": [
-        "Semaglutide",
-        "Tirzepatide"
-      ],
-      "studyType": "Observational cohort",
-      "summary": "This cross-sectional pharmacovigilance study analyzed 4,090 obesity-related adverse event reports from the FDA FAERS database (2015–2025) for GLP-1 receptor agonists. Semaglutide showed distinct late-onset AE patterns and strong signals for biliary, pancreatic, renal, and coagulation events, while tirzepatide showed negative signals for several gastrointestinal events.",
-      "keyFindings": [
-        "76% of GLP-1 RA obesity AE reports involved female patients; gastrointestinal events predominated.",
-        "Semaglutide-associated AE pairs showed reporting odds ratios >10 for biliary, pancreatic, renal, and coagulation events.",
-        "Semaglutide had a higher proportion of late-onset cases (≥360 days) compared to other GLP-1 RAs.",
-        "Tirzepatide exhibited negative log-transformed reporting odds ratios for several gastrointestinal events."
-      ],
-      "limitations": "Spontaneous FAERS reporting is subject to underreporting, confounding, and reporting bias; the herb-AE network findings are purely exploratory and computationally generated, requiring experimental validation.",
-      "context": "These findings are consistent with prior pharmacovigilance signals for GLP-1 RAs, particularly gastrointestinal and biliary adverse events. The semaglutide-specific late-onset pattern and tirzepatide's divergent gastrointestinal profile extend prior comparative safety observations between these agents.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42285042",
-      "kind": "study",
-      "pmid": "42285042",
-      "doi": "10.1016/j.medj.2026.101172",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42285042/",
-      "title": "Therapeutic development in MASH: From accelerated approval to cirrhosis trial innovation.",
-      "displayTitle": "Semaglutide and MASH therapeutics: From accelerated approval to cirrhosis trials",
-      "authors": "Dunn W, Alkhouri N",
-      "journal": "Med (New York, N.Y.)",
-      "publishedDate": "2026-06-12",
-      "addedDate": "2026-06-14",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Narrative review",
-      "summary": "This narrative review covers the evolving therapeutic landscape for metabolic-associated steatohepatitis (MASH), including accelerated approvals of resmetirom and semaglutide based on histological endpoints, and emerging trial designs for cirrhosis involving noninvasive biomarkers and combination therapies.",
-      "keyFindings": [
-        "Semaglutide received accelerated approval for MASH based on histological improvement in non-cirrhotic patients.",
-        "Event-driven trial designs are emerging for cirrhosis-stage MASH to capture hard clinical endpoints.",
-        "Noninvasive biomarkers and hybrid endpoints are being integrated to streamline future MASH trials.",
-        "Combination therapies and cardiometabolic risk management are increasingly central to MASH treatment paradigms."
-      ],
-      "limitations": "As a narrative review, it may not systematically capture all available evidence, and conclusions about emerging paradigms are not derived from original data.",
-      "context": "Semaglutide's role in MASH has been building through clinical trial data; its accelerated approval represents a regulatory milestone consistent with prior phase 2 findings showing histological benefit, extending into a broader discussion of how the field is innovating trial design.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT05604586",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT05604586",
-      "url": "https://clinicaltrials.gov/study/NCT05604586",
-      "title": "Assessment of the Impact of N-acetylcysteine Supplementation on Physical Performance",
-      "displayTitle": "NAC supplementation and exercise performance: gene polymorphism modulation tested",
-      "authors": "Poznan University of Life Sciences",
-      "journal": "ClinicalTrials.gov · Poznan University of Life Sciences",
-      "publishedDate": "2026-06-10",
-      "addedDate": "2026-06-14",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "Trial registration — Phase NA, RCT (completed, no results posted)",
-      "summary": "This double-blind RCT examined whether 7-day N-acetylcysteine (NAC) supplementation (1200 mg/day) improves endurance exercise performance and oxidative stress markers in trained adults, and whether glutathione-related gene polymorphisms modify supplementation effectiveness.",
-      "keyFindings": [
-        "Double-blind, placebo-controlled design; NAC 1200 mg/day vs. rice flour placebo for 7 days.",
-        "Enrolled 77 endurance-trained adults aged 18–45; primary endpoint was change in time-trial performance.",
-        "Investigated whether MTHFR, GCLC, GCLM, GSTP1, GSS, and CBS gene variants modulate NAC response.",
-        "Trial completed but no results have been posted to the registry as of the registration date."
-      ],
-      "limitations": "No results have been posted; findings and effect sizes remain unknown, so no conclusions about efficacy can be drawn from this registration alone.",
-      "context": "NAC is a glutathione precursor hypothesized to attenuate exercise-induced oxidative stress and support muscle recovery. This trial adds a pharmacogenomics dimension by testing whether glutathione-pathway gene variants predict who benefits most from NAC supplementation.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT05604586",
-        "phase": "NA",
-        "status": "COMPLETED",
-        "sponsor": "Poznan University of Life Sciences",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "77",
-        "conditions": [
-          "Skeletal Muscle Performance",
-          "Gene Polymorphisms"
-        ],
-        "primaryOutcomes": "Assesment of change in results of time trial test",
-        "hasResults": false
-      }
-    },
-    {
-      "id": "pmid-42228536",
-      "kind": "study",
-      "pmid": "42228536",
-      "doi": "10.1073/pnas.2606533123",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42228536/",
-      "title": "15-PGDH inhibition promotes muscle repair and strength recovery during GLP-1 receptor agonist-induced weight loss.",
-      "displayTitle": "15-PGDH inhibitor rescues semaglutide-impaired muscle repair in obese mice",
-      "authors": "Nalbandian M et al.",
-      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
-      "publishedDate": "2026-06-09",
-      "addedDate": "2026-06-07",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Animal model — mouse",
-      "summary": "In an obese mouse model, semaglutide caused significant skeletal muscle mass loss and impaired post-injury myofiber regeneration. Co-treatment with a 15-PGDH inhibitor restored muscle stem cell function, myofiber growth, and strength without compromising semaglutide-induced weight loss.",
-      "keyFindings": [
-        "Semaglutide alone caused significant skeletal muscle mass loss in high-fat diet obese mice.",
-        "Post-injury, obese mice showed pathological calcifications similar to those in Duchenne Muscular Dystrophy.",
-        "Semaglutide reduced calcific remodeling but impaired regenerated myofiber size after injury.",
-        "15-PGDH inhibitor co-treatment rescued myofiber growth and enhanced muscle strength without reducing weight loss."
-      ],
-      "limitations": "Findings are from a mouse obesity model only; translation to humans is uncertain, and long-term safety of combined semaglutide plus 15-PGDH inhibitor treatment was not assessed.",
-      "context": "Muscle mass loss during GLP-1 receptor agonist therapy is an emerging concern; this study extends prior findings by demonstrating a mechanistic link to impaired muscle regeneration and offering 15-PGDH inhibition as a potential co-intervention to preserve muscle quality.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT07634991",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT07634991",
-      "url": "https://clinicaltrials.gov/study/NCT07634991",
-      "title": "To Evaluate the Efficacy and Safety of N-acetyl Cysteine Administration in Patients With Diabetic Retinopathy",
-      "displayTitle": "Phase 4 NAC trial targets VEGF and glutathione in diabetic retinopathy",
-      "authors": "Ain Shams University",
-      "journal": "ClinicalTrials.gov · Ain Shams University",
-      "publishedDate": "2026-06-09",
-      "addedDate": "2026-06-14",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "Trial registration — Phase 4 RCT",
-      "summary": "This Phase 4 RCT evaluates whether oral N-acetylcysteine (NAC) 1200 mg/day for 3 months improves glutathione peroxidase levels and VEGF expression in 76 type 2 diabetic patients with mild-to-moderate diabetic retinopathy, compared to placebo plus standard care.",
-      "keyFindings": [
-        "Phase 4 double-arm RCT; n=76 type 2 diabetic patients with mild-to-moderate retinopathy.",
-        "Intervention: NAC 1200 mg once daily for 3 months vs. matched placebo.",
-        "Primary endpoint: change in glutathione peroxidase levels; secondary endpoints include VEGF, HbA1c, and visual acuity.",
-        "Claimed to be the first RCT evaluating NAC specifically for diabetic retinopathy; currently recruiting."
-      ],
-      "limitations": "This is an active trial registration with no results posted; efficacy and safety conclusions cannot be drawn until trial completion and peer-reviewed publication.",
-      "context": "NAC is a well-established glutathione precursor and antioxidant used in pulmonary and hepatic conditions. Preclinical and observational data suggest oxidative stress and VEGF-driven angiogenesis contribute to diabetic retinopathy, making NAC a plausible candidate, though clinical evidence in this indication is limited.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT07634991",
-        "phase": "Phase 4",
-        "status": "RECRUITING",
-        "sponsor": "Ain Shams University",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "76",
-        "conditions": [
-          "Diabetic Retinopathy (DR)"
-        ],
-        "primaryOutcomes": "Changes in glutathione peroxidase levels",
-        "hasResults": false
-      }
     }
   ]
 }
