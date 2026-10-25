@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T11:54:26.641Z",
+  "lastUpdated": "2026-10-25T12:14:46.788Z",
   "entries": [
     {
       "id": "pmid-42610532",
@@ -301,6 +301,418 @@
       ],
       "limitations": "As a narrative review, it cannot establish causality; included studies vary in design and may carry confounding by indication, as GLP-1RA users often have comorbidities that independently raise NAION risk.",
       "context": "Prior case reports and pharmacovigilance signals raised concern about semaglutide and NAION; this review extends those findings by systematically incorporating epidemiologic data, registry analyses, and proposed vascular mechanisms, providing the first comprehensive risk-benefit framework for clinical decision-making.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42921716",
+      "kind": "study",
+      "pmid": "42921716",
+      "doi": "10.1111/jdi.70477",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42921716/",
+      "title": "Parasympathetic dysfunction assessed by deep-breathing CVR-R is associated with early discontinuation of oral semaglutide in type 2 diabetes: A multicenter retrospective study.",
+      "displayTitle": "Low parasympathetic tone predicts early oral semaglutide dropout in type 2 diabetes",
+      "authors": "Ogiso K et al.",
+      "journal": "Journal of diabetes investigation",
+      "publishedDate": "2026-10-24",
+      "addedDate": "2026-10-25",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Multicenter retrospective cohort",
+      "summary": "This multicenter retrospective study of 61 type 2 diabetes patients examined whether heart rate variability during deep breathing (CVR-R_DB) predicted early discontinuation of oral semaglutide due to nausea/vomiting within 6 months. Patients who discontinued had significantly lower CVR-R_DB than those who continued, with strong discriminative ability (AUC 0.832).",
+      "keyFindings": [
+        "CVR-R_DB was significantly lower in discontinuers vs. maintainers (median 1.93% vs. 3.26%, P<0.001).",
+        "CVR-R_DB independently predicted discontinuation (adjusted OR 0.191; 95% CI 0.071–0.512) after adjusting for age, sex, and neuropathy.",
+        "A CVR-R_DB cutoff of 2.55% stratified 6-month persistence: 43.3% vs. 87.1% continuation (log-rank P<0.001).",
+        "Machine learning analyses also prioritized CVR-R_DB as the top predictor of early discontinuation."
+      ],
+      "limitations": "Small analyzed sample (n=61 after exclusions from 203 screened), retrospective design, and single-country multicenter setting limit generalizability and causal inference.",
+      "context": "GI intolerance is a well-known barrier to GLP-1 receptor agonist adherence. This study extends prior findings by suggesting that parasympathetic dysfunction — measurable via a simple bedside test — may specifically predispose oral semaglutide users to intolerable nausea, consistent with autonomic regulation of gastric motility.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42920001",
+      "kind": "study",
+      "pmid": "42920001",
+      "doi": "10.1007/s00228-026-04206-4",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42920001/",
+      "title": "Efficacy and safety of GLP-1 receptor agonists for antipsychotic-related overweight and metabolic dysregulation: a systematic review and meta-analysis.",
+      "displayTitle": "GLP-1 agonists cut 6.5 kg weight in antipsychotic-treated patients",
+      "authors": "Zhou L et al.",
+      "journal": "European journal of clinical pharmacology",
+      "publishedDate": "2026-10-24",
+      "addedDate": "2026-10-25",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review and meta-analysis",
+      "summary": "This systematic review and meta-analysis of 8 RCTs (535 participants) evaluated GLP-1 receptor agonists in adults with antipsychotic-related overweight. GLP-1RAs significantly reduced body weight (~6.5 kg), BMI, HbA1c, and waist circumference, with semaglutide producing the greatest weight loss, though gastrointestinal side effects were elevated.",
+      "keyFindings": [
+        "GLP-1RAs reduced body weight by 6.54 kg and BMI by 2.34 kg/m² versus controls in antipsychotic-treated patients.",
+        "Semaglutide produced greater weight reduction than liraglutide; longer treatment duration enhanced effects.",
+        "HbA1c fell by 0.32% and waist circumference by 5.22 cm; no significant effect on total cholesterol or triglycerides.",
+        "Nausea (RR 1.61), vomiting (RR 2.10), and constipation (RR 2.34) were significantly more frequent; psychiatric safety data were too sparse to pool."
+      ],
+      "limitations": "Only 8 RCTs with 535 participants were included, and high heterogeneity (I²=92% for weight) limits precision; psychiatric safety could not be assessed due to sparse, unstandardized reporting.",
+      "context": "GLP-1 receptor agonists are established for weight and glycemic management in the general population; this meta-analysis extends findings to the underserved, high-metabolic-risk population on antipsychotics, consistent with emerging evidence that semaglutide outperforms older GLP-1RAs for weight loss.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42918312",
+      "kind": "study",
+      "pmid": "42918312",
+      "doi": "10.1016/j.bcp.2026.118572",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42918312/",
+      "title": "Mots-c attenuates diabetic nephropathy by downregulating LARS1 to promote lipophagy and suppress tubular senescence.",
+      "displayTitle": "MOTS-c reduces diabetic kidney injury by promoting lipophagy and curbing tubular senescence",
+      "authors": "Wang J et al.",
+      "journal": "Biochemical pharmacology",
+      "publishedDate": "2026-10-23",
+      "addedDate": "2026-10-25",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "Animal model — mouse + in vitro",
+      "summary": "This study investigated MOTS-c in diabetic nephropathy using db/db mice and HK-2 cells. MOTS-c treatment dose-dependently preserved kidney function, reduced lipid accumulation, and suppressed tubular senescence by downregulating LARS1 to promote LC3-mediated lipid droplet clearance.",
+      "keyFindings": [
+        "MOTS-c dose-dependently improved urinary albumin-to-creatinine ratio and attenuated tubular injury in db/db mice.",
+        "MOTS-c suppressed senescence markers p16, γH2AX, and SA-β-gal while restoring lipid homeostasis via CPT1A and ADRP.",
+        "MOTS-c downregulated LARS1, a negative lipophagy modulator, facilitating LC3-mediated lipid droplet clearance.",
+        "Autophagy inhibitor 3-MA reversed MOTS-c's renoprotective effects in vivo, confirming lipophagy dependence."
+      ],
+      "limitations": "Results are limited to a mouse diabetes model and HK-2 cell line; no human data are presented, and translation to clinical diabetic nephropathy remains unestablished.",
+      "context": "MOTS-c is a mitochondrial-derived peptide known for metabolic regulation; this study extends prior findings by identifying a novel LARS1-lipophagy-senescence axis as a mechanistic pathway through which MOTS-c may protect against diabetic kidney disease.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42920871",
+      "kind": "study",
+      "pmid": "42920871",
+      "doi": "10.1002/jpr3.70247",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42920871/",
+      "title": "A rare diagnosis during evaluation for metabolic dysfunction associated steatotic liver disease: Glycogen storage disease type Ia presenting during adolescence in a male with severe obesity.",
+      "displayTitle": "Case report: GLP-1 therapy halted in teen with obesity and undiagnosed glycogen storage disease",
+      "authors": "Trocchia C et al.",
+      "journal": "JPGN reports",
+      "publishedDate": "2026-10-23",
+      "addedDate": "2026-10-25",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Case report",
+      "summary": "A 16-year-old male with severe obesity and elevated liver enzymes was initially evaluated for MASLD and started on GLP-1 therapy, but exome sequencing revealed glycogen storage disease type Ia; GLP-1 treatment was discontinued due to hypoglycemia risk.",
+      "keyFindings": [
+        "Trio exome sequencing identified biallelic glucose-6-phosphatase variants, confirming GSD Ia misidentified as MASLD.",
+        "Multiple hepatic adenomas on imaging prompted genetic workup that changed the diagnosis entirely.",
+        "GLP-1 receptor agonist therapy was discontinued due to hypoglycemia risk in GSD Ia.",
+        "Case underscores need to include inborn errors of metabolism in differential for multifocal hepatic adenomas."
+      ],
+      "limitations": "Single case report with no comparator; findings may not generalize, and full clinical details beyond the abstract are unavailable.",
+      "context": "GLP-1 receptor agonists are increasingly used for pediatric obesity and MASLD; this case highlights a rare but clinically important contraindication when an underlying glycogen storage disorder is present, extending safety awareness for this drug class.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42920024",
+      "kind": "study",
+      "pmid": "42920024",
+      "doi": "10.1007/s11657-026-01785-8",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42920024/",
+      "title": "Skeletal effects of GLP-1 receptor agonist therapy in adults with overweight or obesity: a systematic review.",
+      "displayTitle": "GLP-1 agonists linked to reduced bone density in overweight adults",
+      "authors": "Lai CH et al.",
+      "journal": "Archives of osteoporosis",
+      "publishedDate": "2026-10-23",
+      "addedDate": "2026-10-25",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Systematic review",
+      "summary": "This systematic review of 8 RCTs (n=493) examined GLP-1 receptor agonist effects on bone mineral density in adults with overweight or obesity. Both semaglutide and liraglutide 3.0 mg trials — those producing the greatest weight loss — reported reduced lumbar spine BMD, though overall evidence certainty was very low.",
+      "keyFindings": [
+        "Semaglutide trial (n=64) showed reduced lumbar spine BMD (ETD -0.018 g/cm²) and increased bone resorption marker CTX (+166.50 pg/mL).",
+        "Liraglutide 3.0 mg reduced lumbar spine BMD (MD -0.019 g/cm²) and total hip BMD (MD -0.013 g/cm²) vs placebo.",
+        "Liraglutide 1.8 mg (diabetes dose, less weight loss) showed no meaningful BMD change at any site.",
+        "Certainty of evidence was very low for every agent; adequately powered fracture-endpoint trials are needed."
+      ],
+      "limitations": "Only 8 small RCTs (n=493 total) were included, evidence certainty was very low for all agents, most trials enrolled adults with type 2 diabetes rather than obesity alone, and no fracture outcomes were assessed.",
+      "context": "GLP-1 receptor agonist-induced weight loss has long raised concerns about potential bone loss, as weight reduction itself can reduce BMD. This review extends prior uncertainty, suggesting that agents producing the greatest weight loss may pose the greatest skeletal risk, consistent with weight-loss-mediated bone remodeling hypotheses.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42918974",
+      "kind": "study",
+      "pmid": "42918974",
+      "doi": "10.1007/s10787-026-02433-w",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42918974/",
+      "title": "Gut-brain axis in Alzheimer's disease: neuroinflammatory mechanisms and immunopharmacological interventions.",
+      "displayTitle": "Semaglutide shows null result for Alzheimer's in 2026 trial",
+      "authors": "Sharma R et al.",
+      "journal": "Inflammopharmacology",
+      "publishedDate": "2026-10-23",
+      "addedDate": "2026-10-25",
+      "peptides": [
+        "Semaglutide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review synthesizes mechanistic and clinical evidence on the gut-brain axis in Alzheimer's disease, covering immunopharmacological interventions including GLP-1 receptor agonists. It reports a definitive null clinical result for semaglutide in 2026, despite strong preclinical mechanistic rationale.",
+      "keyFindings": [
+        "Semaglutide showed a definitive null result for Alzheimer's disease in a 2026 clinical trial.",
+        "GLP-1 receptor agonists show a persistent disconnect between mechanistic promise and clinical efficacy in AD.",
+        "Gut-brain axis pathways converge on TLR4/NF-κB and NLRP3 inflammasome signaling to drive neuroinflammation.",
+        "Probiotics showed some consistent but mild benefit; sodium oligomannate has strong preclinical signals needing trials."
+      ],
+      "limitations": "As a narrative review, it may be subject to selection bias in evidence synthesis; the 2026 semaglutide trial result is referenced but not described in detail within the abstract.",
+      "context": "Semaglutide and other GLP-1 agonists have attracted interest for neuroprotection based on anti-inflammatory and metabolic mechanisms. This review extends prior findings by reporting that clinical translation has failed for semaglutide in AD, consistent with a broader mechanistic-to-clinical efficacy gap observed with this drug class.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "pmid-42918905",
+      "kind": "study",
+      "pmid": "42918905",
+      "doi": "10.1007/s00228-026-04199-0",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42918905/",
+      "title": "GLP-1-based therapies in cardiovascular disease: outcomes, mechanisms, and emerging clinical applications.",
+      "displayTitle": "GLP-1 therapies cut MACE by 12–38% across major cardiovascular trials",
+      "authors": "Jang R et al.",
+      "journal": "European journal of clinical pharmacology",
+      "publishedDate": "2026-10-23",
+      "addedDate": "2026-10-25",
+      "peptides": [
+        "Semaglutide",
+        "Tirzepatide"
+      ],
+      "studyType": "Narrative review",
+      "summary": "This narrative review synthesizes major randomized trials assessing GLP-1 receptor agonists—including semaglutide and tirzepatide—in cardiovascular, kidney, and heart failure outcomes. Trials consistently show 12–38% reductions in MACE or related endpoints across diverse patient populations, extending benefits beyond type 2 diabetes.",
+      "keyFindings": [
+        "Early trials (LEADER, SUSTAIN-6, REWIND) showed 12–26% MACE reductions in T2DM patients.",
+        "SELECT found 20% MACE reduction with semaglutide in obese patients without diabetes.",
+        "Tirzepatide reduced cardiovascular death or worsening heart failure by 38% in SUMMIT.",
+        "SOUL showed 14% MACE reduction with oral semaglutide; gastrointestinal side effects remain a concern."
+      ],
+      "limitations": "As a narrative review, it may be subject to selection bias in trial inclusion; mechanisms underlying cardiovascular benefits remain incompletely understood per the authors.",
+      "context": "These findings are consistent with a rapidly expanding body of evidence repositioning GLP-1 RAs as broadly cardioprotective agents. The review extends prior diabetes-focused trial data to populations with obesity, heart failure, and chronic kidney disease.",
+      "isPreprint": false,
+      "isTrial": false,
+      "trialMeta": null
+    },
+    {
+      "id": "nct-NCT07888595",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07888595",
+      "url": "https://clinicaltrials.gov/study/NCT07888595",
+      "title": "Systemic and Topical Geroprotective Rejuvenation Assessed by START/REST Aging Clocks",
+      "displayTitle": "Early Phase 1 trial tests GHK-Cu and Epithalon topical serum for biological age reversal",
+      "authors": "Frontiers in Bioscience Research Institute and Aging",
+      "journal": "ClinicalTrials.gov · Frontiers in Bioscience Research Institute and Aging",
+      "publishedDate": "2026-10-22",
+      "addedDate": "2026-10-25",
+      "peptides": [
+        "GHK-Cu",
+        "Epithalon"
+      ],
+      "studyType": "Trial registration — Early Phase 1, single-group interventional",
+      "summary": "This single-group interventional study (n=48) tests whether a topical peptide serum (including GHK-Cu, Epithalon, and three other small peptides) combined with systemic geroprotective agents can reduce transcriptomic biological age in adults 50+ using START/REST aging clocks as the primary outcome.",
+      "keyFindings": [
+        "Early Phase 1, n=48 healthy adults ≥50 years, enrolling by invitation, no results posted yet.",
+        "Topical serum contains GHK-Cu, AHK-Cu, Epithalon, PGP, and CLV at 1–3 mg/mL; treated vs. untreated contralateral sites compared within each participant.",
+        "Primary endpoint: statistically significant reduction in START/REST transcriptomic biological age across skin, hair, saliva, and blood.",
+        "Systemic arm includes metformin, low-dose chloroquine, ivermectin, and nutritional supplements alone or in combination."
+      ],
+      "limitations": "This is an active trial registration with no results posted; no conclusions about efficacy or safety can be drawn at this stage.",
+      "context": "GHK-Cu and Epithalon have preclinical and limited human data suggesting anti-aging and senescence-modulating effects, but no rigorous transcriptomic clock-anchored human trial has previously assessed their topical efficacy alongside systemic geroprotectors in a controlled within-person design.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07888595",
+        "phase": "EARLY Phase 1",
+        "status": "ENROLLING BY INVITATION",
+        "sponsor": "Frontiers in Bioscience Research Institute and Aging",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "48",
+        "conditions": [
+          "Aging"
+        ],
+        "primaryOutcomes": "START/REST biological age (transcriptomic tAge and proteomic pAge), in years",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "nct-NCT02974907",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT02974907",
+      "url": "https://clinicaltrials.gov/study/NCT02974907",
+      "title": "Assessment of the Safety and Efficacy of RGN-259 Ophthalmic Solutions for Dry Eye Syndrome : ARISE-2",
+      "displayTitle": "Phase 3 Thymosin Beta-4 Eye Drop Trial for Dry Eye Posts Results",
+      "authors": "ReGenTree, LLC",
+      "journal": "ClinicalTrials.gov · ReGenTree, LLC",
+      "publishedDate": "2026-10-21",
+      "addedDate": "2026-10-25",
+      "peptides": [
+        "TB-500"
+      ],
+      "studyType": "Trial — Phase 3 RCT, completed (results posted)",
+      "summary": "ARISE-2 tested RGN-259, a preservative-free Thymosin Beta-4 (Tβ4) ophthalmic solution, versus placebo in 601 dry eye syndrome patients over 28 days, measuring changes in ocular discomfort and corneal fluorescein staining as co-primary endpoints.",
+      "keyFindings": [
+        "Phase 3 RCT; n=601 adults with dry eye syndrome randomized to RGN-259 (Tβ4) QID or placebo for 28 days.",
+        "Co-primary endpoints: change in ocular discomfort score and change in fluorescein corneal staining.",
+        "RGN-259 is preservative-free, designed for direct ocular instillation four times daily.",
+        "Results have been posted; trial is completed."
+      ],
+      "limitations": "Although results are posted, full peer-reviewed publication details are needed to assess effect sizes, clinical significance, and generalizability of findings.",
+      "context": "Thymosin Beta-4 (TB-500) has shown anti-inflammatory and tissue-repair properties in preclinical and earlier clinical dry eye studies. ARISE-2 is among the largest RCTs testing a Tβ4-based ophthalmic formulation, following the earlier ARISE-1 pilot trial.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT02974907",
+        "phase": "Phase 3",
+        "status": "COMPLETED",
+        "sponsor": "ReGenTree, LLC",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "601",
+        "conditions": [
+          "Dry Eye Syndrome"
+        ],
+        "primaryOutcomes": "Change in Ocular Discomfort; Change in Fluorescein Staining",
+        "hasResults": true
+      }
+    },
+    {
+      "id": "nct-NCT06836128",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT06836128",
+      "url": "https://clinicaltrials.gov/study/NCT06836128",
+      "title": "The Combined Effect of N-Acetyl Cysteine and Metformin in Polycystic Ovary Syndrome Patients",
+      "displayTitle": "Phase 3 trial tests NAC plus metformin combination in PCOS patients",
+      "authors": "Cairo University",
+      "journal": "ClinicalTrials.gov · Cairo University",
+      "publishedDate": "2026-10-21",
+      "addedDate": "2026-10-25",
+      "peptides": [
+        "Glutathione"
+      ],
+      "studyType": "Trial — Phase 3 RCT (completed, no results posted)",
+      "summary": "This completed Phase 3 RCT (n=102) evaluated the combination of N-Acetyl Cysteine (NAC) and metformin versus metformin alone in women aged 20–45 with confirmed PCOS, measuring changes in hormonal, metabolic, and biochemical parameters.",
+      "keyFindings": [
+        "Phase 3 RCT, n=102 women with PCOS diagnosed per 2023 international guidelines.",
+        "Primary endpoint: change in LH/FSH ratio; secondary endpoints include metabolic and hormonal parameters.",
+        "Intervention: NAC (antioxidant/glutathione precursor) added to standard metformin therapy.",
+        "Trial status: completed, but no results have been posted to ClinicalTrials.gov."
+      ],
+      "limitations": "No results have been posted; findings remain unpublished and the trial's clinical impact cannot be assessed until data are released.",
+      "context": "NAC acts as a glutathione precursor with antioxidant properties that may counter oxidative stress-driven insulin resistance in PCOS. Prior smaller trials suggested NAC may improve ovulation and metabolic markers; this Phase 3 trial offers a larger, more rigorous test.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT06836128",
+        "phase": "Phase 3",
+        "status": "COMPLETED",
+        "sponsor": "Cairo University",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "102",
+        "conditions": [
+          "Polycystic Ovary Syndrome"
+        ],
+        "primaryOutcomes": "Primary outcome will be change in LH/FSH levels.",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "nct-NCT07884201",
+      "kind": "trial",
+      "pmid": "",
+      "doi": "",
+      "nctId": "NCT07884201",
+      "url": "https://clinicaltrials.gov/study/NCT07884201",
+      "title": "Thymalfasin Combined With Chemotherapy and Immunotherapy in TNBC Neoadjuvant Treatment",
+      "displayTitle": "Phase 2 trial tests thymalfasin to boost chemo-immunotherapy in TNBC",
+      "authors": "Fudan University",
+      "journal": "ClinicalTrials.gov · Fudan University",
+      "publishedDate": "2026-10-20",
+      "addedDate": "2026-10-25",
+      "peptides": [
+        "Thymosin Alpha-1"
+      ],
+      "studyType": "Trial registration — Phase 2 RCT",
+      "summary": "This prospective, randomized, open-label Phase 2 trial at Fudan University will enroll 572 women with triple-negative breast cancer (T>2cm or N+) to evaluate whether adding thymalfasin (1.6 mg SC) to standard neoadjuvant chemotherapy plus immunotherapy improves 3-year event-free survival and IFNγ elevation rates.",
+      "keyFindings": [
+        "Phase 2 RCT; n=572; primary endpoints are 3-year EFS and IFNγ elevation rate.",
+        "Intervention: thymalfasin 1.6 mg subcutaneous injection added to standard chemo-immunotherapy (≥6 cycles).",
+        "Control arm receives standard neoadjuvant chemotherapy plus immunotherapy alone.",
+        "Status: not yet recruiting; no results available."
+      ],
+      "limitations": "Trial is not yet recruiting and no results are published; this registration alone provides no evidence of efficacy or safety.",
+      "context": "Thymosin alpha-1 (thymalfasin) is an immunomodulatory peptide previously studied in infections and hepatitis; this trial extends its use as a sensitizing agent in TNBC neoadjuvant chemo-immunotherapy, building on pilot data suggesting IFNγ pathway enhancement.",
+      "isPreprint": false,
+      "isTrial": true,
+      "trialMeta": {
+        "nctId": "NCT07884201",
+        "phase": "Phase 2",
+        "status": "NOT YET RECRUITING",
+        "sponsor": "Fudan University",
+        "studyType": "INTERVENTIONAL",
+        "enrollment": "572",
+        "conditions": [
+          "Breast Cancer",
+          "TNBC - Triple-Negative Breast Cancer",
+          "Immunotherapy"
+        ],
+        "primaryOutcomes": "EFS; Interferon-gamma (IFNγ) elevation rate",
+        "hasResults": false
+      }
+    },
+    {
+      "id": "pmid-42895211",
+      "kind": "study",
+      "pmid": "42895211",
+      "doi": "10.1530/RAF-26-0161",
+      "nctId": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42895211/",
+      "title": "The Mitochondrial-Derived Peptide MOTS-c Improves Bioenergetics in Aging-Associated Granulosa Cells and Oocytes.",
+      "displayTitle": "MOTS-c boosts energy production in aging eggs and granulosa cells",
+      "authors": "Tsui KH et al.",
+      "journal": "Reproduction & fertility",
+      "publishedDate": "2026-10-19",
+      "addedDate": "2026-10-25",
+      "peptides": [
+        "MOTS-c"
+      ],
+      "studyType": "In vitro and animal model",
+      "summary": "This study tested MOTS-c, a mitochondria-derived peptide, in aged human granulosa cells and aged mouse oocytes. MOTS-c improved mitochondrial energy production and cell structure, and was associated with improved egg maturation, though treated aged eggs did not fully match maturation levels seen in young mice.",
+      "keyFindings": [
+        "MOTS-c boosted mitochondrial energy production in aged human granulosa cells.",
+        "Treated aged mouse oocytes showed improved maturation compared to untreated aged controls.",
+        "MOTS-c helped maintain cell structure in aging granulosa cells.",
+        "Maturation in MOTS-c-treated aged eggs did not fully reach levels seen in young mice."
+      ],
+      "limitations": "Results come from laboratory and animal experiments only; effects on fertilization, embryo development, or live birth in women were not assessed.",
+      "context": "MOTS-c is a mitochondrial-derived peptide previously linked to metabolic regulation and aging. This study extends prior findings by suggesting MOTS-c may partially counteract age-related mitochondrial decline in reproductive cells, consistent with its known role in bioenergetic support.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
@@ -5968,435 +6380,6 @@
       ],
       "limitations": "As a narrative review, it is subject to selection bias and does not include a systematic search strategy; no primary data are presented.",
       "context": "Consistent with prior concerns about GHS and GHRH analog misuse, this review extends the discussion by emphasizing the shift from AAS to peptides as performance-enhancing drugs and highlighting a critical gap in prevalence and long-term safety data.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT07678073",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT07678073",
-      "url": "https://clinicaltrials.gov/study/NCT07678073",
-      "title": "COMPARISON OF THE EFFECTS OF GENERAL ANESTHESIA AND COMBINED SPINAL-EPIDURAL ANESTHESIA ON FERROPTOSIS, HUMANIN, AND MOTS-C LEVELS IN RENAL TRANSPLANTATION",
-      "displayTitle": "Trial compares anesthesia types on MOTS-c and ferroptosis markers in kidney transplant",
-      "authors": "University of Gaziantep",
-      "journal": "ClinicalTrials.gov · University of Gaziantep",
-      "publishedDate": "2026-07-01",
-      "addedDate": "2026-07-05",
-      "peptides": [
-        "MOTS-c"
-      ],
-      "studyType": "Trial registration — Phase NA, prospective controlled",
-      "summary": "This prospective controlled trial in 68 adult living-donor kidney transplant recipients compares sevoflurane general anesthesia versus combined spinal-epidural anesthesia, measuring perioperative changes in serum MOTS-c, humanin, and ferroptosis-related biomarkers to evaluate cytoprotective and graft-outcome effects.",
-      "keyFindings": [
-        "Phase NA, n=68, two-arm prospective controlled design; currently recruiting at University of Gaziantep.",
-        "Primary endpoint: perioperative serum levels of MOTS-c, humanin, and ferroptosis markers (GPX4, MDA, ACSL4, TFRC1, Fe).",
-        "Secondary endpoints include delayed graft function incidence, creatinine, dialysis need, urine output, and hospital stay.",
-        "Blood sampled at two timepoints: pre-induction and pre-extubation; no results posted yet."
-      ],
-      "limitations": "This is an active trial registration with no results posted; findings remain speculative until peer-reviewed data are available.",
-      "context": "MOTS-c is a mitochondrial-derived peptide with emerging evidence of cytoprotective and anti-oxidative stress roles. Its behavior during surgical ischemia-reperfusion injury in kidney transplantation has not previously been reported in a controlled anesthesia-comparison trial.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT07678073",
-        "phase": "NA",
-        "status": "RECRUITING",
-        "sponsor": "University of Gaziantep",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "68",
-        "conditions": [
-          "Kidney Disease, End-Stage",
-          "Kidney Transplant",
-          "Kidney",
-          "Kidney Disease",
-          "Renal Transplant"
-        ],
-        "primaryOutcomes": "Serum ferroptosis-related biomarkers (Fe, TFRC1, GPX4, MDA, ACSL4) and mitochondrial-derived peptides (humanin and MOTS-c)",
-        "hasResults": false
-      }
-    },
-    {
-      "id": "pmid-42433972",
-      "kind": "study",
-      "pmid": "42433972",
-      "doi": "10.14309/crj.0000000000002232",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42433972/",
-      "title": "D&#xe9;j&#xe0; vu! A Case of Recurrent Metabolic Dysfunction-Associated Steatohepatitis 70 Days After Liver Transplantation.",
-      "displayTitle": "Semaglutide aids rapid MASH recurrence reversal 70 days post-liver transplant",
-      "authors": "Still M et al.",
-      "journal": "ACG case reports journal",
-      "publishedDate": "2026-07-01",
-      "addedDate": "2026-07-12",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Case report",
-      "summary": "A 40-year-old woman developed ultra-rapid MASH recurrence with >95% steatohepatitis just 10 weeks after liver transplantation. Multimodal intervention including semaglutide led to histologic improvement, reducing steatosis from >95% to 30% with resolution of ballooning and biochemical normalization.",
-      "keyFindings": [
-        "MASH recurred within 70 days posttransplant, far earlier than the typical months-to-years timeframe.",
-        "Corticosteroid treatment for acute cellular rejection accelerated steatohepatitis progression to >95% within 6 days.",
-        "Multimodal intervention including semaglutide reduced steatosis from >95% to 30% with ballooning resolved.",
-        "Sustained biochemical normalization was achieved, suggesting early metabolic intervention is feasible posttransplant."
-      ],
-      "limitations": "Single case report with no control or comparator; the individual contribution of semaglutide versus other multimodal interventions cannot be determined.",
-      "context": "MASH recurrence post-liver transplant occurs in 11–24% of recipients but rarely this early. This case extends emerging evidence that GLP-1 receptor agonists like semaglutide may benefit MASH, and appears consistent with their known metabolic and hepatoprotective effects, though posttransplant use adds complexity.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42487660",
-      "kind": "study",
-      "pmid": "42487660",
-      "doi": "10.1002/ccr3.73183",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42487660/",
-      "title": "Hypersensitivity Reaction to Tirzepatide With Demonstrated Tolerance to Semaglutide: A Case Report.",
-      "displayTitle": "Tirzepatide hypersensitivity resolved by switching to semaglutide",
-      "authors": "Nejat C et al.",
-      "journal": "Clinical case reports",
-      "publishedDate": "2026-07-01",
-      "addedDate": "2026-07-26",
-      "peptides": [
-        "Semaglutide",
-        "Tirzepatide"
-      ],
-      "studyType": "Case report",
-      "summary": "A 25-year-old woman developed angioedema and urticaria after her first 10 mg tirzepatide dose, confirmed by positive intradermal testing. She subsequently tolerated semaglutide without recurrence, demonstrating drug-specific rather than class-wide hypersensitivity.",
-      "keyFindings": [
-        "Hypersensitivity emerged at 10 mg tirzepatide after 3 months of uneventful dose escalation from 2.5–7.5 mg.",
-        "Intradermal tirzepatide at 1:10 dilution produced an 8 mm wheal/8 mm flare; percutaneous testing was negative.",
-        "Intradermal semaglutide testing was negative; supervised 0.25 mg subcutaneous challenge was well tolerated.",
-        "Patient successfully continued semaglutide under endocrinology oversight with no recurrence of hypersensitivity."
-      ],
-      "limitations": "Single case report limits generalizability; the specific antigenic determinant (GLP-1 vs. GIP component vs. excipient) causing tirzepatide hypersensitivity was not identified.",
-      "context": "Hypersensitivity to GLP-1 receptor agonists is rarely reported. This case extends prior findings by demonstrating that tirzepatide-specific reactions may not preclude use of other GLP-1RAs, consistent with structurally distinct mechanisms of sensitization.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT07675980",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT07675980",
-      "url": "https://clinicaltrials.gov/study/NCT07675980",
-      "title": "Thymosin-α1 for Recurrent Implantation Failure",
-      "displayTitle": "Phase 2/3 RCT tests Thymosin-α1 for recurrent IVF implantation failure",
-      "authors": "Fakih IVF Fertility Center",
-      "journal": "ClinicalTrials.gov · Fakih IVF Fertility Center",
-      "publishedDate": "2026-06-30",
-      "addedDate": "2026-07-05",
-      "peptides": [
-        "Thymosin Alpha-1"
-      ],
-      "studyType": "Trial registration — Phase 2/3 RCT",
-      "summary": "This placebo-controlled trial at Fakih IVF Fertility Center is evaluating Thymosin-α1 (Tα1) as an immunomodulatory adjunct in 136 women with unexplained recurrent implantation failure (≥2 failed transfers with PGT-a euploid embryos), with live birth rate as the primary endpoint.",
-      "keyFindings": [
-        "Phase 2/3 RCT; n=136 women aged 18–40 with ≥2 failed euploid embryo transfers.",
-        "Tα1 administered from luteal start through 10+6 weeks' gestation vs. placebo.",
-        "Primary endpoint: live birth rate beyond 24 weeks' gestation.",
-        "Claimed to be the first placebo-controlled RCT of Tα1 in RIF with PGT-a tested embryos."
-      ],
-      "limitations": "This is an active trial registration only; no results are available, and efficacy and safety in the reproductive context remain unproven pending trial completion.",
-      "context": "Tα1 is a naturally occurring thymic peptide established in chronic infection and oncology for immune modulation. Observational data link lower maternal Tα1 levels to miscarriage and suggest roles in Th1/Th2 rebalancing and regulatory T-cell promotion, but no prior RCT evidence exists in RIF.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT07675980",
-        "phase": "Phase 2/Phase 3",
-        "status": "RECRUITING",
-        "sponsor": "Fakih IVF Fertility Center",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "136",
-        "conditions": [
-          "Recurrent Implantation Faliure"
-        ],
-        "primaryOutcomes": "Live birth more than 24 weeks; Determine whether Tα1 increases live birth versus placebo.",
-        "hasResults": false
-      }
-    },
-    {
-      "id": "pmid-42379494",
-      "kind": "study",
-      "pmid": "42379494",
-      "doi": "10.1016/j.mce.2026.112854",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42379494/",
-      "title": "The kisspeptin analog C6 elicits greater tachyphylaxis and transcriptional activation than kisspeptin-10 and -54.",
-      "displayTitle": "Kisspeptin analog C6 shows stronger tachyphylaxis and gene activation than Kp-10 or Kp-54",
-      "authors": "Robert V et al.",
-      "journal": "Molecular and cellular endocrinology",
-      "publishedDate": "2026-06-30",
-      "addedDate": "2026-07-05",
-      "peptides": [
-        "Kisspeptin-10"
-      ],
-      "studyType": "In vitro",
-      "summary": "Using HEK293 cells stably expressing the human kisspeptin receptor, researchers compared the in vitro pharmacological profiles of hKp10, hKp54, and synthetic analog C6, finding that C6 produced the most sustained calcium mobilization, greatest tachyphylaxis, and strongest transcriptional responses including upregulation of inflammatory mediators.",
-      "keyFindings": [
-        "C6 produced the most sustained intracellular calcium mobilization, linked to greater depletion of intracellular calcium stores.",
-        "C6 induced the strongest transcriptional response, followed by hKp54 then hKp10, across multiple gene panels.",
-        "Immediate-early genes (IER2, EGR1, KLF10), transcription factors (NR4A1, NR4A2, NFKB1A), and inflammatory mediators (CXCL8, CXCL1, CCL2) were markedly upregulated.",
-        "A second stimulation with low-dose hKp54 increased response, while hKp10 did not show this potentiation."
-      ],
-      "limitations": "Study is limited to a single HEK293 cell overexpression system, which may not reflect endogenous receptor expression levels or physiological tissue contexts.",
-      "context": "Kisspeptin and its receptor are established regulators of reproduction and therapeutic targets in livestock and human medicine. These findings extend prior in vivo comparisons by revealing distinct in vitro pharmacological profiles, suggesting C6's prolonged signaling may carry both efficacy advantages and potential adverse inflammatory effects.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT02603081",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT02603081",
-      "url": "https://clinicaltrials.gov/study/NCT02603081",
-      "title": "Study to Evaluate SPI-1005 in Adults With Meniere's Disease",
-      "displayTitle": "Phase 2 SPI-1005 trial in Meniere's disease posts results",
-      "authors": "Sound Pharmaceuticals, Incorporated",
-      "journal": "ClinicalTrials.gov · Sound Pharmaceuticals, Incorporated",
-      "publishedDate": "2026-06-29",
-      "addedDate": "2026-07-05",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "Trial — Phase 1/2 RCT, completed (results posted)",
-      "summary": "This randomized, double-blind, placebo-controlled Phase 1/2 trial evaluated three dose levels of SPI-1005 (ebselen, a glutathione peroxidase mimic) versus placebo over 21 days in 40 adults with Meniere's disease, assessing effects on vertigo, tinnitus, and sensorineural hearing loss.",
-      "keyFindings": [
-        "Randomized, double-blind, placebo-controlled design; n=40 adults with probable or definite Meniere's disease.",
-        "Three dose levels of oral SPI-1005 tested over 21-day treatment course with follow-up to 28 days post-treatment.",
-        "Primary endpoint was incidence of treatment-emergent adverse events; secondary endpoints included hearing, tinnitus, and vertigo measures.",
-        "Results have been posted to ClinicalTrials.gov; full published analysis not yet available in peer-reviewed literature."
-      ],
-      "limitations": "Results are registry-posted only; peer-reviewed publication with full statistical analysis and clinical interpretation is not yet confirmed.",
-      "context": "Ebselen mimics and induces glutathione peroxidase, an antioxidant enzyme that neutralizes reactive oxygen species implicated in inner ear damage. Prior preclinical and small clinical work suggested GPx-pathway modulation may protect cochlear function.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT02603081",
-        "phase": "Phase 1/Phase 2",
-        "status": "COMPLETED",
-        "sponsor": "Sound Pharmaceuticals, Incorporated",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "40",
-        "conditions": [
-          "Meniere's Disease"
-        ],
-        "primaryOutcomes": "Incidence of of Treatment-Emergent Adverse Events",
-        "hasResults": true
-      }
-    },
-    {
-      "id": "nct-NCT04483973",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT04483973",
-      "url": "https://clinicaltrials.gov/study/NCT04483973",
-      "title": "SPI-1005 Treatment in Severe COVID-19 Patients",
-      "displayTitle": "Phase 2 SPI-1005 (Ebselen) trial in severe COVID-19 posts results",
-      "authors": "Sound Pharmaceuticals, Incorporated",
-      "journal": "ClinicalTrials.gov · Sound Pharmaceuticals, Incorporated",
-      "publishedDate": "2026-06-29",
-      "addedDate": "2026-07-05",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "Trial — Phase 2 RCT, completed (results posted)",
-      "summary": "A randomized, double-blind, placebo-controlled Phase 2 dose-escalation trial evaluated SPI-1005 (ebselen, a glutathione peroxidase mimetic) in 25 hospitalized adults with severe COVID-19 (WHO Ordinal Scale 5–7), with results now posted.",
-      "keyFindings": [
-        "Phase 2 RCT, n=25, multi-center, double-blind, placebo-controlled dose-escalation design.",
-        "Primary endpoint: number of participants with treatment-related adverse events (safety focus).",
-        "Intervention: ebselen, a synthetic glutathione peroxidase mimetic (SPI-1005), vs. matching placebo.",
-        "Trial is completed with results posted on ClinicalTrials.gov."
-      ],
-      "limitations": "Small sample size (n=25) limits statistical power; full peer-reviewed publication of results has not been confirmed.",
-      "context": "Ebselen mimics glutathione peroxidase activity and has been explored for antioxidant and anti-inflammatory effects. Severe COVID-19 is associated with oxidative stress, providing a mechanistic rationale for this intervention.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT04483973",
-        "phase": "Phase 2",
-        "status": "COMPLETED",
-        "sponsor": "Sound Pharmaceuticals, Incorporated",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "25",
-        "conditions": [
-          "Covid19",
-          "Coronavirus",
-          "Coronavirus Infection",
-          "Corona Virus Infection"
-        ],
-        "primaryOutcomes": "Number of Participants With Treatment-related Adverse Events",
-        "hasResults": true
-      }
-    },
-    {
-      "id": "pmid-42364709",
-      "kind": "study",
-      "pmid": "42364709",
-      "doi": "10.1016/j.jpag.2026.06.017",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42364709/",
-      "title": "GLP-1 Receptor Agonists in Adolescents: Emerging Endocrine, Reproductive, and Psychosocial Concerns.",
-      "displayTitle": "GLP-1 agonists in adolescents raise bone, reproductive, and eating disorder concerns",
-      "authors": "Haider MA, Javed H",
-      "journal": "Journal of pediatric and adolescent gynecology",
-      "publishedDate": "2026-06-28",
-      "addedDate": "2026-06-28",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Narrative review",
-      "summary": "This commentary reviews emerging safety concerns with GLP-1 receptor agonists (including semaglutide) in adolescents, focusing on bone mass acquisition, reproductive outcomes, and eating disorder risk. While clinical trials show significant weight reduction, long-term skeletal, hormonal, and psychological effects in this population remain uncertain.",
-      "keyFindings": [
-        "Trials of liraglutide and semaglutide in adolescents show significant weight reduction without short-term effects on growth or pubertal development.",
-        "Adolescence is a critical window for peak bone mass; rapid pharmacologic weight loss may theoretically impair bone mineral accrual.",
-        "No data exist on reproductive outcomes following adolescent GLP-1 RA exposure; use is not recommended during pregnancy.",
-        "Potent appetite suppression raises concerns about misuse or exacerbation of eating disorders in adolescents."
-      ],
-      "limitations": "This is a commentary rather than a systematic review; conclusions are largely extrapolated from adult data with limited adolescent-specific evidence on long-term outcomes.",
-      "context": "GLP-1 receptor agonists are increasingly prescribed to adolescents, extending beyond adult obesity and T2DM indications. This commentary extends prior adult evidence to highlight adolescent-specific risks, consistent with growing regulatory and clinical interest in age-specific safety monitoring.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42364891",
-      "kind": "study",
-      "pmid": "42364891",
-      "doi": "10.1016/j.cca.2026.121207",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42364891/",
-      "title": "Kisspeptin-10/basal LH ratio improves differentiation of central precocious puberty and premature thelarche.",
-      "displayTitle": "Kisspeptin-10/LH ratio distinguishes central precocious puberty from premature thelarche",
-      "authors": "Banerjee AA et al.",
-      "journal": "Clinica chimica acta; international journal of clinical chemistry",
-      "publishedDate": "2026-06-27",
-      "addedDate": "2026-06-28",
-      "peptides": [
-        "Kisspeptin-10"
-      ],
-      "studyType": "Prospective observational study",
-      "summary": "This prospective study in Indian girls aged 6–9 years evaluated whether kisspeptin-10 (Kp-10), Neurokinin B, and Neuropeptide Y could differentiate idiopathic central precocious puberty (ICPP) from premature thelarche (PT). The composite Kp-10/basal LH ratio (cut-off <4.07 ng/mIU) achieved 72.7% sensitivity and 87.0% specificity, outperforming individual neuropeptide markers.",
-      "keyFindings": [
-        "Kp-10/basal LH ratio <4.07 ng/mIU distinguished ICPP from PT with 72.7% sensitivity, 87.0% specificity, and 78% accuracy.",
-        "Neither Kp-10 nor NKB alone discriminated ICPP from PT, despite both being elevated in early-puberty groups vs. controls.",
-        "All three logistic regression models showed similar AUCs (0.78–0.79); adding bone age or estradiol did not meaningfully improve discrimination.",
-        "Decision curve analysis showed net clinical benefit for the Kp-10/LH ratio over treat-all or treat-none strategies."
-      ],
-      "limitations": "Relatively small sample sizes (ICPP n=33, PT n=23) from a single country limit generalizability, and the study did not validate the cut-off in an independent cohort.",
-      "context": "Kisspeptin is a well-established upstream regulator of GnRH secretion, and elevated Kp-10 has been reported in central precocious puberty. This study extends prior findings by showing that Kp-10 alone is insufficient for diagnosis but that its ratio with basal LH appears to offer clinically actionable discrimination.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "pmid-42364710",
-      "kind": "study",
-      "pmid": "42364710",
-      "doi": "10.1016/j.molmet.2026.102410",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42364710/",
-      "title": "Chronic semaglutide alters ingestive behavior without impairing taste function in mice.",
-      "displayTitle": "Chronic semaglutide causes weight loss without impairing taste in mice",
-      "authors": "Acosta AA et al.",
-      "journal": "Molecular metabolism",
-      "publishedDate": "2026-06-27",
-      "addedDate": "2026-06-28",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Animal model — mouse",
-      "summary": "Researchers tested whether chronic semaglutide treatment alters taste function in diet-induced obese mice using gustometer tests across five taste modalities. Despite robust weight loss, semaglutide did not impair taste sensitivity or peripheral taste cell biology, suggesting food intake reduction occurs through taste-independent mechanisms.",
-      "keyFindings": [
-        "Chronic semaglutide produced robust weight loss but did not alter lick rates for sweet, bitter, sour, salty, or fatty tastants.",
-        "Sucrose concentration-response curves and EC50 values were similar between semaglutide- and vehicle-treated mice, confirming intact sweet taste sensitivity.",
-        "Semaglutide modestly increased total licking and trial initiation for sucrose, suggesting enhanced motivational engagement, not altered taste perception.",
-        "Taste receptor cell subtypes and taste signaling gene expression in circumvallate papilla were unaffected by semaglutide treatment."
-      ],
-      "limitations": "Results are from an animal model only; translation to humans is uncertain, and the study cannot rule out subtle taste changes not captured by the gustometer paradigm.",
-      "context": "Clinical reports on whether GLP-1R agonists alter taste function have been conflicting. These findings appear consistent with the hypothesis that semaglutide reduces food intake through central motivational or satiety pathways rather than by modifying peripheral taste function.",
-      "isPreprint": false,
-      "isTrial": false,
-      "trialMeta": null
-    },
-    {
-      "id": "nct-NCT04677972",
-      "kind": "trial",
-      "pmid": "",
-      "doi": "",
-      "nctId": "NCT04677972",
-      "url": "https://clinicaltrials.gov/study/NCT04677972",
-      "title": "SPI-1005 for the Treatment of Meniere's Disease",
-      "displayTitle": "Phase 3 SPI-1005 (ebselen) trial for Meniere's disease posts results",
-      "authors": "Sound Pharmaceuticals, Incorporated",
-      "journal": "ClinicalTrials.gov · Sound Pharmaceuticals, Incorporated",
-      "publishedDate": "2026-06-26",
-      "addedDate": "2026-06-28",
-      "peptides": [
-        "Glutathione"
-      ],
-      "studyType": "Trial — Phase 3 RCT (results posted)",
-      "summary": "A randomized, double-blind, placebo-controlled Phase 3 trial tested SPI-1005 (ebselen), a glutathione peroxidase mimetic, in 254 adults with definite Meniere's disease, followed by an open-label extension. Primary endpoints included safety and changes in low-frequency hearing thresholds.",
-      "keyFindings": [
-        "Phase 3 RCT with open-label extension; n=254 adults with active Meniere's disease symptoms.",
-        "Primary endpoints: treatment-emergent adverse events and change in low-frequency pure tone audiometry thresholds.",
-        "SPI-1005 mimics glutathione peroxidase, targeting oxidative stress implicated in inner ear damage.",
-        "Trial completed and results posted; full outcome data available in the registry."
-      ],
-      "limitations": "Registry-posted results require peer-reviewed publication for full methodological scrutiny; sponsor-run trial warrants independent replication.",
-      "context": "SPI-1005 builds on earlier Phase 2 data suggesting ebselen may reduce hearing loss and tinnitus in Meniere's disease by mimicking glutathione peroxidase activity. This Phase 3 trial represents the most rigorous test of the compound to date.",
-      "isPreprint": false,
-      "isTrial": true,
-      "trialMeta": {
-        "nctId": "NCT04677972",
-        "phase": "Phase 3",
-        "status": "COMPLETED",
-        "sponsor": "Sound Pharmaceuticals, Incorporated",
-        "studyType": "INTERVENTIONAL",
-        "enrollment": "254",
-        "conditions": [
-          "Meniere Disease",
-          "Ménière"
-        ],
-        "primaryOutcomes": "Incidence of Treatment-Emergent Adverse Events; Change in Low Frequency Hearing Thresholds Measured by Pure Tone Audiometry",
-        "hasResults": true
-      }
-    },
-    {
-      "id": "pmid-42361988",
-      "kind": "study",
-      "pmid": "42361988",
-      "doi": "10.1016/j.ijcard.2026.134646",
-      "nctId": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42361988/",
-      "title": "From evidence to practice: Identifying candidates for semaglutide in chronic atherosclerotic disease.",
-      "displayTitle": "Over 54% of real-world coronary patients may qualify for semaglutide",
-      "authors": "Maggioni AP et al.",
-      "journal": "International journal of cardiology",
-      "publishedDate": "2026-06-26",
-      "addedDate": "2026-06-28",
-      "peptides": [
-        "Semaglutide"
-      ],
-      "studyType": "Observational cohort",
-      "summary": "Using data from two Italian prevention registries (START and BRING-UP; n=11,807), researchers assessed how many real-world cardiology patients would meet regulatory eligibility criteria for semaglutide based on the SELECT and SOUL trials, finding that 54.3% theoretically qualified.",
-      "keyFindings": [
-        "54.3% of 12,430 coronary artery disease patients met regulatory eligibility criteria for semaglutide.",
-        "42.5% of non-diabetic patients were SELECT-like (overweight/obese with established coronary disease).",
-        "97.9% of diabetic patients were SOUL-like (aged ≥50 with cardiovascular disease).",
-        "623 patients (5%) were excluded due to severe renal impairment or existing GLP-1 receptor agonist use."
-      ],
-      "limitations": "Registry populations are Italian cardiology patients only, limiting generalizability; eligibility was assessed by clinical criteria alone, not full trial inclusion/exclusion criteria.",
-      "context": "SELECT and SOUL trials demonstrated semaglutide reduces atherothrombotic events and cardiovascular mortality in coronary artery disease patients with and without diabetes; this registry analysis extends those findings by estimating real-world treatment eligibility.",
       "isPreprint": false,
       "isTrial": false,
       "trialMeta": null
